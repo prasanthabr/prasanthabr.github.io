@@ -1,13 +1,13 @@
 <?xml version="1.0" encoding="utf-8"?>
 <feed xmlns="http://www.w3.org/2005/Atom">
 
-  <title><![CDATA[Category: Music | My Octopress Blog]]></title>
+  <title><![CDATA[Category: Music | prasanthabr]]></title>
   <link href="http://prasanthabr.github.io/blog/categories/music/atom.xml" rel="self"/>
   <link href="http://prasanthabr.github.io/"/>
-  <updated>2014-11-02T09:07:59+05:30</updated>
+  <updated>2014-11-02T09:18:12+05:30</updated>
   <id>http://prasanthabr.github.io/</id>
   <author>
-    <name><![CDATA[Your Name]]></name>
+    <name><![CDATA[Prasanth Abraham]]></name>
     
   </author>
   <generator uri="http://octopress.org/">Octopress</generator>
