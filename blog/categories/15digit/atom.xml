@@ -1,8 +1,8 @@
 <?xml version="1.0" encoding="utf-8"?>
 <feed xmlns="http://www.w3.org/2005/Atom">
 
-  <title><![CDATA[My Octopress Blog]]></title>
-  <link href="http://prasanthabr.github.io/atom.xml" rel="self"/>
+  <title><![CDATA[Category: 15digit | My Octopress Blog]]></title>
+  <link href="http://prasanthabr.github.io/blog/categories/15digit/atom.xml" rel="self"/>
   <link href="http://prasanthabr.github.io/"/>
   <updated>2014-11-02T09:07:59+05:30</updated>
   <id>http://prasanthabr.github.io/</id>
@@ -12,17 +12,6 @@
   </author>
   <generator uri="http://octopress.org/">Octopress</generator>
 
-  
-  <entry>
-    <title type="html"><![CDATA[Funky Pawa]]></title>
-    <link href="http://prasanthabr.github.io/blog/2014/07/17/funky-pawa/"/>
-    <updated>2014-07-17T01:35:07+05:30</updated>
-    <id>http://prasanthabr.github.io/blog/2014/07/17/funky-pawa</id>
-    <content type="html"><![CDATA[<p> <div class="embed-video-container"><iframe src="//www.youtube.com/embed/12cMhgZ6SVY" allowfullscreen></iframe></div></p>
-
-<p> ### Interesting earthy tones in this collaboration.</p>
-]]></content>
-  </entry>
   
   <entry>
     <title type="html"><![CDATA[Converting Salesforce ID From 15digit to 18digit]]></title>
@@ -45,73 +34,40 @@
 
 <p>Below is a Ruby code snippet, that would convert the IDs for CSVs saved in the same folder, generating converted record details as a file. This may make life that much more easier for the average admin who is forced to extract CSV reports for comparion, by generating copy files with converted 18 character ids instead of the 15 digit characters generated using the standard Salesforce.com reports. Feel free to use, edit, update and correct the same, but please share with people whom you know this would help.</p>
 
-<figure class='code'><div class="highlight"><table><tr><td class="gutter"><pre class="line-numbers"><span class='line-number'>1</span>
-<span class='line-number'>2</span>
-<span class='line-number'>3</span>
-<span class='line-number'>4</span>
-<span class='line-number'>5</span>
-<span class='line-number'>6</span>
-<span class='line-number'>7</span>
-<span class='line-number'>8</span>
-<span class='line-number'>9</span>
-<span class='line-number'>10</span>
-<span class='line-number'>11</span>
-<span class='line-number'>12</span>
-<span class='line-number'>13</span>
-<span class='line-number'>14</span>
-<span class='line-number'>15</span>
-<span class='line-number'>16</span>
-<span class='line-number'>17</span>
-<span class='line-number'>18</span>
-<span class='line-number'>19</span>
-<span class='line-number'>20</span>
-<span class='line-number'>21</span>
-<span class='line-number'>22</span>
-<span class='line-number'>23</span>
-<span class='line-number'>24</span>
-<span class='line-number'>25</span>
-<span class='line-number'>26</span>
-<span class='line-number'>27</span>
-<span class='line-number'>28</span>
-<span class='line-number'>29</span>
-<span class='line-number'>30</span>
-<span class='line-number'>31</span>
-<span class='line-number'>32</span>
-<span class='line-number'>33</span>
-</pre></td><td class='code'><pre><code class=''><span class='line'>#ruby code
-</span><span class='line'>#The MIT License (MIT) http://opensource.org/licenses/MIT
-</span><span class='line'>#Copyright (c) 2013-14 prasanthabr@gmail.com
-</span><span class='line'>
-</span><span class='line'>require ‘csv’
-</span><span class='line'>ref=”ABCDEFGHIJKLMNOPQRSTUVWXYZ012345"
-</span><span class='line'>
-</span><span class='line'>Dir.glob(‘*.csv’) do |csv_file|
-</span><span class='line'>CSV.open(csv_file+”18ID.csvt”, “w”) do |csv|
-</span><span class='line'>CSV.foreach(csv_file,:headers =&gt; true) do |bigreo|
-</span><span class='line'>count=0
-</span><span class='line'>k=””
-</span><span class='line'>if bigreo[‘ID’].length==15
-</span><span class='line'>bigreo[‘ID’].scan(/.{1,5}/).each do |x|
-</span><span class='line'>x.each_char do |y|
-</span><span class='line'>if y.match(/[A-Z]/)
-</span><span class='line'>k&lt;&lt;”1"
-</span><span class='line'>else
-</span><span class='line'>k&lt;&lt;”0"
-</span><span class='line'>end
-</span><span class='line'>end
-</span><span class='line'>bigreo[‘ID’]&lt;&lt;ref[k.to_i(2)]
-</span><span class='line'>k=””
-</span><span class='line'>count+=1
-</span><span class='line'>end
-</span><span class='line'>csv &lt;&lt; bigreo
-</span><span class='line'>else
-</span><span class='line'>end
-</span><span class='line'>end
-</span><span class='line'>end
-</span><span class='line'>end
-</span><span class='line'>
-</span><span class='line'>#end of ruby code</span></code></pre></td></tr></table></div></figure>
+<pre><code>#ruby code
+#The MIT License (MIT) http://opensource.org/licenses/MIT
+#Copyright (c) 2013-14 prasanthabr@gmail.com
 
+require ‘csv’
+ref=”ABCDEFGHIJKLMNOPQRSTUVWXYZ012345"
+
+Dir.glob(‘*.csv’) do |csv_file|
+CSV.open(csv_file+”18ID.csvt”, “w”) do |csv|
+CSV.foreach(csv_file,:headers =&gt; true) do |bigreo|
+count=0
+k=””
+if bigreo[‘ID’].length==15
+bigreo[‘ID’].scan(/.{1,5}/).each do |x|
+x.each_char do |y|
+if y.match(/[A-Z]/)
+k&lt;&lt;”1"
+else
+k&lt;&lt;”0"
+end
+end
+bigreo[‘ID’]&lt;&lt;ref[k.to_i(2)]
+k=””
+count+=1
+end
+csv &lt;&lt; bigreo
+else
+end
+end
+end
+end
+
+#end of ruby code
+</code></pre>
 ]]></content>
   </entry>
   

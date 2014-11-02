@@ -1,35 +1,90 @@
-<?xml version="1.0" encoding="utf-8"?>
-<feed xmlns="http://www.w3.org/2005/Atom">
 
-  <title><![CDATA[My Octopress Blog]]></title>
-  <link href="http://prasanthabr.github.io/atom.xml" rel="self"/>
-  <link href="http://prasanthabr.github.io/"/>
-  <updated>2014-11-02T09:07:59+05:30</updated>
-  <id>http://prasanthabr.github.io/</id>
-  <author>
-    <name><![CDATA[Your Name]]></name>
+<!DOCTYPE html>
+<!--[if IEMobile 7 ]><html class="no-js iem7"><![endif]-->
+<!--[if lt IE 9]><html class="no-js lte-ie8"><![endif]-->
+<!--[if (gt IE 8)|(gt IEMobile 7)|!(IEMobile)|!(IE)]><!--><html class="no-js" lang="en"><!--<![endif]-->
+<head>
+  <meta charset="utf-8">
+  <title>Converting Salesforce ID From 15digit to 18digit - My Octopress Blog</title>
+  <meta name="author" content="Your Name">
+
+  
+  <meta name="description" content="understanding &amp; leveraging record ids A salesforce.com id field is an auto generated 15 character base-62 id consisting of 26 lower case &hellip;">
+  
+
+  <!-- http://t.co/dKP3o1e -->
+  <meta name="HandheldFriendly" content="True">
+  <meta name="MobileOptimized" content="320">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+
+  
+  <link rel="canonical" href="http://prasanthabr.github.io/blog/2014/07/17/converting-salesforce-id-from-15digit-to-18digit">
+  <link href="/favicon.png" rel="icon">
+  <link href="/stylesheets/screen.css" media="screen, projection" rel="stylesheet" type="text/css">
+  <link href="/atom.xml" rel="alternate" title="My Octopress Blog" type="application/atom+xml">
+  <script src="/javascripts/modernizr-2.0.js"></script>
+  <script src="//ajax.googleapis.com/ajax/libs/jquery/1.9.1/jquery.min.js"></script>
+  <script>!window.jQuery && document.write(unescape('%3Cscript src="./javascripts/libs/jquery.min.js"%3E%3C/script%3E'))</script>
+  <script src="/javascripts/octopress.js" type="text/javascript"></script>
+  <!--Fonts from Google"s Web font directory at http://google.com/webfonts -->
+<link href="//fonts.googleapis.com/css?family=PT+Serif:regular,italic,bold,bolditalic" rel="stylesheet" type="text/css">
+<link href="//fonts.googleapis.com/css?family=PT+Sans:regular,italic,bold,bolditalic" rel="stylesheet" type="text/css">
+
+  
+
+</head>
+
+<body   >
+  <header role="banner"><hgroup>
+  <h1><a href="/">My Octopress Blog</a></h1>
+  
+    <h2>A blogging framework for hackers.</h2>
+  
+</hgroup>
+
+</header>
+  <nav role="navigation"><ul class="subscription" data-subscription="rss">
+  <li><a href="/atom.xml" rel="subscribe-rss" title="subscribe via RSS">RSS</a></li>
+  
+</ul>
+  
+<form action="https://www.google.com/search" method="get">
+  <fieldset role="search">
+    <input type="hidden" name="q" value="site:prasanthabr.github.io" />
+    <input class="search" type="text" name="q" results="0" placeholder="Search"/>
+  </fieldset>
+</form>
+  
+<ul class="main-navigation">
+  <li><a href="/">Blog</a></li>
+  <li><a href="/blog/archives">Archives</a></li>
+</ul>
+
+</nav>
+  <div id="main">
+    <div id="content">
+      <div>
+<article class="hentry" role="article">
+  
+  <header>
     
-  </author>
-  <generator uri="http://octopress.org/">Octopress</generator>
+      <h1 class="entry-title">Converting Salesforce ID From 15digit to 18digit</h1>
+    
+    
+      <p class="meta">
+        
 
-  
-  <entry>
-    <title type="html"><![CDATA[Funky Pawa]]></title>
-    <link href="http://prasanthabr.github.io/blog/2014/07/17/funky-pawa/"/>
-    <updated>2014-07-17T01:35:07+05:30</updated>
-    <id>http://prasanthabr.github.io/blog/2014/07/17/funky-pawa</id>
-    <content type="html"><![CDATA[<p> <div class="embed-video-container"><iframe src="//www.youtube.com/embed/12cMhgZ6SVY" allowfullscreen></iframe></div></p>
 
-<p> ### Interesting earthy tones in this collaboration.</p>
-]]></content>
-  </entry>
-  
-  <entry>
-    <title type="html"><![CDATA[Converting Salesforce ID From 15digit to 18digit]]></title>
-    <link href="http://prasanthabr.github.io/blog/2014/07/17/converting-salesforce-id-from-15digit-to-18digit/"/>
-    <updated>2014-07-17T00:52:10+05:30</updated>
-    <id>http://prasanthabr.github.io/blog/2014/07/17/converting-salesforce-id-from-15digit-to-18digit</id>
-    <content type="html"><![CDATA[<h3>understanding &amp; leveraging record ids</h3>
+
+
+<time class='entry-date' datetime='2014-07-17T00:52:10+05:30'><span class='date'><span class='date-month'>Jul</span> <span class='date-day'>17</span><span class='date-suffix'>th</span>, <span class='date-year'>2014</span></span> <span class='time'>12:52 am</span></time>
+        
+      </p>
+    
+  </header>
+
+
+<div class="entry-content"><h3>understanding &amp; leveraging record ids</h3>
 
 <p>A salesforce.com id field is an auto generated 15 character base-62 id consisting of 26 lower case characters (a-z), 26 upper case characters (A-Z) and 10 numerals (0-9) that remains unique within the organisation data and constant throughout the lifetime of the record, analogous to a key value in a relational database. The <a href="http://www.fishofprey.com/2011/09/obscure-salesforce-object-key-prefixes.html">first three characters</a> of the id refer to the object to which the record belongs. The remaining 12 characters are said to identify the record id, while the <a href="https://github.com/ryanbrainard/forceworkbench/blob/e7c6507c3903ebddb813a472ff6c59400fd9656a/workbench/config/defaults.php#L219">first character of this 12 reference</a> the salesforce.com pod on which the record is created.</p>
 
@@ -112,7 +167,108 @@
 </span><span class='line'>
 </span><span class='line'>#end of ruby code</span></code></pre></td></tr></table></div></figure>
 
-]]></content>
-  </entry>
+</div>
+
+
+  <footer>
+    <p class="meta">
+      
   
-</feed>
+
+<span class="byline author vcard">Posted by <span class="fn">Your Name</span></span>
+
+      
+
+
+
+
+<time class='entry-date' datetime='2014-07-17T00:52:10+05:30'><span class='date'><span class='date-month'>Jul</span> <span class='date-day'>17</span><span class='date-suffix'>th</span>, <span class='date-year'>2014</span></span> <span class='time'>12:52 am</span></time>
+      
+
+<span class="categories">
+  
+    <a class='category' href='/blog/categories/15digit/'>15digit</a>, <a class='category' href='/blog/categories/18digit/'>18digit</a>, <a class='category' href='/blog/categories/ruby/'>ruby</a>, <a class='category' href='/blog/categories/salesforce-id/'>salesforce id</a>, <a class='category' href='/blog/categories/salesforce-dot-com/'>salesforce.com</a>
+  
+</span>
+
+
+    </p>
+    
+      <div class="sharing">
+  
+  <a href="//twitter.com/share" class="twitter-share-button" data-url="http://prasanthabr.github.io/blog/2014/07/17/converting-salesforce-id-from-15digit-to-18digit/" data-via="" data-counturl="http://prasanthabr.github.io/blog/2014/07/17/converting-salesforce-id-from-15digit-to-18digit/" >Tweet</a>
+  
+  
+  
+</div>
+
+    
+    <p class="meta">
+      
+      
+        <a class="basic-alignment right" href="/blog/2014/07/17/funky-pawa/" title="Next Post: Funky Pawa">Funky Pawa &raquo;</a>
+      
+    </p>
+  </footer>
+</article>
+
+</div>
+
+<aside class="sidebar">
+  
+    <section>
+  <h1>Recent Posts</h1>
+  <ul id="recent_posts">
+    
+      <li class="post">
+        <a href="/blog/2014/07/17/funky-pawa/">Funky Pawa</a>
+      </li>
+    
+      <li class="post">
+        <a href="/blog/2014/07/17/converting-salesforce-id-from-15digit-to-18digit/">Converting Salesforce ID From 15digit to 18digit</a>
+      </li>
+    
+  </ul>
+</section>
+
+
+
+
+
+  
+</aside>
+
+
+    </div>
+  </div>
+  <footer role="contentinfo"><p>
+  Copyright &copy; 2014 - <a href="http://twitter.com/home/?status=@prasanthabr" target="_blank">Your Name</a> -
+  <span class="credit">Powered by <a href="http://netzap.in">netzap</a></span>
+  <p>Except where otherwise noted, content on this site is licensed under <a href="http://creativecommons.org/licenses/by/4.0/">Creative Commons Attribution 4.0 International License</a>.</p>
+</p>
+
+</footer>
+  
+
+
+
+
+
+
+
+  <script type="text/javascript">
+    (function(){
+      var twitterWidgets = document.createElement('script');
+      twitterWidgets.type = 'text/javascript';
+      twitterWidgets.async = true;
+      twitterWidgets.src = '//platform.twitter.com/widgets.js';
+      document.getElementsByTagName('head')[0].appendChild(twitterWidgets);
+    })();
+  </script>
+
+
+
+
+
+</body>
+</html>

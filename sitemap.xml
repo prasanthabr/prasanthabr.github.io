@@ -1,14 +1,24 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <urlset xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.sitemaps.org/schemas/sitemap/0.9 http://www.sitemaps.org/schemas/sitemap/0.9/sitemap.xsd" xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   <url>
-    <loc>http://yoursite.com/blog/archives/</loc>
-    <lastmod>2014-11-02T08:33:19+05:30</lastmod>
+    <loc>http://prasanthabr.github.io/blog/2014/07/17/funky-pawa/</loc>
+    <lastmod>2014-07-17T01:35:07+05:30</lastmod>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>http://prasanthabr.github.io/blog/2014/07/17/converting-salesforce-id-from-15digit-to-18digit/</loc>
+    <lastmod>2014-07-17T00:52:10+05:30</lastmod>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>http://prasanthabr.github.io/blog/archives/</loc>
+    <lastmod>2014-11-02T09:07:59+05:30</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.7</priority>
   </url>
   <url>
-    <loc>http://yoursite.com/</loc>
-    <lastmod>2014-11-02T08:33:19+05:30</lastmod>
+    <loc>http://prasanthabr.github.io/</loc>
+    <lastmod>2014-11-02T09:07:59+05:30</lastmod>
     <changefreq>weekly</changefreq>
     <priority>1.0</priority>
   </url>
