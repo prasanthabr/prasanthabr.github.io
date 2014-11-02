@@ -4,7 +4,7 @@
   <title><![CDATA[prasanthabr]]></title>
   <link href="http://prasanthabr.github.io/atom.xml" rel="self"/>
   <link href="http://prasanthabr.github.io/"/>
-  <updated>2014-11-02T14:30:37+05:30</updated>
+  <updated>2014-11-02T18:39:55+05:30</updated>
   <id>http://prasanthabr.github.io/</id>
   <author>
     <name><![CDATA[Prasanth Abraham]]></name>
@@ -14,11 +14,40 @@
 
   
   <entry>
+    <title type="html"><![CDATA[Lets Get Started]]></title>
+    <link href="http://prasanthabr.github.io/blog/2014/11/02/lets-get-started/"/>
+    <updated>2014-11-02T18:38:22+05:30</updated>
+    <id>http://prasanthabr.github.io/blog/2014/11/02/lets-get-started</id>
+    <content type="html"><![CDATA[<h1>Lets get started</h1>
+
+<div class="embed-video-container"><iframe src="//www.youtube.com/embed/u1whG-9BjsQ" allowfullscreen></iframe></div>
+
+]]></content>
+  </entry>
+  
+  <entry>
     <title type="html"><![CDATA[Salesforce.com Integrations]]></title>
     <link href="http://prasanthabr.github.io/blog/2014/11/02/salesforce-dot-com-integrations/"/>
     <updated>2014-11-02T13:15:38+05:30</updated>
     <id>http://prasanthabr.github.io/blog/2014/11/02/salesforce-dot-com-integrations</id>
-    <content type="html"><![CDATA[
+    <content type="html"><![CDATA[<p>Salesforce.com has morphed to such an extend that we tend to forget that the whole ecosystem that we see now actually started with an Sales Force Automation CRM web application. I would like to think of Force.com as basically a Web Application with excellent APIs. Allowing great applications to be build on the platform and also link great applications to the platform to open value and synergy.</p>
+
+<h3>APIs</h3>
+
+<p>Salesforce.com offers a rich variety of APIs that can be used to leverage the application in different scenarios.</p>
+
+<ul>
+<li>Web API (Soap Based) - Simple Object Access Protocol</li>
+</ul>
+
+
+<h3>Types of Integration</h3>
+
+<h3>Methods of Integration</h3>
+
+<h4>Types of API</h4>
+
+<h3>Special Integration Tools</h3>
 ]]></content>
   </entry>
   
