@@ -1,6 +1,11 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <urlset xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.sitemaps.org/schemas/sitemap/0.9 http://www.sitemaps.org/schemas/sitemap/0.9/sitemap.xsd" xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   <url>
+    <loc>http://prasanthabr.github.io/blog/2014/11/02/salesforce-dot-com-integrations/</loc>
+    <lastmod>2014-11-02T13:15:38+05:30</lastmod>
+    <priority>0.8</priority>
+  </url>
+  <url>
     <loc>http://prasanthabr.github.io/blog/2014/07/17/funky-pawa/</loc>
     <lastmod>2014-07-17T01:35:07+05:30</lastmod>
     <priority>0.8</priority>
@@ -12,25 +17,25 @@
   </url>
   <url>
     <loc>http://prasanthabr.github.io/blog/archives/</loc>
-    <lastmod>2014-11-02T13:11:19+05:30</lastmod>
+    <lastmod>2014-11-02T13:23:04+05:30</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.7</priority>
   </url>
   <url>
     <loc>http://prasanthabr.github.io/</loc>
-    <lastmod>2014-11-02T13:11:19+05:30</lastmod>
+    <lastmod>2014-11-02T13:23:04+05:30</lastmod>
     <changefreq>weekly</changefreq>
     <priority>1.0</priority>
   </url>
   <url>
     <loc>http://prasanthabr.github.io/contact-me/</loc>
-    <lastmod>2014-11-02T13:11:19+05:30</lastmod>
+    <lastmod>2014-11-02T13:23:04+05:30</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.7</priority>
   </url>
   <url>
     <loc>http://prasanthabr.github.io/links-dump/</loc>
-    <lastmod>2014-11-02T13:11:19+05:30</lastmod>
+    <lastmod>2014-11-02T13:23:04+05:30</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.7</priority>
   </url>
