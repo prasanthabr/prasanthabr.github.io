@@ -4,7 +4,7 @@
   <title><![CDATA[Category: Youtube | prasanthabr]]></title>
   <link href="http://prasanthabr.github.io/blog/categories/youtube/atom.xml" rel="self"/>
   <link href="http://prasanthabr.github.io/"/>
-  <updated>2014-11-02T18:39:55+05:30</updated>
+  <updated>2014-11-02T19:02:00+05:30</updated>
   <id>http://prasanthabr.github.io/</id>
   <author>
     <name><![CDATA[Prasanth Abraham]]></name>
@@ -18,9 +18,7 @@
     <link href="http://prasanthabr.github.io/blog/2014/11/02/lets-get-started/"/>
     <updated>2014-11-02T18:38:22+05:30</updated>
     <id>http://prasanthabr.github.io/blog/2014/11/02/lets-get-started</id>
-    <content type="html"><![CDATA[<h1>Lets get started</h1>
-
-<p><div class="embed-video-container"><iframe src="//www.youtube.com/embed/u1whG-9BjsQ" allowfullscreen></iframe></div></p>
+    <content type="html"><![CDATA[<p><div class="embed-video-container"><iframe src="//www.youtube.com/embed/u1whG-9BjsQ" allowfullscreen></iframe></div></p>
 ]]></content>
   </entry>
   
