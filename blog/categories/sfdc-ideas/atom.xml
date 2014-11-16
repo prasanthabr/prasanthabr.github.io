@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+
+  <title><![CDATA[Category: Sfdc Ideas | prasanthabr]]></title>
+  <link href="http://prasanthabr.github.io/blog/categories/sfdc-ideas/atom.xml" rel="self"/>
+  <link href="http://prasanthabr.github.io/"/>
+  <updated>2014-11-16T08:53:02+05:30</updated>
+  <id>http://prasanthabr.github.io/</id>
+  <author>
+    <name><![CDATA[Prasanth Abraham]]></name>
+    
+  </author>
+  <generator uri="http://octopress.org/">Octopress</generator>
+
+  
+  <entry>
+    <title type="html"><![CDATA[Blunder to Salesforce Idea Upvote]]></title>
+    <link href="http://prasanthabr.github.io/blog/2014/11/16/blunder-to-salesforce-idea-upvote/"/>
+    <updated>2014-11-16T08:13:56+05:30</updated>
+    <id>http://prasanthabr.github.io/blog/2014/11/16/blunder-to-salesforce-idea-upvote</id>
+    <content type="html"><![CDATA[<p>The other day I was asked to support a client discussion call that our team was building in Salesforce.com.
+I would have avoided any such discussion if I could since this was one of the four projects I was involved in and this particular one was handed out to me during the user acceptance phase since &ldquo;we are short of experienced people&rdquo;. This meant that I haven&rsquo;t kept myself up to date on the requirements of the way the project was going.
+Hell, there were so many revisions and time line shifts that I really wasn&rsquo;t sure what the correct time line is.</p>
+
+<p>Well, I think I amply demonstrated that would rather not get into this call, but then this was client initiated and all other resources had conflicts. I stepped into the spot light and I let the two groups of client users fight their respective positions without weighing in. On hind sight, this was a smart move since the final decision came back to the one that I was hoping for while all the users fury was directed against each other and not the poor consultant.</p>
+
+<p>Save for one tiny detail on which the client groups were moving into a consensus area which would have meant rework and review for the implementation team. Creation of a separate field to capture the nature of the request from a web to lead form. I did not want that. I wanted to users to agree on reusing a checkbox that was already on the data model. The client was willing to consider this suggestion, but they thought this was not intuitive enough for the end user, the customer support reps who will finally use the system. The discussion again veered to a new field.</p>
+
+<p>I needed to control this and end the discussion. Why not change the label to make it more intuitive. That proved the clincher, and I quickly ended the call. Now, I did make a rather <em>smart</em> suggestion, but then other businesses use the system too. How about changing field labels against the record type, perhaps that would work. Aaagh, so my gut feel of how things should work has failed me. Salesforce field labels can be set for the entire object and everyone sees the same label.</p>
+
+<p>I thought that was a little lame (probably coz I made a lame commitment and this was standing in my way) and thought it makes sense to have unique labels for each record type, without forcing the implementation teams to use Visual Force on any issue they face.</p>
+
+<p>And so I went in an <a href="https://success.salesforce.com/ideaView?id=08730000000Bqm7AAC">up voted the idea</a> that I thought best sums up the thought process that I had. Do have a look and see whether it makes sense. Intuitive labels for each set of records, efficient reuse of fields, lesser data model reviews, fewer client to client arguments. The idea is 7 years old and has 3320 votes, I think this change is under rated and needs to get more support.</p>
+]]></content>
+  </entry>
+  
+</feed>
