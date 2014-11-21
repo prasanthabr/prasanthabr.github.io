@@ -4,7 +4,7 @@
   <title><![CDATA[prasanthabr]]></title>
   <link href="http://prasanthabr.github.io/atom.xml" rel="self"/>
   <link href="http://prasanthabr.github.io/"/>
-  <updated>2014-11-16T12:57:58+05:30</updated>
+  <updated>2014-11-21T07:23:00+05:30</updated>
   <id>http://prasanthabr.github.io/</id>
   <author>
     <name><![CDATA[Prasanth Abraham]]></name>
@@ -12,6 +12,52 @@
   </author>
   <generator uri="http://octopress.org/">Octopress</generator>
 
+  
+  <entry>
+    <title type="html"><![CDATA[Salesforce PriceBooks]]></title>
+    <link href="http://prasanthabr.github.io/blog/2014/11/21/salesforce-pricebooks/"/>
+    <updated>2014-11-21T03:44:23+05:30</updated>
+    <id>http://prasanthabr.github.io/blog/2014/11/21/salesforce-pricebooks</id>
+    <content type="html"><![CDATA[<h3>What are PriceBooks</h3>
+
+<p>Pricebooks are a list of products and their associated prices. With each product and the price called a price book entry.
+PriceBooks and pricebook entries can be associated with opportunities or quotes.
+An organization can have 1, Standard Price (std price book) 2, List Price (custom price book) and 3, Sale Price (price associated with opportunities or quotes &ndash; need not be the price in price books)</p>
+
+<p>Deleting a product or pricebook deletes the corresponding price book entry
+Deleting the product from a price book does not affect any other price book</p>
+
+<h3>Types of PriceBooks</h3>
+
+<h5>Standard PriceBooks</h5>
+
+<p>Lists all products and their standard or default prices. Acts as the master list of products and prices.
+An organization has a single standard pricebook.</p>
+
+<h5>Custom PriceBooks</h5>
+
+<p>List of products with the list prices for market segments or customer groups containing discounted or higher prices than the standard list price. A custom pricebook entry is possible only for an <strong>active</strong> pricebook entry in a standard price book. The standard pricebook need not be active.</p>
+
+<p>NOTE: To view pricebooks you need a read permission of products and pricebooks</p>
+
+<hr />
+
+<h3>Schedules</h3>
+
+<p>The payment and delivery cycles for a product or an opportunity product once a price is listed for a product.</p>
+
+<p>Schedules can be:</p>
+
+<ul>
+<li>Quantity Schedules - payment is made in one lot, while the delivery of products are scheduled</li>
+<li>Revenue Schedules - delivery of products is in one lot, while the payment is scheduled over timeline</li>
+<li>Revenue and Quantity Schedules - delivery is scheduled and payment is scheduled too &ndash; <em>why would this be done as opposed to creating separate opportunities, so that we would have more accurate forecasting visibility and tagging to employees</em></li>
+</ul>
+
+
+<p>NOTE: Standard schedules are helpful only if customers make payment on the same timeline or product delivery is made on a regular timeline</p>
+]]></content>
+  </entry>
   
   <entry>
     <title type="html"><![CDATA[Blunder to Salesforce Idea Upvote]]></title>
