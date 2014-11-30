@@ -4,7 +4,7 @@
   <title><![CDATA[prasanthabr]]></title>
   <link href="http://prasanthabr.github.io/atom.xml" rel="self"/>
   <link href="http://prasanthabr.github.io/"/>
-  <updated>2014-11-21T07:23:00+05:30</updated>
+  <updated>2014-11-30T10:51:38+05:30</updated>
   <id>http://prasanthabr.github.io/</id>
   <author>
     <name><![CDATA[Prasanth Abraham]]></name>
@@ -12,6 +12,59 @@
   </author>
   <generator uri="http://octopress.org/">Octopress</generator>
 
+  
+  <entry>
+    <title type="html"><![CDATA[Let Her Go]]></title>
+    <link href="http://prasanthabr.github.io/blog/2014/11/30/let-her-go/"/>
+    <updated>2014-11-30T10:48:30+05:30</updated>
+    <id>http://prasanthabr.github.io/blog/2014/11/30/let-her-go</id>
+    <content type="html"><![CDATA[<p> <div class="embed-video-container"><iframe src="//www.youtube.com/embed/uQB7QRyF4p4" allowfullscreen></iframe></div></p>
+
+<p> and the band</p>
+
+<p> <div class="embed-video-container"><iframe src="//www.youtube.com/embed/RBumgq5yVrA" allowfullscreen></iframe></div></p>
+]]></content>
+  </entry>
+  
+  <entry>
+    <title type="html"><![CDATA[Salesforce for Sales]]></title>
+    <link href="http://prasanthabr.github.io/blog/2014/11/21/salesforce-for-sales/"/>
+    <updated>2014-11-21T07:29:24+05:30</updated>
+    <id>http://prasanthabr.github.io/blog/2014/11/21/salesforce-for-sales</id>
+    <content type="html"><![CDATA[<h3>Accounts</h3>
+
+<ul>
+<li>Business Accounts</li>
+<li>Person Accounts (person account record type available if enabled)</li>
+</ul>
+
+
+<p><strong>Account Quick Create</strong>: The fields available are determined by the default recordtype for accounts on your profile.</p>
+
+<p><strong>Person Accounts</strong>: Contacts related list is not available, but can be tracked under partner related list</p>
+
+<p><strong>Person Accounts</strong>: Leads with blank company field are converted to Person accounts</p>
+
+<p><strong>Person Accounts</strong>: merge field ispersonaccount can determine whether an account is a person account</p>
+
+<p><strong>Person Accounts</strong>: Person accounts are listed in both account and contact views</p>
+
+<p><strong>Person Accounts</strong>: Person accounts are returned under account search</p>
+
+<p><strong>Person Accounts</strong>: Contact sharing is not available once Person accounts are enabled. OWD for account is set to controlled by Parent once Person Accounts are enabled</p>
+
+<p><strong>Person Accounts</strong>: To edit person account, need edit permission on accounts and contacts</p>
+
+<p><strong>Person Accounts</strong>: Unique page layouts that contain fields from both contact and account object; account custom links, account related lists and contacts related lists. Does not support the parent account and reports to fields.</p>
+
+<p>Manage External Users permission - to enable partner accounts</p>
+
+<p>account opportunity visibility based on role
+territory controls for view edit transfer or delete of accounts</p>
+
+<p><strong>Merge Accounts</strong>: when merging accounts with account team member with an higher access level, you must have the &lsquo;modify all data&rsquo; permission on accounts</p>
+]]></content>
+  </entry>
   
   <entry>
     <title type="html"><![CDATA[Salesforce PriceBooks]]></title>
