@@ -2,7 +2,7 @@
 layout: post
 title:  "Apex Sharing without Apex"
 date:   2015-07-21 07:51:19
-categories: Salesforce.com
+categories: SFDC
 tags: [SFDC, Salesforce.com, SFDC Cookbook]
 ---
 
