@@ -2,6 +2,10 @@
 layout: page
 title: Namaskaram!
 permalink: /about/
+image:
+  feature: sample-image-1.jpg
+  credit: UnSplash.com
+  creditlink: https://download.unsplash.com/photo-1428959249159-5706303ea703
 ---
 
 This is prasanthabr, a space on the web that i use to shout rant and put my unsolicited thoughts forthwith to the imaginary millions who are waiting to hear these pearls of wisdom.
