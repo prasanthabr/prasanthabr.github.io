@@ -16,4 +16,3 @@ For Example, for leads, the system object where sharing is defined is LeadShare.
 
 #### Apex Sharing *without the Apex*
 For the longest time, access to these system objects and these flexible sharing options were available only via Apex classes and was thus the exclusive privy to Salesforce.com developers. But while these differentiations are being removed, Salesforce has offered Visual Flows, which allows for sharing entries in system share objects.
-
