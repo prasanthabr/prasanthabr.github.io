@@ -6,6 +6,7 @@ image:
   feature: sample-image-4.jpg
   credit: UnSplash.com
 ---
+
 [Snassy Maps][1]
 
 [{!blog.concret.io}][2]
