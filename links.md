@@ -7,25 +7,45 @@ image:
   credit: UnSplash.com
 ---
 [Snassy Maps][1]
+
 [{!blog.concret.io}][2]
+
 [Andy in the cloud][3]
+
 [Bob Buzzard Blog][4]
+
 [Force Guru][5]
+
 [Jesse Altman][6]
+
 [Matt Lacey][7]
+
 [paulbattisson.com][8]
+
 [Nerd @ Work][9]
+
 [Peter Knolle][10]
+
 [The Silver Lining][11]
+
 [SFDC99][12]
+
 [Admin Hero][13]
+
 [Jeff Douglas][14]
+
 [Limit Exception][15]
+
 [Salesforce Hacker][16]
+
 [Salesforce Engineering Blog][17]
+
 [Force.com GitHub][18]
+
 [Oye Code][19]
+
 [James Ward][20]
+
 [Christophe Coenraets][21]
 
 [1]: https://snazzymaps.com/
