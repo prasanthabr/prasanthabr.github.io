@@ -49,6 +49,8 @@ image:
 
 [Christophe Coenraets][21]
 
+[Exploring ES6 JS][22]
+
 [1]: https://snazzymaps.com/
 [2]: http://www.tgerm.com/
 [3]: http://andyinthecloud.com/
@@ -70,3 +72,4 @@ image:
 [19]: http://www.oyecode.com/
 [20]: http://www.jamesward.com/
 [21]: http://coenraets.org/blog/
+[22]: http://exploringjs.com/
