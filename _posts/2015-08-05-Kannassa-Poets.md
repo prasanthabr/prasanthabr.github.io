@@ -5,6 +5,9 @@ date:   2015-08-05 07:51:19
 categories: Culture
 tags: [Malayalam, Kerala, Culture, Poets]
 author: abrahammathew
+image:
+    feature: https://upload.wikimedia.org/wikipedia/commons/1/14/%E0%B4%A8%E0%B4%BF%E0%B4%B0%E0%B4%A3%E0%B4%82_%E0%B4%AA%E0%B4%B3%E0%B5%8D%E0%B4%B3%E0%B4%BF%E0%B4%AF%E0%B4%BF%E0%B5%BD_%E0%B4%B8%E0%B5%82%E0%B4%95%E0%B5%8D%E0%B4%B7%E0%B4%BF%E0%B4%9A%E0%B5%8D%E0%B4%9A%E0%B4%BF%E0%B4%B0%E0%B4%BF%E0%B4%95%E0%B5%8D%E0%B4%95%E0%B5%81%E0%B4%A8%E0%B5%8D%E0%B4%A8_%E0%B4%A4%E0%B4%BE%E0%B4%B3%E0%B4%BF%E0%B4%AF%E0%B5%8B%E0%B4%B2.jpg
+    credit: wikipedia
 ---
 
 
