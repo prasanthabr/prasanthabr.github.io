@@ -6,7 +6,7 @@ categories: Culture
 tags: [Kerala, Culture, Mural Paintings]
 author: abrahammathew
 image:
-    feature: https://upload.wikimedia.org/wikipedia/commons/3/31/Kerala_mural_painting.jpg
+    feature: murals.jpg
     credit: wikipedia
 ---
 
