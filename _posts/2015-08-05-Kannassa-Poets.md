@@ -10,8 +10,6 @@ image:
     credit: wikipedia
 ---
 
-
-
 Niranam is a small village in Southern Kerala in India near Mannar town. In 14th century Niranam gave birth to three poets who became well-known as the Niranam Poets. They were Madhava Panikkar, Sankara Panikkar and Rama Panikkar of the Kannassa family. The first two were uncles of Rama Panikkar. They lived between AD 1350 and 1450.
 Before their period the poetry of Kerala was a mix of Malayalam and Sanskrit, known as manipravala. Niranam poets were instrumental in successfully freeing the literature from the influence of this mix. The appearance of the modern Malayalam language starts with the works of Niranam Poets.
 Their success led to the gradual replacement of the manipravala cult of worldliness and sensual revelry by an indigenous poetics of high seriousness. Their works are collectively known as Niranam Works. Madhava Panikkar wrote a condensed Malayalam translation of Bhagavad Gita, perhaps the first ever translation of that classic into any modern Indian language. Sankara Panikkar’s main work is Bharatamala, a masterly condensation of Mahabharatam. It is also the first major work of its kind in Malayalam. The greatest of the three is of course Rama Panikkar, the author of Ramayanam, Bhartam, Bhagavatam and Sivarathri Mahatmyam. Kannassa Ramayanam and Kannassa Bharatam are the most important of Niranam works. Ulloor, the great literary historian of Kerala, has opined that Rama Panikkar holds the same position in Malayalam literature that Spencer does in English literature. (Copied from Mahatma Gandhi University Website)
