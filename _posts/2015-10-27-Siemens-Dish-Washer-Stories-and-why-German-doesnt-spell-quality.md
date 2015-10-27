@@ -32,6 +32,8 @@ The only contact point given is a telephone number and an email id, if you go di
 Ms Taira was extremely gracious. She pointed out that complaints can be raised via the telephone number (why bother us over an email)
 I can count 12 mail interactions on this subject over the last 18 hours, and I almost know the Siemens response by heart. The matter has been forwarded to the concerned department. I wonder what department we are mail in the first place.
 
+Well, i guess now that they have indeed proven that the machine is unreliable, what are they going to do about this? 
+
 ###***Will update more in the evening - have to login to work now***
 
 #Excepts of Email Conversations with Siemen's German quality Customer Support
