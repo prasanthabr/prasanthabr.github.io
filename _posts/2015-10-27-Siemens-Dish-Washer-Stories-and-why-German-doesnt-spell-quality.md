@@ -37,11 +37,11 @@ Well, i guess now that they have indeed proven that the machine is unreliable, w
 ###***Will update more in the evening - have to login to work now***
 
 # 28th Oct - The Siemens German TroubleShooting
-After constant noise, Siemens has woken up and seem to be interested in troubleshooting the issue. Now, the fact that the machine went dead within 3 months, and the fact that it has been used hardly ten times lead me to believe that this is perhaps an old piece or an issue that Siemens knows intenally about.
+After constant noise, Siemens has woken up and seem to be interested in troubleshooting the issue. Now, the fact that the machine went dead within 2 months (Error Corrected and Updated 28th Oct), and the fact that it has been used hardly ten times lead me to believe that this is perhaps an old piece or an issue that Siemens knows intenally about.
 
 But siemens seems to be interested in pointing out that this is due to rodent damage. (one should understand that it would fit in perfectly and resurrect the reliability reputation that has been questioned on this post)
 
-And so two gentlemen landed at home with a part that doesnt match the machine that we have to troubleshoot and fix the issue. Well, my parents wanted to know what was wrong. Of course the module (sorry, we got you the worng part, but thats a minor hiccup), and of course a rodent attack. My Dad put on his glasses to see the rodent bitten part - and thats when it dawned, no normal untrained people wont be able to see the elusive rat attack. There is no physical damage. The rat has probably shorted it. Am guessing the rats trained in chip design too.
+And so two gentlemen landed at home with a part that doesnt match the machine that we have to troubleshoot and fix the issue. Well, my parents wanted to know what was wrong. Of course the module (sorry, we got you the worng part, but thats a minor hiccup), and of course a rodent attack. My Dad put on his glasses to see the rodent bitten part - and thats when it dawned, normal untrained people wont be able to see the elusive rat attack. There is no physical damage. The rat has probably shorted it. Am guessing the rats trained in chip design too.
 
 In any case, the part shall be ordered from Mumbai Siemens and shall be replaced. And now the switch and bait - the technician wants a visit report to be signed. And the report reads that the part has been damaged by a rodent. Not the most straight forward of encounters to be sure.
 
