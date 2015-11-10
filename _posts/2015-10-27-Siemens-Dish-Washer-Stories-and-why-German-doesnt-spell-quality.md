@@ -5,6 +5,9 @@ date:   2015-10-27 13:01:19
 categories: Reviews
 tags: [siemens, dishwasher, german, siemens dishwasher, siemens support, siemens ripoff]
 author: prasanthabr
+image:
+  feature: sample-image-5.jpg
+  credit: UnSplash.com
 ---
 
 #tl;dr
@@ -26,7 +29,7 @@ Not very German in terms of reliability. Congratulations, Siemens, you have disp
 
 Come to think of it, perhaps we should have seen what could have happened. 
 
-Siemens is famous for its faulty wind turbines (apparently the blades broke off), the hackable industrial equipment (remember Stuxnet - yes it was Siemens), adulterated medical devices (yes there is a US FDA letter effectively barring import during 2012). And German engineering in general is getting a bad name now days - think Volkswagen, think German made Fujistu Laptops. 
+Siemens is famous for its faulty wind turbines (apparently the blades broke off), the hackable industrial equipment (remember Stuxnet - yes it was Siemens), adulterated medical devices (yes there is a US FDA letter effectively barring import during 2012). And [German engineering][1] in general is getting a bad name now days - think Volkswagen, think German made Fujistu Laptops. 
 
 One wonders whether the equipment that is sold in India is indeed models which do not have a market anywhere else. It is almost guerrilla tactics that are being used here. Very low investment in dealerships, low investment clearly in support structures (ok, sorry, we can’t fix your machine coz the parts come from Germany) sold only on the brand name at a higher than usual mark-up.
 But what comes out as the best factor in the mix is the Customer Support.
@@ -145,3 +148,5 @@ Andheri (East), Mumbai - 400093.
 Toll Free Number : 1800 209 1850
 Email : service.in@siemens-home.com
 Website : www.siemens-home.com/in
+
+[1]: http://www.bbc.com/news/business-32332210
