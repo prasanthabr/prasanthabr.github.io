@@ -34,11 +34,7 @@
   </div>
   <div id="index">
     <h3><a href="{{ site.url}}/posts/">Recent Posts</a></h3>
-    {% for all in site.posts %}
-  <div class="container">
-  <h4>Abraham Mathew - Non Tech</h4>
-    {% for post in site.posts limit:5 %}
-      {% if post.author == "abrahammathew" %}    
+    {% for post in site.posts limit:5 %}    
     <article>
       {% if post.link %}
         <h2 class="link-post"><a href="{{ site.url }}{{ post.url }}" title="{{ post.title }}">{{ post.title }}</a> <a href="{{ post.link }}" target="_blank" title="{{ post.title }}"><i class="fa fa-link"></i></h2>
@@ -47,33 +43,9 @@
         <p>{{ post.excerpt | strip_html | truncate: 160 }}</p>
       {% endif %}
     </article>
-      {% endif %}
     {% endfor %}
-  </div>
-  <div class="container">
-  <h4>prasanthabr</h4>
-    {% for post1 in site.posts limit1:7 %}
-      {% if post1.author != "abrahammathew" %}    
-    <article>
-      {% if post1.link %}
-        <h2 class="link-post"><a href="{{ site.url }}{{ post1.url }}" title="{{ post1.title }}">{{ post1.title }}</a> <a href="{{ post1.link }}" target="_blank" title="{{ post1.title }}"><i class="fa fa-link"></i></h2>
-      {% else %}
-        <h2><a href="{{ site.url }}{{ post1.url }}" title="{{ post1.title }}">{{ post1.title }}</a></h2>
-        <p>{{ post1.excerpt | strip_html | truncate: 160 }}</p>
-      {% endif %}
-    </article>
-      {% endif %}
-    {% endfor %}
-  </div>
-
-
   </div><!-- /#index -->
-
-
-    <h4><small class="pull-right">(<a href="{{ site.url }}/posts/">View all posts</a>)</small></h4>
-  
 </div><!-- /#main -->
-
 
 <div class="footer-wrap">
   <footer>
