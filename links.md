@@ -73,3 +73,4 @@ image:
 [20]: http://www.jamesward.com/
 [21]: http://coenraets.org/blog/
 [22]: http://exploringjs.com/
+[23]: https://www.codecoverage.org/
