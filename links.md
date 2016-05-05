@@ -51,6 +51,8 @@ image:
 
 [Exploring ES6 JS][22]
 
+[Code Coverage - more tech][23]
+
 [1]: https://snazzymaps.com/
 [2]: http://www.tgerm.com/
 [3]: http://andyinthecloud.com/
