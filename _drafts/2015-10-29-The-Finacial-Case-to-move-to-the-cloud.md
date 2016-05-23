@@ -5,6 +5,7 @@ date:   2015-10-29 13:01:19
 categories: Cloud
 tags: [Salesforce.com,SFDC,Cloud,]
 author: prasanthabr
+permalink: /mad/
 ---
 
 #tl;dr
