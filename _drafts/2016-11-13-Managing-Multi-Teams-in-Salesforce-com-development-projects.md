@@ -11,8 +11,10 @@ image:
 ---
 DRAFT
 
-#tl;dr
+# tl;dr
+
 A Few real life lessons on how to manage Salesforce.com development when working with Multiple Teams and Multiple Vendors
 
-##Background
-In 
+## Background
+
+As Salesforce.com has grown from a CRM for SME firms to being a customisable platform with prebuilt tools and solutions for the **Enterpise** the teams that design, build, test and deploy the solution has become larger and more distributed. 
