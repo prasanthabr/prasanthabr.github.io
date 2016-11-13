@@ -6,12 +6,12 @@ categories: SFDC
 tags: [SFDC, Salesforce.com,Multi-vendor,Development,Team]
 author: prasanthabr
 image:
-  feature: sample-image-5.jpg
+  feature: sample-image-6.jpg
   credit: UnSplash.com
 ---
-
+DRAFT
 #tl;dr
-A Few real life learning on how to manage Salesfoce.com development when working with Multiple Teams and Multiple Vendors
+A Few real life learning on how to manage Salesforce.com development when working with Multiple Teams and Multiple Vendors
 
 ##Background
-
+In 
