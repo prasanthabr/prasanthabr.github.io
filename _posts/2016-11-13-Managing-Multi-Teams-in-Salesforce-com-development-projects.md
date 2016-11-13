@@ -10,8 +10,9 @@ image:
   credit: UnSplash.com
 ---
 DRAFT
+
 #tl;dr
-A Few real life learning on how to manage Salesforce.com development when working with Multiple Teams and Multiple Vendors
+A Few real life lessons on how to manage Salesforce.com development when working with Multiple Teams and Multiple Vendors
 
 ##Background
 In 
