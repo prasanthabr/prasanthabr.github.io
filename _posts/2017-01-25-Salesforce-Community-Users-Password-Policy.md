@@ -6,7 +6,7 @@ categories: Reviews
 tags: [Salesforce.com, SFDC, Salesforce Communities, Salesforce Security, Salesforce Access Control]
 author: prasanthabr
 image:
-  feature: sample-image-5.jpg
+  feature: busdepot.jpg
   credit: UnSplash.com
 ---
 
