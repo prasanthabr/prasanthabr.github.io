@@ -10,7 +10,7 @@ image:
   credit: UnSplash.com
 ---
 
-#tl;dr
+# tl;dr
 Our experience with a Siemens Dishwasher and why German may not be the best bet in India. Certainly Siemens with their support's sense of humour is not the path to tread.
 
 **UPDATE**: Siemens says they will replace this machine with a brand new one by Thursday 12th Nov, with a fresh warranty. The cynic is me is waiting for the next curve ball.
@@ -18,14 +18,14 @@ Our experience with a Siemens Dishwasher and why German may not be the best bet 
 **UPDATE 2**: Siemens replaced the machine yesterday 9th Nov and got around installing it the same day, a good 3 days early. This machine is made in Turkey :)
 
 
-#Background
+# Background
 Since my parents retired, the house was becoming a beehive of visitors. Usual chores magnified by multiples depending on the number of guests who troop in for their own holidays and so my Mom decided to buy a Dishwasher. And as part of a generation who have seen German as the epitome of reliability, she decided it has to be German. And what else to select other than the 168 year old German. So Siemens it was. Siemens Dishwasher (Type / E-NR SN 26L800 IN/29  FD / C-No.No. 9409 00302). All those numbers sure make it sound very German indeed. 
 
 Of course hearing horror stories of no warranty support from pieces bought from Flipkart and online retailers, the Dishwasher was ordered from an authorised Siemens dealer locally. And on 25th August 2015 the Siemens machine arrived. And by 19th October 2015, the Siemens had washed perhaps a total of 10 times and the Siemens was sure dead.
 
 Not very German in terms of reliability. Congratulations, Siemens, you have disproven a myth!
 
-#Siemens German for Reliability
+# Siemens German for Reliability
 
 Come to think of it, perhaps we should have seen what could have happened. 
 
