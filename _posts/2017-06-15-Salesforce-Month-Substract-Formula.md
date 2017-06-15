@@ -1,9 +1,9 @@
 ---
 layout: post
-title:  "Defining Password Policies based on attributes for Salesforce Community Users"
-date:   2017-01-25 11:01:01
-categories: Reviews
-tags: [Salesforce.com, SFDC, Salesforce Communities, Salesforce Security, Salesforce Access Control]
+title:  "Substract Months from Date in Salesforce.com Formula Fields"
+date:   2017-06-15 11:01:01
+categories: SFDC
+tags: [Salesforce.com, SFDC, Salesforce Formula]
 author: prasanthabr
 image:
   feature: busdepot.jpg
