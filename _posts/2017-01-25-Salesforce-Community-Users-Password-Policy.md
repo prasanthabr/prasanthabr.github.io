@@ -10,6 +10,7 @@ image:
   credit: UnSplash.com
 ---
 
+
 ### tl;dr
 How can we define geography specific password policies for external users on Salesforce Communities.
 
