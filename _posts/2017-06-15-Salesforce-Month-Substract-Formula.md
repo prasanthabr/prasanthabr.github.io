@@ -11,7 +11,7 @@ image:
 ---
 
 This is reproduced from https://success.salesforce.com/ideaview?id=08730000000BrQ2AAK
-This is a good baseplate for creating date formulas on Salesforce
+This is a good baseplate for creating date substraction formulas on Salesforce
 
 ```
 
