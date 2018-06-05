@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Formula on prasanthabr</title>
+    <link>/tags/formula/</link>
+    <description>Recent content in Formula on prasanthabr</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <lastBuildDate>Tue, 27 Feb 2018 21:00:00 +0600</lastBuildDate>
+    
+	<atom:link href="/tags/formula/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>Substract Months from Date in Salesforce.com Formula Fields</title>
+      <link>/tech/tc-date_calculation_formula/</link>
+      <pubDate>Tue, 27 Feb 2018 21:00:00 +0600</pubDate>
+      
+      <guid>/tech/tc-date_calculation_formula/</guid>
+      <description>This is reproduced from https://success.salesforce.com/ideaview?id=08730000000BrQ2AAK This is a good baseplate for creating date substraction formulas on Salesforce
+ DATE ( /*YEAR*/ YEAR ( EndDate ) - FLOOR( Notice_for_Client_to_Terminate_months__c / 12) - IF (MONTH ( EndDate ) - MOD( Notice_for_Client_to_Terminate_months__c , 12) &amp;gt; 0, 0, 1), /*MONTH*/ IF (MONTH ( EndDate ) - MOD ( Notice_for_Client_to_Terminate_months__c , 12) &amp;gt; 0, MONTH ( EndDate ) - MOD ( Notice_for_Client_to_Terminate_months__c , 12), MONTH ( EndDate ) - MOD ( Notice_for_Client_to_Terminate_months__c , 12) + 12), /*DAY*/ MIN (DAY ( EndDate ), CASE ( /* Month */ IF (MONTH ( EndDate ) - MOD ( Notice_for_Client_to_Terminate_months__c , 12) &amp;gt; 0, MONTH ( EndDate ) - MOD ( Notice_for_Client_to_Terminate_months__c , 12), MONTH ( EndDate ) - MOD ( Notice_for_Client_to_Terminate_months__c , 12) + 12), 9, 30, 4, 30, 6, 30, 11, 30, 2, /* return max days for February dependent on if end date is leap year */ IF (MOD (YEAR ( EndDate ) - FLOOR( Notice_for_Client_to_Terminate_months__c / 12) - IF (MONTH ( EndDate ) - MOD( Notice_for_Client_to_Terminate_months__c , 12) &amp;gt; 0, 0, 1), 400) = 0 || (MOD (YEAR ( EndDate ) - FLOOR( Notice_for_Client_to_Terminate_months__c / 12) - IF (MONTH ( EndDate ) - MOD( Notice_for_Client_to_Terminate_months__c , 12) &amp;gt; 0, 0, 1) ,4) = 0 &amp;amp;&amp;amp; MOD (YEAR ( EndDate ) - FLOOR( Notice_for_Client_to_Terminate_months__c / 12) - IF (MONTH ( EndDate ) - MOD( Notice_for_Client_to_Terminate_months__c , 12) &amp;gt; 0, 0, 1) ,100) &amp;lt;&amp;gt; 0 ), 29, 28), 31) ) )  </description>
+    </item>
+    
+  </channel>
+</rss>

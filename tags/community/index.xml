@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Community on prasanthabr</title>
+    <link>/tags/community/</link>
+    <description>Recent content in Community on prasanthabr</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <lastBuildDate>Tue, 27 Feb 2018 21:00:00 +0600</lastBuildDate>
+    
+	<atom:link href="/tags/community/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>Attribute based Password Policies</title>
+      <link>/tech/tc-user_password_community/</link>
+      <pubDate>Tue, 27 Feb 2018 21:00:00 +0600</pubDate>
+      
+      <guid>/tech/tc-user_password_community/</guid>
+      <description>tl;dr How can we define geography specific password policies for external users on Salesforce Communities.
+Use Case Background For a global organization leveraging Salesforce.com to expose enterprise data and applications to its community of partners, in addition to the policies that guide access to the instance for its internal users, there is the added dimension of policies that are cognizant of the agreements and contracts that the organization has signed with its individual partners.</description>
+    </item>
+    
+  </channel>
+</rss>

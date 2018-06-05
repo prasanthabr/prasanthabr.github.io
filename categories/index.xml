@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Categories on prasanthabr</title>
+    <link>/categories/</link>
+    <description>Recent content in Categories on prasanthabr</description>
+    <generator>Hugo -- gohugo.io</generator>
+    
+	<atom:link href="/categories/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>Features</title>
+      <link>/categories/features/</link>
+      <pubDate>Tue, 27 Feb 2018 21:00:00 +0600</pubDate>
+      
+      <guid>/categories/features/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Poetry</title>
+      <link>/categories/poetry/</link>
+      <pubDate>Sun, 19 Jul 2015 21:00:00 +0600</pubDate>
+      
+      <guid>/categories/poetry/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Quote</title>
+      <link>/categories/quote/</link>
+      <pubDate>Sun, 19 Jul 2015 21:00:00 +0600</pubDate>
+      
+      <guid>/categories/quote/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>SFDC</title>
+      <link>/categories/sfdc/</link>
+      <pubDate>Tue, 27 Feb 2018 21:00:00 +0600</pubDate>
+      
+      <guid>/categories/sfdc/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Tech</title>
+      <link>/categories/tech/</link>
+      <pubDate>Tue, 27 Feb 2018 21:00:00 +0600</pubDate>
+      
+      <guid>/categories/tech/</guid>
+      <description></description>
+    </item>
+    
+  </channel>
+</rss>

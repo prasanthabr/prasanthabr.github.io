@@ -1,0 +1,122 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Tags on prasanthabr</title>
+    <link>/tags/</link>
+    <description>Recent content in Tags on prasanthabr</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <lastBuildDate>Tue, 27 Feb 2018 21:00:00 +0600</lastBuildDate>
+    
+	<atom:link href="/tags/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>Community</title>
+      <link>/tags/community/</link>
+      <pubDate>Tue, 27 Feb 2018 21:00:00 +0600</pubDate>
+      
+      <guid>/tags/community/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Config</title>
+      <link>/tags/config/</link>
+      <pubDate>Tue, 27 Feb 2018 21:00:00 +0600</pubDate>
+      
+      <guid>/tags/config/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Conviction</title>
+      <link>/tags/conviction/</link>
+      <pubDate>Sun, 19 Jul 2015 21:00:00 +0600</pubDate>
+      
+      <guid>/tags/conviction/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Customer Service</title>
+      <link>/tags/customer-service/</link>
+      <pubDate>Tue, 27 Oct 2015 21:00:00 +0600</pubDate>
+      
+      <guid>/tags/customer-service/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Definance</title>
+      <link>/tags/definance/</link>
+      <pubDate>Sun, 19 Jul 2015 21:00:00 +0600</pubDate>
+      
+      <guid>/tags/definance/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Formula</title>
+      <link>/tags/formula/</link>
+      <pubDate>Tue, 27 Feb 2018 21:00:00 +0600</pubDate>
+      
+      <guid>/tags/formula/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>German</title>
+      <link>/tags/german/</link>
+      <pubDate>Tue, 27 Oct 2015 21:00:00 +0600</pubDate>
+      
+      <guid>/tags/german/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Salesforce</title>
+      <link>/tags/salesforce/</link>
+      <pubDate>Tue, 27 Feb 2018 21:00:00 +0600</pubDate>
+      
+      <guid>/tags/salesforce/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Siemens</title>
+      <link>/tags/siemens/</link>
+      <pubDate>Tue, 27 Oct 2015 21:00:00 +0600</pubDate>
+      
+      <guid>/tags/siemens/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Soul</title>
+      <link>/tags/soul/</link>
+      <pubDate>Sun, 19 Jul 2015 21:00:00 +0600</pubDate>
+      
+      <guid>/tags/soul/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Spirit</title>
+      <link>/tags/spirit/</link>
+      <pubDate>Sun, 19 Jul 2015 21:00:00 +0600</pubDate>
+      
+      <guid>/tags/spirit/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>War</title>
+      <link>/tags/war/</link>
+      <pubDate>Sun, 19 Jul 2015 21:00:00 +0600</pubDate>
+      
+      <guid>/tags/war/</guid>
+      <description></description>
+    </item>
+    
+  </channel>
+</rss>
