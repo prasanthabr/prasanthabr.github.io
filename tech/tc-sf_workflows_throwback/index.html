@@ -244,15 +244,15 @@ Key Note: Desiging based on quirks should be considered an anti-pattern.</p>
 
 <p>Salesforce with its emphasis on building low code tools, had been pampering admins with tools allow for more sophosticaed solutions without the use of Developer skills or time. Admins can now leverage ever more powerful tools such as (though not without its failings - more on it later) flows (and process builders) that allow creation of solutions that were difficult to achieve in a configuration only environment.</p>
 
-<p>Shiny new toys like this, would perhaps lead us to question the relevance of older, mature tools. I had an encounter of a similar nature last week. In a maze of validation rules and process automation, the use case demanded an update of flag without respecting validation rules. The idea being validation rules are meant for user alone, something akin to making a field requried on the page layout as opposed to the field defintion.</p>
+<p>Shiny new toys like this, would perhaps lead us to question the relevance of older, mature tools. I had an encounter of a similar nature last week. In a maze of validation rules and process automation, the use case demanded the update of a flag bypassing the validation rules. The idea being validation rules are meant for user alone, something akin to making a field requried on the page layout as opposed to the field defintion.</p>
 
 <h3 id="process-builder-and-lightning-flows">Process Builder and Lightning Flows</h3>
 
 <p>Per the <a href="https://developer.salesforce.com/docs/atlas.en-us.apexcode.meta/apexcode/apex_triggers_order_of_execution.htm" target="_blank">order of execution</a>, the validation rules kick in early, with the process builders and flows kicking in further down the line after the <code>after trigger</code> are called.</p>
 
-<p>Unfortunately, when working with flows and validation rules, what I have seen is, a validation error does not seem to stop the cycle and process to the flow. The flow throws an error indicating that the validation has failed.</p>
+<p>Unfortunately, when working with flows and validation rules, what I have seen is, a validation error does not seem to stop the cycle and process proceeds to the flow. The flow throws an error indicating that the validation has failed.</p>
 
-<p>Not the most user friendly of errors here, leading to end user suspecting (even accusing) the flow to be the reason for all the trouble, since the error comes in from the flow and not a validation as is expected.</p>
+<p>Since we dont get the most user friendly of errors here, end users suspect (even accuse) the flow to be the reason for any failures since the error is triggered from the flow.</p>
 
 <h4 id="validation-error-catch-all-in-flows">Validation Error Catch all in Flows</h4>
 
@@ -261,7 +261,7 @@ Key Note: Desiging based on quirks should be considered an anti-pattern.</p>
 
 <h4 id="the-side-effect">The side effect</h4>
 
-<p>This work around works well, under the assumption that the designer is happy with the entire transaction failing and rolling back. At times though, it leads to a stalemate, resulting is validation errors stopping any progress to the record.</p>
+<p>This work around works well, when the designer is happy with the entire transaction failing and rolling back. At times though, it leads to a stalemate, resulting is validation errors stopping any progress to the record, leading to errors leading to errors.</p>
 
 <h3 id="the-quirk">The Quirk</h3>
 
@@ -276,6 +276,8 @@ Key Note: Desiging based on quirks should be considered an anti-pattern.</p>
 
 <p>If the record was updated with workflow field updates, fires before update triggers and after update triggers one more time (and only one more time), in addition to standard validations. <strong>Custom validation rules, duplicate rules, and escalation rules are not run again.</strong></p>
 </blockquote>
+
+<p>A client of mine, pointed this out to me the other day and the only reasonable explanation I could come up with for not knowing (i would like to think, remembering) this, is due to the relative lack of hands on on older tools, when the shiny new toy comes along!</p>
 
 <h3 id="conculsion">Conculsion</h3>
 
