@@ -5,10 +5,21 @@
     <link>/categories/sfdc/</link>
     <description>Recent content in SFDC on prasanthabr</description>
     <generator>Hugo -- gohugo.io</generator>
-    <lastBuildDate>Tue, 27 Feb 2018 21:00:00 +0600</lastBuildDate>
+    <lastBuildDate>Tue, 03 Jul 2018 09:00:00 +0600</lastBuildDate>
     
 	<atom:link href="/categories/sfdc/index.xml" rel="self" type="application/rss+xml" />
     
+    
+    <item>
+      <title>So why would you use Workflows at all now?!</title>
+      <link>/tech/tc-sf_workflows_throwback/</link>
+      <pubDate>Tue, 03 Jul 2018 09:00:00 +0600</pubDate>
+      
+      <guid>/tech/tc-sf_workflows_throwback/</guid>
+      <description>tl;dr Workflows are quirky in their execution. Custom validations are not triggered on a workflow update, while a process builder triggers custom validations.
+Key Challenge: reminding oneself of things you know as you become more familiar with newer tools and their behaviour. Key Note: Desiging based on quirks should be considered an anti-pattern.
+Background Salesforce with its emphasis on building low code tools, had been pampering admins with tools allow for more sophosticaed solutions without the use of Developer skills or time.</description>
+    </item>
     
     <item>
       <title>Attribute based Password Policies</title>
@@ -26,6 +37,16 @@ Use Case Background For a global organization leveraging Salesforce.com to expos
       <pubDate>Tue, 27 Feb 2018 21:00:00 +0600</pubDate>
       
       <guid>/tech/tc-date_calculation_formula/</guid>
+      <description>This is reproduced from https://success.salesforce.com/ideaview?id=08730000000BrQ2AAK This is a good baseplate for creating date substraction formulas on Salesforce
+ DATE ( /*YEAR*/ YEAR ( EndDate ) - FLOOR( Notice_for_Client_to_Terminate_months__c / 12) - IF (MONTH ( EndDate ) - MOD( Notice_for_Client_to_Terminate_months__c , 12) &amp;gt; 0, 0, 1), /*MONTH*/ IF (MONTH ( EndDate ) - MOD ( Notice_for_Client_to_Terminate_months__c , 12) &amp;gt; 0, MONTH ( EndDate ) - MOD ( Notice_for_Client_to_Terminate_months__c , 12), MONTH ( EndDate ) - MOD ( Notice_for_Client_to_Terminate_months__c , 12) + 12), /*DAY*/ MIN (DAY ( EndDate ), CASE ( /* Month */ IF (MONTH ( EndDate ) - MOD ( Notice_for_Client_to_Terminate_months__c , 12) &amp;gt; 0, MONTH ( EndDate ) - MOD ( Notice_for_Client_to_Terminate_months__c , 12), MONTH ( EndDate ) - MOD ( Notice_for_Client_to_Terminate_months__c , 12) + 12), 9, 30, 4, 30, 6, 30, 11, 30, 2, /* return max days for February dependent on if end date is leap year */ IF (MOD (YEAR ( EndDate ) - FLOOR( Notice_for_Client_to_Terminate_months__c / 12) - IF (MONTH ( EndDate ) - MOD( Notice_for_Client_to_Terminate_months__c , 12) &amp;gt; 0, 0, 1), 400) = 0 || (MOD (YEAR ( EndDate ) - FLOOR( Notice_for_Client_to_Terminate_months__c / 12) - IF (MONTH ( EndDate ) - MOD( Notice_for_Client_to_Terminate_months__c , 12) &amp;gt; 0, 0, 1) ,4) = 0 &amp;amp;&amp;amp; MOD (YEAR ( EndDate ) - FLOOR( Notice_for_Client_to_Terminate_months__c / 12) - IF (MONTH ( EndDate ) - MOD( Notice_for_Client_to_Terminate_months__c , 12) &amp;gt; 0, 0, 1) ,100) &amp;lt;&amp;gt; 0 ), 29, 28), 31) ) )  </description>
+    </item>
+    
+    <item>
+      <title>Substract Months from Date in Salesforce.com Formula Fields</title>
+      <link>/tech/tc-understanding_order_of_exec/</link>
+      <pubDate>Tue, 27 Feb 2018 21:00:00 +0600</pubDate>
+      
+      <guid>/tech/tc-understanding_order_of_exec/</guid>
       <description>This is reproduced from https://success.salesforce.com/ideaview?id=08730000000BrQ2AAK This is a good baseplate for creating date substraction formulas on Salesforce
  DATE ( /*YEAR*/ YEAR ( EndDate ) - FLOOR( Notice_for_Client_to_Terminate_months__c / 12) - IF (MONTH ( EndDate ) - MOD( Notice_for_Client_to_Terminate_months__c , 12) &amp;gt; 0, 0, 1), /*MONTH*/ IF (MONTH ( EndDate ) - MOD ( Notice_for_Client_to_Terminate_months__c , 12) &amp;gt; 0, MONTH ( EndDate ) - MOD ( Notice_for_Client_to_Terminate_months__c , 12), MONTH ( EndDate ) - MOD ( Notice_for_Client_to_Terminate_months__c , 12) + 12), /*DAY*/ MIN (DAY ( EndDate ), CASE ( /* Month */ IF (MONTH ( EndDate ) - MOD ( Notice_for_Client_to_Terminate_months__c , 12) &amp;gt; 0, MONTH ( EndDate ) - MOD ( Notice_for_Client_to_Terminate_months__c , 12), MONTH ( EndDate ) - MOD ( Notice_for_Client_to_Terminate_months__c , 12) + 12), 9, 30, 4, 30, 6, 30, 11, 30, 2, /* return max days for February dependent on if end date is leap year */ IF (MOD (YEAR ( EndDate ) - FLOOR( Notice_for_Client_to_Terminate_months__c / 12) - IF (MONTH ( EndDate ) - MOD( Notice_for_Client_to_Terminate_months__c , 12) &amp;gt; 0, 0, 1), 400) = 0 || (MOD (YEAR ( EndDate ) - FLOOR( Notice_for_Client_to_Terminate_months__c / 12) - IF (MONTH ( EndDate ) - MOD( Notice_for_Client_to_Terminate_months__c , 12) &amp;gt; 0, 0, 1) ,4) = 0 &amp;amp;&amp;amp; MOD (YEAR ( EndDate ) - FLOOR( Notice_for_Client_to_Terminate_months__c / 12) - IF (MONTH ( EndDate ) - MOD( Notice_for_Client_to_Terminate_months__c , 12) &amp;gt; 0, 0, 1) ,100) &amp;lt;&amp;gt; 0 ), 29, 28), 31) ) )  </description>
     </item>

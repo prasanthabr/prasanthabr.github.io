@@ -74,9 +74,27 @@
     </item>
     
     <item>
+      <title>Low code</title>
+      <link>/tags/low-code/</link>
+      <pubDate>Tue, 03 Jul 2018 09:00:00 +0600</pubDate>
+      
+      <guid>/tags/low-code/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Quirks</title>
+      <link>/tags/quirks/</link>
+      <pubDate>Tue, 03 Jul 2018 09:00:00 +0600</pubDate>
+      
+      <guid>/tags/quirks/</guid>
+      <description></description>
+    </item>
+    
+    <item>
       <title>Salesforce</title>
       <link>/tags/salesforce/</link>
-      <pubDate>Tue, 27 Feb 2018 21:00:00 +0600</pubDate>
+      <pubDate>Tue, 03 Jul 2018 09:00:00 +0600</pubDate>
       
       <guid>/tags/salesforce/</guid>
       <description></description>
@@ -110,11 +128,29 @@
     </item>
     
     <item>
+      <title>Throwback</title>
+      <link>/tags/throwback/</link>
+      <pubDate>Tue, 03 Jul 2018 09:00:00 +0600</pubDate>
+      
+      <guid>/tags/throwback/</guid>
+      <description></description>
+    </item>
+    
+    <item>
       <title>War</title>
       <link>/tags/war/</link>
       <pubDate>Sun, 19 Jul 2015 21:00:00 +0600</pubDate>
       
       <guid>/tags/war/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Workflows</title>
+      <link>/tags/workflows/</link>
+      <pubDate>Tue, 03 Jul 2018 09:00:00 +0600</pubDate>
+      
+      <guid>/tags/workflows/</guid>
       <description></description>
     </item>
     
