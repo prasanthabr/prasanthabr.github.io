@@ -17,8 +17,8 @@
       
       <guid>/tech/tc-sf_workflows_throwback/</guid>
       <description>tl;dr Workflows are quirky in their execution. Custom validations are not triggered on a workflow update, while a process builder triggers custom validations.
-Key Challenge: reminding oneself of things you know as you become more familiar with newer tools and their behaviour. Key Note: Desiging based on quirks should be considered an anti-pattern.
-Background Salesforce with its emphasis on building low code tools, had been pampering admins with tools allow for more sophosticaed solutions without the use of Developer skills or time.</description>
+Key Challenge: reminding oneself of things you know as you become more familiar with newer tools and their behaviour. Key Note: Designing based on quirks should be considered an anti-pattern.
+Background Salesforce with its emphasis on building low code tools, had been pampering admins with tools allow for more sophisticated solutions without the use of Developer skills or time.</description>
     </item>
     
   </channel>
