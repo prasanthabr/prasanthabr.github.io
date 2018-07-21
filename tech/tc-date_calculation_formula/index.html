@@ -4,12 +4,12 @@
 <head>
   <meta charset='utf-8'>
 <meta name='viewport' content='width=device-width, initial-scale=1'>
-<meta name='description' content='This is reproduced from https://success.salesforce.com/ideaview?id=08730000000BrQ2AAK This is a good baseplate for creating date substraction formulas on Salesforce
+<meta name='description' content='This is reproduced from https://success.salesforce.com/ideaview?id=08730000000BrQ2AAK This is a good baseplate for creating date subtraction formulas on Salesforce
  DATE ( /*YEAR*/ YEAR ( EndDate ) - FLOOR( Notice_for_Client_to_Terminate_months__c / 12) - IF (MONTH ( EndDate ) - MOD( Notice_for_Client_to_Terminate_months__c , 12) &gt; 0, 0, 1), /*MONTH*/ IF (MONTH ( EndDate ) - MOD ( Notice_for_Client_to_Terminate_months__c , 12) &gt; 0, MONTH ( EndDate ) - MOD ( Notice_for_Client_to_Terminate_months__c , 12), MONTH ( EndDate ) - MOD ( Notice_for_Client_to_Terminate_months__c , 12) &#43; 12), /*DAY*/ MIN (DAY ( EndDate ), CASE ( /* Month */ IF (MONTH ( EndDate ) - MOD ( Notice_for_Client_to_Terminate_months__c , 12) &gt; 0, MONTH ( EndDate ) - MOD ( Notice_for_Client_to_Terminate_months__c , 12), MONTH ( EndDate ) - MOD ( Notice_for_Client_to_Terminate_months__c , 12) &#43; 12), 9, 30, 4, 30, 6, 30, 11, 30, 2, /* return max days for February dependent on if end date is leap year */ IF (MOD (YEAR ( EndDate ) - FLOOR( Notice_for_Client_to_Terminate_months__c / 12) - IF (MONTH ( EndDate ) - MOD( Notice_for_Client_to_Terminate_months__c , 12) &gt; 0, 0, 1), 400) = 0 || (MOD (YEAR ( EndDate ) - FLOOR( Notice_for_Client_to_Terminate_months__c / 12) - IF (MONTH ( EndDate ) - MOD( Notice_for_Client_to_Terminate_months__c , 12) &gt; 0, 0, 1) ,4) = 0 &amp;&amp; MOD (YEAR ( EndDate ) - FLOOR( Notice_for_Client_to_Terminate_months__c / 12) - IF (MONTH ( EndDate ) - MOD( Notice_for_Client_to_Terminate_months__c , 12) &gt; 0, 0, 1) ,100) &lt;&gt; 0 ), 29, 28), 31) ) )  '>
 <meta name='theme-color' content='#ffcd00'>
 
-<meta property='og:title' content='Substract Months from Date in Salesforce.com Formula Fields • Prasanth Abraham'>
-<meta property='og:description' content='This is reproduced from https://success.salesforce.com/ideaview?id=08730000000BrQ2AAK This is a good baseplate for creating date substraction formulas on Salesforce
+<meta property='og:title' content='Subtract Months from Date in Salesforce.com Formula Fields • Prasanth Abraham'>
+<meta property='og:description' content='This is reproduced from https://success.salesforce.com/ideaview?id=08730000000BrQ2AAK This is a good baseplate for creating date subtraction formulas on Salesforce
  DATE ( /*YEAR*/ YEAR ( EndDate ) - FLOOR( Notice_for_Client_to_Terminate_months__c / 12) - IF (MONTH ( EndDate ) - MOD( Notice_for_Client_to_Terminate_months__c , 12) &gt; 0, 0, 1), /*MONTH*/ IF (MONTH ( EndDate ) - MOD ( Notice_for_Client_to_Terminate_months__c , 12) &gt; 0, MONTH ( EndDate ) - MOD ( Notice_for_Client_to_Terminate_months__c , 12), MONTH ( EndDate ) - MOD ( Notice_for_Client_to_Terminate_months__c , 12) &#43; 12), /*DAY*/ MIN (DAY ( EndDate ), CASE ( /* Month */ IF (MONTH ( EndDate ) - MOD ( Notice_for_Client_to_Terminate_months__c , 12) &gt; 0, MONTH ( EndDate ) - MOD ( Notice_for_Client_to_Terminate_months__c , 12), MONTH ( EndDate ) - MOD ( Notice_for_Client_to_Terminate_months__c , 12) &#43; 12), 9, 30, 4, 30, 6, 30, 11, 30, 2, /* return max days for February dependent on if end date is leap year */ IF (MOD (YEAR ( EndDate ) - FLOOR( Notice_for_Client_to_Terminate_months__c / 12) - IF (MONTH ( EndDate ) - MOD( Notice_for_Client_to_Terminate_months__c , 12) &gt; 0, 0, 1), 400) = 0 || (MOD (YEAR ( EndDate ) - FLOOR( Notice_for_Client_to_Terminate_months__c / 12) - IF (MONTH ( EndDate ) - MOD( Notice_for_Client_to_Terminate_months__c , 12) &gt; 0, 0, 1) ,4) = 0 &amp;&amp; MOD (YEAR ( EndDate ) - FLOOR( Notice_for_Client_to_Terminate_months__c / 12) - IF (MONTH ( EndDate ) - MOD( Notice_for_Client_to_Terminate_months__c , 12) &gt; 0, 0, 1) ,100) &lt;&gt; 0 ), 29, 28), 31) ) )  '>
 <meta property='og:url' content='/tech/tc-date_calculation_formula/'>
 <meta property='og:site_name' content='prasanthabr'>
@@ -17,7 +17,7 @@
 
 <meta name="generator" content="Hugo 0.38.2" />
 
-  <title>Substract Months from Date in Salesforce.com Formula Fields • Prasanth Abraham</title>
+  <title>Subtract Months from Date in Salesforce.com Formula Fields • Prasanth Abraham</title>
   <link rel='canonical' href='/tech/tc-date_calculation_formula/'>
   
   
@@ -86,7 +86,7 @@ ga('send', 'pageview');
       </li><li>
         <a href='/tags/german' style='font-size:1em'>German</a>
       </li><li>
-        <a href='/tags/salesforce' style='font-size:1.6em'>Salesforce</a>
+        <a href='/tags/salesforce' style='font-size:1.4em'>Salesforce</a>
       </li><li>
         <a href='/tags/siemens' style='font-size:1em'>Siemens</a>
       </li><li>
@@ -96,7 +96,7 @@ ga('send', 'pageview');
       </li><li>
         <a href='/tags/definance' style='font-size:1.4em'>Definance</a>
       </li><li>
-        <a href='/tags/formula' style='font-size:1.2em'>Formula</a>
+        <a href='/tags/formula' style='font-size:1em'>Formula</a>
       </li><li>
         <a href='/tags/learn' style='font-size:1em'>Learn</a>
       </li><li>
@@ -175,7 +175,7 @@ ga('send', 'pageview');
   <header class='header entry-header'>
   <div class='container sep-after'>
     <div class='header-info'>
-      <h1 class='title'>Substract Months from Date in Salesforce.com Formula Fields</h1>
+      <h1 class='title'>Subtract Months from Date in Salesforce.com Formula Fields</h1>
       
 
     </div>
@@ -222,7 +222,7 @@ ga('send', 'pageview');
 
   <div class='container entry-content'>
   <p>This is reproduced from <a href="https://success.salesforce.com/ideaview?id=08730000000BrQ2AAK" target="_blank">https://success.salesforce.com/ideaview?id=08730000000BrQ2AAK</a>
-This is a good baseplate for creating date substraction formulas on Salesforce</p>
+This is a good baseplate for creating date subtraction formulas on Salesforce</p>
 
 <pre><code>
 DATE (
@@ -275,17 +275,7 @@ DATE (
 </article>
 
 <nav class='entry-nav'>
-  <div class='container'><div class='prev-entry sep-before'>
-      <a href='/tech/tc-understanding_order_of_exec/'>
-        <span aria-hidden='true'><svg class='icon' viewbox='0 0 24 24' stroke-linecap='round' stroke-linejoin='round' stroke-width='2' aria-hidden='true'>
-  
-  <line x1="20" y1="12" x2="4" y2="12"/>
-  <polyline points="10 18 4 12 10 6"/>
-  
-</svg>
- Previous</span>
-        <span class='screen-reader-text'>Previous post: </span>Substract Months from Date in Salesforce.com Formula Fields</a>
-    </div><div class='next-entry sep-before'>
+  <div class='container'><div class='next-entry sep-before'>
       <a href='/tech/tc-user_password_community/'>
         <span class='screen-reader-text'>Next post: </span>Attribute based Password Policies<span aria-hidden='true'>Next <svg class='icon' viewbox='0 0 24 24' stroke-linecap='round' stroke-linejoin='round' stroke-width='2' aria-hidden='true'>
   
