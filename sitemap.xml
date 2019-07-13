@@ -4,251 +4,117 @@
   
   <url>
     <loc>/</loc>
-    <lastmod>2018-07-20T21:00:00+06:00</lastmod>
+    <lastmod>2019-06-16T21:00:00+06:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>/vim/</loc>
+    <lastmod>2019-06-16T21:00:00+06:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>/poetry/</loc>
+    <lastmod>2019-06-06T17:30:00+06:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>/biz/</loc>
+  </url>
+  
+  <url>
+    <loc>/food/</loc>
   </url>
   
   <url>
     <loc>/tech/</loc>
-    <lastmod>2018-07-03T10:00:00+06:00</lastmod>
   </url>
   
   <url>
-    <loc>/quotes/</loc>
-    <lastmod>2015-07-19T21:00:00+06:00</lastmod>
+    <loc>/espa%C3%B1ol/</loc>
   </url>
   
   <url>
-    <loc>/reminder2futureself/</loc>
-    <lastmod>2018-07-20T21:00:00+06:00</lastmod>
+    <loc>/js/</loc>
   </url>
   
   <url>
-    <loc>/opinions/</loc>
-    <lastmod>2015-10-27T21:00:00+06:00</lastmod>
+    <loc>/ror/</loc>
   </url>
   
   <url>
-    <loc>/reminder2futureself/lk-being_consultant/</loc>
-    <lastmod>2018-07-20T21:00:00+06:00</lastmod>
+    <loc>/self/</loc>
   </url>
   
   <url>
-    <loc>/tech/tc-sf_workflows_throwback/</loc>
-    <lastmod>2018-07-03T10:00:00+06:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>/tech/tc-user_password_community/</loc>
-    <lastmod>2018-02-27T21:00:00+06:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>/reminder2futureself/lk-sf_links/</loc>
-    <lastmod>2018-02-27T21:00:00+06:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>/tech/tc-date_calculation_formula/</loc>
-    <lastmod>2018-02-27T21:00:00+06:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>/opinions/rv-siemens_dishwasher/</loc>
-    <lastmod>2015-10-27T21:00:00+06:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>/quotes/qo-churchill_on_war/</loc>
-    <lastmod>2015-07-19T21:00:00+06:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>/quotes/qo-conviction/</loc>
-    <lastmod>2015-07-19T21:00:00+06:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>/quotes/qo-invictus/</loc>
-    <lastmod>2015-07-19T21:00:00+06:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>/quotes/qo-see_it_through/</loc>
-    <lastmod>2015-07-19T21:00:00+06:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>/quotes/qo-the_man_in_the_arena/</loc>
-    <lastmod>2015-07-19T21:00:00+06:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>/quotes/qo-ulysses/</loc>
-    <lastmod>2015-07-19T21:00:00+06:00</lastmod>
+    <loc>/sfdc/</loc>
   </url>
   
   <url>
     <loc>/authors/</loc>
+    <lastmod>2019-06-16T21:00:00+06:00</lastmod>
     <priority>0</priority>
   </url>
   
   <url>
     <loc>/categories/</loc>
-    <priority>0</priority>
-  </url>
-  
-  <url>
-    <loc>/tags/community/</loc>
-    <lastmod>2018-02-27T21:00:00+06:00</lastmod>
-    <priority>0</priority>
-  </url>
-  
-  <url>
-    <loc>/tags/config/</loc>
-    <lastmod>2018-02-27T21:00:00+06:00</lastmod>
-    <priority>0</priority>
-  </url>
-  
-  <url>
-    <loc>/tags/conviction/</loc>
-    <lastmod>2015-07-19T21:00:00+06:00</lastmod>
-    <priority>0</priority>
-  </url>
-  
-  <url>
-    <loc>/tags/customer-service/</loc>
-    <lastmod>2015-10-27T21:00:00+06:00</lastmod>
-    <priority>0</priority>
-  </url>
-  
-  <url>
-    <loc>/tags/definance/</loc>
-    <lastmod>2015-07-19T21:00:00+06:00</lastmod>
-    <priority>0</priority>
-  </url>
-  
-  <url>
-    <loc>/categories/features/</loc>
-    <lastmod>2018-02-27T21:00:00+06:00</lastmod>
-    <priority>0</priority>
-  </url>
-  
-  <url>
-    <loc>/tags/formula/</loc>
-    <lastmod>2018-02-27T21:00:00+06:00</lastmod>
-    <priority>0</priority>
-  </url>
-  
-  <url>
-    <loc>/tags/german/</loc>
-    <lastmod>2015-10-27T21:00:00+06:00</lastmod>
-    <priority>0</priority>
-  </url>
-  
-  <url>
-    <loc>/tags/learn/</loc>
-    <lastmod>2018-07-20T21:00:00+06:00</lastmod>
-    <priority>0</priority>
-  </url>
-  
-  <url>
-    <loc>/categories/learnings/</loc>
-    <lastmod>2018-07-20T21:00:00+06:00</lastmod>
-    <priority>0</priority>
-  </url>
-  
-  <url>
-    <loc>/tags/low-code/</loc>
-    <lastmod>2018-07-03T10:00:00+06:00</lastmod>
-    <priority>0</priority>
-  </url>
-  
-  <url>
-    <loc>/categories/poetry/</loc>
-    <lastmod>2015-07-19T21:00:00+06:00</lastmod>
-    <priority>0</priority>
-  </url>
-  
-  <url>
-    <loc>/authors/prasanthabr/</loc>
-    <lastmod>2018-07-20T21:00:00+06:00</lastmod>
-    <priority>0</priority>
-  </url>
-  
-  <url>
-    <loc>/tags/quirks/</loc>
-    <lastmod>2018-07-03T10:00:00+06:00</lastmod>
-    <priority>0</priority>
-  </url>
-  
-  <url>
-    <loc>/categories/quote/</loc>
-    <lastmod>2015-07-19T21:00:00+06:00</lastmod>
-    <priority>0</priority>
-  </url>
-  
-  <url>
-    <loc>/categories/sfdc/</loc>
-    <lastmod>2018-07-03T10:00:00+06:00</lastmod>
-    <priority>0</priority>
-  </url>
-  
-  <url>
-    <loc>/tags/salesforce/</loc>
-    <lastmod>2018-07-03T10:00:00+06:00</lastmod>
-    <priority>0</priority>
-  </url>
-  
-  <url>
-    <loc>/series/</loc>
-    <priority>0</priority>
-  </url>
-  
-  <url>
-    <loc>/tags/siemens/</loc>
-    <lastmod>2015-10-27T21:00:00+06:00</lastmod>
-    <priority>0</priority>
-  </url>
-  
-  <url>
-    <loc>/tags/soul/</loc>
-    <lastmod>2015-07-19T21:00:00+06:00</lastmod>
-    <priority>0</priority>
-  </url>
-  
-  <url>
-    <loc>/tags/spirit/</loc>
-    <lastmod>2015-07-19T21:00:00+06:00</lastmod>
+    <lastmod>2019-06-16T21:00:00+06:00</lastmod>
     <priority>0</priority>
   </url>
   
   <url>
     <loc>/tags/</loc>
-    <lastmod>2018-02-27T21:00:00+06:00</lastmod>
+    <lastmod>2019-06-16T21:00:00+06:00</lastmod>
     <priority>0</priority>
   </url>
   
   <url>
-    <loc>/categories/tech/</loc>
-    <lastmod>2018-07-03T10:00:00+06:00</lastmod>
+    <loc>/vim/shortcuts/</loc>
+    <lastmod>2019-06-16T21:00:00+06:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>/authors/prasanthabr/</loc>
+    <lastmod>2019-06-16T21:00:00+06:00</lastmod>
     <priority>0</priority>
   </url>
   
   <url>
-    <loc>/tags/throwback/</loc>
-    <lastmod>2018-07-03T10:00:00+06:00</lastmod>
+    <loc>/tags/shortcuts/</loc>
+    <lastmod>2019-06-16T21:00:00+06:00</lastmod>
     <priority>0</priority>
   </url>
   
   <url>
-    <loc>/tags/war/</loc>
-    <lastmod>2015-07-19T21:00:00+06:00</lastmod>
+    <loc>/categories/vim/</loc>
+    <lastmod>2019-06-16T21:00:00+06:00</lastmod>
     <priority>0</priority>
   </url>
   
   <url>
-    <loc>/tags/workflows/</loc>
-    <lastmod>2018-07-03T10:00:00+06:00</lastmod>
+    <loc>/poetry/poem/</loc>
+    <lastmod>2019-06-06T17:30:00+06:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>/categories/poems/</loc>
+    <lastmod>2019-06-06T17:30:00+06:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>/categories/soul/</loc>
+    <lastmod>2019-06-06T17:30:00+06:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>/categories/spanish/</loc>
+    <lastmod>2019-06-06T17:30:00+06:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>/series/</loc>
     <priority>0</priority>
   </url>
   

@@ -1,165 +1,32 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes" ?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>Home on prasanthabr</title>
+    <title>Home on only exception</title>
     <link>/</link>
-    <description>Recent content in Home on prasanthabr</description>
+    <description>Recent content in Home on only exception</description>
     <generator>Hugo -- gohugo.io</generator>
-    <lastBuildDate>Fri, 20 Jul 2018 21:00:00 +0600</lastBuildDate>
+    <lastBuildDate>Sun, 16 Jun 2019 21:00:00 +0600</lastBuildDate>
     
 	<atom:link href="/index.xml" rel="self" type="application/rss+xml" />
     
     
     <item>
-      <title>Being a Better Consultant</title>
-      <link>/reminder2futureself/lk-being_consultant/</link>
-      <pubDate>Fri, 20 Jul 2018 21:00:00 +0600</pubDate>
+      <title>Vim Codes</title>
+      <link>/vim/shortcuts/</link>
+      <pubDate>Sun, 16 Jun 2019 21:00:00 +0600</pubDate>
       
-      <guid>/reminder2futureself/lk-being_consultant/</guid>
-      <description>This is reproduced from http://blog.jayfields.com/2013/04/being-lead-consultant.html and is subject to the permissions of the original source. reproducing here for personal reference Being a Lead Consultant These are not my ideas, they were given to me. I wanted to store them in a safe place, which is why they can be found here. Thank you for your wisdom Scott and Sean.
- Voice of authority to the client on technical matters, meaning that I&amp;rsquo;m looking for someone who can establish their own credibility with senior client staff, including non-technical managers.</description>
+      <guid>/vim/shortcuts/</guid>
+      <description>:set colorcolumn=72 &amp;ndash; to set an indicator on the column length. Git suggests max of 50, with hardlimit at 72 for commit comments</description>
     </item>
     
     <item>
-      <title>So why would you use Workflows at all now?!</title>
-      <link>/tech/tc-sf_workflows_throwback/</link>
-      <pubDate>Tue, 03 Jul 2018 09:00:00 +0600</pubDate>
+      <title>Si tú me olvidas</title>
+      <link>/poetry/poem/</link>
+      <pubDate>Thu, 06 Jun 2019 06:00:00 +0600</pubDate>
       
-      <guid>/tech/tc-sf_workflows_throwback/</guid>
-      <description>tl;dr Workflows are quirky in their execution. Custom validations are not triggered on a workflow update, while a process builder triggers custom validations.
-Key Challenge: reminding oneself of things you know as you become more familiar with newer tools and their behaviour. Key Note: Designing based on quirks should be considered an anti-pattern.
-Background Salesforce with its emphasis on building low code tools, had been pampering admins with tools allow for more sophisticated solutions without the use of Developer skills or time.</description>
-    </item>
-    
-    <item>
-      <title>Attribute based Password Policies</title>
-      <link>/tech/tc-user_password_community/</link>
-      <pubDate>Tue, 27 Feb 2018 21:00:00 +0600</pubDate>
-      
-      <guid>/tech/tc-user_password_community/</guid>
-      <description>tl;dr How can we define geography specific password policies for external users on Salesforce Communities.
-Use Case Background For a global organization leveraging Salesforce.com to expose enterprise data and applications to its community of partners, in addition to the policies that guide access to the instance for its internal users, there is the added dimension of policies that are cognizant of the agreements and contracts that the organization has signed with its individual partners.</description>
-    </item>
-    
-    <item>
-      <title>Salesforce Links</title>
-      <link>/reminder2futureself/lk-sf_links/</link>
-      <pubDate>Tue, 27 Feb 2018 21:00:00 +0600</pubDate>
-      
-      <guid>/reminder2futureself/lk-sf_links/</guid>
-      <description>Snassy Maps
-{!blog.concret.io}
-Andy in the cloud
-Bob Buzzard Blog
-Force Guru
-Jesse Altman
-Matt Lacey
-paulbattisson.com
-Nerd @ Work
-Peter Knolle
-The Silver Lining
-SFDC99
-Admin Hero
-Jeff Douglas
-Limit Exception
-Salesforce Hacker
-Salesforce Engineering Blog
-Force.com GitHub
-Oye Code
-James Ward
-Christophe Coenraets
-Exploring ES6 JS
-Code Coverage - more tech
-CSS Coding Techniques</description>
-    </item>
-    
-    <item>
-      <title>Subtract Months from Date in Salesforce.com Formula Fields</title>
-      <link>/tech/tc-date_calculation_formula/</link>
-      <pubDate>Tue, 27 Feb 2018 21:00:00 +0600</pubDate>
-      
-      <guid>/tech/tc-date_calculation_formula/</guid>
-      <description>This is reproduced from https://success.salesforce.com/ideaview?id=08730000000BrQ2AAK This is a good baseplate for creating date subtraction formulas on Salesforce
- DATE ( /*YEAR*/ YEAR ( EndDate ) - FLOOR( Notice_for_Client_to_Terminate_months__c / 12) - IF (MONTH ( EndDate ) - MOD( Notice_for_Client_to_Terminate_months__c , 12) &amp;gt; 0, 0, 1), /*MONTH*/ IF (MONTH ( EndDate ) - MOD ( Notice_for_Client_to_Terminate_months__c , 12) &amp;gt; 0, MONTH ( EndDate ) - MOD ( Notice_for_Client_to_Terminate_months__c , 12), MONTH ( EndDate ) - MOD ( Notice_for_Client_to_Terminate_months__c , 12) + 12), /*DAY*/ MIN (DAY ( EndDate ), CASE ( /* Month */ IF (MONTH ( EndDate ) - MOD ( Notice_for_Client_to_Terminate_months__c , 12) &amp;gt; 0, MONTH ( EndDate ) - MOD ( Notice_for_Client_to_Terminate_months__c , 12), MONTH ( EndDate ) - MOD ( Notice_for_Client_to_Terminate_months__c , 12) + 12), 9, 30, 4, 30, 6, 30, 11, 30, 2, /* return max days for February dependent on if end date is leap year */ IF (MOD (YEAR ( EndDate ) - FLOOR( Notice_for_Client_to_Terminate_months__c / 12) - IF (MONTH ( EndDate ) - MOD( Notice_for_Client_to_Terminate_months__c , 12) &amp;gt; 0, 0, 1), 400) = 0 || (MOD (YEAR ( EndDate ) - FLOOR( Notice_for_Client_to_Terminate_months__c / 12) - IF (MONTH ( EndDate ) - MOD( Notice_for_Client_to_Terminate_months__c , 12) &amp;gt; 0, 0, 1) ,4) = 0 &amp;amp;&amp;amp; MOD (YEAR ( EndDate ) - FLOOR( Notice_for_Client_to_Terminate_months__c / 12) - IF (MONTH ( EndDate ) - MOD( Notice_for_Client_to_Terminate_months__c , 12) &amp;gt; 0, 0, 1) ,100) &amp;lt;&amp;gt; 0 ), 29, 28), 31) ) )  </description>
-    </item>
-    
-    <item>
-      <title>My Mom&#39;s Siemens Dish Washer Stories and why German doesnt spell quality in India</title>
-      <link>/opinions/rv-siemens_dishwasher/</link>
-      <pubDate>Tue, 27 Oct 2015 21:00:00 +0600</pubDate>
-      
-      <guid>/opinions/rv-siemens_dishwasher/</guid>
-      <description>tl;dr Our experience with a Siemens Dishwasher and why German may not be the best bet in India. Certainly Siemens with their support&amp;rsquo;s sense of humour is not the path to tread.
-UPDATE: Siemens says they will replace this machine with a brand new one by Thursday 12th Nov, with a fresh warranty. The cynic is me is waiting for the next curve ball.
-UPDATE 2: Siemens replaced the machine yesterday 9th Nov and got around installing it the same day, a good 3 days early.</description>
-    </item>
-    
-    <item>
-      <title>Churchill</title>
-      <link>/quotes/qo-churchill_on_war/</link>
-      <pubDate>Sun, 19 Jul 2015 21:00:00 +0600</pubDate>
-      
-      <guid>/quotes/qo-churchill_on_war/</guid>
-      <description> In War: Resolution. In Defeat: Defiance. In Victory: Magnanimity. In Peace: Goodwill. - Churchill
- </description>
-    </item>
-    
-    <item>
-      <title>Conviction</title>
-      <link>/quotes/qo-conviction/</link>
-      <pubDate>Sun, 19 Jul 2015 21:00:00 +0600</pubDate>
-      
-      <guid>/quotes/qo-conviction/</guid>
-      <description> Every great oak tree started as a couple of nuts who stood their ground
- </description>
-    </item>
-    
-    <item>
-      <title>Invictus</title>
-      <link>/quotes/qo-invictus/</link>
-      <pubDate>Sun, 19 Jul 2015 21:00:00 +0600</pubDate>
-      
-      <guid>/quotes/qo-invictus/</guid>
-      <description>Out of the night that covers me, Black as the pit from pole to pole, I thank whatever gods may be For my unconquerable soul.
-In the fell clutch of circumstance I have not winced nor cried aloud. Under the bludgeonings of chance My head is bloody, but unbowed.
-Beyond this place of wrath and tears Looms but the Horror of the shade, And yet the menace of the years Finds and shall find me unafraid.</description>
-    </item>
-    
-    <item>
-      <title>See It Through</title>
-      <link>/quotes/qo-see_it_through/</link>
-      <pubDate>Sun, 19 Jul 2015 21:00:00 +0600</pubDate>
-      
-      <guid>/quotes/qo-see_it_through/</guid>
-      <description>When you’re up against a trouble,
-Meet it squarely, face to face;
-Lift your chin and set your shoulders,
-Plant your feet and take a brace.
-When it’s vain to try to dodge it,
-Do the best that you can do;
-You may fail, but you may conquer,
-See it through!
-Black may be the clouds about you
-And your future may seem grim,
-But don’t let your nerve desert you;</description>
-    </item>
-    
-    <item>
-      <title>The Man in the Arena</title>
-      <link>/quotes/qo-the_man_in_the_arena/</link>
-      <pubDate>Sun, 19 Jul 2015 21:00:00 +0600</pubDate>
-      
-      <guid>/quotes/qo-the_man_in_the_arena/</guid>
-      <description>It is not the critic who counts; not the man who points out how the strong man stumbles, or where the doer of deeds could have done better. The credit belongs to the man who is actually in the arena, whose face is marred by dust and sweat and blood; who strived valiantly; who errs, who comes again and again, because there is no effort without error and shortcoming; but who does actually strive to do the deeds; who knows great enthusiasms, the great devotions; who spends himself in a worthy cause; who at the best knows in the end the triumph of high achievement, and who at the worst, if he fails, at least fails while daring greatly.</description>
-    </item>
-    
-    <item>
-      <title>Ulysses</title>
-      <link>/quotes/qo-ulysses/</link>
-      <pubDate>Sun, 19 Jul 2015 21:00:00 +0600</pubDate>
-      
-      <guid>/quotes/qo-ulysses/</guid>
-      <description>It little profits that an idle king, By this still hearth, among these barren crags, Match&amp;rsquo;d with an aged wife, I mete and dole Unequal laws unto a savage race, That hoard, and sleep, and feed, and know not me. I cannot rest from travel: I will drink Life to the lees: All times I have enjoy&amp;rsquo;d Greatly, have suffer&amp;rsquo;d greatly, both with those That loved me, and alone, on shore, and when Thro&amp;#8217; scudding drifts the rainy Hyades Vext the dim sea: I am become a name; For always roaming with a hungry heart Much have I seen and known; cities of men And manners, climates, councils, governments, Myself not least, but honour&amp;rsquo;d of them all; And drunk delight of battle with my peers, Far on the ringing plains of windy Troy.</description>
+      <guid>/poetry/poem/</guid>
+      <description>Si tú me olvidas (Spanish) Neruda, Pablo Quiero que sepas una cosa.
+Tú sabes cómo es esto: si miro la luna de cristal, la rama roja del lento otoño en mi ventana, si toco junto al fuego la impalpable ceniza o el arrugado cuerpo de la leña, todo me lleva a ti, como si todo lo que existe, aromas, luz, metales, fueran pequeños barcos que navegan hacia las islas tuyas que me aguardan.</description>
     </item>
     
   </channel>

@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>spanish on only exception</title>
+    <link>/categories/spanish/</link>
+    <description>Recent content in spanish on only exception</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <lastBuildDate>Thu, 06 Jun 2019 06:00:00 +0600</lastBuildDate>
+    
+	<atom:link href="/categories/spanish/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>Si tú me olvidas</title>
+      <link>/poetry/poem/</link>
+      <pubDate>Thu, 06 Jun 2019 06:00:00 +0600</pubDate>
+      
+      <guid>/poetry/poem/</guid>
+      <description>Si tú me olvidas (Spanish) Neruda, Pablo Quiero que sepas una cosa.
+Tú sabes cómo es esto: si miro la luna de cristal, la rama roja del lento otoño en mi ventana, si toco junto al fuego la impalpable ceniza o el arrugado cuerpo de la leña, todo me lleva a ti, como si todo lo que existe, aromas, luz, metales, fueran pequeños barcos que navegan hacia las islas tuyas que me aguardan.</description>
+    </item>
+    
+  </channel>
+</rss>
