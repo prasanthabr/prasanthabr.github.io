@@ -12,10 +12,10 @@
     
     <item>
       <title>Vim Codes</title>
-      <link>/vim/shortcuts/</link>
+      <link>/tech/vim/shortcuts/</link>
       <pubDate>Sun, 16 Jun 2019 21:00:00 +0600</pubDate>
       
-      <guid>/vim/shortcuts/</guid>
+      <guid>/tech/vim/shortcuts/</guid>
       <description>:set colorcolumn=72 &amp;ndash; to set an indicator on the column length. Git suggests max of 50, with hardlimit at 72 for commit comments</description>
     </item>
     

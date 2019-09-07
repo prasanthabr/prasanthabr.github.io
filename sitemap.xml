@@ -8,21 +8,22 @@
   </url>
   
   <url>
-    <loc>/vim/</loc>
+    <loc>/biz/</loc>
     <lastmod>2019-06-16T21:00:00+06:00</lastmod>
   </url>
   
   <url>
-    <loc>/poetry/</loc>
+    <loc>/tech/vim/</loc>
+    <lastmod>2019-06-16T21:00:00+06:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>/self/poetry/</loc>
     <lastmod>2019-06-06T17:30:00+06:00</lastmod>
   </url>
   
   <url>
-    <loc>/biz/</loc>
-  </url>
-  
-  <url>
-    <loc>/food/</loc>
+    <loc>/self/food/</loc>
   </url>
   
   <url>
@@ -30,15 +31,15 @@
   </url>
   
   <url>
-    <loc>/espa%C3%B1ol/</loc>
+    <loc>/self/espa%C3%B1ol/</loc>
   </url>
   
   <url>
-    <loc>/js/</loc>
+    <loc>/tech/js/</loc>
   </url>
   
   <url>
-    <loc>/ror/</loc>
+    <loc>/tech/ror/</loc>
   </url>
   
   <url>
@@ -46,7 +47,11 @@
   </url>
   
   <url>
-    <loc>/sfdc/</loc>
+    <loc>/tech/sfdc/</loc>
+  </url>
+  
+  <url>
+    <loc>/tech/vscode/</loc>
   </url>
   
   <url>
@@ -62,14 +67,43 @@
   </url>
   
   <url>
+    <loc>/biz/persuasion/</loc>
+    <lastmod>2019-06-16T21:00:00+06:00</lastmod>
+  </url>
+  
+  <url>
     <loc>/tags/</loc>
     <lastmod>2019-06-16T21:00:00+06:00</lastmod>
     <priority>0</priority>
   </url>
   
   <url>
-    <loc>/vim/shortcuts/</loc>
+    <loc>/tech/vim/shortcuts/</loc>
     <lastmod>2019-06-16T21:00:00+06:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>/tags/communication/</loc>
+    <lastmod>2019-06-16T21:00:00+06:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>/categories/communication/</loc>
+    <lastmod>2019-06-16T21:00:00+06:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>/tags/life-skills/</loc>
+    <lastmod>2019-06-16T21:00:00+06:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>/tags/persuasion/</loc>
+    <lastmod>2019-06-16T21:00:00+06:00</lastmod>
+    <priority>0</priority>
   </url>
   
   <url>
@@ -91,7 +125,12 @@
   </url>
   
   <url>
-    <loc>/poetry/poem/</loc>
+    <loc>/self/poetry/poem/</loc>
+    <lastmod>2019-06-06T17:30:00+06:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>/self/poetry/poem/</loc>
     <lastmod>2019-06-06T17:30:00+06:00</lastmod>
   </url>
   

@@ -11,20 +11,39 @@
     
     
     <item>
-      <title>Vim Codes</title>
-      <link>/vim/shortcuts/</link>
+      <title>Persuasion - The most important skill in the knowledge economy</title>
+      <link>/biz/persuasion/</link>
       <pubDate>Sun, 16 Jun 2019 21:00:00 +0600</pubDate>
       
-      <guid>/vim/shortcuts/</guid>
+      <guid>/biz/persuasion/</guid>
+      <description>One of the features of my work that was brought starkly in focus while moving from India to New Zealand has been the importance of communication. While in India, the focus has always been on getting better technically, while being able to hold an engaging conversation with your client, the Kiwi customer in all his politeness and political correctness, need a level of engagement of a higher order. To be honest, I have struggled to find my footing, deciding whether I mimic the average Kiwi and be someone I am not or stay true to who I am while being respectfully helpful.</description>
+    </item>
+    
+    <item>
+      <title>Vim Codes</title>
+      <link>/tech/vim/shortcuts/</link>
+      <pubDate>Sun, 16 Jun 2019 21:00:00 +0600</pubDate>
+      
+      <guid>/tech/vim/shortcuts/</guid>
       <description>:set colorcolumn=72 &amp;ndash; to set an indicator on the column length. Git suggests max of 50, with hardlimit at 72 for commit comments</description>
     </item>
     
     <item>
       <title>Si tú me olvidas</title>
-      <link>/poetry/poem/</link>
+      <link>/self/poetry/poem/</link>
       <pubDate>Thu, 06 Jun 2019 06:00:00 +0600</pubDate>
       
-      <guid>/poetry/poem/</guid>
+      <guid>/self/poetry/poem/</guid>
+      <description>Si tú me olvidas (Spanish) Neruda, Pablo Sonnet Viii - Poem by Pablo Neruda
+If your eyes were not the color of the moon, of a day full [here, interrupted by the baby waking &amp;ndash; continued about 26 hours later ] of a day full of clay, and work, and fire, if even held-in you did not move in agile grace like the air, if you were not an amber week,</description>
+    </item>
+    
+    <item>
+      <title>Si tú me olvidas</title>
+      <link>/self/poetry/poem/</link>
+      <pubDate>Thu, 06 Jun 2019 06:00:00 +0600</pubDate>
+      
+      <guid>/self/poetry/poem/</guid>
       <description>Si tú me olvidas (Spanish) Neruda, Pablo Quiero que sepas una cosa.
 Tú sabes cómo es esto: si miro la luna de cristal, la rama roja del lento otoño en mi ventana, si toco junto al fuego la impalpable ceniza o el arrugado cuerpo de la leña, todo me lleva a ti, como si todo lo que existe, aromas, luz, metales, fueran pequeños barcos que navegan hacia las islas tuyas que me aguardan.</description>
     </item>
