@@ -1,37 +1,23 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   
   <url>
     <loc>/</loc>
-    <lastmod>2019-06-16T21:00:00+06:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>/biz/</loc>
-    <lastmod>2019-06-16T21:00:00+06:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>/tech/vim/</loc>
-    <lastmod>2019-06-16T21:00:00+06:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>/self/poetry/</loc>
     <lastmod>2019-06-06T17:30:00+06:00</lastmod>
   </url>
   
   <url>
-    <loc>/self/food/</loc>
-  </url>
-  
-  <url>
-    <loc>/tech/</loc>
+    <loc>/self/lit/</loc>
+    <lastmod>2019-06-06T17:30:00+06:00</lastmod>
   </url>
   
   <url>
     <loc>/self/espa%C3%B1ol/</loc>
+  </url>
+  
+  <url>
+    <loc>/self/food/</loc>
   </url>
   
   <url>
@@ -51,110 +37,50 @@
   </url>
   
   <url>
-    <loc>/tech/vscode/</loc>
+    <loc>/tech/</loc>
   </url>
   
   <url>
     <loc>/authors/</loc>
-    <lastmod>2019-06-16T21:00:00+06:00</lastmod>
-    <priority>0</priority>
-  </url>
-  
-  <url>
-    <loc>/categories/</loc>
-    <lastmod>2019-06-16T21:00:00+06:00</lastmod>
-    <priority>0</priority>
-  </url>
-  
-  <url>
-    <loc>/biz/persuasion/</loc>
-    <lastmod>2019-06-16T21:00:00+06:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>/tags/</loc>
-    <lastmod>2019-06-16T21:00:00+06:00</lastmod>
-    <priority>0</priority>
-  </url>
-  
-  <url>
-    <loc>/tech/vim/shortcuts/</loc>
-    <lastmod>2019-06-16T21:00:00+06:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>/tags/communication/</loc>
-    <lastmod>2019-06-16T21:00:00+06:00</lastmod>
-    <priority>0</priority>
-  </url>
-  
-  <url>
-    <loc>/categories/communication/</loc>
-    <lastmod>2019-06-16T21:00:00+06:00</lastmod>
-    <priority>0</priority>
-  </url>
-  
-  <url>
-    <loc>/tags/life-skills/</loc>
-    <lastmod>2019-06-16T21:00:00+06:00</lastmod>
-    <priority>0</priority>
-  </url>
-  
-  <url>
-    <loc>/tags/persuasion/</loc>
-    <lastmod>2019-06-16T21:00:00+06:00</lastmod>
-    <priority>0</priority>
-  </url>
-  
-  <url>
-    <loc>/authors/prasanthabr/</loc>
-    <lastmod>2019-06-16T21:00:00+06:00</lastmod>
-    <priority>0</priority>
-  </url>
-  
-  <url>
-    <loc>/tags/shortcuts/</loc>
-    <lastmod>2019-06-16T21:00:00+06:00</lastmod>
-    <priority>0</priority>
-  </url>
-  
-  <url>
-    <loc>/categories/vim/</loc>
-    <lastmod>2019-06-16T21:00:00+06:00</lastmod>
-    <priority>0</priority>
-  </url>
-  
-  <url>
-    <loc>/self/poetry/poem/</loc>
     <lastmod>2019-06-06T17:30:00+06:00</lastmod>
   </url>
   
   <url>
-    <loc>/self/poetry/poem/</loc>
+    <loc>/categories/</loc>
     <lastmod>2019-06-06T17:30:00+06:00</lastmod>
   </url>
   
   <url>
     <loc>/categories/poems/</loc>
     <lastmod>2019-06-06T17:30:00+06:00</lastmod>
-    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>/authors/prasanthabr/</loc>
+    <lastmod>2019-06-06T17:30:00+06:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>/self/lit/poem/</loc>
+    <lastmod>2019-06-06T17:30:00+06:00</lastmod>
   </url>
   
   <url>
     <loc>/categories/soul/</loc>
     <lastmod>2019-06-06T17:30:00+06:00</lastmod>
-    <priority>0</priority>
   </url>
   
   <url>
     <loc>/categories/spanish/</loc>
     <lastmod>2019-06-06T17:30:00+06:00</lastmod>
-    <priority>0</priority>
   </url>
   
   <url>
     <loc>/series/</loc>
-    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>/tags/</loc>
   </url>
   
 </urlset>

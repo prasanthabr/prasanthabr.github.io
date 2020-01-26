@@ -1,32 +1,14 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Categories on only exception</title>
     <link>/categories/</link>
     <description>Recent content in Categories on only exception</description>
     <generator>Hugo -- gohugo.io</generator>
-    <lastBuildDate>Sun, 16 Jun 2019 21:00:00 +0600</lastBuildDate>
+    <lastBuildDate>Thu, 06 Jun 2019 06:00:00 +0600</lastBuildDate>
     
 	<atom:link href="/categories/index.xml" rel="self" type="application/rss+xml" />
     
-    
-    <item>
-      <title>communication</title>
-      <link>/categories/communication/</link>
-      <pubDate>Sun, 16 Jun 2019 21:00:00 +0600</pubDate>
-      
-      <guid>/categories/communication/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>vim</title>
-      <link>/categories/vim/</link>
-      <pubDate>Sun, 16 Jun 2019 21:00:00 +0600</pubDate>
-      
-      <guid>/categories/vim/</guid>
-      <description></description>
-    </item>
     
     <item>
       <title>poems</title>
