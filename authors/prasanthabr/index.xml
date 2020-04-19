@@ -11,6 +11,17 @@
     
     
     <item>
+      <title>Links</title>
+      <link>/tech/links/</link>
+      <pubDate>Thu, 06 Jun 2019 06:00:00 +0600</pubDate>
+      
+      <guid>/tech/links/</guid>
+      <description>VIM
+https://dn.ht/intermediate-vim/
+https://www.linux.com/training-tutorials/vim-201-intermediate-guide-vim/</description>
+    </item>
+    
+    <item>
       <title>Si tú me olvidas</title>
       <link>/self/lit/poem/</link>
       <pubDate>Thu, 06 Jun 2019 06:00:00 +0600</pubDate>

@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Security on only exception</title>
+    <link>/categories/security/</link>
+    <description>Recent content in Security on only exception</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <lastBuildDate>Sun, 26 Jan 2020 12:30:00 +0000</lastBuildDate>
+    
+	<atom:link href="/categories/security/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>Using PermissionSet Groups</title>
+      <link>/tech/sfdc/sf-sp20-permissionsetgroups/</link>
+      <pubDate>Sun, 26 Jan 2020 12:30:00 +0000</pubDate>
+      
+      <guid>/tech/sfdc/sf-sp20-permissionsetgroups/</guid>
+      <description>tl;dr Salesforce is providing flexibility in the way permissions are applied to users. The canonical way of applying permissions was to assign the least permission and progressively assign more liberal permissions to open access up. With permissionset groups, the platform for the first time allows for the permission to be muted; creating new variations of permissions.</description>
+    </item>
+    
+  </channel>
+</rss>

@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Integration on only exception</title>
+    <link>/tags/integration/</link>
+    <description>Recent content in Integration on only exception</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <lastBuildDate>Sun, 26 Jan 2020 12:30:00 +0000</lastBuildDate>
+    
+	<atom:link href="/tags/integration/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>Things I found while integrating PowerBI in Salesforce</title>
+      <link>/tech/sfdc/sf-powerbi/</link>
+      <pubDate>Sun, 26 Jan 2020 12:30:00 +0000</pubDate>
+      
+      <guid>/tech/sfdc/sf-powerbi/</guid>
+      <description>tl;dr Many firms have microsoft technologies heavily subscribed in their technology stack. As consultants, we should derive value from the tools that our clients possess.</description>
+    </item>
+    
+  </channel>
+</rss>

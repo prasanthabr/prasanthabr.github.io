@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Salesforce on only exception</title>
+    <link>/categories/salesforce/</link>
+    <description>Recent content in Salesforce on only exception</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <lastBuildDate>Sun, 26 Jan 2020 12:30:00 +0000</lastBuildDate>
+    
+	<atom:link href="/categories/salesforce/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>Survey Monkey</title>
+      <link>/tech/sfdc/sf-surveymonkey/</link>
+      <pubDate>Sun, 26 Jan 2020 12:30:00 +0000</pubDate>
+      
+      <guid>/tech/sfdc/sf-surveymonkey/</guid>
+      <description>tl;dr Setting up a data capture survey with Survey Monkey
+Listlapc = [select id,namespaceprefix,name,isvalid,body from apexclass]; pattern myPattern = pattern.compile(&#39;(?msi)WebServiceCallout.invoke\(.+?\)&#39;); for (ApexClass apx:lapc) { String st = apx.body; // system.debug(apx.name); matcher myMatcher = myPattern.matcher(st); if (myMatcher.find()) { system.debug(&amp;lsquo;found: class: (&amp;rsquo; + apx.namespaceprefix + &amp;lsquo;) [&amp;rsquo; + apx.name + &amp;lsquo;] = &#39; + myMatcher.group().replace(&#39;\n&amp;rsquo;,&#39;&#39;)); } }
+ref: https://developer.salesforce.com/forums/?id=9062I000000g8KwQAI</description>
+    </item>
+    
+    <item>
+      <title>Survey Monkey</title>
+      <link>/tech/sfdc/sf-surveymonkey/</link>
+      <pubDate>Sun, 26 Jan 2020 12:30:00 +0000</pubDate>
+      
+      <guid>/tech/sfdc/sf-surveymonkey/</guid>
+      <description>tl;dr Setting up a data capture survey with Survey Monkey
+ Layout Changes - Related list on Site 1 &amp;ndash; Fields to be updated.
+&amp;ndash; Qns
+ Where do we capture consent?    hello &amp;#x21a9;&amp;#xfe0e;
+   </description>
+    </item>
+    
+    <item>
+      <title>Things I found while integrating PowerBI in Salesforce</title>
+      <link>/tech/sfdc/sf-powerbi/</link>
+      <pubDate>Sun, 26 Jan 2020 12:30:00 +0000</pubDate>
+      
+      <guid>/tech/sfdc/sf-powerbi/</guid>
+      <description>tl;dr Many firms have microsoft technologies heavily subscribed in their technology stack. As consultants, we should derive value from the tools that our clients possess.</description>
+    </item>
+    
+    <item>
+      <title>Using PermissionSet Groups</title>
+      <link>/tech/sfdc/sf-sp20-permissionsetgroups/</link>
+      <pubDate>Sun, 26 Jan 2020 12:30:00 +0000</pubDate>
+      
+      <guid>/tech/sfdc/sf-sp20-permissionsetgroups/</guid>
+      <description>tl;dr Salesforce is providing flexibility in the way permissions are applied to users. The canonical way of applying permissions was to assign the least permission and progressively assign more liberal permissions to open access up. With permissionset groups, the platform for the first time allows for the permission to be muted; creating new variations of permissions.</description>
+    </item>
+    
+    <item>
+      <title>Automation Rationalization</title>
+      <link>/tech/sfdc/auto-ration/</link>
+      <pubDate>Tue, 03 Sep 2019 06:00:00 +0600</pubDate>
+      
+      <guid>/tech/sfdc/auto-ration/</guid>
+      <description>Nature of Salesforce Fluid Platform - state of constant improvement Lack of governance Low Maturity organization
+What do we check for?
+  Workflows
+  Process Builders
+  Flows
+  Triggers
+  Trigger Handlers?
+  Apex jobs?
+  validation rules?
+  </description>
+    </item>
+    
+  </channel>
+</rss>

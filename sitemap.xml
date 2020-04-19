@@ -3,12 +3,26 @@
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   
   <url>
+    <loc>/tech/go/</loc>
+  </url>
+  
+  <url>
     <loc>/</loc>
     <lastmod>2019-06-06T17:30:00+06:00</lastmod>
   </url>
   
   <url>
     <loc>/self/lit/</loc>
+    <lastmod>2019-06-06T17:30:00+06:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>/self/</loc>
+    <lastmod>2019-06-06T17:30:00+06:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>/tech/</loc>
     <lastmod>2019-06-06T17:30:00+06:00</lastmod>
   </url>
   
@@ -29,15 +43,7 @@
   </url>
   
   <url>
-    <loc>/self/</loc>
-  </url>
-  
-  <url>
     <loc>/tech/sfdc/</loc>
-  </url>
-  
-  <url>
-    <loc>/tech/</loc>
   </url>
   
   <url>
@@ -47,6 +53,11 @@
   
   <url>
     <loc>/categories/</loc>
+    <lastmod>2019-06-06T17:30:00+06:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>/tech/links/</loc>
     <lastmod>2019-06-06T17:30:00+06:00</lastmod>
   </url>
   
