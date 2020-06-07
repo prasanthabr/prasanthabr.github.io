@@ -5,10 +5,28 @@
     <link>/categories/</link>
     <description>Recent content in Categories on only exception</description>
     <generator>Hugo -- gohugo.io</generator>
-    <lastBuildDate>Thu, 06 Jun 2019 06:00:00 +0600</lastBuildDate>
+    <lastBuildDate>Mon, 25 May 2020 06:00:00 +0600</lastBuildDate>
     
 	<atom:link href="/categories/index.xml" rel="self" type="application/rss+xml" />
     
+    
+    <item>
+      <title>Salesforce</title>
+      <link>/categories/salesforce/</link>
+      <pubDate>Mon, 25 May 2020 06:00:00 +0600</pubDate>
+      
+      <guid>/categories/salesforce/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Service Cloud Foundation</title>
+      <link>/categories/service-cloud-foundation/</link>
+      <pubDate>Mon, 25 May 2020 06:00:00 +0600</pubDate>
+      
+      <guid>/categories/service-cloud-foundation/</guid>
+      <description></description>
+    </item>
     
     <item>
       <title>poems</title>

@@ -5,27 +5,18 @@
     <link>/tags/best-practice/</link>
     <description>Recent content in best practice on only exception</description>
     <generator>Hugo -- gohugo.io</generator>
-    <lastBuildDate>Tue, 03 Sep 2019 06:00:00 +0600</lastBuildDate>
+    <lastBuildDate>Mon, 25 May 2020 06:00:00 +0600</lastBuildDate>
     
 	<atom:link href="/tags/best-practice/index.xml" rel="self" type="application/rss+xml" />
     
     
     <item>
-      <title>Automation Rationalization</title>
-      <link>/tech/sfdc/auto-ration/</link>
-      <pubDate>Tue, 03 Sep 2019 06:00:00 +0600</pubDate>
+      <title>Service Cloud Foundation</title>
+      <link>/tech/sfdc/sf-inventory/</link>
+      <pubDate>Mon, 25 May 2020 06:00:00 +0600</pubDate>
       
-      <guid>/tech/sfdc/auto-ration/</guid>
-      <description>Nature of Salesforce Fluid Platform - state of constant improvement Lack of governance Low Maturity organization
-What do we check for?
-  Workflows
-  Process Builders
-  Flows
-  Triggers
-  Trigger Handlers?
-  Apex jobs?
-  validation rules?
-  </description>
+      <guid>/tech/sfdc/sf-inventory/</guid>
+      <description>How do we design and make choices? </description>
     </item>
     
   </channel>

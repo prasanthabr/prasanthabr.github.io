@@ -5,9 +5,19 @@
     <link>/tech/sfdc/</link>
     <description>Recent content in Salesforce.com on only exception</description>
     <generator>Hugo -- gohugo.io</generator>
+    <lastBuildDate>Mon, 25 May 2020 06:00:00 +0600</lastBuildDate>
     
 	<atom:link href="/tech/sfdc/index.xml" rel="self" type="application/rss+xml" />
     
+    
+    <item>
+      <title>Service Cloud Foundation</title>
+      <link>/tech/sfdc/sf-inventory/</link>
+      <pubDate>Mon, 25 May 2020 06:00:00 +0600</pubDate>
+      
+      <guid>/tech/sfdc/sf-inventory/</guid>
+      <description>How do we design and make choices? </description>
+    </item>
     
   </channel>
 </rss>
