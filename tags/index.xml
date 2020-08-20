@@ -1,14 +1,41 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>Tags on on fighting off exceptions</title>
+    <title>Tags on no exceptions</title>
     <link>/tags/</link>
-    <description>Recent content in Tags on on fighting off exceptions</description>
+    <description>Recent content in Tags on no exceptions</description>
     <generator>Hugo -- gohugo.io</generator>
-    <lastBuildDate>Mon, 25 May 2020 06:00:00 +0600</lastBuildDate>
+    <lastBuildDate>Sat, 15 Aug 2020 06:00:00 +0600</lastBuildDate>
     
 	<atom:link href="/tags/index.xml" rel="self" type="application/rss+xml" />
     
+    
+    <item>
+      <title>extending</title>
+      <link>/tags/extending/</link>
+      <pubDate>Sat, 15 Aug 2020 06:00:00 +0600</pubDate>
+      
+      <guid>/tags/extending/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Hacking</title>
+      <link>/tags/hacking/</link>
+      <pubDate>Sat, 15 Aug 2020 06:00:00 +0600</pubDate>
+      
+      <guid>/tags/hacking/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Salesforce</title>
+      <link>/tags/salesforce/</link>
+      <pubDate>Sat, 15 Aug 2020 06:00:00 +0600</pubDate>
+      
+      <guid>/tags/salesforce/</guid>
+      <description></description>
+    </item>
     
     <item>
       <title>best practice</title>
@@ -16,15 +43,6 @@
       <pubDate>Mon, 25 May 2020 06:00:00 +0600</pubDate>
       
       <guid>/tags/best-practice/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>Salesforce</title>
-      <link>/tags/salesforce/</link>
-      <pubDate>Mon, 25 May 2020 06:00:00 +0600</pubDate>
-      
-      <guid>/tags/salesforce/</guid>
       <description></description>
     </item>
     

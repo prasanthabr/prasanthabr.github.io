@@ -1,11 +1,11 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>Authors on on fighting off exceptions</title>
+    <title>Authors on no exceptions</title>
     <link>/authors/</link>
-    <description>Recent content in Authors on on fighting off exceptions</description>
+    <description>Recent content in Authors on no exceptions</description>
     <generator>Hugo -- gohugo.io</generator>
-    <lastBuildDate>Mon, 25 May 2020 06:00:00 +0600</lastBuildDate>
+    <lastBuildDate>Sat, 15 Aug 2020 06:00:00 +0600</lastBuildDate>
     
 	<atom:link href="/authors/index.xml" rel="self" type="application/rss+xml" />
     
@@ -13,7 +13,7 @@
     <item>
       <title>prasanthabr</title>
       <link>/authors/prasanthabr/</link>
-      <pubDate>Mon, 25 May 2020 06:00:00 +0600</pubDate>
+      <pubDate>Sat, 15 Aug 2020 06:00:00 +0600</pubDate>
       
       <guid>/authors/prasanthabr/</guid>
       <description></description>
