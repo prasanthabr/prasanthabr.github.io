@@ -5,10 +5,19 @@
     <link>/categories/</link>
     <description>Recent content in Categories on no exceptions</description>
     <generator>Hugo -- gohugo.io</generator>
-    <lastBuildDate>Sat, 15 Aug 2020 06:00:00 +0600</lastBuildDate>
+    <lastBuildDate>Sun, 23 Aug 2020 16:00:00 +1200</lastBuildDate>
     
 	<atom:link href="/categories/index.xml" rel="self" type="application/rss+xml" />
     
+    
+    <item>
+      <title>soul</title>
+      <link>/categories/soul/</link>
+      <pubDate>Sun, 23 Aug 2020 16:00:00 +1200</pubDate>
+      
+      <guid>/categories/soul/</guid>
+      <description></description>
+    </item>
     
     <item>
       <title>Hack</title>
@@ -43,15 +52,6 @@
       <pubDate>Thu, 06 Jun 2019 06:00:00 +0600</pubDate>
       
       <guid>/categories/poems/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>soul</title>
-      <link>/categories/soul/</link>
-      <pubDate>Thu, 06 Jun 2019 06:00:00 +0600</pubDate>
-      
-      <guid>/categories/soul/</guid>
       <description></description>
     </item>
     
