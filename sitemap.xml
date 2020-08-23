@@ -17,17 +17,12 @@
   </url>
   
   <url>
-    <loc>/tech/</loc>
-    <lastmod>2020-08-15T06:00:00+06:00</lastmod>
-  </url>
-  
-  <url>
     <loc>/self/lit/</loc>
     <lastmod>2019-06-06T17:30:00+06:00</lastmod>
   </url>
   
   <url>
-    <loc>/self/</loc>
+    <loc>/tech/</loc>
     <lastmod>2019-06-06T17:30:00+06:00</lastmod>
   </url>
   
@@ -45,6 +40,10 @@
   
   <url>
     <loc>/tech/ror/</loc>
+  </url>
+  
+  <url>
+    <loc>/self/</loc>
   </url>
   
   <url>
