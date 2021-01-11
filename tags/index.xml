@@ -5,9 +5,37 @@
     <link>/tags/</link>
     <description>Recent content in Tags on no exceptions</description>
     <generator>Hugo -- gohugo.io</generator>
+    <lastBuildDate>Mon, 11 Jan 2021 12:30:00 +0000</lastBuildDate>
     
 	<atom:link href="/tags/index.xml" rel="self" type="application/rss+xml" />
     
+    
+    <item>
+      <title>Platform</title>
+      <link>/tags/platform/</link>
+      <pubDate>Mon, 11 Jan 2021 12:30:00 +0000</pubDate>
+      
+      <guid>/tags/platform/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Salesforce</title>
+      <link>/tags/salesforce/</link>
+      <pubDate>Mon, 11 Jan 2021 12:30:00 +0000</pubDate>
+      
+      <guid>/tags/salesforce/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Survey</title>
+      <link>/tags/survey/</link>
+      <pubDate>Mon, 11 Jan 2021 12:30:00 +0000</pubDate>
+      
+      <guid>/tags/survey/</guid>
+      <description></description>
+    </item>
     
   </channel>
 </rss>
