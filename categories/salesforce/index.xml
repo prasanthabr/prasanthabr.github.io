@@ -5,10 +5,19 @@
     <link>/categories/salesforce/</link>
     <description>Recent content in Salesforce on no exceptions</description>
     <generator>Hugo -- gohugo.io</generator>
-    <lastBuildDate>Mon, 11 Jan 2021 12:30:00 +0000</lastBuildDate>
+    <lastBuildDate>Sun, 17 Jan 2021 06:00:00 +0600</lastBuildDate>
     
 	<atom:link href="/categories/salesforce/index.xml" rel="self" type="application/rss+xml" />
     
+    
+    <item>
+      <title>How do I design an SFDC Solution</title>
+      <link>/tech/sfdc/sf-design-approach/</link>
+      <pubDate>Sun, 17 Jan 2021 06:00:00 +0600</pubDate>
+      
+      <guid>/tech/sfdc/sf-design-approach/</guid>
+      <description>Elements of a Solution Design  Actors and App Diagram System and Interfaces Record Sharing Role and Sharing Data Model Delivery &amp;amp; Deployment Data Migration &amp;amp; Interfaces  </description>
+    </item>
     
     <item>
       <title>Email from Email Template on Salesforce</title>
