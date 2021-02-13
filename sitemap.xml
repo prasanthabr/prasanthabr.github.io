@@ -32,11 +32,15 @@
   </url>
   
   <url>
-    <loc>/self/espa%C3%B1ol/</loc>
+    <loc>/self/lit/espa%C3%B1ol/</loc>
   </url>
   
   <url>
     <loc>/self/food/</loc>
+  </url>
+  
+  <url>
+    <loc>/self/invest/</loc>
   </url>
   
   <url>
@@ -135,6 +139,11 @@
   <url>
     <loc>/categories/soul/</loc>
     <lastmod>2020-08-23T17:30:00+12:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>/self/to-do/</loc>
+    <lastmod>2020-02-10T10:14:00+06:00</lastmod>
   </url>
   
   <url>
