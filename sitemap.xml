@@ -48,7 +48,11 @@
   </url>
   
   <url>
-    <loc>/tech/ror/</loc>
+    <loc>/tech/all-else/</loc>
+  </url>
+  
+  <url>
+    <loc>/tech/ruby/</loc>
   </url>
   
   <url>
@@ -174,11 +178,6 @@
   <url>
     <loc>/self/lit/espa%C3%B1ol/poem/</loc>
     <lastmod>2019-06-06T17:30:00+06:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>/tech/vim/</loc>
-    <priority>0</priority>
   </url>
   
   <url>
