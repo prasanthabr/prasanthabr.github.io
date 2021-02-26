@@ -1,13 +1,13 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>Foooood!! on no exceptions</title>
-    <link>/self/food/</link>
-    <description>Recent content in Foooood!! on no exceptions</description>
+    <title>food on no exceptions</title>
+    <link>/tags/food/</link>
+    <description>Recent content in food on no exceptions</description>
     <generator>Hugo -- gohugo.io</generator>
     <lastBuildDate>Sun, 23 Aug 2020 16:00:00 +1200</lastBuildDate>
     
-	<atom:link href="/self/food/index.xml" rel="self" type="application/rss+xml" />
+	<atom:link href="/tags/food/index.xml" rel="self" type="application/rss+xml" />
     
     
     <item>

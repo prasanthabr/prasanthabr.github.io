@@ -22,6 +22,11 @@
   </url>
   
   <url>
+    <loc>/self/food/</loc>
+    <lastmod>2020-08-23T17:30:00+12:00</lastmod>
+  </url>
+  
+  <url>
     <loc>/self/</loc>
     <lastmod>2020-08-23T17:30:00+12:00</lastmod>
   </url>
@@ -29,10 +34,6 @@
   <url>
     <loc>/self/lit/espa%C3%B1ol/</loc>
     <lastmod>2019-06-16T21:00:00+06:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>/self/food/</loc>
   </url>
   
   <url>
@@ -136,7 +137,22 @@
   </url>
   
   <url>
+    <loc>/categories/fingerlicking/</loc>
+    <lastmod>2020-08-23T17:30:00+12:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>/tags/food/</loc>
+    <lastmod>2020-08-23T17:30:00+12:00</lastmod>
+  </url>
+  
+  <url>
     <loc>/self/the-finger/</loc>
+    <lastmod>2020-08-23T17:30:00+12:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>/self/food/laal-maas/</loc>
     <lastmod>2020-08-23T17:30:00+12:00</lastmod>
   </url>
   
@@ -156,12 +172,12 @@
   </url>
   
   <url>
-    <loc>/categories/spanish/</loc>
+    <loc>/tags/spanish/</loc>
     <lastmod>2019-06-16T21:00:00+06:00</lastmod>
   </url>
   
   <url>
-    <loc>/tags/spanish/</loc>
+    <loc>/categories/spanish/</loc>
     <lastmod>2019-06-16T21:00:00+06:00</lastmod>
   </url>
   
