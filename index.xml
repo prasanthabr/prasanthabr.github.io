@@ -5,10 +5,21 @@
     <link>/</link>
     <description>Recent content in Home on no exceptions</description>
     <generator>Hugo -- gohugo.io</generator>
-    <lastBuildDate>Sun, 17 Jan 2021 06:00:00 +0600</lastBuildDate>
+    <lastBuildDate>Thu, 04 Mar 2021 06:00:00 +0600</lastBuildDate>
     
 	<atom:link href="/index.xml" rel="self" type="application/rss+xml" />
     
+    
+    <item>
+      <title>what am i doing?</title>
+      <link>/self/self-improve/kya_leke_aye_ho/</link>
+      <pubDate>Thu, 04 Mar 2021 06:00:00 +0600</pubDate>
+      
+      <guid>/self/self-improve/kya_leke_aye_ho/</guid>
+      <description>This was really a post that was written two years back on the list of things I want to do; two years went and I don&amp;rsquo;t feel I gave it a decent go.
+And this is in no way an isolated event - I make plans and then life hits you and what I want to do goes out of the window.
+A combination of things are forcing me to articulate the goals and seeing how I can visualize and achieve it, this time.</description>
+    </item>
     
     <item>
       <title>How do I design an SFDC Solution</title>
@@ -48,10 +59,10 @@ https://developer.salesforce.com/docs/atlas.en-us.202.0.apexcode.meta/apexcode/a
     
     <item>
       <title>I am the best! - Ali</title>
-      <link>/self/the-finger/</link>
+      <link>/self/self-improve/the-finger/</link>
       <pubDate>Sun, 23 Aug 2020 16:00:00 +1200</pubDate>
       
-      <guid>/self/the-finger/</guid>
+      <guid>/self/self-improve/the-finger/</guid>
       <description>In a world defined by cut throat competition, with no one really looking out for you; How do you shine with the skills that you have?
  Here&amp;rsquo;s to the crazy ones.
 The misfits. The rebels. The troublemakers.
