@@ -1,219 +1,128 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
-  
   <url>
     <loc>/tech/go/</loc>
-    <lastmod>2021-03-01T17:30:00+06:00</lastmod>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>/</loc>
     <lastmod>2021-03-04T17:30:00+06:00</lastmod>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>/self/self-improve/</loc>
     <lastmod>2021-03-04T17:30:00+06:00</lastmod>
-  </url>
-  
-  <url>
+  </url><url>
+    <loc>/self/</loc>
+    <lastmod>2021-03-04T17:30:00+06:00</lastmod>
+  </url><url>
     <loc>/tech/sfdc/</loc>
     <lastmod>2021-01-17T06:00:00+06:00</lastmod>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>/tech/</loc>
     <lastmod>2021-01-17T06:00:00+06:00</lastmod>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>/self/food/</loc>
     <lastmod>2020-08-23T17:30:00+12:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>/self/</loc>
-    <lastmod>2020-02-10T10:14:00+06:00</lastmod>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>/self/lit/espa%C3%B1ol/</loc>
     <lastmod>2019-06-16T21:00:00+06:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>/self/invest/</loc>
-  </url>
-  
-  <url>
-    <loc>/tech/js/</loc>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>/self/lit/</loc>
-  </url>
-  
-  <url>
+    <lastmod>2019-06-16T21:00:00+06:00</lastmod>
+  </url><url>
+    <loc>/self/invest/</loc>
+  </url><url>
+    <loc>/tech/js/</loc>
+  </url><url>
     <loc>/tech/all-else/</loc>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>/tech/ruby/</loc>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>/authors/</loc>
     <lastmod>2021-03-04T17:30:00+06:00</lastmod>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>/authors/prasanthabr/</loc>
     <lastmod>2021-03-04T17:30:00+06:00</lastmod>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>/self/self-improve/kya_leke_aye_ho/</loc>
     <lastmod>2021-03-04T17:30:00+06:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>/tech/go/go-start/</loc>
-    <lastmod>2021-03-01T17:30:00+06:00</lastmod>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>/categories/</loc>
     <lastmod>2021-01-17T06:00:00+06:00</lastmod>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>/categories/design/</loc>
     <lastmod>2021-01-17T06:00:00+06:00</lastmod>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>/tags/design/</loc>
     <lastmod>2021-01-17T06:00:00+06:00</lastmod>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>/tech/sfdc/sf-design-approach/</loc>
     <lastmod>2021-01-17T06:00:00+06:00</lastmod>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>/categories/salesforce/</loc>
     <lastmod>2021-01-17T06:00:00+06:00</lastmod>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>/categories/software/</loc>
     <lastmod>2021-01-17T06:00:00+06:00</lastmod>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>/tags/</loc>
     <lastmod>2021-01-17T06:00:00+06:00</lastmod>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>/tech/function-method-procedure/</loc>
     <lastmod>2021-01-17T06:00:00+06:00</lastmod>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>/categories/email/</loc>
     <lastmod>2021-01-11T12:30:00+00:00</lastmod>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>/tech/sfdc/sf-emailtempgen/</loc>
     <lastmod>2021-01-11T12:30:00+00:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>/categories/platform/</loc>
-    <lastmod>2021-01-11T12:30:00+00:00</lastmod>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>/tags/platform/</loc>
     <lastmod>2021-01-11T12:30:00+00:00</lastmod>
-  </url>
-  
-  <url>
+  </url><url>
+    <loc>/categories/platform/</loc>
+    <lastmod>2021-01-11T12:30:00+00:00</lastmod>
+  </url><url>
     <loc>/tags/salesforce/</loc>
     <lastmod>2021-01-11T12:30:00+00:00</lastmod>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>/tags/survey/</loc>
     <lastmod>2021-01-11T12:30:00+00:00</lastmod>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>/categories/fingerlicking/</loc>
     <lastmod>2020-08-23T17:30:00+12:00</lastmod>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>/tags/food/</loc>
     <lastmod>2020-08-23T17:30:00+12:00</lastmod>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>/self/self-improve/the-finger/</loc>
     <lastmod>2020-08-23T17:30:00+12:00</lastmod>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>/self/food/laal-maas/</loc>
     <lastmod>2020-08-23T17:30:00+12:00</lastmod>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>/categories/soul/</loc>
     <lastmod>2020-08-23T17:30:00+12:00</lastmod>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>/self/to-do/</loc>
     <lastmod>2020-02-10T10:14:00+06:00</lastmod>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>/self/lit/espa%C3%B1ol/learning_spanish/</loc>
     <lastmod>2019-06-16T21:00:00+06:00</lastmod>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>/tags/spanish/</loc>
     <lastmod>2019-06-16T21:00:00+06:00</lastmod>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>/categories/spanish/</loc>
     <lastmod>2019-06-16T21:00:00+06:00</lastmod>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>/tech/links/</loc>
     <lastmod>2019-06-06T17:30:00+06:00</lastmod>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>/categories/poems/</loc>
     <lastmod>2019-06-06T17:30:00+06:00</lastmod>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>/self/lit/espa%C3%B1ol/poem/</loc>
     <lastmod>2019-06-06T17:30:00+06:00</lastmod>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>/series/</loc>
   </url>
-  
 </urlset>

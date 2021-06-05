@@ -5,11 +5,7 @@
     <link>/authors/prasanthabr/</link>
     <description>Recent content in prasanthabr on no exceptions</description>
     <generator>Hugo -- gohugo.io</generator>
-    <lastBuildDate>Thu, 04 Mar 2021 06:00:00 +0600</lastBuildDate>
-    
-	<atom:link href="/authors/prasanthabr/index.xml" rel="self" type="application/rss+xml" />
-    
-    
+    <lastBuildDate>Thu, 04 Mar 2021 06:00:00 +0600</lastBuildDate><atom:link href="/authors/prasanthabr/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>what am i doing?</title>
       <link>/self/self-improve/kya_leke_aye_ho/</link>
@@ -19,15 +15,6 @@
       <description>This was really a post that was written two years back on the list of things I want to do; two years went and I don&amp;rsquo;t feel I gave it a decent go.
 And this is in no way an isolated event - I make plans and then life hits you and what I want to do goes out of the window.
 A combination of things are forcing me to articulate the goals and seeing how I can visualize and achieve it, this time.</description>
-    </item>
-    
-    <item>
-      <title>Go JSON CSV</title>
-      <link>/tech/go/go-start/</link>
-      <pubDate>Mon, 01 Mar 2021 06:00:00 +0600</pubDate>
-      
-      <guid>/tech/go/go-start/</guid>
-      <description></description>
     </item>
     
     <item>
@@ -116,7 +103,7 @@ You can quote them, disagree with them, glorify or vilify them.</description>
       
       <guid>/self/to-do/</guid>
       <description> https://wakatime.com/developers https://appexchange.salesforce.com/appxListingDetail?listingId=a0N3A00000G5Eu9UAF https://developer.salesforce.com/docs/metadata-coverage/51 https://hapicloud-apiportal.apigee.io/docs/hapi-data-model-v3/1/overview https://github.com/kuchin/awesome-cto https://thevaluable.dev/vim-beginner/ https://thevaluable.dev/vim-intermediate/ https://thevaluable.dev/vim-advanced/  SAP
- https://blogs.sap.com/2013/05/21/sap-pi-for-beginners/ https://cloudmixdj.com/2019/09/05/what-the-fusiaola-turning-business-requirements-into-salesforce-architecture/  </description>
+ https://blogs.sap.com/2013/05/21/sap-pi-for-beginners/ https://cloudmixdj.com/2019/09/05/what-the-fusiaola-turning-business-requirements-into-salesforce-architecture/  Apex Testing  https://salesforce.stackexchange.com/questions/244788/how-do-i-write-an-apex-unit-test  </description>
     </item>
     
     <item>
