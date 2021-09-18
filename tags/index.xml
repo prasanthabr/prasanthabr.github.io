@@ -5,7 +5,25 @@
     <link>/tags/</link>
     <description>Recent content in Tags on no exceptions</description>
     <generator>Hugo -- gohugo.io</generator>
-    <lastBuildDate>Sun, 17 Jan 2021 06:00:00 +0600</lastBuildDate><atom:link href="/tags/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Thu, 16 Sep 2021 06:00:00 +0600</lastBuildDate><atom:link href="/tags/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Salesforce</title>
+      <link>/tags/salesforce/</link>
+      <pubDate>Thu, 16 Sep 2021 06:00:00 +0600</pubDate>
+      
+      <guid>/tags/salesforce/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Sf Industries</title>
+      <link>/tags/sf-industries/</link>
+      <pubDate>Thu, 16 Sep 2021 06:00:00 +0600</pubDate>
+      
+      <guid>/tags/sf-industries/</guid>
+      <description></description>
+    </item>
+    
     <item>
       <title>design</title>
       <link>/tags/design/</link>
@@ -21,15 +39,6 @@
       <pubDate>Mon, 11 Jan 2021 12:30:00 +0000</pubDate>
       
       <guid>/tags/platform/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>Salesforce</title>
-      <link>/tags/salesforce/</link>
-      <pubDate>Mon, 11 Jan 2021 12:30:00 +0000</pubDate>
-      
-      <guid>/tags/salesforce/</guid>
       <description></description>
     </item>
     
