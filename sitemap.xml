@@ -5,12 +5,9 @@
     <loc>/tech/go/</loc>
   </url><url>
     <loc>/</loc>
-    <lastmod>2021-09-16T06:00:00+06:00</lastmod>
+    <lastmod>2021-09-17T06:00:00+06:00</lastmod>
   </url><url>
     <loc>/tech/sfdc/</loc>
-    <lastmod>2021-09-16T06:00:00+06:00</lastmod>
-  </url><url>
-    <loc>/tech/</loc>
     <lastmod>2021-09-16T06:00:00+06:00</lastmod>
   </url><url>
     <loc>/self/self-improve/</loc>
@@ -36,19 +33,37 @@
   </url><url>
     <loc>/tech/ruby/</loc>
   </url><url>
-    <loc>/authors/</loc>
+    <loc>/tech/</loc>
     <lastmod>2021-09-16T06:00:00+06:00</lastmod>
   </url><url>
+    <loc>/commerce/</loc>
+    <lastmod>2021-09-17T06:00:00+06:00</lastmod>
+  </url><url>
+    <loc>/authors/</loc>
+    <lastmod>2021-09-17T06:00:00+06:00</lastmod>
+  </url><url>
     <loc>/categories/</loc>
-    <lastmod>2021-09-16T06:00:00+06:00</lastmod>
+    <lastmod>2021-09-17T06:00:00+06:00</lastmod>
+  </url><url>
+    <loc>/tags/commerce/</loc>
+    <lastmod>2021-09-17T06:00:00+06:00</lastmod>
+  </url><url>
+    <loc>/categories/new-paradigm/</loc>
+    <lastmod>2021-09-17T06:00:00+06:00</lastmod>
+  </url><url>
+    <loc>/authors/prasanthabr/</loc>
+    <lastmod>2021-09-17T06:00:00+06:00</lastmod>
+  </url><url>
+    <loc>/commerce/sf-industries/</loc>
+    <lastmod>2021-09-17T06:00:00+06:00</lastmod>
+  </url><url>
+    <loc>/tags/</loc>
+    <lastmod>2021-09-17T06:00:00+06:00</lastmod>
   </url><url>
     <loc>/categories/low-code/</loc>
     <lastmod>2021-09-16T06:00:00+06:00</lastmod>
   </url><url>
     <loc>/categories/omnistudio/</loc>
-    <lastmod>2021-09-16T06:00:00+06:00</lastmod>
-  </url><url>
-    <loc>/authors/prasanthabr/</loc>
     <lastmod>2021-09-16T06:00:00+06:00</lastmod>
   </url><url>
     <loc>/tags/salesforce/</loc>
@@ -61,9 +76,6 @@
     <lastmod>2021-09-16T06:00:00+06:00</lastmod>
   </url><url>
     <loc>/tags/sf-industries/</loc>
-    <lastmod>2021-09-16T06:00:00+06:00</lastmod>
-  </url><url>
-    <loc>/tags/</loc>
     <lastmod>2021-09-16T06:00:00+06:00</lastmod>
   </url><url>
     <loc>/tech/sfdc/sf-omnistudio_intro/</loc>
