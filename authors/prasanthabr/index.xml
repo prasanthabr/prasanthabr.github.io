@@ -27,6 +27,18 @@ This pivot is perhaps inevitable given the position Salesforce now occupies in e
     </item>
     
     <item>
+      <title>Tools</title>
+      <link>/tech/tools/</link>
+      <pubDate>Sun, 06 Jun 2021 06:00:00 +0600</pubDate>
+      
+      <guid>/tech/tools/</guid>
+      <description>List of useful tools copied from labnol
+1. devdocs.io — API documentation for all popular programming languages and frameworks. Includes instant search and works offline too.
+2. glitch.com — create your own web apps in the browser, import GitHub repos, use any NPM package or build on any popular frameworks and directly deploy to Firebase.
+3. bundlephobia.com — quickly find the import cost (download size) of any package in the NPM registry.</description>
+    </item>
+    
+    <item>
       <title>The elephant in the kiwi burrow</title>
       <link>/self/self-improve/elephant_kiwi/</link>
       <pubDate>Fri, 04 Jun 2021 06:00:00 +0600</pubDate>

@@ -7,6 +7,18 @@
     <generator>Hugo -- gohugo.io</generator>
     <lastBuildDate>Thu, 16 Sep 2021 06:00:00 +0600</lastBuildDate><atom:link href="/tech/index.xml" rel="self" type="application/rss+xml" />
     <item>
+      <title>Tools</title>
+      <link>/tech/tools/</link>
+      <pubDate>Sun, 06 Jun 2021 06:00:00 +0600</pubDate>
+      
+      <guid>/tech/tools/</guid>
+      <description>List of useful tools copied from labnol
+1. devdocs.io — API documentation for all popular programming languages and frameworks. Includes instant search and works offline too.
+2. glitch.com — create your own web apps in the browser, import GitHub repos, use any NPM package or build on any popular frameworks and directly deploy to Firebase.
+3. bundlephobia.com — quickly find the import cost (download size) of any package in the NPM registry.</description>
+    </item>
+    
+    <item>
       <title>What do you know about functions?</title>
       <link>/tech/function-method-procedure/</link>
       <pubDate>Sun, 17 Jan 2021 06:00:00 +0600</pubDate>
