@@ -10,19 +10,19 @@
     <loc>/tech/sfdc/</loc>
     <lastmod>2021-09-16T06:00:00+06:00</lastmod>
   </url><url>
-    <loc>/self/self-improve/</loc>
-    <lastmod>2021-06-04T17:30:00+06:00</lastmod>
+    <loc>/self/lit/</loc>
+    <lastmod>2021-06-06T17:30:00+06:00</lastmod>
   </url><url>
     <loc>/self/</loc>
+    <lastmod>2021-06-06T17:30:00+06:00</lastmod>
+  </url><url>
+    <loc>/self/self-improve/</loc>
     <lastmod>2021-06-04T17:30:00+06:00</lastmod>
   </url><url>
     <loc>/self/food/</loc>
     <lastmod>2020-08-23T17:30:00+12:00</lastmod>
   </url><url>
     <loc>/self/lit/espa%C3%B1ol/</loc>
-    <lastmod>2019-06-16T21:00:00+06:00</lastmod>
-  </url><url>
-    <loc>/self/lit/</loc>
     <lastmod>2019-06-16T21:00:00+06:00</lastmod>
   </url><url>
     <loc>/self/invest/</loc>
@@ -81,6 +81,21 @@
     <loc>/tech/sfdc/sf-omnistudio_intro/</loc>
     <lastmod>2021-09-16T06:00:00+06:00</lastmod>
   </url><url>
+    <loc>/self/lit/poem-ocd/</loc>
+    <lastmod>2021-06-06T17:30:00+06:00</lastmod>
+  </url><url>
+    <loc>/self/lit/poem-ulysses/</loc>
+    <lastmod>2021-06-06T17:30:00+06:00</lastmod>
+  </url><url>
+    <loc>/categories/poems/</loc>
+    <lastmod>2021-06-06T17:30:00+06:00</lastmod>
+  </url><url>
+    <loc>/self/lit/poem-see_it_through/</loc>
+    <lastmod>2021-06-06T17:30:00+06:00</lastmod>
+  </url><url>
+    <loc>/categories/soul/</loc>
+    <lastmod>2021-06-06T17:30:00+06:00</lastmod>
+  </url><url>
     <loc>/tech/tools/</loc>
     <lastmod>2021-09-06T17:30:00+06:00</lastmod>
   </url><url>
@@ -132,9 +147,6 @@
     <loc>/self/food/laal-maas/</loc>
     <lastmod>2020-08-23T17:30:00+12:00</lastmod>
   </url><url>
-    <loc>/categories/soul/</loc>
-    <lastmod>2020-08-23T17:30:00+12:00</lastmod>
-  </url><url>
     <loc>/self/self-improve/build-skills/</loc>
     <lastmod>2020-08-23T17:30:00+12:00</lastmod>
   </url><url>
@@ -156,10 +168,7 @@
     <loc>/tech/links/</loc>
     <lastmod>2019-06-06T17:30:00+06:00</lastmod>
   </url><url>
-    <loc>/categories/poems/</loc>
-    <lastmod>2019-06-06T17:30:00+06:00</lastmod>
-  </url><url>
-    <loc>/self/lit/espa%C3%B1ol/poem/</loc>
+    <loc>/self/lit/poem/</loc>
     <lastmod>2019-06-06T17:30:00+06:00</lastmod>
   </url><url>
     <loc>/series/</loc>
