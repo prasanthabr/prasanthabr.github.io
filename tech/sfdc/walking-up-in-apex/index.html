@@ -2,27 +2,23 @@
 <html lang='en'><head>
   <meta charset='utf-8'>
 <meta name='viewport' content='width=device-width, initial-scale=1'>
-<meta name='description' content='A few cool hacks to generate the email from a template using merge fields.
-Capturing here for further investigation.
-https://salesforce.stackexchange.com/questions/13/using-apex-to-assemble-html-letterhead-emails/120098#120098
-https://salesforce.stackexchange.com/questions/13/using-apex-to-assemble-html-letterhead-emails/8745#8745
-https://developer.salesforce.com/docs/atlas.en-us.202.0.apexcode.meta/apexcode/apex_classes_email_outbound_messaging.htm?search_text=RenderEmailTemplateBodyResult'>
+<meta name='description' content='picking up on apex
+Data Types All variables and expressions have a datatype. Need to understand why an expression would have a datatype (?)
+A string, Integer, boolean -&gt; all inherit object. remind me of Ruby where everything is an Object. Saw a creative use of object, when using object as an attribute on a method - so that it can handle the various types that are listed as an object.'>
 <meta name='theme-color' content='#ffcd00'>
 
-<meta property='og:title' content='Email from Email Template on Salesforce • Prasanth Abraham'>
-<meta property='og:description' content='A few cool hacks to generate the email from a template using merge fields.
-Capturing here for further investigation.
-https://salesforce.stackexchange.com/questions/13/using-apex-to-assemble-html-letterhead-emails/120098#120098
-https://salesforce.stackexchange.com/questions/13/using-apex-to-assemble-html-letterhead-emails/8745#8745
-https://developer.salesforce.com/docs/atlas.en-us.202.0.apexcode.meta/apexcode/apex_classes_email_outbound_messaging.htm?search_text=RenderEmailTemplateBodyResult'>
-<meta property='og:url' content='/tech/sfdc/sf-emailtempgen/'>
+<meta property='og:title' content='Walking up Apex • Prasanth Abraham'>
+<meta property='og:description' content='picking up on apex
+Data Types All variables and expressions have a datatype. Need to understand why an expression would have a datatype (?)
+A string, Integer, boolean -&gt; all inherit object. remind me of Ruby where everything is an Object. Saw a creative use of object, when using object as an attribute on a method - so that it can handle the various types that are listed as an object.'>
+<meta property='og:url' content='/tech/sfdc/walking-up-in-apex/'>
 <meta property='og:site_name' content='no exceptions'>
-<meta property='og:type' content='article'><meta property='og:image' content='https://www.gravatar.com/avatar/219f4c10851fa292528c5db10e50296f?s=256'><meta property='article:section' content='tech'><meta property='article:tag' content='Survey'><meta property='article:tag' content='Salesforce'><meta property='article:tag' content='Platform'><meta property='article:published_time' content='2021-01-11T12:30:00Z'/><meta property='article:modified_time' content='2021-01-11T12:30:00Z'/><meta name='twitter:card' content='summary'><meta name='twitter:creator' content='@prasanthabr'>
+<meta property='og:type' content='article'><meta property='og:image' content='https://www.gravatar.com/avatar/219f4c10851fa292528c5db10e50296f?s=256'><meta property='article:section' content='tech'><meta property='article:published_time' content='2019-06-06T06:00:00&#43;06:00'/><meta property='article:modified_time' content='2021-10-06T17:30:00&#43;06:00'/><meta name='twitter:card' content='summary'><meta name='twitter:creator' content='@prasanthabr'>
 
 <meta name="generator" content="Hugo 0.83.1" />
 
-  <title>Email from Email Template on Salesforce • Prasanth Abraham</title>
-  <link rel='canonical' href='/tech/sfdc/sf-emailtempgen/'>
+  <title>Walking up Apex • Prasanth Abraham</title>
+  <link rel='canonical' href='/tech/sfdc/walking-up-in-apex/'>
   
   
   <link rel='icon' href='/favicon.ico'>
@@ -150,7 +146,7 @@ if (!doNotTrack) {
     <style>.widget-breadcrumbs li:after{content:'~'}</style>
   <section class='widget widget-breadcrumbs sep-after'>
     <nav id='breadcrumbs'>
-      <ol><li><a href='/'>Home</a></li><li><a href='/tech/'>Tech</a></li><li><a href='/tech/sfdc/'>sfdc</a></li><li><span>Email from Email Template on Salesforce</span></li></ol>
+      <ol><li><a href='/'>Home</a></li><li><a href='/tech/'>Tech</a></li><li><a href='/tech/sfdc/'>sfdc</a></li><li><span>Walking up Apex</span></li></ol>
     </nav>
   </section></div>
       </div>
@@ -169,7 +165,7 @@ if (!doNotTrack) {
   <header class='header entry-header'>
   <div class='container sep-after'>
     <div class='header-info'>
-      <h1 class='title'>Email from Email Template on Salesforce</h1>
+      <h1 class='title'>Walking up Apex</h1>
       
 
     </div>
@@ -188,7 +184,7 @@ if (!doNotTrack) {
 <line x1="3" y1="10" x2="21" y2="10" />
 </svg>
 <span class='screen-reader-text'>Posted on </span>
-  <time class='entry-date' datetime='2021-01-11T12:30:00Z'>2021, Jan 11</time>
+  <time class='entry-date' datetime='2019-06-06T06:00:00&#43;06:00'>2019, Jun 06</time>
 </span>
 
   <span class='byline'><svg
@@ -215,7 +211,7 @@ if (!doNotTrack) {
 ><circle cx="12" cy="12" r="10" />
 <polyline points="12 6 12 12 15 15" />
 </svg>
-One min read
+2 mins read
 </span>
 
 
@@ -229,17 +225,61 @@ One min read
   
 
   <div class='container entry-content'>
-  <p>A few cool hacks to generate the email from a template using merge fields.<br>
-Capturing here for further investigation.</p>
-<p><a href="https://salesforce.stackexchange.com/questions/13/using-apex-to-assemble-html-letterhead-emails/120098#120098">https://salesforce.stackexchange.com/questions/13/using-apex-to-assemble-html-letterhead-emails/120098#120098</a><br>
-<a href="https://salesforce.stackexchange.com/questions/13/using-apex-to-assemble-html-letterhead-emails/8745#8745">https://salesforce.stackexchange.com/questions/13/using-apex-to-assemble-html-letterhead-emails/8745#8745</a></p>
-<p><a href="https://developer.salesforce.com/docs/atlas.en-us.202.0.apexcode.meta/apexcode/apex_classes_email_outbound_messaging.htm?search_text=RenderEmailTemplateBodyResult">https://developer.salesforce.com/docs/atlas.en-us.202.0.apexcode.meta/apexcode/apex_classes_email_outbound_messaging.htm?search_text=RenderEmailTemplateBodyResult</a></p>
+  <p>picking up on apex</p>
+<h2 id="data-types">Data Types</h2>
+<p>All variables and expressions have a datatype. Need to understand why an
+expression would have a datatype (?)</p>
+<p>A string, Integer, boolean -&gt; all inherit object. remind me of Ruby where
+everything is an Object. Saw a creative use of object, when using object as an
+attribute on a method - so that it can handle the various types that are listed
+as an object. Trick is - an integer can be held on an object variable. NOTE:
+Read up more on this one.</p>
+<p>Much like there are primitive and non primitive datatypes in other languages,
+there are primitive, non primitive (sObject or custom Apex type) and enums in Apex.</p>
+<p>Read more on how the custom Apex types are used and also enums.
+Did encounter custom Apex types in the external service setup a while back. when
+using a flow to update the api schema, the custom apex type is used to populate
+the same.</p>
+<p>Another interesting use case is where sObject can be generic or specific - have
+seen this used in Congnizant and at other places - the concept seems simple
+enough to wrap your head around. Define in generic terms, so that the method can
+be used on different sObject types - very similar to the Object specification I
+would say.</p>
+<p>Ref:
+<a href="https://developer.salesforce.com/docs/atlas.en-us.apexcode.meta/apexcode/langCon_apex_data_types.htm">https://developer.salesforce.com/docs/atlas.en-us.apexcode.meta/apexcode/langCon_apex_data_types.htm</a></p>
+<h3 id="primitive-data-types">Primitive Data Types</h3>
+<h3 id="notes-to-self">Notes to Self</h3>
+<h5 id="apex-triggers">Apex Triggers</h5>
+<p>a before trigger is riding the wave and can make changes on the record &ndash; so its natural that it does not support a DML statement
+context variables indicate the triggering values and the behaviour of the trigger</p>
+<p>addError - to cause a fatal error and prevent further execution &ndash; this is interesting!</p>
+<p>need to read further on method operators - so the static operator implies that
+the method does not need to be instatiated.</p>
+<p>so all apex variables are initialized to null. Something that is missed in
+boolean. Always initialize boolean to flase.</p>
+<p>Dates are limited in its arithmetic functions. Integers can be added or
+substracted from dates. Any further operations require date methods.</p>
+<p>Dates and DateTimes should be created in system static methods. Need to figure
+out what a system static method is. &lt;- NOTE</p>
 
 </div>
 
   
 <footer class='entry-footer'>
-  <div class='container sep-before'><div class='categories'><svg
+  <div class='container sep-before'><div class='last-updated'><svg
+  class="icon"
+  xmlns="http://www.w3.org/2000/svg"
+  viewbox="0 0 24 24"
+  stroke-linecap="round"
+  stroke-linejoin="round"
+  stroke-width="2"
+  aria-hidden="true"
+><path d="M20 14.66V20a2 2 0 0 1-2 2H4a2 2 0 0 1-2-2V6a2 2 0 0 1 2-2h5.34" />
+<polygon points="18 2 22 6 12 16 8 16 8 12 18 2" />
+</svg>
+<span class='screen-reader-text'>Last updated: </span>
+      <time class='entry-date' datetime='2021-10-06T17:30:00&#43;06:00'>2021, Oct 06</time>
+    </div><div class='categories'><svg
   class="icon"
   xmlns="http://www.w3.org/2000/svg"
   viewbox="0 0 24 24"
@@ -249,19 +289,7 @@ Capturing here for further investigation.</p>
   aria-hidden="true"
 ><path d="M22,19a2,2,0,0,1-2,2H4a2,2,0,0,1-2-2V5A2,2,0,0,1,4,3H9l2,3h9a2,2,0,0,1,2,2Z" />
 </svg>
-<span class='screen-reader-text'>Categories: </span><a class='category' href='/categories/salesforce/'>Salesforce</a>, <a class='category' href='/categories/platform/'>Platform</a>, <a class='category' href='/categories/email/'>Email</a></div>
-<div class='tags'><svg
-  class="icon"
-  xmlns="http://www.w3.org/2000/svg"
-  viewbox="0 0 24 24"
-  stroke-linecap="round"
-  stroke-linejoin="round"
-  stroke-width="2"
-  aria-hidden="true"
-><path d="M20.59,13.41l-7.17,7.17a2,2,0,0,1-2.83,0L2,12V2H12l8.59,8.59A2,2,0,0,1,20.59,13.41Z" />
-<line x1="7" y1="7" x2="7" y2="7" />
-</svg>
-<span class='screen-reader-text'>Tags: </span><a class='tag' href='/tags/survey/'>Survey</a>, <a class='tag' href='/tags/salesforce/'>Salesforce</a>, <a class='tag' href='/tags/platform/'>Platform</a></div>
+<span class='screen-reader-text'>Categories: </span><a class='category' href='/categories/salesforce.com/'>Salesforce.com</a></div>
 
   </div>
 </footer>
@@ -270,24 +298,9 @@ Capturing here for further investigation.</p>
 </article>
 
 <nav class='entry-nav'>
-  <div class='container'><div class='prev-entry sep-before'>
-      <a href='/tech/sfdc/walking-up-in-apex/'>
-        <span aria-hidden='true'><svg
-  class="icon"
-  xmlns="http://www.w3.org/2000/svg"
-  viewbox="0 0 24 24"
-  stroke-linecap="round"
-  stroke-linejoin="round"
-  stroke-width="2"
-  aria-hidden="true"
-><line x1="20" y1="12" x2="4" y2="12" />
-<polyline points="10 18 4 12 10 6" />
-</svg>
- Previous</span>
-        <span class='screen-reader-text'>Previous post: </span>Walking up Apex</a>
-    </div><div class='next-entry sep-before'>
-      <a href='/tech/sfdc/sf-design-approach/'>
-        <span class='screen-reader-text'>Next post: </span>How do I design an SFDC Solution<span aria-hidden='true'>Next <svg
+  <div class='container'><div class='next-entry sep-before'>
+      <a href='/tech/sfdc/sf-emailtempgen/'>
+        <span class='screen-reader-text'>Next post: </span>Email from Email Template on Salesforce<span aria-hidden='true'>Next <svg
   class="icon"
   xmlns="http://www.w3.org/2000/svg"
   viewbox="0 0 24 24"

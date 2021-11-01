@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Salesforce.com on no exceptions</title>
+    <link>/categories/salesforce.com/</link>
+    <description>Recent content in Salesforce.com on no exceptions</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <lastBuildDate>Thu, 06 Jun 2019 06:00:00 +0600</lastBuildDate><atom:link href="/categories/salesforce.com/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Walking up Apex</title>
+      <link>/tech/sfdc/walking-up-in-apex/</link>
+      <pubDate>Thu, 06 Jun 2019 06:00:00 +0600</pubDate>
+      
+      <guid>/tech/sfdc/walking-up-in-apex/</guid>
+      <description>picking up on apex
+Data Types All variables and expressions have a datatype. Need to understand why an expression would have a datatype (?)
+A string, Integer, boolean -&amp;gt; all inherit object. remind me of Ruby where everything is an Object. Saw a creative use of object, when using object as an attribute on a method - so that it can handle the various types that are listed as an object.</description>
+    </item>
+    
+  </channel>
+</rss>

@@ -5,15 +5,18 @@
     <loc>/tech/go/</loc>
   </url><url>
     <loc>/</loc>
-    <lastmod>2021-09-17T06:00:00+06:00</lastmod>
+    <lastmod>2021-10-10T10:14:00+06:00</lastmod>
   </url><url>
-    <loc>/tech/sfdc/</loc>
-    <lastmod>2021-09-16T06:00:00+06:00</lastmod>
-  </url><url>
-    <loc>/self/lit/</loc>
-    <lastmod>2021-06-06T17:30:00+06:00</lastmod>
+    <loc>/self/invest/</loc>
+    <lastmod>2021-10-10T10:14:00+06:00</lastmod>
   </url><url>
     <loc>/self/</loc>
+    <lastmod>2021-10-10T10:14:00+06:00</lastmod>
+  </url><url>
+    <loc>/tech/sfdc/</loc>
+    <lastmod>2021-10-06T17:30:00+06:00</lastmod>
+  </url><url>
+    <loc>/self/lit/</loc>
     <lastmod>2021-06-06T17:30:00+06:00</lastmod>
   </url><url>
     <loc>/self/self-improve/</loc>
@@ -25,8 +28,6 @@
     <loc>/self/lit/espa%C3%B1ol/</loc>
     <lastmod>2019-06-16T21:00:00+06:00</lastmod>
   </url><url>
-    <loc>/self/invest/</loc>
-  </url><url>
     <loc>/tech/js/</loc>
   </url><url>
     <loc>/tech/all-else/</loc>
@@ -34,24 +35,27 @@
     <loc>/tech/ruby/</loc>
   </url><url>
     <loc>/tech/</loc>
-    <lastmod>2021-09-16T06:00:00+06:00</lastmod>
+    <lastmod>2021-10-06T17:30:00+06:00</lastmod>
   </url><url>
     <loc>/commerce/</loc>
     <lastmod>2021-09-17T06:00:00+06:00</lastmod>
   </url><url>
     <loc>/authors/</loc>
-    <lastmod>2021-09-17T06:00:00+06:00</lastmod>
+    <lastmod>2021-10-10T10:14:00+06:00</lastmod>
+  </url><url>
+    <loc>/authors/prasanthabr/</loc>
+    <lastmod>2021-10-10T10:14:00+06:00</lastmod>
+  </url><url>
+    <loc>/self/invest/quotes/</loc>
+    <lastmod>2021-10-10T10:14:00+06:00</lastmod>
   </url><url>
     <loc>/categories/</loc>
-    <lastmod>2021-09-17T06:00:00+06:00</lastmod>
+    <lastmod>2021-10-06T17:30:00+06:00</lastmod>
   </url><url>
     <loc>/tags/commerce/</loc>
     <lastmod>2021-09-17T06:00:00+06:00</lastmod>
   </url><url>
     <loc>/categories/new-paradigm/</loc>
-    <lastmod>2021-09-17T06:00:00+06:00</lastmod>
-  </url><url>
-    <loc>/authors/prasanthabr/</loc>
     <lastmod>2021-09-17T06:00:00+06:00</lastmod>
   </url><url>
     <loc>/commerce/sf-industries/</loc>
@@ -168,8 +172,14 @@
     <loc>/tech/links/</loc>
     <lastmod>2019-06-06T17:30:00+06:00</lastmod>
   </url><url>
+    <loc>/categories/salesforce.com/</loc>
+    <lastmod>2021-10-06T17:30:00+06:00</lastmod>
+  </url><url>
     <loc>/self/lit/poem/</loc>
     <lastmod>2019-06-06T17:30:00+06:00</lastmod>
+  </url><url>
+    <loc>/tech/sfdc/walking-up-in-apex/</loc>
+    <lastmod>2021-10-06T17:30:00+06:00</lastmod>
   </url><url>
     <loc>/series/</loc>
   </url>

@@ -39,5 +39,16 @@ https://salesforce.stackexchange.com/questions/13/using-apex-to-assemble-html-le
 https://developer.salesforce.com/docs/atlas.en-us.202.0.apexcode.meta/apexcode/apex_classes_email_outbound_messaging.htm?search_text=RenderEmailTemplateBodyResult</description>
     </item>
     
+    <item>
+      <title>Walking up Apex</title>
+      <link>/tech/sfdc/walking-up-in-apex/</link>
+      <pubDate>Thu, 06 Jun 2019 06:00:00 +0600</pubDate>
+      
+      <guid>/tech/sfdc/walking-up-in-apex/</guid>
+      <description>picking up on apex
+Data Types All variables and expressions have a datatype. Need to understand why an expression would have a datatype (?)
+A string, Integer, boolean -&amp;gt; all inherit object. remind me of Ruby where everything is an Object. Saw a creative use of object, when using object as an attribute on a method - so that it can handle the various types that are listed as an object.</description>
+    </item>
+    
   </channel>
 </rss>
