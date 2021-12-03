@@ -111,6 +111,17 @@ A combination of things are forcing me to articulate the goals and seeing how I 
     </item>
     
     <item>
+      <title>A Few Pointers on Go for the future me.</title>
+      <link>/tech/go/go-tutorials-start1/</link>
+      <pubDate>Mon, 01 Mar 2021 06:00:00 +0600</pubDate>
+      
+      <guid>/tech/go/go-tutorials-start1/</guid>
+      <description>Started hacking together scripts to work through a few problems with Salesforce metadata
+A few things I found when searching for literature
+ https://blog.gopheracademy.com/  </description>
+    </item>
+    
+    <item>
       <title>How do I design an SFDC Solution</title>
       <link>/tech/sfdc/sf-design-approach/</link>
       <pubDate>Sun, 17 Jan 2021 06:00:00 +0600</pubDate>
