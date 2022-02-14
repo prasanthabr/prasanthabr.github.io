@@ -5,7 +5,16 @@
     <link>/self/</link>
     <description>Recent content in Random Thoughts on no exceptions</description>
     <generator>Hugo -- gohugo.io</generator>
-    <lastBuildDate>Sun, 10 Oct 2021 10:14:00 +0600</lastBuildDate><atom:link href="/self/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Mon, 14 Feb 2022 22:59:51 +1300</lastBuildDate><atom:link href="/self/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Todo</title>
+      <link>/self/todo/</link>
+      <pubDate>Mon, 14 Feb 2022 22:59:51 +1300</pubDate>
+      
+      <guid>/self/todo/</guid>
+      <description> finish the books update the industries gig plan what to do with idli  </description>
+    </item>
+    
     <item>
       <title>That to do list</title>
       <link>/self/to-do/</link>

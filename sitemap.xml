@@ -6,13 +6,13 @@
     <lastmod>2021-03-01T17:30:00+06:00</lastmod>
   </url><url>
     <loc>/</loc>
-    <lastmod>2021-10-10T10:14:00+06:00</lastmod>
-  </url><url>
-    <loc>/self/invest/</loc>
-    <lastmod>2021-10-10T10:14:00+06:00</lastmod>
+    <lastmod>2022-02-14T22:59:51+13:00</lastmod>
   </url><url>
     <loc>/self/</loc>
-    <lastmod>2021-10-10T10:14:00+06:00</lastmod>
+    <lastmod>2022-02-14T22:59:51+13:00</lastmod>
+  </url><url>
+    <loc>/self/invest/</loc>
+    <lastmod>2022-02-14T22:56:30+13:00</lastmod>
   </url><url>
     <loc>/tech/sfdc/</loc>
     <lastmod>2021-10-06T17:30:00+06:00</lastmod>
@@ -38,20 +38,37 @@
     <loc>/tech/</loc>
     <lastmod>2021-10-06T17:30:00+06:00</lastmod>
   </url><url>
-    <loc>/commerce/</loc>
+    <loc>/tech/commerce/</loc>
     <lastmod>2021-09-17T06:00:00+06:00</lastmod>
   </url><url>
+    <loc>/z/</loc>
+  </url><url>
     <loc>/authors/</loc>
-    <lastmod>2021-10-10T10:14:00+06:00</lastmod>
+    <lastmod>2022-02-14T22:59:51+13:00</lastmod>
   </url><url>
     <loc>/authors/prasanthabr/</loc>
-    <lastmod>2021-10-10T10:14:00+06:00</lastmod>
+    <lastmod>2022-02-14T22:59:51+13:00</lastmod>
+  </url><url>
+    <loc>/self/todo/</loc>
+    <lastmod>2022-02-14T22:59:51+13:00</lastmod>
+  </url><url>
+    <loc>/categories/</loc>
+    <lastmod>2022-02-14T22:56:30+13:00</lastmod>
+  </url><url>
+    <loc>/categories/entrepreneur/</loc>
+    <lastmod>2022-02-14T22:56:30+13:00</lastmod>
+  </url><url>
+    <loc>/tags/ideas/</loc>
+    <lastmod>2022-02-14T22:56:30+13:00</lastmod>
+  </url><url>
+    <loc>/tags/</loc>
+    <lastmod>2022-02-14T22:56:30+13:00</lastmod>
+  </url><url>
+    <loc>/self/invest/idli/</loc>
+    <lastmod>2022-02-14T22:56:30+13:00</lastmod>
   </url><url>
     <loc>/self/invest/quotes/</loc>
     <lastmod>2021-10-10T10:14:00+06:00</lastmod>
-  </url><url>
-    <loc>/categories/</loc>
-    <lastmod>2021-10-06T17:30:00+06:00</lastmod>
   </url><url>
     <loc>/tags/commerce/</loc>
     <lastmod>2021-09-17T06:00:00+06:00</lastmod>
@@ -59,10 +76,7 @@
     <loc>/categories/new-paradigm/</loc>
     <lastmod>2021-09-17T06:00:00+06:00</lastmod>
   </url><url>
-    <loc>/commerce/sf-industries/</loc>
-    <lastmod>2021-09-17T06:00:00+06:00</lastmod>
-  </url><url>
-    <loc>/tags/</loc>
+    <loc>/tech/commerce/sf-industries/</loc>
     <lastmod>2021-09-17T06:00:00+06:00</lastmod>
   </url><url>
     <loc>/categories/low-code/</loc>
@@ -153,6 +167,9 @@
     <lastmod>2020-08-23T17:30:00+12:00</lastmod>
   </url><url>
     <loc>/self/food/laal-maas/</loc>
+    <lastmod>2020-08-23T17:30:00+12:00</lastmod>
+  </url><url>
+    <loc>/self/self-improve/build-skills/</loc>
     <lastmod>2020-08-23T17:30:00+12:00</lastmod>
   </url><url>
     <loc>/self/self-improve/build-skills/</loc>

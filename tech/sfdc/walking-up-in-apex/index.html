@@ -2,15 +2,21 @@
 <html lang='en'><head>
   <meta charset='utf-8'>
 <meta name='viewport' content='width=device-width, initial-scale=1'>
-<meta name='description' content='picking up on apex
-Data Types All variables and expressions have a datatype. Need to understand why an expression would have a datatype (?)
-A string, Integer, boolean -&gt; all inherit object. remind me of Ruby where everything is an Object. Saw a creative use of object, when using object as an attribute on a method - so that it can handle the various types that are listed as an object.'>
+<meta name='description' content='updated on 20Jan22
+Random thoughts on Apex development
+  Avoid deeply nexted if statements &ndash;&gt; find a pattern that should be used in a cascade of checks?
+  Small functions with easily testable inputs and outputs &ndash;&gt; what are functions here? Are these methods?
+  Fast Tests &ndash;&gt; meaning short tests that execute quickly
+  Good balance between abstraction and implementation &ndash;&gt; have no clue what this means?'>
 <meta name='theme-color' content='#ffcd00'>
 
 <meta property='og:title' content='Walking up Apex • Prasanth Abraham'>
-<meta property='og:description' content='picking up on apex
-Data Types All variables and expressions have a datatype. Need to understand why an expression would have a datatype (?)
-A string, Integer, boolean -&gt; all inherit object. remind me of Ruby where everything is an Object. Saw a creative use of object, when using object as an attribute on a method - so that it can handle the various types that are listed as an object.'>
+<meta property='og:description' content='updated on 20Jan22
+Random thoughts on Apex development
+  Avoid deeply nexted if statements &ndash;&gt; find a pattern that should be used in a cascade of checks?
+  Small functions with easily testable inputs and outputs &ndash;&gt; what are functions here? Are these methods?
+  Fast Tests &ndash;&gt; meaning short tests that execute quickly
+  Good balance between abstraction and implementation &ndash;&gt; have no clue what this means?'>
 <meta property='og:url' content='/tech/sfdc/walking-up-in-apex/'>
 <meta property='og:site_name' content='no exceptions'>
 <meta property='og:type' content='article'><meta property='og:image' content='https://www.gravatar.com/avatar/219f4c10851fa292528c5db10e50296f?s=256'><meta property='article:section' content='tech'><meta property='article:published_time' content='2019-06-06T06:00:00&#43;06:00'/><meta property='article:modified_time' content='2021-10-06T17:30:00&#43;06:00'/><meta name='twitter:card' content='summary'><meta name='twitter:creator' content='@prasanthabr'>
@@ -89,8 +95,9 @@ if (!doNotTrack) {
   <a href='/tech/js/'>js</a></li><li class='item'>
   <a href='/tech/all-else/'>misc</a></li><li class='item'>
   <a href='/tech/ruby/'>ruby</a></li><li class='item'>
-  <a href='/tech/sfdc/'>sfdc</a></li></ul></li><li class='item'>
-  <a href='/commerce/'>comm</a></li></ul>
+  <a href='/tech/sfdc/'>sfdc</a></li><li class='item'>
+  <a href='/tech/commerce/'>comm</a></li></ul></li><li class='item'>
+  <a href='/z/'>z</a></li></ul>
     </div>
   </nav>
 
@@ -133,8 +140,6 @@ if (!doNotTrack) {
         <a href='/self/'>self</a>
       </li><li class='item'>
         <a href='/tech/'>Tech</a>
-      </li><li class='item'>
-        <a href='/commerce/'>comm</a>
       </li><li class='item'>
         <a href=''></a>
       </li></ul>
@@ -211,7 +216,7 @@ if (!doNotTrack) {
 ><circle cx="12" cy="12" r="10" />
 <polyline points="12 6 12 12 15 15" />
 </svg>
-2 mins read
+3 mins read
 </span>
 
 
@@ -225,7 +230,40 @@ if (!doNotTrack) {
   
 
   <div class='container entry-content'>
-  <p>picking up on apex</p>
+  <p>updated on 20Jan22</p>
+<p>Random thoughts on Apex development</p>
+<ol>
+<li>
+<p>Avoid deeply nexted if statements &ndash;&gt; find a pattern that should be used in a
+cascade of checks?</p>
+</li>
+<li>
+<p>Small functions with easily testable inputs and outputs &ndash;&gt; what are
+functions here? Are these methods?</p>
+</li>
+<li>
+<p>Fast Tests &ndash;&gt; meaning short tests that execute quickly</p>
+</li>
+<li>
+<p>Good balance between abstraction and implementation &ndash;&gt; have no clue what
+this means?? &ndash;&gt; apparently a good example is when code (tests) are written
+with so many helper functions (I have seen helpers in rails, but should
+understand what this means universally) that it is difficult to read and
+understand what the code does. New funcationality added will break tests &ndash;&gt;
+this is something that was observed.</p>
+<p>what are chunking errors? &ndash;&gt; need to read further</p>
+<p>Method Overloading &ndash;&gt; seems to be the way of defining the same method with
+multiple signatures &ndash;&gt; input values; ! wonder if its the same output type
+&ndash;&gt; from memory no; have to recheck.</p>
+</li>
+</ol>
+<h2 id="brain-dump">Brain Dump</h2>
+<ul>
+<li>YCombinator School</li>
+<li>Plan how to market</li>
+<li>Micro Sites</li>
+</ul>
+<p>picking up on apex</p>
 <h2 id="data-types">Data Types</h2>
 <p>All variables and expressions have a datatype. Need to understand why an
 expression would have a datatype (?)</p>
@@ -339,7 +377,7 @@ out what a system static method is. &lt;- NOTE</p>
       </li></ul>
   </nav>
 </section><div class='copyright'>
-  <p>This site in on a (<em>constant</em>) state of (re)build<br />any original content here is free as the clean <a href="https://www.newzealand.com/int/">Aotearoa</a> air<br /> &copy; 2021 prasanth abraham | find any of this useful? <a href="https://tldrlegal.com/license/apache-license-2.0-(apache-2.0)">go nuts</a><br />disagree with something? <a href="https://t.me/netzap">Talk to me</a>; Don&rsquo;t like something <a href="https://www.urbandictionary.com/define.php?term=Meh">Meh!</a> primary audience is a future me</p>
+  <p>This site in on a (<em>constant</em>) state of (re)build<br />any original content here is free as the clean <a href="https://www.newzealand.com/int/">Aotearoa</a> air<br /> &copy; 2022 prasanth abraham | find any of this useful? <a href="https://tldrlegal.com/license/apache-license-2.0-(apache-2.0)">go nuts</a><br />disagree with something? <a href="https://t.me/netzap">Talk to me</a>; Don&rsquo;t like something <a href="https://www.urbandictionary.com/define.php?term=Meh">Meh!</a> primary audience is a future me</p>
 </div>
         </div>
       </footer>

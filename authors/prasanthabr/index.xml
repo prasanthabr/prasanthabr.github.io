@@ -5,7 +5,26 @@
     <link>/authors/prasanthabr/</link>
     <description>Recent content in prasanthabr on no exceptions</description>
     <generator>Hugo -- gohugo.io</generator>
-    <lastBuildDate>Sun, 10 Oct 2021 10:14:00 +0600</lastBuildDate><atom:link href="/authors/prasanthabr/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Mon, 14 Feb 2022 22:59:51 +1300</lastBuildDate><atom:link href="/authors/prasanthabr/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Todo</title>
+      <link>/self/todo/</link>
+      <pubDate>Mon, 14 Feb 2022 22:59:51 +1300</pubDate>
+      
+      <guid>/self/todo/</guid>
+      <description> finish the books update the industries gig plan what to do with idli  </description>
+    </item>
+    
+    <item>
+      <title>What does it take to sell Idli</title>
+      <link>/self/invest/idli/</link>
+      <pubDate>Mon, 14 Feb 2022 22:56:30 +1300</pubDate>
+      
+      <guid>/self/invest/idli/</guid>
+      <description>making the idli marketing the idli selling the idli distributing the idli
+ maybe use ubereats? can look a variety of couriers &amp;ndash;&amp;gt; this needs to be handled, since costs range from 5$ -&amp;gt; which is almost 50% of the cost of the food. which means you do not need a website?  </description>
+    </item>
+    
     <item>
       <title>Why do Strategies fail?</title>
       <link>/self/invest/quotes/</link>
@@ -20,10 +39,10 @@ New world startups and traditional established firms have different challenges t
     
     <item>
       <title>Salesforce Industries</title>
-      <link>/commerce/sf-industries/</link>
+      <link>/tech/commerce/sf-industries/</link>
       <pubDate>Fri, 17 Sep 2021 06:00:00 +0600</pubDate>
       
-      <guid>/commerce/sf-industries/</guid>
+      <guid>/tech/commerce/sf-industries/</guid>
       <description></description>
     </item>
     
@@ -213,6 +232,20 @@ These are rare skills, responsible for making them who they are. Most normal peo
     </item>
     
     <item>
+      <title>Thoughts about learning</title>
+      <link>/self/self-improve/build-skills/</link>
+      <pubDate>Sun, 23 Aug 2020 16:00:00 +1200</pubDate>
+      
+      <guid>/self/self-improve/build-skills/</guid>
+      <description>https://hbr.org/2018/05/learning-is-a-learned-behavior-heres-how-to-get-better-at-it
+Learning is a learnt behaviour.
+Learning is not innate nor is it a function of how smart you are. It uses a set of techniques to get better at comprehending ideas.
+Here are some techniques that would help.
+  Setting achievable goals When working towards an tangible goal, there is a change to be better focussed on what we are doing
+  think about thinking reflect on how you understand what you understand and how that can be explained to someone else.</description>
+    </item>
+    
+    <item>
       <title>That to do list</title>
       <link>/self/to-do/</link>
       <pubDate>Mon, 10 Feb 2020 10:14:00 +0600</pubDate>
@@ -301,9 +334,12 @@ Tú sabes cómo es esto: si miro la luna de cristal, la rama roja del lento oto�
       <pubDate>Thu, 06 Jun 2019 06:00:00 +0600</pubDate>
       
       <guid>/tech/sfdc/walking-up-in-apex/</guid>
-      <description>picking up on apex
-Data Types All variables and expressions have a datatype. Need to understand why an expression would have a datatype (?)
-A string, Integer, boolean -&amp;gt; all inherit object. remind me of Ruby where everything is an Object. Saw a creative use of object, when using object as an attribute on a method - so that it can handle the various types that are listed as an object.</description>
+      <description>updated on 20Jan22
+Random thoughts on Apex development
+  Avoid deeply nexted if statements &amp;ndash;&amp;gt; find a pattern that should be used in a cascade of checks?
+  Small functions with easily testable inputs and outputs &amp;ndash;&amp;gt; what are functions here? Are these methods?
+  Fast Tests &amp;ndash;&amp;gt; meaning short tests that execute quickly
+  Good balance between abstraction and implementation &amp;ndash;&amp;gt; have no clue what this means?</description>
     </item>
     
   </channel>

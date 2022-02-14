@@ -45,9 +45,12 @@ https://developer.salesforce.com/docs/atlas.en-us.202.0.apexcode.meta/apexcode/a
       <pubDate>Thu, 06 Jun 2019 06:00:00 +0600</pubDate>
       
       <guid>/tech/sfdc/walking-up-in-apex/</guid>
-      <description>picking up on apex
-Data Types All variables and expressions have a datatype. Need to understand why an expression would have a datatype (?)
-A string, Integer, boolean -&amp;gt; all inherit object. remind me of Ruby where everything is an Object. Saw a creative use of object, when using object as an attribute on a method - so that it can handle the various types that are listed as an object.</description>
+      <description>updated on 20Jan22
+Random thoughts on Apex development
+  Avoid deeply nexted if statements &amp;ndash;&amp;gt; find a pattern that should be used in a cascade of checks?
+  Small functions with easily testable inputs and outputs &amp;ndash;&amp;gt; what are functions here? Are these methods?
+  Fast Tests &amp;ndash;&amp;gt; meaning short tests that execute quickly
+  Good balance between abstraction and implementation &amp;ndash;&amp;gt; have no clue what this means?</description>
     </item>
     
   </channel>
