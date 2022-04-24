@@ -3,45 +3,38 @@
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
     <loc>/tech/go/</loc>
-    <lastmod>2021-03-01T17:30:00+06:00</lastmod>
   </url><url>
     <loc>/</loc>
     <lastmod>2022-02-14T22:59:51+13:00</lastmod>
   </url><url>
-    <loc>/self/</loc>
-    <lastmod>2022-02-14T22:59:51+13:00</lastmod>
-  </url><url>
-    <loc>/self/invest/</loc>
-    <lastmod>2022-02-14T22:56:30+13:00</lastmod>
-  </url><url>
-    <loc>/tech/sfdc/</loc>
-    <lastmod>2021-10-06T17:30:00+06:00</lastmod>
-  </url><url>
     <loc>/self/lit/</loc>
+    <lastmod>2021-06-06T17:30:00+06:00</lastmod>
+  </url><url>
+    <loc>/self/</loc>
     <lastmod>2021-06-06T17:30:00+06:00</lastmod>
   </url><url>
     <loc>/self/self-improve/</loc>
     <lastmod>2021-06-04T17:30:00+06:00</lastmod>
   </url><url>
+    <loc>/tech/sfdc/</loc>
+    <lastmod>2021-10-06T17:30:00+06:00</lastmod>
+  </url><url>
     <loc>/self/food/</loc>
     <lastmod>2020-08-23T17:30:00+12:00</lastmod>
   </url><url>
     <loc>/self/lit/espa%C3%B1ol/</loc>
-    <lastmod>2019-06-16T21:00:00+06:00</lastmod>
   </url><url>
-    <loc>/tech/js/</loc>
+    <loc>/self/invest/</loc>
   </url><url>
     <loc>/tech/all-else/</loc>
-  </url><url>
-    <loc>/tech/ruby/</loc>
   </url><url>
     <loc>/tech/</loc>
     <lastmod>2021-10-06T17:30:00+06:00</lastmod>
   </url><url>
     <loc>/tech/commerce/</loc>
-    <lastmod>2021-09-17T06:00:00+06:00</lastmod>
   </url><url>
     <loc>/z/</loc>
+    <lastmod>2022-02-14T22:59:51+13:00</lastmod>
   </url><url>
     <loc>/authors/</loc>
     <lastmod>2022-02-14T22:59:51+13:00</lastmod>
@@ -49,56 +42,11 @@
     <loc>/authors/prasanthabr/</loc>
     <lastmod>2022-02-14T22:59:51+13:00</lastmod>
   </url><url>
-    <loc>/self/todo/</loc>
+    <loc>/z/todo/</loc>
     <lastmod>2022-02-14T22:59:51+13:00</lastmod>
   </url><url>
     <loc>/categories/</loc>
-    <lastmod>2022-02-14T22:56:30+13:00</lastmod>
-  </url><url>
-    <loc>/categories/entrepreneur/</loc>
-    <lastmod>2022-02-14T22:56:30+13:00</lastmod>
-  </url><url>
-    <loc>/tags/ideas/</loc>
-    <lastmod>2022-02-14T22:56:30+13:00</lastmod>
-  </url><url>
-    <loc>/tags/</loc>
-    <lastmod>2022-02-14T22:56:30+13:00</lastmod>
-  </url><url>
-    <loc>/self/invest/idli/</loc>
-    <lastmod>2022-02-14T22:56:30+13:00</lastmod>
-  </url><url>
-    <loc>/self/invest/quotes/</loc>
-    <lastmod>2021-10-10T10:14:00+06:00</lastmod>
-  </url><url>
-    <loc>/tags/commerce/</loc>
-    <lastmod>2021-09-17T06:00:00+06:00</lastmod>
-  </url><url>
-    <loc>/categories/new-paradigm/</loc>
-    <lastmod>2021-09-17T06:00:00+06:00</lastmod>
-  </url><url>
-    <loc>/tech/commerce/sf-industries/</loc>
-    <lastmod>2021-09-17T06:00:00+06:00</lastmod>
-  </url><url>
-    <loc>/categories/low-code/</loc>
-    <lastmod>2021-09-16T06:00:00+06:00</lastmod>
-  </url><url>
-    <loc>/categories/omnistudio/</loc>
-    <lastmod>2021-09-16T06:00:00+06:00</lastmod>
-  </url><url>
-    <loc>/tags/salesforce/</loc>
-    <lastmod>2021-09-16T06:00:00+06:00</lastmod>
-  </url><url>
-    <loc>/categories/salesforce/</loc>
-    <lastmod>2021-09-16T06:00:00+06:00</lastmod>
-  </url><url>
-    <loc>/categories/salesforce-industries/</loc>
-    <lastmod>2021-09-16T06:00:00+06:00</lastmod>
-  </url><url>
-    <loc>/tags/sf-industries/</loc>
-    <lastmod>2021-09-16T06:00:00+06:00</lastmod>
-  </url><url>
-    <loc>/tech/sfdc/sf-omnistudio_intro/</loc>
-    <lastmod>2021-09-16T06:00:00+06:00</lastmod>
+    <lastmod>2021-10-06T17:30:00+06:00</lastmod>
   </url><url>
     <loc>/self/lit/poem-ocd/</loc>
     <lastmod>2021-06-06T17:30:00+06:00</lastmod>
@@ -121,12 +69,6 @@
     <loc>/self/self-improve/elephant_kiwi/</loc>
     <lastmod>2021-06-04T17:30:00+06:00</lastmod>
   </url><url>
-    <loc>/self/self-improve/kya_leke_aye_ho/</loc>
-    <lastmod>2021-03-04T17:30:00+06:00</lastmod>
-  </url><url>
-    <loc>/tech/go/go-tutorials-start1/</loc>
-    <lastmod>2021-03-01T17:30:00+06:00</lastmod>
-  </url><url>
     <loc>/categories/design/</loc>
     <lastmod>2021-01-17T06:00:00+06:00</lastmod>
   </url><url>
@@ -136,7 +78,13 @@
     <loc>/tech/sfdc/sf-design-approach/</loc>
     <lastmod>2021-01-17T06:00:00+06:00</lastmod>
   </url><url>
+    <loc>/categories/salesforce/</loc>
+    <lastmod>2021-01-17T06:00:00+06:00</lastmod>
+  </url><url>
     <loc>/categories/software/</loc>
+    <lastmod>2021-01-17T06:00:00+06:00</lastmod>
+  </url><url>
+    <loc>/tags/</loc>
     <lastmod>2021-01-17T06:00:00+06:00</lastmod>
   </url><url>
     <loc>/tech/function-method-procedure/</loc>
@@ -152,6 +100,9 @@
     <lastmod>2021-01-11T12:30:00+00:00</lastmod>
   </url><url>
     <loc>/categories/platform/</loc>
+    <lastmod>2021-01-11T12:30:00+00:00</lastmod>
+  </url><url>
+    <loc>/tags/salesforce/</loc>
     <lastmod>2021-01-11T12:30:00+00:00</lastmod>
   </url><url>
     <loc>/tags/survey/</loc>
@@ -172,23 +123,11 @@
     <loc>/self/self-improve/build-skills/</loc>
     <lastmod>2020-08-23T17:30:00+12:00</lastmod>
   </url><url>
-    <loc>/self/self-improve/build-skills/</loc>
-    <lastmod>2020-08-23T17:30:00+12:00</lastmod>
-  </url><url>
     <loc>/self/to-do/</loc>
     <lastmod>2020-02-10T10:14:00+06:00</lastmod>
   </url><url>
     <loc>/self/quotes/</loc>
     <lastmod>2020-02-10T10:14:00+06:00</lastmod>
-  </url><url>
-    <loc>/self/lit/espa%C3%B1ol/learning_spanish/</loc>
-    <lastmod>2019-06-16T21:00:00+06:00</lastmod>
-  </url><url>
-    <loc>/tags/spanish/</loc>
-    <lastmod>2019-06-16T21:00:00+06:00</lastmod>
-  </url><url>
-    <loc>/categories/spanish/</loc>
-    <lastmod>2019-06-16T21:00:00+06:00</lastmod>
   </url><url>
     <loc>/tech/links/</loc>
     <lastmod>2019-06-06T17:30:00+06:00</lastmod>
@@ -197,6 +136,9 @@
     <lastmod>2021-10-06T17:30:00+06:00</lastmod>
   </url><url>
     <loc>/self/lit/poem/</loc>
+    <lastmod>2019-06-06T17:30:00+06:00</lastmod>
+  </url><url>
+    <loc>/categories/spanish/</loc>
     <lastmod>2019-06-06T17:30:00+06:00</lastmod>
   </url><url>
     <loc>/tech/sfdc/walking-up-in-apex/</loc>

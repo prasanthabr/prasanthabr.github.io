@@ -1,32 +1,9 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>Investing? on no exceptions</title>
+    <title>Investing? on prasanth</title>
     <link>/self/invest/</link>
-    <description>Recent content in Investing? on no exceptions</description>
-    <generator>Hugo -- gohugo.io</generator>
-    <lastBuildDate>Mon, 14 Feb 2022 22:56:30 +1300</lastBuildDate><atom:link href="/self/invest/index.xml" rel="self" type="application/rss+xml" />
-    <item>
-      <title>What does it take to sell Idli</title>
-      <link>/self/invest/idli/</link>
-      <pubDate>Mon, 14 Feb 2022 22:56:30 +1300</pubDate>
-      
-      <guid>/self/invest/idli/</guid>
-      <description>making the idli marketing the idli selling the idli distributing the idli
- maybe use ubereats? can look a variety of couriers &amp;ndash;&amp;gt; this needs to be handled, since costs range from 5$ -&amp;gt; which is almost 50% of the cost of the food. which means you do not need a website?  </description>
-    </item>
-    
-    <item>
-      <title>Why do Strategies fail?</title>
-      <link>/self/invest/quotes/</link>
-      <pubDate>Sun, 10 Oct 2021 10:14:00 +0600</pubDate>
-      
-      <guid>/self/invest/quotes/</guid>
-      <description>Gist from an HBR article that was partially read.
- Making strategic decicions in todays world is hard. New business models can attract sufficent funding and reach due to the environment and landscape. As a leader the job is to keep finding ways to extract value from opportunities.
-Often this unravels due to a focus on a single aspect of a strategy, as opposed to a holistic outlook
-New world startups and traditional established firms have different challenges that they need to protect against.</description>
-    </item>
-    
+    <description>Recent content in Investing? on prasanth</description>
+    <generator>Hugo -- gohugo.io</generator><atom:link href="/self/invest/index.xml" rel="self" type="application/rss+xml" />
   </channel>
 </rss>

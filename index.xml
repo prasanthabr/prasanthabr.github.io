@@ -1,60 +1,18 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>Home on no exceptions</title>
+    <title>Home on prasanth</title>
     <link>/</link>
-    <description>Recent content in Home on no exceptions</description>
+    <description>Recent content in Home on prasanth</description>
     <generator>Hugo -- gohugo.io</generator>
     <lastBuildDate>Mon, 14 Feb 2022 22:59:51 +1300</lastBuildDate><atom:link href="/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Todo</title>
-      <link>/self/todo/</link>
+      <link>/z/todo/</link>
       <pubDate>Mon, 14 Feb 2022 22:59:51 +1300</pubDate>
       
-      <guid>/self/todo/</guid>
+      <guid>/z/todo/</guid>
       <description> finish the books update the industries gig plan what to do with idli  </description>
-    </item>
-    
-    <item>
-      <title>What does it take to sell Idli</title>
-      <link>/self/invest/idli/</link>
-      <pubDate>Mon, 14 Feb 2022 22:56:30 +1300</pubDate>
-      
-      <guid>/self/invest/idli/</guid>
-      <description>making the idli marketing the idli selling the idli distributing the idli
- maybe use ubereats? can look a variety of couriers &amp;ndash;&amp;gt; this needs to be handled, since costs range from 5$ -&amp;gt; which is almost 50% of the cost of the food. which means you do not need a website?  </description>
-    </item>
-    
-    <item>
-      <title>Why do Strategies fail?</title>
-      <link>/self/invest/quotes/</link>
-      <pubDate>Sun, 10 Oct 2021 10:14:00 +0600</pubDate>
-      
-      <guid>/self/invest/quotes/</guid>
-      <description>Gist from an HBR article that was partially read.
- Making strategic decicions in todays world is hard. New business models can attract sufficent funding and reach due to the environment and landscape. As a leader the job is to keep finding ways to extract value from opportunities.
-Often this unravels due to a focus on a single aspect of a strategy, as opposed to a holistic outlook
-New world startups and traditional established firms have different challenges that they need to protect against.</description>
-    </item>
-    
-    <item>
-      <title>Salesforce Industries</title>
-      <link>/tech/commerce/sf-industries/</link>
-      <pubDate>Fri, 17 Sep 2021 06:00:00 +0600</pubDate>
-      
-      <guid>/tech/commerce/sf-industries/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>What is OmniStudio?</title>
-      <link>/tech/sfdc/sf-omnistudio_intro/</link>
-      <pubDate>Thu, 16 Sep 2021 06:00:00 +0600</pubDate>
-      
-      <guid>/tech/sfdc/sf-omnistudio_intro/</guid>
-      <description>work in progress
-Over the years Salesforce has morphed its offering basket to grow from a CRM to a platform to now industry specific solutions. Salesforce is now at a stage where it offers early versions of industry specific solutions This reminds me of the packaged application world of SAP, with its detailed modules and pathways to setup business processes in mature predefined methods.
-This pivot is perhaps inevitable given the position Salesforce now occupies in enterprise tech stacks.</description>
     </item>
     
     <item>
@@ -116,28 +74,6 @@ And your future may seem grim,</description>
       <guid>/self/self-improve/elephant_kiwi/</guid>
       <description>This is a short blog that I wrote for my then employer; the journey and the writeup was possible because of the kindness of many people - the words more so by Jono&amp;rsquo;s
  It has been a little over two years since I came over to New Zealand from India (the finest country in the world in spite of its chaos, heat and noise, or, on second thoughts, precisely because of that – NZ comes a close second, of course!</description>
-    </item>
-    
-    <item>
-      <title>what am i doing?</title>
-      <link>/self/self-improve/kya_leke_aye_ho/</link>
-      <pubDate>Thu, 04 Mar 2021 06:00:00 +0600</pubDate>
-      
-      <guid>/self/self-improve/kya_leke_aye_ho/</guid>
-      <description>This was really a post that was written two years back on the list of things I want to do; two years went and I don&amp;rsquo;t feel I gave it a decent go.
-And this is in no way an isolated event - I make plans and then life hits you and what I want to do goes out of the window.
-A combination of things are forcing me to articulate the goals and seeing how I can visualize and achieve it, this time.</description>
-    </item>
-    
-    <item>
-      <title>A Few Pointers on Go for the future me.</title>
-      <link>/tech/go/go-tutorials-start1/</link>
-      <pubDate>Mon, 01 Mar 2021 06:00:00 +0600</pubDate>
-      
-      <guid>/tech/go/go-tutorials-start1/</guid>
-      <description>Started hacking together scripts to work through a few problems with Salesforce metadata
-A few things I found when searching for literature
- https://blog.gopheracademy.com/  </description>
     </item>
     
     <item>
@@ -232,20 +168,6 @@ These are rare skills, responsible for making them who they are. Most normal peo
     </item>
     
     <item>
-      <title>Thoughts about learning</title>
-      <link>/self/self-improve/build-skills/</link>
-      <pubDate>Sun, 23 Aug 2020 16:00:00 +1200</pubDate>
-      
-      <guid>/self/self-improve/build-skills/</guid>
-      <description>https://hbr.org/2018/05/learning-is-a-learned-behavior-heres-how-to-get-better-at-it
-Learning is a learnt behaviour.
-Learning is not innate nor is it a function of how smart you are. It uses a set of techniques to get better at comprehending ideas.
-Here are some techniques that would help.
-  Setting achievable goals When working towards an tangible goal, there is a change to be better focussed on what we are doing
-  think about thinking reflect on how you understand what you understand and how that can be explained to someone else.</description>
-    </item>
-    
-    <item>
       <title>That to do list</title>
       <link>/self/to-do/</link>
       <pubDate>Mon, 10 Feb 2020 10:14:00 +0600</pubDate>
@@ -268,16 +190,6 @@ Moved earth and heaven, that which we are, we are,
 One equal temper of heroic hearts,
 Made weak by time and fate, but strong in will
 To strive, to seek, to find, and not to yield.</description>
-    </item>
-    
-    <item>
-      <title>Meaning it a thousand different ways</title>
-      <link>/self/lit/espa%C3%B1ol/learning_spanish/</link>
-      <pubDate>Sun, 16 Jun 2019 21:00:00 +0600</pubDate>
-      
-      <guid>/self/lit/espa%C3%B1ol/learning_spanish/</guid>
-      <description>For the joy of doing something that is difficult for me
-Words that i picked up  Hola - Hello Bien - OK Esta Bien - How are you? Te Amo - I love you Te Adoro - I adore you Te quiero - I love you tu - you Y - and (need to make sure this is true - often i hear it as response to esta bien? bien Y tu)  Poetry Some of the poetry sounds so deep even when translated.</description>
     </item>
     
     <item>

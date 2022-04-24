@@ -1,21 +1,9 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>Go Lang on no exceptions</title>
+    <title>Go Lang on prasanth</title>
     <link>/tech/go/</link>
-    <description>Recent content in Go Lang on no exceptions</description>
-    <generator>Hugo -- gohugo.io</generator>
-    <lastBuildDate>Mon, 01 Mar 2021 06:00:00 +0600</lastBuildDate><atom:link href="/tech/go/index.xml" rel="self" type="application/rss+xml" />
-    <item>
-      <title>A Few Pointers on Go for the future me.</title>
-      <link>/tech/go/go-tutorials-start1/</link>
-      <pubDate>Mon, 01 Mar 2021 06:00:00 +0600</pubDate>
-      
-      <guid>/tech/go/go-tutorials-start1/</guid>
-      <description>Started hacking together scripts to work through a few problems with Salesforce metadata
-A few things I found when searching for literature
- https://blog.gopheracademy.com/  </description>
-    </item>
-    
+    <description>Recent content in Go Lang on prasanth</description>
+    <generator>Hugo -- gohugo.io</generator><atom:link href="/tech/go/index.xml" rel="self" type="application/rss+xml" />
   </channel>
 </rss>
