@@ -2,72 +2,50 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
-    <loc>/tech/go/</loc>
-  </url><url>
     <loc>/</loc>
     <lastmod>2022-02-14T22:59:51+13:00</lastmod>
   </url><url>
-    <loc>/self/lit/</loc>
-    <lastmod>2021-06-06T17:30:00+06:00</lastmod>
-  </url><url>
-    <loc>/self/</loc>
-    <lastmod>2021-06-06T17:30:00+06:00</lastmod>
-  </url><url>
-    <loc>/self/self-improve/</loc>
-    <lastmod>2021-06-04T17:30:00+06:00</lastmod>
-  </url><url>
-    <loc>/tech/sfdc/</loc>
-    <lastmod>2021-10-06T17:30:00+06:00</lastmod>
-  </url><url>
-    <loc>/self/food/</loc>
-    <lastmod>2020-08-23T17:30:00+12:00</lastmod>
-  </url><url>
-    <loc>/self/lit/espa%C3%B1ol/</loc>
-  </url><url>
-    <loc>/self/invest/</loc>
-  </url><url>
-    <loc>/tech/all-else/</loc>
-  </url><url>
-    <loc>/tech/</loc>
-    <lastmod>2021-10-06T17:30:00+06:00</lastmod>
-  </url><url>
-    <loc>/tech/commerce/</loc>
-  </url><url>
-    <loc>/z/</loc>
+    <loc>/x/</loc>
     <lastmod>2022-02-14T22:59:51+13:00</lastmod>
   </url><url>
-    <loc>/authors/</loc>
-    <lastmod>2022-02-14T22:59:51+13:00</lastmod>
-  </url><url>
-    <loc>/authors/prasanthabr/</loc>
-    <lastmod>2022-02-14T22:59:51+13:00</lastmod>
-  </url><url>
-    <loc>/z/todo/</loc>
+    <loc>/x/todo/</loc>
     <lastmod>2022-02-14T22:59:51+13:00</lastmod>
   </url><url>
     <loc>/categories/</loc>
     <lastmod>2021-10-06T17:30:00+06:00</lastmod>
   </url><url>
-    <loc>/self/lit/poem-ocd/</loc>
+    <loc>/words/poem-ocd/</loc>
     <lastmod>2021-06-06T17:30:00+06:00</lastmod>
   </url><url>
-    <loc>/self/lit/poem-ulysses/</loc>
+    <loc>/tags/poem/</loc>
     <lastmod>2021-06-06T17:30:00+06:00</lastmod>
   </url><url>
     <loc>/categories/poems/</loc>
     <lastmod>2021-06-06T17:30:00+06:00</lastmod>
   </url><url>
-    <loc>/self/lit/poem-see_it_through/</loc>
+    <loc>/words/poem-see_it_through/</loc>
     <lastmod>2021-06-06T17:30:00+06:00</lastmod>
   </url><url>
     <loc>/categories/soul/</loc>
     <lastmod>2021-06-06T17:30:00+06:00</lastmod>
   </url><url>
-    <loc>/tech/tools/</loc>
+    <loc>/tags/</loc>
+    <lastmod>2021-06-06T17:30:00+06:00</lastmod>
+  </url><url>
+    <loc>/words/tools/</loc>
     <lastmod>2021-09-06T17:30:00+06:00</lastmod>
   </url><url>
-    <loc>/self/self-improve/elephant_kiwi/</loc>
+    <loc>/words/poem-ulysses/</loc>
+    <lastmod>2021-06-06T17:30:00+06:00</lastmod>
+  </url><url>
+    <loc>/words/</loc>
+    <lastmod>2021-10-06T17:30:00+06:00</lastmod>
+  </url><url>
+    <loc>/words/elephant_kiwi/</loc>
     <lastmod>2021-06-04T17:30:00+06:00</lastmod>
+  </url><url>
+    <loc>/words/go-json_csv/</loc>
+    <lastmod>2021-03-01T17:30:00+06:00</lastmod>
   </url><url>
     <loc>/categories/design/</loc>
     <lastmod>2021-01-17T06:00:00+06:00</lastmod>
@@ -75,7 +53,7 @@
     <loc>/tags/design/</loc>
     <lastmod>2021-01-17T06:00:00+06:00</lastmod>
   </url><url>
-    <loc>/tech/sfdc/sf-design-approach/</loc>
+    <loc>/words/sf-design-approach/</loc>
     <lastmod>2021-01-17T06:00:00+06:00</lastmod>
   </url><url>
     <loc>/categories/salesforce/</loc>
@@ -84,16 +62,13 @@
     <loc>/categories/software/</loc>
     <lastmod>2021-01-17T06:00:00+06:00</lastmod>
   </url><url>
-    <loc>/tags/</loc>
-    <lastmod>2021-01-17T06:00:00+06:00</lastmod>
-  </url><url>
-    <loc>/tech/function-method-procedure/</loc>
+    <loc>/words/function-method-procedure/</loc>
     <lastmod>2021-01-17T06:00:00+06:00</lastmod>
   </url><url>
     <loc>/categories/email/</loc>
     <lastmod>2021-01-11T12:30:00+00:00</lastmod>
   </url><url>
-    <loc>/tech/sfdc/sf-emailtempgen/</loc>
+    <loc>/words/sf-emailtempgen/</loc>
     <lastmod>2021-01-11T12:30:00+00:00</lastmod>
   </url><url>
     <loc>/tags/platform/</loc>
@@ -114,36 +89,38 @@
     <loc>/tags/food/</loc>
     <lastmod>2020-08-23T17:30:00+12:00</lastmod>
   </url><url>
-    <loc>/self/self-improve/the-finger/</loc>
+    <loc>/words/the-finger/</loc>
     <lastmod>2020-08-23T17:30:00+12:00</lastmod>
   </url><url>
-    <loc>/self/food/laal-maas/</loc>
+    <loc>/words/laal-maas/</loc>
     <lastmod>2020-08-23T17:30:00+12:00</lastmod>
   </url><url>
-    <loc>/self/self-improve/build-skills/</loc>
+    <loc>/words/build-skills/</loc>
     <lastmod>2020-08-23T17:30:00+12:00</lastmod>
   </url><url>
-    <loc>/self/to-do/</loc>
+    <loc>/words/to-do/</loc>
     <lastmod>2020-02-10T10:14:00+06:00</lastmod>
   </url><url>
-    <loc>/self/quotes/</loc>
+    <loc>/words/quotes/</loc>
     <lastmod>2020-02-10T10:14:00+06:00</lastmod>
   </url><url>
-    <loc>/tech/links/</loc>
+    <loc>/words/links/</loc>
     <lastmod>2019-06-06T17:30:00+06:00</lastmod>
   </url><url>
     <loc>/categories/salesforce.com/</loc>
     <lastmod>2021-10-06T17:30:00+06:00</lastmod>
   </url><url>
-    <loc>/self/lit/poem/</loc>
+    <loc>/words/poem/</loc>
     <lastmod>2019-06-06T17:30:00+06:00</lastmod>
   </url><url>
     <loc>/categories/spanish/</loc>
     <lastmod>2019-06-06T17:30:00+06:00</lastmod>
   </url><url>
-    <loc>/tech/sfdc/walking-up-in-apex/</loc>
+    <loc>/words/walking-up-in-apex/</loc>
     <lastmod>2021-10-06T17:30:00+06:00</lastmod>
   </url><url>
-    <loc>/series/</loc>
+    <loc>/projects/</loc>
+  </url><url>
+    <loc>/stack/</loc>
   </url>
 </urlset>

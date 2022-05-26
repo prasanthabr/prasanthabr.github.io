@@ -1,17 +1,18 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>Salesforce on Sab Kushal Mangal</title>
+    <title>Salesforce on Prasanthabr</title>
     <link>/tags/salesforce/</link>
-    <description>Recent content in Salesforce on Sab Kushal Mangal</description>
+    <description>Recent content in Salesforce on Prasanthabr</description>
     <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
     <lastBuildDate>Mon, 11 Jan 2021 12:30:00 +0000</lastBuildDate><atom:link href="/tags/salesforce/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Email from Email Template on Salesforce</title>
-      <link>/tech/sfdc/sf-emailtempgen/</link>
+      <link>/words/sf-emailtempgen/</link>
       <pubDate>Mon, 11 Jan 2021 12:30:00 +0000</pubDate>
       
-      <guid>/tech/sfdc/sf-emailtempgen/</guid>
+      <guid>/words/sf-emailtempgen/</guid>
       <description>A few cool hacks to generate the email from a template using merge fields.
 Capturing here for further investigation.
 https://salesforce.stackexchange.com/questions/13/using-apex-to-assemble-html-letterhead-emails/120098#120098

@@ -1,26 +1,27 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>design on Sab Kushal Mangal</title>
+    <title>design on Prasanthabr</title>
     <link>/tags/design/</link>
-    <description>Recent content in design on Sab Kushal Mangal</description>
+    <description>Recent content in design on Prasanthabr</description>
     <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
     <lastBuildDate>Sun, 17 Jan 2021 06:00:00 +0600</lastBuildDate><atom:link href="/tags/design/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>How do I design an SFDC Solution</title>
-      <link>/tech/sfdc/sf-design-approach/</link>
+      <link>/words/sf-design-approach/</link>
       <pubDate>Sun, 17 Jan 2021 06:00:00 +0600</pubDate>
       
-      <guid>/tech/sfdc/sf-design-approach/</guid>
+      <guid>/words/sf-design-approach/</guid>
       <description>Elements of a Solution Design  Actors and App Diagram System and Interfaces Record Sharing Role and Sharing Data Model Delivery &amp;amp; Deployment Data Migration &amp;amp; Interfaces  </description>
     </item>
     
     <item>
       <title>What do you know about functions?</title>
-      <link>/tech/function-method-procedure/</link>
+      <link>/words/function-method-procedure/</link>
       <pubDate>Sun, 17 Jan 2021 06:00:00 +0600</pubDate>
       
-      <guid>/tech/function-method-procedure/</guid>
+      <guid>/words/function-method-procedure/</guid>
       <description>For someone without the computer science background
 Knowing what a Function, Procedure and Method technically means:
 A function returns a value
