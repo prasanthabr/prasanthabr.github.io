@@ -1,0 +1,10 @@
+{{ with .Params.status }}
+    {{ if eq "seeding" . }}
+    <span class="status">🟧</span>
+    {{ else if eq "growing" . }}
+    <span class="status">🟦</span>
+    {{ else if eq "evergreen" . }}
+    <span class="status">⬛</span>
+    {{ else }}
+    {{ end }}
+{{ end }}
