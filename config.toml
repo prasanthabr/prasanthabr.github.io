@@ -31,6 +31,7 @@ copyright = "prasanth"
     name = "Mastodon"
     link = "https://mastodon.social/@prasanthabr"
     icon = "fab fa-mastodon"
+    rel = "me"
 
 
 [menu]
