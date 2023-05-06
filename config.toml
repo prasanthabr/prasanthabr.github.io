@@ -27,6 +27,11 @@ copyright = "prasanth"
     link = "https://www.linkedin.com/in/pabra/"
     icon = "fab fa-linkedin-in"
 
+  [[params.social]]
+    name = "Mastodon"
+    link = "https://mastodon.social/@prasanthabr"
+    icon = "fab fa-mastodon"
+
 
 [menu]
   [[menu.main]]
