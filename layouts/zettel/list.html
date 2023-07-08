@@ -6,6 +6,10 @@
         <div class="container-fluid py-2">
             <h1 class="display-2 mb-4">{{ .Title }}</h1>
             <p class="bio col-md-8 fs-4 serif">{{ .Summary }}</p>
+            <details>
+                <summary>{{ .Params.info}}</summary>
+                {{ .Content }}
+            </details>
         </div>
     </div>
 </div>
