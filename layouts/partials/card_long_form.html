@@ -1,8 +1,8 @@
-{{ .Scratch.Set "longform_tags_list" ""}}
-{{ range .Params.longform_tags }}
-    {{ $.Scratch.Add "longform_tags_list" ( . | printf " js-iso-%s") }}
+{{ .Scratch.Set "long_form_tags_list" ""}}
+{{ range .Params.long_form_tags }}
+    {{ $.Scratch.Add "long_form_tags_list" ( . | printf " js-iso-%s") }}
 {{ end }}
-<div class='col {{ $.Scratch.Get "longform_tags_list" }}'>
+<div class='col {{ $.Scratch.Get "long_form_tags_list" }}'>
     <div class="card top-highlight">
         <div class="card-body">
             {{ if .Summary }} 
@@ -26,4 +26,4 @@
         </div>
     </div>
 </div>
-{{ .Scratch.Delete "longform_tags_list" }}
+{{ .Scratch.Delete "long_form_tags_list" }}

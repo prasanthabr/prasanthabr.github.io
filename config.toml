@@ -37,7 +37,7 @@ copyright = "prasanth"
 [menu]
   [[menu.main]]
     name = "Writing"
-    url = "/long-form/"
+    url = "/long_form/"
     weight = 1
   [[menu.main]]
     name = "Zettelkasten"
@@ -61,7 +61,7 @@ copyright = "prasanth"
   zettel_tags = 'zettel_tags'
   project_tags = 'project_tags'
   bookmark_tags = 'bookmark_tags'
-  longform_tags = 'longfrom_tags'
+  long_form_tags = 'long_from_tags'
 
 
 [markup]

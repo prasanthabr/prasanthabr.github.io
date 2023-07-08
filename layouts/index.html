@@ -11,6 +11,24 @@
     </div>
 </div>
 
+<!-- long form -->
+<div class="container">
+	<div class="row justify-content-between my-5">
+		<div class="col-lg-12">
+			<div class="row row-cols-1 row-cols-sm-2 row-cols-lg-4 g-4 mb-5">
+				{{ range ( where site.RegularPages "Section" "long_form" | first 4 ) }}
+				{{ partial "home_long_form.html" . }}
+				{{ end }}
+			</div>
+			{{ with .Site.GetPage "section" "long_form" }}
+			<div class="d-flex flex-row-reverse">
+				<a href="{{ .RelPermalink }}" role="button" class="btn btn-sm see-all">See more words</a>
+			</div>
+			{{ end }}
+		</div>
+	</div>
+</div>
+
 <div class="container py-3">
 	<div class="row justify-content-between my-5">
 		<!-- zettel / Blog -->
@@ -119,7 +137,5 @@
 		</div>
 	</div>
 </div>
-
-
 
 {{ end }}
