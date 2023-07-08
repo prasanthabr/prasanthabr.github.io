@@ -1,5 +1,5 @@
 ---
-title: "True Story : How Asus.com helps thiefs steal Asus laptops"
+title: "True Story : On how Asus.com helps laptop thiefs stay free after they rob."
 date: 2023-05-01
 lastmod: 2023-05-01
 draft: false
