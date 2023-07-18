@@ -4,7 +4,7 @@ date: 2023-05-01
 lastmod: 2023-05-01
 draft: false
 zettel_tags: ["asus", "laptop"]
-summary: ""
+summary: "Asus actively prevent their laptops recovery from thefts"
 status: "seeding"
 ---
 
