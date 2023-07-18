@@ -2,7 +2,7 @@
 title: "Figuring out SEO in the times of Generative AI"
 date: 2023-06-05
 lastmod: 2023-06-05
-draft: false
+draft: true
 zettel_tags: ["digital-marketing", "seo", content]
 summary: ""
 status: "seeding"
