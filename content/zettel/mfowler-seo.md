@@ -17,5 +17,3 @@ Fads change; but techniques and fundamentals last longer.
 
 ---
 [Original Source](https://martinfowler.com/)  
-
-[Long form on Learning SEO]({{< ref "learn-seo" >}})
