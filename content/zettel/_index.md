@@ -6,4 +6,5 @@ info: "What is happening now?"
 ---
 
 - focus on Integration and Integration Patterns
+    - using a postman mock server to test callouts
 - indie project to build a niche job board
