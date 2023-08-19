@@ -33,6 +33,11 @@ copyright = "prasanth"
     icon = "fab fa-mastodon"
     rel = "me"
 
+    [[params.social]]
+    name = "Telegram"
+    link = "https://t.me/nxcep"
+    icon = "fab fa-telegram"
+
 
 [menu]
   [[menu.main]]
