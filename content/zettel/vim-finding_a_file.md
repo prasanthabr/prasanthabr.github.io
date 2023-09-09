@@ -5,7 +5,7 @@ lastmod: '0001-01-01 00:00:00 +0000 UTC'
 draft: false
 status: seeding
 zettel_tags: ["vim","tips & tricks", "snippets"]
-summary: ""
+summary: "finding files on git recursively from a folder"
 ---
 
 Often you are on vim and do not want to first search for the file and figure the path and then edit it.  
