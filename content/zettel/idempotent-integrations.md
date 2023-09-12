@@ -14,3 +14,5 @@ tl;dr: what does it mean to be idempotent?
 
 The idea is if you sent the files repeatedly, does it cause multiple responses;
 _function that produces the same result when applied to itself_
+
+- So question is - how do we achieve this? a unique identifier?
