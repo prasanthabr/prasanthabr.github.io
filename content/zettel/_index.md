@@ -5,6 +5,9 @@ summary: "Thoughts on things I read, heard, imagined written here for the future
 info: "What is happening now?"
 ---
 
-- focus on Integration and Integration Patterns
-    - using a postman mock server to test callouts
-- indie project to build a niche job board
+Reorganising how I consume information  
+and how i try to retain it.
+
+ref: https://news.ycombinator.com/item?id=30047601
+
+raw ideas and collections at draft/
