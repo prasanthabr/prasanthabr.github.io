@@ -25,4 +25,4 @@ Standard Roles that do not have the name Marketing Cloud are meant for the Email
 Studio.  
 Roles that have Marketing cloud are meant for anything other than Email Studio. 
 
-[Marketing Cloud Roles Behaviour]({{< relref "marketing_cloud_roles_behaviour.md"> }} "Roles Behaviour")
+[Marketing Cloud Roles Behaviour]({{< relref "marketing_cloud_roles_behaviour.md" >}} "Roles Behaviour")
