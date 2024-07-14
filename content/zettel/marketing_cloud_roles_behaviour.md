@@ -20,4 +20,5 @@ This is unlike the Salesforce Core permissions, where the most liberal wins.
 A common issue is when multiple standard permissions are added to a new user.  
 An admin who has the view only permission added, will behave as view only user.  
 
-{{< relref "marketing_cloud_roles_behaviour.md" >}}
+[Marketing Cloud Roles]({{< ref "marketing_cloud_roles.md" >}}
+"Marketing Cloud Roles")
