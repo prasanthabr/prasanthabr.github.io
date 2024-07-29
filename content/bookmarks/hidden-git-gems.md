@@ -8,4 +8,4 @@ status: seeding
 
 This presentation displays the git tricks
 
-[![Hidden Git Gems](https://img.youtube.com/vi/uFrPgUjv_Y8/0.jpg)](https://www.youtube.com/watch?v=uFrPgUjv_Y8)
+https://www.youtube.com/watch?v=uFrPgUjv_Y8
