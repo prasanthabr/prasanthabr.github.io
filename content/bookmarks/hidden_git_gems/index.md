@@ -8,4 +8,6 @@ status: seeding
 
 This presentation displays the git tricks
 
-https://www.youtube.com/watch?v=uFrPgUjv_Y8
+
+
+{{< youtube uFrPgUjv_Y8>}}
