@@ -1,5 +1,5 @@
 ---
-title: 'Journaling helps slow down and reflect, thus help learning' 
+title: 'Leadership Tools'
 date: '2024-09-18-T00:00:00+13:00'
 lastmod: '2024-09-18-T00:00:00+13:00'
 draft: false
