@@ -10,7 +10,7 @@ status: "seeding"
 
 Login as a user
 ```
-psql postgres <name>
+psql postgres <name>;
 
 eg: psql postgres prasanthabr
 ```
@@ -18,7 +18,7 @@ eg: psql postgres prasanthabr
 creating a db
 
 ```
-=# createdb <name of database>
+=# create database <name of database>;
 
 eg: Name of database can be the rails specified one for rails.
 
