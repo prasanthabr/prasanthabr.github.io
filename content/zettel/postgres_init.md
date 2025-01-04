@@ -9,6 +9,7 @@ status: "seeding"
 ---
 
 Login as a user
+
 ```
 psql postgres <name>;
 
@@ -22,7 +23,7 @@ creating a db
 
 eg: Name of database can be the rails specified one for rails.
 
-````
+```
 
 Based on reinstallation of PG:
 
@@ -42,3 +43,8 @@ sudo -u postgres psql postgres
 ```
 so login as postgres user --> unsure why it logs in when the authentication is
 peer. will check later.
+
+Also the role that creates databases
+```
+alter user <xx> createdb;
+```
