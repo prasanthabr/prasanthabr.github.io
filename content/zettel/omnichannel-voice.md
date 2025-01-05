@@ -1,5 +1,5 @@
 ---
-title: 'Omnichannel Voice Record Access" 
+title: 'Omnichannel Voice Record Access'
 date: '2024-09-28T05:33:30+12:00'
 lastmod: '0001-01-01 00:00:00 +0000 UTC'
 draft: false
