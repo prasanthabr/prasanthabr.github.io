@@ -1,7 +1,7 @@
 ---
 title: 'Refreshing browsers for change incontent; poor mans dev workflow'
-date: '2024-12-25T09:42:30+12:00 UTC'
-lastmod: '2024-12-25T09:42:30+12:00 UTC'
+date: '2024-12-25T09:42:30+12:00'
+lastmod: '2024-12-25T09:42:30+12:00'
 draft: false
 status: seeding
 zettel_tags: ["front-end","brower-sync"]

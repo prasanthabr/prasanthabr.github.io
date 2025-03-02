@@ -1,7 +1,7 @@
 ---
 title: 'references when migrating models'
-date: '2025-1-3T09:42:30+12:00 UTC'
-lastmod: '2025-1-3T09:42:30+12:00 UTC'
+date: '2025-1-3T09:42:30+12:00'
+lastmod: '2025-1-3T09:42:30+12:00'
 draft: false
 status: seeding
 zettel_tags: ["rails", "models", "references"]

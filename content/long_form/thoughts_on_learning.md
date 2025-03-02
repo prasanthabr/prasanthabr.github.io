@@ -1,7 +1,7 @@
 ---
 title: 'Effective Learning: Recall on types of thinking and memory & chunking'
-date: '2024-10-06-T00:00:00+13:00'
-lastmod: '2024-10-06-T00:00:00+13:00'
+date: '2024-10-06T00:00:00+13:00'
+lastmod: '2024-10-06T00:00:00+13:00'
 draft: false
 status: seeding
 ---

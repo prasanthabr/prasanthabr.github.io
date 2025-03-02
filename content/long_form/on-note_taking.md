@@ -1,7 +1,7 @@
 ---
 title: 'Initial thoughts on note taking'
-date: '2024-10-07-T00:00:00+13:00'
-lastmod: '2024-10-08-T00:00:00+13:00'
+date: '2024-10-07T00:00:00+13:00'
+lastmod: '2024-10-08T00:00:00+13:00'
 draft: false
 status: seeding
 ---
