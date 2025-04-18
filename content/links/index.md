@@ -10,3 +10,8 @@ summary: "Interesting Links"
 # Links
 
 https://drewknight.com/bybe.html
+
+
+# AI Links
+https://cdn.openai.com/business-guides-and-resources/a-practical-guide-to-building-agents.pdf?utm_source=tldrnewsletter
+https://ysymyth.github.io/The-Second-Half/?utm_source=tldrnewsletter
