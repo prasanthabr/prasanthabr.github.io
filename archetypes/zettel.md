@@ -1,15 +1,47 @@
 ---
-title: '{{ replace .Name "-" " " | title }}'
-date: '{{ .Date }}'
-lastmod: '{{ .Page.Lastmod }}'
+# Title of your snip; auto-derived from filename if left blank
+# {{ replace .Name "-" " " | title }}
+title: "{{ replace .File.ContentBaseName "-" " " | title }}"
+
+# Creation and modification timestamps (auto-populated)
+date: {{ now.Format "2006-01-02T15:04:05Z07:00" }}
+lastmod: {{ now.Format "2006-01-02T15:04:05Z07:00" }}
+
+# Control whether this is published or a draft; set to false when ready
 draft: true
-status: seeding
+
+# URL slug (auto from .Name)
+slug: "{{ .Name }}"
+
+# Content type for templates and taxonomies
+type: "snip"
+
+# Unique identifier for cross-referencing or backlinks
+uuid: "{{ .File.UniqueID }}"
+
+# Categorization (add as needed)
+categories: []        # e.g. ["ideas", "research"]
+tags: []              # e.g. ["hugo", "snip"]
+aliases: []           # e.g. ["alias1", "alias-two"]
 zettel_tags: []
-summary: ""
-links:
+
+# Optional metadata placeholders
+summary: ""         # short summary or abstract
+excerpt: ""         # manual excerpt (if different from summary)
+related: []           # list of related snip UUIDs or slugs
+link:            # external resource URL
     external_link:
         text: "" 
         icon: "fas fa-thin fa-link"
         href: ""
         weight: 1
+
+# Papermod-specific parameters
+status: seeding
+
 ---
+
+<!--
+Your snip content goes here. Keep it short and to the point—think of a fleeting
+note.
+-->
