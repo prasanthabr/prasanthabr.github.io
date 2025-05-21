@@ -26,7 +26,7 @@ aliases: []           # e.g. ["alias1", "alias-two"]
 zettel_tags: []
 
 # Optional metadata placeholders
-summary: ""         # short summary or abstract
+summary: "This is a generic prompting framework that can be used."         # short summary or abstract
 excerpt: ""         # manual excerpt (if different from summary)
 related: []           # list of related snip UUIDs or slugs
 link:            # external resource URL
