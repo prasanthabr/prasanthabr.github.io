@@ -1,6 +1,5 @@
 ---
-title: "Long Form"
-date: 2021-07-31
-draft: false
-summary: "Random long form articles"
+title: "Writing"
+date: 2021-01-01
+summary: "Writing from previous collected"
 ---
