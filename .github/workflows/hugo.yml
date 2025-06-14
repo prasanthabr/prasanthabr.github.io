@@ -44,10 +44,10 @@ jobs:
           node-version: '20' # Use a recent LTS version
           cache: 'npm'
           # Path to the theme's lock file, relative to the repository root
-          cache-dependency-path: 'themes/keo/package-lock.json'
+          cache-dependency-path: 'themes/my-tailwind-theme/package-lock.json'
 
       - name: Install theme Node.js dependencies
-        working-directory: ./themes/keo # Ensures npm commands run in the theme directory
+        working-directory: ./themes/my-tailwind-theme # Ensures npm commands run in the theme directory
         run: npm ci # 'ci' is generally preferred in CI for faster, more reliable builds
 
       - name: Build with Hugo
