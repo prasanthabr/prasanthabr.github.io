@@ -53,6 +53,15 @@ jobs:
           cache: 'npm'
       - name: Install dependencies
         run: npm ci
+      - name: Verify Tailwind CSS installation
+        run: |
+          echo "Verifying that the tailwindcss executable exists..."
+          ls -l ./node_modules/.bin/
+          if [ ! -f "./node_modules/.bin/tailwindcss" ]; then
+            echo "tailwindcss executable not found!"
+            exit 1
+          fi
+          echo "tailwindcss executable found."
       - name: Build Tailwind CSS
         run: npm run build
       - name: Build with Hugo
