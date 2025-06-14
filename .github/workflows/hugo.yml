@@ -1,79 +1,67 @@
 name: Deploy Hugo site to Pages
 
 on:
+  # Runs on pushes targeting the default branch
   push:
     branches:
-      - master
+      - main # Or your default branch, e.g., master
+
+  # Allows you to run this workflow manually from the Actions tab
   workflow_dispatch:
 
+# Sets permissions of the GITHUB_TOKEN to allow deployment to GitHub Pages
 permissions:
   contents: read
   pages: write
   id-token: write
 
+# Allow only one concurrent deployment, skipping runs queued between the run in-progress and latest queued.
+# However, do NOT cancel in-progress runs as we want to allow these production deployments to complete.
 concurrency:
   group: "pages"
   cancel-in-progress: false
 
 jobs:
+  # Build job
   build:
     runs-on: ubuntu-latest
     steps:
-      - name: Checkout
+      - name: Checkout repository
         uses: actions/checkout@v4
         with:
-          submodules: recursive
-          fetch-depth: 0
+          submodules: recursive  # Fetches theme submodules
+          fetch-depth: 0    # Fetches all history for .GitInfo and .Lastmod
 
       - name: Setup Hugo
         uses: peaceiris/actions-hugo@v3
         with:
-          hugo-version: 'latest'
+          hugo-version: 'latest' # Or specify a specific version like '0.125.0'
           extended: true
 
       - name: Setup Node.js
         uses: actions/setup-node@v4
         with:
-          node-version: '20'
+          node-version: '20' # Use a recent LTS version
           cache: 'npm'
-          cache-dependency-path: 'package-lock.json'
+          # Path to the theme's lock file, relative to the repository root
+          cache-dependency-path: 'themes/keo/package-lock.json'
 
-      - name: Install Node.js dependencies
-        env:
-          NODE_ENV: development
-        run: |
-          echo "Deleting lock file to force a clean install from package.json"
-          rm -f package-lock.json
-          npm install
-
-      - name: Install Tailwind CSS CLI globally (fallback)
-        run: npm install -g tailwindcss@latest
-
-      - name: Verify Tailwind CSS executable
-        run: ls -la node_modules/.bin
-
-      - name: Build Tailwind CSS
-        run: npm run build
-
-      - name: Setup Pages
-        id: pages
-        uses: actions/configure-pages@v5
+      - name: Install theme Node.js dependencies
+        working-directory: ./themes/keo # Ensures npm commands run in the theme directory
+        run: npm ci # 'ci' is generally preferred in CI for faster, more reliable builds
 
       - name: Build with Hugo
         env:
           HUGO_ENVIRONMENT: production
           HUGO_ENV: production
-        run: |
-          hugo \
-            --gc \
-            --minify \
-            --baseURL "${{ steps.pages.outputs.base_url }}/"
+        run: hugo --minify # Assumes baseURL in hugo.toml is set for GitHub Pages
 
       - name: Upload artifact
         uses: actions/upload-pages-artifact@v3
         with:
           path: ./public
 
+  # Deployment job
   deploy:
     environment:
       name: github-pages
