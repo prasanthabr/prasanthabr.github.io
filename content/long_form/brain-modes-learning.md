@@ -4,7 +4,7 @@ date: '2025-03-02T00:00:00+12:00'
 lastmod: '0001-01-01 00:00:00 +0000 UTC'
 draft: false
 status: seeding
-zettel_tags: [learning, neuroscience, cognition, focused-mode, diffuse-mode]
+tags: [learning, neuroscience, cognition, focused-mode, diffuse-mode]
 summary: "Understanding the brain's focused and diffuse modes of thinking to enhance learning effectiveness"
 links:
     external_link:

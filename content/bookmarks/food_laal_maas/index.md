@@ -4,7 +4,7 @@ author: "Recipe"
 date: 2021-07-10
 draft: false
 summary: "Rajastani Goat"
-bookmark_tags: ["food", "goat", "spicy", "rustic", "simple"]
+tags: ["food", "goat", "spicy", "rustic", "simple"]
 ---
 
 

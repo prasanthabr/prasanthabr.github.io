@@ -4,7 +4,7 @@ date: '2025-03-31T05:33:30+12:00'
 lastmod: '2025-03-31T05:33:30+12:00'
 draft: false
 status: seeding
-zettel_tags: ["OmniStudio","Integration Procedure"]
+tags: ["OmniStudio","Integration Procedure"]
 summary: "Getting values out of a loop action is hard. Documentation is misleading and sparce"
 ---
 

@@ -3,7 +3,7 @@ title: "OCD by Neil Hilborn"
 date: 2019-01-01
 lastmod: 2019-03-17
 draft: false
-lit_tags: ["poem", "heartbreak", "soul"]
+tags: ["poem", "heartbreak", "soul"]
 summary: "I can’t breathe because he only kisses her once — he doesn’t care if it’s perfect!"
 status: "evergreen"
 ---

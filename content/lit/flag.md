@@ -3,7 +3,7 @@ title: "Give the man a flag"
 date: 2023-07-23
 lastmod: 2023-07-23
 draft: false
-lit_tags: ["movies", "soul"]
+tags: ["movies", "soul"]
 summary: "give the man a flag"
 status: "evergreen"
 ---

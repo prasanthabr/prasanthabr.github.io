@@ -3,7 +3,7 @@ title: "Notes on Design Thinking"
 date: 2024-04-09
 lastmod: 2024-04-10
 draft: false
-long_from_tags: ["design thinking", "notes"]
+tags: ["design thinking", "notes"]
 summary: "101 on design thinking, methods, tools and approaches"
 status: "seeding"
 ---

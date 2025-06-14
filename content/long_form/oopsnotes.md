@@ -3,7 +3,7 @@ title: "99 Oops - Notes"
 date: 2024-08-04
 lastmod: 2024-08-04
 draft: false
-long_from_tags: ["OOPs","Fundamentals"]
+tags: ["OOPs","Fundamentals"]
 summary: "Notes from 99 Bottles OOPs"
 status: "seeding"
 ---

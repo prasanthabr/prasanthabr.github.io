@@ -4,7 +4,7 @@ date: '2024-10-19T05:20:51+12:00'
 lastmod: '2024-10-19T05:20:51+12:00'
 draft: false
 status: seeding
-zettel_tags: [Development, SF]
+tags: [Development, SF]
 summary: "When apps are using a particular port, this is how it can be closed"
 links:
     external_link:

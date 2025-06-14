@@ -1,0 +1,6 @@
+<a href="{{ .Params.url | default .Permalink }}" target="_blank" rel="noopener noreferrer" class="block py-0 my-0 -mt-px group transition-colors duration-300 hover:bg-gray-50/50 -mx-4 px-4">
+    <span class="block text-sm font-medium text-gray-800 group-hover:text-black leading-none">{{ .Title }}</span>
+    {{ with .Params.domain }}
+    <span class="block text-sm text-gray-500 leading-none">{{ . }}</span>
+    {{ end }}
+</a>

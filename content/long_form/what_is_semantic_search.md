@@ -4,7 +4,7 @@ date: '2024-11-17T20:06:12+12:00'
 lastmod: '2024-11-17T00:00:00+12:00'
 draft: false
 status: seeding
-zettel_tags: ["fundamentals","semantic search", "vector search"]
+tags: ["fundamentals","semantic search", "vector search"]
 summary: "Understanding what semantic search is"
 links:
     external_link:

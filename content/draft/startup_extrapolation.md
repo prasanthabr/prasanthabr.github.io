@@ -3,7 +3,7 @@ title: "Growing a stable Startup - Extrapolation"
 date: 2023-01-16
 lastmod: 2023-01-16
 draft: false
-zettel_tags: ["startup", "skill"]
+tags: ["startup", "skill"]
 summary: "Thoughts on how Startup increase their changes of being stable income firms"
 status: "growing"
 ---

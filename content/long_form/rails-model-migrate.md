@@ -4,7 +4,7 @@ date: '2025-01-03T20:06:12+12:00'
 lastmod: '2025-01-03T20:06:12+12:00'
 draft: false
 status: seeding
-zettel_tags: ["rails", "models", "references"]
+tags: ["rails", "models", "references"]
 summary: "How do we build migrations and references"
 ---
 When creating references in model generation -> it creates migrations.

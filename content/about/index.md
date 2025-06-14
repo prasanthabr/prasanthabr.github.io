@@ -2,7 +2,6 @@
 title: "Prasanth Abraham"
 date: 2015-01-01
 summary: "disassemble, tinker, rebuild"
-layout: about
 ---
 I am a (mostly) self taught tinkerer in all things software.  
 I am based out of Auckland, New Zealand.  

@@ -3,7 +3,7 @@ title: "99 bottles: What not to do when designing code apis"
 date: 2025-03-20
 lastmod: 2025-03-20
 draft: true
-zettel_tags: ["design","code"]
+tags: ["design","code"]
 summary: "From the 99 bottles book chapter 1"
 status: "seeding"
 ---

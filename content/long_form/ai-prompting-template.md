@@ -23,7 +23,7 @@ uuid: "f5d188c5604c437576bc3eef207c9de9"
 categories: []        # e.g. ["ideas", "research"]
 tags: []              # e.g. ["hugo", "snip"]
 aliases: []           # e.g. ["alias1", "alias-two"]
-zettel_tags: []
+tags: []
 
 # Optional metadata placeholders
 summary: "This is a generic prompting framework that can be used."         # short summary or abstract

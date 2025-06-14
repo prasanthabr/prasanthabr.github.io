@@ -1,0 +1,50 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  body {
+    @apply font-sans text-gray-700 leading-relaxed; /* Default body: Inter, slightly darker gray, comfortable line height */
+  }
+
+  h1, h2, h3, h4, h5, h6 {
+    @apply font-heading text-gray-900 font-semibold; /* Headings: Poppins, dark gray, semi-bold */
+    /* Add some default margins - adjust as needed */
+    margin-bottom: theme('spacing.4'); /* e.g., 1rem */
+  }
+  h1 { @apply text-4xl; margin-top: theme('spacing.8'); } /* e.g., 2.25rem, mt-2rem */
+  h2 { @apply text-3xl; margin-top: theme('spacing.7'); } /* e.g., 1.875rem, mt-1.75rem */
+  h3 { @apply text-2xl; margin-top: theme('spacing.6'); } /* e.g., 1.5rem, mt-1.5rem */
+  h4 { @apply text-xl; margin-top: theme('spacing.5'); } /* e.g., 1.25rem, mt-1.25rem */
+  h5 { @apply text-lg; margin-top: theme('spacing.4'); } /* e.g., 1.125rem, mt-1rem */
+  h6 { @apply text-base; margin-top: theme('spacing.4'); } /* e.g., 1rem, mt-1rem */
+
+  p {
+    @apply mb-4; /* Add some space below paragraphs */
+  }
+
+  a {
+    @apply text-blue-600 hover:text-blue-800 hover:underline; /* Links: Blue, darker blue on hover, underline on hover */
+  }
+
+  /* You can add more base styles for lists, blockquotes, code blocks etc. here */
+  ul, ol {
+    @apply mb-4 ml-6;
+  }
+  ul {
+    @apply list-disc;
+  }
+  ol {
+    @apply list-decimal;
+  }
+
+  code {
+    @apply bg-gray-200 text-sm px-1 py-0.5 rounded;
+  }
+  pre {
+    @apply bg-gray-100 p-4 rounded-md overflow-x-auto mb-4;
+  }
+  pre code {
+    @apply bg-transparent p-0 rounded-none;
+  }
+}

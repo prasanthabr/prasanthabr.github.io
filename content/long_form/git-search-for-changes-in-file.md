@@ -3,7 +3,7 @@ title: "Search for changes in a file"
 date: 2024-08-31
 lastmod: 2024-09-01
 draft: false
-zettel_tags: ["git", "tips & tricks"]
+tags: ["git", "tips & tricks"]
 summary: "Search for commits, logs etc in a file"
 status: "seeding"
 ---

@@ -2,7 +2,7 @@
 title: "Sf Jobs Down Under"
 date: 2023-02-06
 draft: false
-project_tags: ["Hugo", "Google Sheets API", "Netlify", "Google App Script"]
+tags: ["Hugo", "Google Sheets API", "Netlify", "Google App Script"]
 status: "evergreen"
 weight: 2
 summary: "Building (hacking up) a site to show Salesforce jobs in New Zealand and Australia"

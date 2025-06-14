@@ -3,7 +3,7 @@ title: "Steps I took to setup a postgres dev db"
 date: 2024-03-04
 lastmod: 2025-01-04
 draft: false
-zettel_tags: ["Postgres"]
+tags: ["Postgres"]
 summary: "how did i create a db" 
 status: "seeding"
 ---

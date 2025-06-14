@@ -1,0 +1,17 @@
+<article class="group border-b border-gray-200 py-6 -mx-4 px-4 transition-colors duration-300 hover:bg-gray-50/50">
+    <a href="{{ .Permalink }}">
+        <h2 class="text-xl font-bold font-heading text-gray-800 group-hover:text-black mb-1">{{ .Title }}</h2>
+    </a>
+    <div class="text-sm text-gray-500">
+        <span>{{ .Section | humanize }}</span>
+        <span class="mx-2 text-gray-300">·</span>
+        <span>{{ .Date.Format "2006" }}</span>
+    </div>
+    {{ with .Params.tags }}
+    <div class="mt-2">
+        {{ range . }}
+        <a href="{{ "/tags/" | relURL }}{{ . | urlize }}" class="inline-block bg-gray-100 rounded-full px-3 py-1 text-xs font-semibold text-gray-600 mr-2 mb-2 hover:bg-gray-200 no-underline">#{{ . }}</a>
+        {{ end }}
+    </div>
+    {{ end }}
+</article>

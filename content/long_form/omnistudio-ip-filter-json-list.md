@@ -5,7 +5,7 @@ date: '2025-03-31T05:33:30+12:00'
 lastmod: '2025-03-31T05:33:30+12:00'
 draft: false
 status: seeding
-zettel_tags: ["OmniStudio","Integration Procedure"]
+tags: ["OmniStudio","Integration Procedure"]
 summary: "There are no obvious ways to split JSON lists based on the attributes within the list" 
 ---
 

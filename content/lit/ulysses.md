@@ -3,7 +3,7 @@ title: "Ulysses by Alfred, Lord Tennyson"
 date: 2019-01-01
 lastmod: 2019-03-17
 draft: false
-lit_tags: ["poems", "soul"]
+tags: ["poems", "soul"]
 summary: "To strive, to seek, to find, and not to yield."
 status: "evergreen"
 ---

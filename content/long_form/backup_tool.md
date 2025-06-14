@@ -3,7 +3,7 @@ title: "Brog: Backup Tool"
 date: 2025-03-04
 lastmod: 2025-03-04
 draft: true
-zettel_tags: ["backup tool"]
+tags: ["backup tool"]
 summary: "Using Brog to create duplicate less backups"
 status: "seeding"
 ---

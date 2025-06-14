@@ -4,7 +4,7 @@ date: '2024-07-25T05:20:51+12:00'
 lastmod: '0001-01-01 00:00:00 +0000 UTC'
 draft: false
 status: seeding
-zettel_tags: [Industries, weird]
+tags: [Industries, weird]
 summary: "The Lookup of Account on Quote behaves like a formula"
 links:
     external_link:

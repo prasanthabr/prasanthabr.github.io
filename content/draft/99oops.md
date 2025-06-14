@@ -3,7 +3,7 @@ title: "Sandi Mentz 99Bottles Design Notes"
 date: 2025-01-19
 lastmod: 2025-01-19
 draft: false
-zettel_tags: ["oops","design"]
+tags: ["oops","design"]
 summary: "Notes from reading the 99 Bottles book on Oops design."
 status: "seeding"
 ---

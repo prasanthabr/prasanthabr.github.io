@@ -3,7 +3,7 @@ title: "What do I know of artificial intelligence"
 date: 2023-07-29
 lastmod: 2023-07-29
 draft: false
-zettel_tags: ["ai", "generative ai"]
+tags: ["ai", "generative ai"]
 summary: "Understanding the basics of Artificial Intelligence"
 status: "seeding"
 ---

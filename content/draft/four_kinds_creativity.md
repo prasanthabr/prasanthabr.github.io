@@ -3,7 +3,7 @@ title: "Four types of creativity and how to cultivate them"
 date: 2023-01-15
 lastmod: 2023-01-15
 draft: false
-zettel_tags: ["creativity", "skill"]
+tags: ["creativity", "skill"]
 summary: "Creativity is a relative new area of study, but important in the new world as a differentiator"
 status: "evergreen"
 links:

@@ -2,7 +2,7 @@
 title: "Loopy Find"
 date: 2021-08-01
 draft: false
-project_tags: ["Go"]
+tags: ["Go"]
 status: "evergreen"
 weight: 2
 summary: "Short script in Go to do a custom find and sort"

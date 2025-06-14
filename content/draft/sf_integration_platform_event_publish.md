@@ -3,7 +3,7 @@ title: "Using the platform event publish for integration"
 date: 2023-07-07
 lastmod: 2023-07-07
 draft: false
-zettel_tags: ["Salesforce", "Integration"]
+tags: ["Salesforce", "Integration"]
 summary: "Learnings from discussing, planning and implementing a data layer integration using Salesforce Platform Events"
 status: "growing"
 ---

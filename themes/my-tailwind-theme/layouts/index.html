@@ -1,0 +1,80 @@
+{{ define "main" }}
+
+<!-- Hero Section -->
+<section class="bg-gray-50">
+    <div class="container mx-auto px-4">
+        <div class="text-center py-20 md:py-32">
+            <div class="max-w-3xl mx-auto">
+                <h1 class="text-4xl md:text-6xl font-heading font-bold text-gray-900 leading-tight">{{ .Site.Params.Name }}</h1>
+                <p class="mt-6 text-xl text-gray-600 font-sans">{{ .Site.Params.Description }}</p>
+            </div>
+        </div>
+    </div>
+</section>
+
+<!-- Content Area -->
+<div class="container mx-auto px-4 py-16">
+    <div class="grid grid-cols-1 md:grid-cols-12 md:gap-x-12 lg:gap-x-16">
+        
+        <!-- Primary Content Column -->
+        <main class="md:col-span-8">
+            <header class="mb-8">
+                <h2 class="text-2xl font-bold font-heading text-gray-900">Latest</h2>
+            </header>
+            <div>
+                {{ $mainSections := .Site.Params.mainSections | default (slice "long_form" "projects" "lit" "zettel") }}
+                {{ $pages := where .Site.RegularPages "Type" "in" $mainSections }}
+                {{ range $pages.ByDate.Reverse | first 7 }}
+                    {{ partial "list_item_agency.html" . }}
+                {{ end }}
+            </div>
+        </main>
+
+        <!-- Sidebar Column -->
+        <aside class="md:col-span-4 mt-16 md:mt-0">
+            {{ $sidebarSections := .Site.Params.sidebarSections | default (slice "bookmarks" "links") }}
+            {{ range $sidebarSections }}
+                {{ $section := . }}
+                {{ $pages := where site.RegularPages "Section" $section | first 10 }}
+                {{ if $pages }}
+                <section class="mb-4 text-left {{ if eq $section "bookmarks" }} md:text-right{{ end }}">
+                    <header class="mb-2">
+                        {{ with site.GetPage "section" $section }}
+                        <h2 class="text-lg font-bold font-heading text-gray-500"><a href="{{ .RelPermalink }}" class="text-gray-500 no-underline hover:underline">{{ .Title }}</a></h2>
+                        {{ end }}
+                    </header>
+                    <div class="flex flex-col {{ if eq $section "bookmarks" }} items-stretch md:items-end{{ end }}">
+                        {{ range $pages }}
+                            {{ partial "sidebar_list_item.html" . }}
+                        {{ end }}
+                    </div>
+                </section>
+                {{ end }}
+            {{ end }}
+            <!-- Tags Section -->
+            <section class="mb-4 text-left md:text-right">
+                <header class="mb-2">
+                    <h2 class="text-lg font-bold font-heading text-gray-500">Tags</h2>
+                </header>
+                <div class="flex flex-col items-stretch md:items-end">
+                    {{ $sortedByCount := sort site.Taxonomies.tags "Count" "desc" }}
+                    {{ $top30 := first 30 $sortedByCount }}
+                    {{ $sortedByName := sort $top30 "Page.Title" }}
+                    {{ range $sortedByName }}
+                        <a href="{{ .Page.RelPermalink }}" class="text-gray-600 hover:text-black py-0.5 text-sm">
+                            <span>#{{ .Page.Title }}</span>
+                            <span class="text-gray-400 ml-2">[{{ .Count }}]</span>
+                        </a>
+                    {{ end }}
+                    {{ if gt (len site.Taxonomies.tags) 30 }}
+                        <a href="{{ (site.GetPage "terms" "tags").RelPermalink }}" class="text-sm text-gray-500 hover:underline mt-2">
+                            View all tags &rarr;
+                        </a>
+                    {{ end }}
+                </div>
+            </section>
+        </aside>
+
+    </div>
+</div>
+{{ end }}

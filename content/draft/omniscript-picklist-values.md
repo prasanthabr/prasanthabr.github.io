@@ -4,7 +4,7 @@ date: '2023-09-17T10:09:22+12:00'
 lastmod: '0001-01-01 00:00:00 +0000 UTC'
 draft: false
 status: seeding
-zettel_tags: ["OmniScipts","picklist values","configuration"]
+tags: ["OmniScipts","picklist values","configuration"]
 summary: "Omniscripts have a variety of ways to pick values on the UI; \n One way is to mind a Vlocity Open interface class that returns options; \n We observed that the values do not load up "
 links:
     external_link:

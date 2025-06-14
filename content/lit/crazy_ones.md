@@ -3,7 +3,7 @@ title: "The Crazy Ones - Jobs?"
 date: 2019-01-01
 lastmod: 2019-03-17
 draft: false
-lit_tags: ["speech", "soul"]
+tags: ["speech", "soul"]
 summary: "Here’s to the crazy ones, the misfits, the rebels, the troublemakers, the round pegs in the square holes…"
 status: "evergreen"
 ---

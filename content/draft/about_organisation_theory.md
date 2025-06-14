@@ -3,7 +3,7 @@ title: "Learning Object Oriented Programming"
 date: 2023-04-09
 lastmod: 2023-04-09
 draft: false
-zettel_tags: ["oops", "code", "skill"]
+tags: ["oops", "code", "skill"]
 summary: ""
 status: "seeding"
 ---

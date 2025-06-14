@@ -4,7 +4,7 @@ date: '2024-12-25T09:42:30+12:00'
 lastmod: '2024-12-25T09:42:30+12:00'
 draft: false
 status: seeding
-zettel_tags: ["front-end","brower-sync"]
+tags: ["front-end","brower-sync"]
 summary: "How do we refresh browser automatically when working on a front end
 development workflow?"
 links:

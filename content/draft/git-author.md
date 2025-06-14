@@ -4,7 +4,7 @@ date: '2023-09-09T10:50:30+12:00'
 lastmod: '0001-01-01 00:00:00 +0000 UTC'
 draft: false
 status: seeding
-zettel_tags: []
+tags: []
 summary: "How do you set and amend the author on a git commit?"
 ---
 

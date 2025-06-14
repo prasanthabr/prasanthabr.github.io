@@ -4,7 +4,7 @@ date: '2023-10-04T13:32:01+12:00'
 lastmod: '0001-01-01 00:00:00 +0000 UTC'
 draft: false
 status: seeding
-zettel_tags: ["Salesforce","Trigger","Gyan"]
+tags: ["Salesforce","Trigger","Gyan"]
 summary: "Ways to add errors to triggered records" 
 links:
     external_link:

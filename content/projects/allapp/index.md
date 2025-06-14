@@ -2,7 +2,7 @@
 title: "Sf Jobs Down Under"
 date: 2023-09-06
 draft: true
-project_tags: ["Hugo", "Google Sheets API", "Netlify", "Google App Script"]
+tags: ["Hugo", "Google Sheets API", "Netlify", "Google App Script"]
 status: "evergreen"
 weight: 2
 summary: "Planning SF Down Under"

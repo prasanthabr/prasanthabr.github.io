@@ -3,7 +3,7 @@ title: "10 things I figured about NZ as a 2 year immigrant"
 date: 2023-07-01
 lastmod: 2023-07-01
 draft: false
-long_from_tags: ["kiwiana"]
+tags: ["kiwiana"]
 summary: "moving into nz and trying to understand what make you fit in"
 status: "seeding"
 ---

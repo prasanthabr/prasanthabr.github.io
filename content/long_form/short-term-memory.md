@@ -4,7 +4,7 @@ date: '2024-07-21T16:39:07+12:00'
 lastmod: '0001-01-01 00:00:00 +0000 UTC'
 draft: false
 status: seeding
-zettel_tags: [learning-hacks]
+tags: [learning-hacks]
 summary: "the prefrontal cortex is linked to short term memory. it holds four
 ideas at max at a time. often described as a blackboard that is not very
 efficent in clearing past writings."

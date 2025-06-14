@@ -1,7 +1,7 @@
 baseURL = "https://www.example.com"
 languageCode = "en-us"
 title = "prasanthabr"
-theme = "hugo-digital-garden-theme"
+theme = "my-tailwind-theme"
 themesdir = "themes"
 copyright = "prasanth"
 enableGitInfo = true
@@ -64,10 +64,7 @@ enableGitInfo = true
 
 
 [taxonomies]
-  zettel_tags = 'zettel_tags'
-  project_tags = 'project_tags'
-  bookmark_tags = 'bookmark_tags'
-  long_form_tags = 'long_from_tags'
+  tag = "tags"
 
 
 [markup]

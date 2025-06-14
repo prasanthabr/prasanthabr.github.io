@@ -4,7 +4,7 @@ date: '2024-07-21T16:40:07+12:00'
 lastmod: '0001-01-01 00:00:00 +0000 UTC'
 draft: false 
 status: seeding
-zettel_tags: [learning-hacks]
+tags: [learning-hacks]
 summary: "learning is about creating shortcuts or patterns for understanding or
 solving problems that the brain is familar with. often characterized by storing
 in the longer term memory, that can be brought into short term memory to operate

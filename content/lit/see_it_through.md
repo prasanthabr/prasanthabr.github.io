@@ -3,7 +3,7 @@ title: "See It Through by Edgar Albert Guest"
 date: 2019-01-01
 lastmod: 2019-03-17
 draft: false
-lit_tags: ["poem", "grit", "soul"]
+tags: ["poem", "grit", "soul"]
 summary: "You may fail, but fall still fighting;
 Don’t give up, whate’er you do;
 

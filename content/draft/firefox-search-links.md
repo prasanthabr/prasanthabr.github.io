@@ -3,7 +3,7 @@ title: "Firefox - Using keys to navigate"
 date: 2023-06-05
 lastmod: 2023-06-05
 draft: false
-zettel_tags: ["10x", "keyboard shortcuts"]
+tags: ["10x", "keyboard shortcuts"]
 summary: ""
 status: "seeding"
 ---  

@@ -4,7 +4,7 @@ date: '2024-07-14T20:06:12+12:00'
 lastmod: '0001-01-01 00:00:00 +0000 UTC'
 draft: false
 status: seeding
-zettel_tags: ["marketing cloud", "security"]
+tags: ["marketing cloud", "security"]
 summary: "Maketing Cloud terms permissions to systems as Roles"
 links:
     external_link:

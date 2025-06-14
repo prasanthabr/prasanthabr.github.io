@@ -1,0 +1,43 @@
+{{ define "main" }}
+<article class="max-w-3xl mx-auto px-4 py-12 md:py-20">
+
+    <!-- Post Header -->
+    <header class="mb-8">
+        <h1 class="text-4xl md:text-5xl font-bold font-heading text-gray-900 leading-tight">{{ .Title }}</h1>
+        {{ with .Params.subtitle }}
+        <p class="text-lg md:text-xl text-gray-600 mt-2">{{ . }}</p>
+        {{ end }}
+    </header>
+
+    <!-- Post Meta -->
+    <div class="border-t border-b border-gray-200 py-3 mb-10">
+        <div class="flex flex-wrap items-center justify-start text-sm text-gray-600">
+            <div class="flex items-center space-x-4">
+                <span>{{ .Date.Format "January 2, 2006" }}</span>
+                {{ with .ReadingTime }}
+                <span class="text-gray-400">·</span>
+                <span>{{ . }} min read</span>
+                {{ end }}
+            </div>
+        </div>
+    </div>
+
+    <!-- Post Content -->
+    <div class="prose prose-lg max-w-none">
+        {{ .Content }}
+    </div>
+
+    <!-- Tags Section -->
+    {{ with .Params.tags }}
+    <footer class="mt-12 pt-6 border-t border-gray-200">
+        <h3 class="text-lg font-bold text-gray-800 mb-4">Tags</h3>
+        <div>
+            {{ range . }}
+                <a href="{{ "/tags/" | relURL }}{{ . | urlize }}" class="inline-block bg-gray-100 rounded-full px-3 py-1 text-sm font-semibold text-gray-600 mr-2 mb-2 hover:bg-gray-200 no-underline">#{{ . }}</a>
+            {{ end }}
+        </div>
+    </footer>
+    {{ end }}
+
+</article>
+{{ end }}

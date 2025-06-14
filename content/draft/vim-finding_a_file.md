@@ -4,7 +4,7 @@ date: '2023-09-09T12:58:50+12:00'
 lastmod: '0001-01-01 00:00:00 +0000 UTC'
 draft: false
 status: seeding
-zettel_tags: ["vim","tips & tricks", "snippets"]
+tags: ["vim","tips & tricks", "snippets"]
 summary: "finding files on git recursively from a folder"
 ---
 

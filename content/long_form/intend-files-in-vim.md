@@ -3,7 +3,7 @@ title: "Format a file in Vim"
 date: 2024-08-15
 lastmod: 2024-08-15
 draft: false
-zettel_tags: ["vim", "tips & tricks"]
+tags: ["vim", "tips & tricks"]
 summary: "An easy way to format and indent files in vim"
 status: "seeding"
 ---

@@ -3,7 +3,7 @@ title: "Figuring out SEO in the times of Generative AI"
 date: 2023-06-05
 lastmod: 2023-06-05
 draft: true
-long_from_tags: ["digital-marketing", "seo", content]
+tags: ["digital-marketing", "seo", content]
 summary: ""
 status: "seeding"
 ---

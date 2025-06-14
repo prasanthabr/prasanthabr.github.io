@@ -3,7 +3,7 @@ title: "feh: What tool do you use to view images"
 date: 2025-03-22
 lastmod: 2025-03-22
 draft: false
-zettel_tags: ["images","linux"]
+tags: ["images","linux"]
 summary: "Extremely perfomant image viewer" 
 status: "seeding"
 ---

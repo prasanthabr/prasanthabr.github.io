@@ -3,7 +3,7 @@ title: "Martin Fowler : On keeping content on his site relevant"
 date: 2023-06-05
 lastmod: 2023-06-05
 draft: false
-zettel_tags: ["seo", "content-marketing"]
+tags: ["seo", "content-marketing"]
 summary: "Focus on fundamentals to retain content relevance."
 status: "seeding"
 ---

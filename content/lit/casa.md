@@ -3,7 +3,7 @@ title: "Casablanca"
 date: 2019-01-01
 lastmod: 2019-03-17
 draft: false
-lit_tags: ["movies", "soul"]
+tags: ["movies", "soul"]
 summary: "of all the gin joints in all the towns in all the world, she walks into mine..."
 status: "evergreen"
 ---

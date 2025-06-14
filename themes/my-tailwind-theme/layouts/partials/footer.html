@@ -1,0 +1,20 @@
+<footer class="border-t border-gray-200 mt-20">
+    <div class="container mx-auto px-4">
+        <div class="flex justify-between items-center py-6 text-sm text-gray-600">
+            <div class="flex items-center space-x-4">
+                <span class="m-0">&copy; {{ now.Format "2006" }} {{ .Site.Copyright | default .Site.Title }}. All Rights Reserved.</span>
+                <span class="text-gray-400">|</span>
+                <a href="{{ (site.GetPage "section" "links").RelPermalink }}" class="text-gray-600 hover:underline">Links</a>
+                <span class="text-gray-400">|</span>
+                <a href="{{ (site.GetPage "page" "todo").RelPermalink }}" class="text-gray-600 hover:underline">Todo</a>
+            </div>
+            <div class="flex items-center space-x-4">
+                {{ range .Site.Params.Social }}
+                <a href="{{ .link }}" target="_blank" rel="noopener noreferrer" class="text-gray-600 hover:text-black">
+                    <i class="{{ .icon }} fa-lg"></i>
+                </a>
+                {{ end }}
+            </div>
+        </div>
+    </div>
+</footer>

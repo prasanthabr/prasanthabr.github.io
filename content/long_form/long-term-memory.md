@@ -4,7 +4,7 @@ date: '2024-07-21T16:39:15+12:00'
 lastmod: '0001-01-01 00:00:00 +0000 UTC'
 draft: false 
 status: seeding
-zettel_tags: [learning-hacks]
+tags: [learning-hacks]
 summary: "The longer terms memory of the brain is like a warehouse with boxes of
 ideas. There are multitude of connections and ideas, that are triggered with
 patterns"
