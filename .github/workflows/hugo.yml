@@ -46,6 +46,9 @@ jobs:
           rm -f package-lock.json
           npm install
 
+      - name: Install Tailwind CSS CLI globally (fallback)
+        run: npm install -g tailwindcss@latest
+
       - name: Verify Tailwind CSS executable
         run: ls -la node_modules/.bin
 
