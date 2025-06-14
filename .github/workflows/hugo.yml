@@ -39,10 +39,15 @@ jobs:
           cache-dependency-path: 'package-lock.json'
 
       - name: Install Node.js dependencies
+        env:
+          NODE_ENV: development
         run: |
           echo "Deleting lock file to force a clean install from package.json"
           rm -f package-lock.json
           npm install
+
+      - name: Verify Tailwind CSS executable
+        run: ls -la node_modules/.bin
 
       - name: Build Tailwind CSS
         run: npm run build
