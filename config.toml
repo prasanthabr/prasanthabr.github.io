@@ -1,4 +1,4 @@
-baseURL = "https://prasanthabr.github.io"
+baseURL = "/"
 languageCode = "en-us"
 title = "prasanthabr"
 theme = "my-tailwind-theme"
