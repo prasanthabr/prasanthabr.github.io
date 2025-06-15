@@ -1,20 +1,49 @@
 <footer class="border-t border-gray-200 mt-20">
-    <div class="container mx-auto px-4">
-        <div class="flex justify-between items-center py-6 text-sm text-gray-600">
-            <div class="flex items-center space-x-4">
-                <span class="m-0">&copy; {{ now.Format "2006" }} {{ .Site.Copyright | default .Site.Title }}. All Rights Reserved.</span>
-                <span class="text-gray-400">|</span>
-                <a href="{{ (site.GetPage "section" "links").RelPermalink }}" class="text-gray-600 hover:underline">Links</a>
-                <span class="text-gray-400">|</span>
-                <a href="{{ (site.GetPage "page" "todo").RelPermalink }}" class="text-gray-600 hover:underline">Todo</a>
-            </div>
-            <div class="flex items-center space-x-4">
-                {{ range .Site.Params.Social }}
-                <a href="{{ .link }}" target="_blank" rel="noopener noreferrer" class="text-gray-600 hover:text-black">
-                    <i class="{{ .icon }} fa-lg"></i>
-                </a>
-                {{ end }}
-            </div>
-        </div>
+  <div class="container mx-auto px-4">
+    <div class="hidden md:flex justify-between items-center py-6 text-sm text-gray-600">
+      <!-- Desktop layout: horizontal -->
+      <div class="text-left">
+        &copy; {{ now.Format "2006" }} {{ .Site.Copyright | default .Site.Title }}. All Rights Reserved.
+      </div>
+
+      <div class="flex space-x-2 whitespace-nowrap">
+
+        <a href="{{ (site.GetPage "section" "links").RelPermalink }}" class="text-gray-600 hover:underline">Links</a>
+        <span class="text-gray-400">|</span>
+        <a href="{{ (site.GetPage "page" "todo").RelPermalink }}" class="text-gray-600 hover:underline">Todo</a>
+
+      </div>
+
+      <div class="flex space-x-4">
+        {{ range .Site.Params.Social }}
+        <a href="{{ .link }}" target="_blank" rel="noopener noreferrer" class="text-gray-600 hover:text-black">
+          <i class="{{ .icon }} fa-lg"></i>
+        </a>
+        {{ end }}
+      </div>
     </div>
+
+    <div class="flex flex-col items-center md:hidden text-sm text-gray-600 space-y-4 py-6">
+      <!-- Mobile layout: vertical, centered -->
+      <div class="text-center">
+        &copy; {{ now.Format "2006" }} {{ .Site.Copyright | default .Site.Title }}. All Rights Reserved.
+      </div>
+
+      <div class="flex space-x-2 whitespace-nowrap">
+
+        <a href="{{ (site.GetPage "section" "links").RelPermalink }}" class="text-gray-600 hover:underline">Links</a>
+        <span class="text-gray-400">|</span>
+        <a href="{{ (site.GetPage "page" "todo").RelPermalink }}" class="text-gray-600 hover:underline">Todo</a>
+
+      </div>
+
+      <div class="flex space-x-4">
+        {{ range .Site.Params.Social }}
+        <a href="{{ .link }}" target="_blank" rel="noopener noreferrer" class="text-gray-600 hover:text-black">
+          <i class="{{ .icon }} fa-lg"></i>
+        </a>
+        {{ end }}
+      </div>
+    </div>
+  </div>
 </footer>
