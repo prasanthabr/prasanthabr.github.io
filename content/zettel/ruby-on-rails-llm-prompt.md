@@ -14,7 +14,7 @@ draft: false
 slug: "ruby-on-rails-llm-prompt"
 
 # Content type for templates and taxonomies
-type: "snip"
+type: "zettel"
 
 # Unique identifier for cross-referencing or backlinks
 uuid: "43f8ecc24c6ca1c6ad3d66f9f960b0d6"

@@ -14,7 +14,7 @@ draft: true
 slug: "{{ .Name }}"
 
 # Content type for templates and taxonomies
-type: "snip"
+type: "zettel"
 
 # Unique identifier for cross-referencing or backlinks
 uuid: "{{ .File.UniqueID }}"
@@ -35,9 +35,6 @@ link:            # external resource URL
         icon: "fas fa-thin fa-link"
         href: ""
         weight: 1
-
-# Papermod-specific parameters
-status: seeding
 
 ---
 
