@@ -10,6 +10,7 @@ Don’t give up, whate’er you do;
 Eyes front, head high to the finish.
 See it through!"
 status: "evergreen"
+type: lit
 ---
 When you’re up against a trouble,  
     Meet it squarely, face to face;  

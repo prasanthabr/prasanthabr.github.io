@@ -6,6 +6,7 @@ draft: false
 tags: ["poem", "heartbreak", "soul"]
 summary: "I can’t breathe because he only kisses her once — he doesn’t care if it’s perfect!"
 status: "evergreen"
+type: lit
 ---
   
 The first time I saw her...  

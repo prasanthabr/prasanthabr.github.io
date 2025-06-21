@@ -1,4 +1,5 @@
 ---
+type: projects
 title: "Loopy Find"
 date: 2021-08-01
 draft: false
@@ -13,6 +14,7 @@ links:
         href: "https://gist.github.com/prasanthabr/fbfd16209797427de7f37ee85990597e"
         weight: 1
 ---
+type: projects
 
 This is a custom scripts to recursively filter records similar to an index on a CSV.
 Though the script, then filters down to a series of results that do have the matching result.

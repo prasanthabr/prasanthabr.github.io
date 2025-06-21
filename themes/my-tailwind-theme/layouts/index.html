@@ -18,16 +18,25 @@
         
         <!-- Primary Content Column -->
         <main class="md:col-span-8">
-            <header class="mb-8">
-                <h2 class="text-2xl font-bold font-heading text-gray-900">Latest</h2>
-            </header>
-            <div>
-                {{ $mainSections := .Site.Params.mainSections | default (slice "long_form" "projects" "lit" "zettel") }}
-                {{ $pages := where .Site.RegularPages "Type" "in" $mainSections }}
-                {{ range $pages.ByDate.Reverse | first 7 }}
+          {{ $mainSections := .Site.Params.mainSections | default (slice "long_form" "projects" "lit" "zettel") }}
+          {{ $sectionTitles := dict "long_form" "Long Form" "projects" "Projects" "lit" "Lit" "zettel" "Zettel" }}
+          {{ range $mainSections }}
+            {{ $type := . }}
+            {{ $pages := where $.Site.RegularPages "Type" $type | first 3 }}
+            {{ if gt (len $pages) 0 }}
+              <section class="mb-6">
+                <header class="mb-2 flex items-center gap-2">
+                  <h2 class="text-lg font-bold font-heading text-gray-900 tracking-tight">{{ index $sectionTitles $type }}</h2>
+                  <span class="block h-px flex-1 bg-gray-100"></span>
+                </header>
+                <div class="flex flex-col gap-2">
+                  {{ range $pages }}
                     {{ partial "list_item_agency.html" . }}
-                {{ end }}
-            </div>
+                  {{ end }}
+                </div>
+              </section>
+            {{ end }}
+          {{ end }}
         </main>
 
         <!-- Sidebar Column -->

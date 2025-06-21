@@ -6,6 +6,7 @@ draft: false
 tags: ["poems", "soul"]
 summary: "To strive, to seek, to find, and not to yield."
 status: "evergreen"
+type: lit
 ---
   
 It little profits that an idle king,  

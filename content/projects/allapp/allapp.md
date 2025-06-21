@@ -1,4 +1,5 @@
 ---
+type: projects
 title: "Sf Jobs Down Under"
 date: 2023-09-06
 draft: true
@@ -8,6 +9,7 @@ weight: 2
 summary: "Planning SF Down Under"
 
 ---
+type: projects
 
 What are the elements of a job listing?
 - slug

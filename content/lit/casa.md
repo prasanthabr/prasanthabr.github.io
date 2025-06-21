@@ -6,7 +6,9 @@ draft: false
 tags: ["movies", "soul"]
 summary: "of all the gin joints in all the towns in all the world, she walks into mine..."
 status: "evergreen"
+type: lit
 ---
+
   
 of all the gin joints in all the towns in all the world, she walks into mine...
 

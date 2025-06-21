@@ -58,9 +58,13 @@ enableGitInfo = true
     url = "/bookmarks/"
     weight = 4
   [[menu.main]]
+    name = "Literature"
+    url = "/lit/"
+    weight = 5
+  [[menu.main]]
     name = "About"
     url = "/about/"
-    weight = 5
+    weight = 6
 
 
 [taxonomies]

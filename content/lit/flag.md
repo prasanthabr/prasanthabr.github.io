@@ -6,6 +6,7 @@ draft: false
 tags: ["movies", "soul"]
 summary: "give the man a flag"
 status: "evergreen"
+type: lit
 ---
   
 You tell your men you are soldiers and that's your flag. You tell them nobody takes our flag. And you raise that flag so it flies high where everyone can see it. Now you've got yourself a castle.

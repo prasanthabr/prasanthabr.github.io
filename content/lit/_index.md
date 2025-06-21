@@ -1,5 +1,5 @@
 ---
-title: "Words that Inspire and Intrigue"
+title: "Literature"
 date: 2021-01-01
-summary: "pieces of literature that have interested me"
+summary: "Prose and poetry that resonate with me"
 ---
