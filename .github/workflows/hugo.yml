@@ -32,6 +32,13 @@ jobs:
           submodules: recursive  # Fetches theme submodules
           fetch-depth: 0    # Fetches all history for .GitInfo and .Lastmod
 
+      - name: Read theme name from Hugo config
+        id: theme
+        run: |
+          # Pull the theme name out of config/hugo.toml
+          THEME=$(grep '^theme' config/hugo.toml | cut -d'=' -f2 | tr -d ' "')
+          echo "theme=$THEME" >> "$GITHUB_OUTPUT"
+
       - name: Setup Hugo
         uses: peaceiris/actions-hugo@v3
         with:
@@ -41,14 +48,13 @@ jobs:
       - name: Setup Node.js
         uses: actions/setup-node@v4
         with:
-          node-version: '20' # Use a recent LTS version
+          node-version: '20'
           cache: 'npm'
-          # Path to the theme's lock file, relative to the repository root
-          cache-dependency-path: 'themes/my-tailwind-theme/package-lock.json'
+          cache-dependency-path: themes/${{ steps.theme.outputs.theme }}/package-lock.json
 
       - name: Install theme Node.js dependencies
-        working-directory: ./themes/my-tailwind-theme # Ensures npm commands run in the theme directory
-        run: npm ci # 'ci' is generally preferred in CI for faster, more reliable builds
+        working-directory: ./themes/${{ steps.theme.outputs.theme }}
+        run: npm ci
 
       - name: Build with Hugo
         env:
