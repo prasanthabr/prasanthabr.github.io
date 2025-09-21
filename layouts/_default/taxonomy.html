@@ -1,0 +1,94 @@
+{{ define "main" }}
+<div class="max-w-4xl mx-auto">
+  <!-- Header -->
+  <header class="mb-8">
+    <h1 class="text-3xl font-bold mb-2">{{ .Title }}</h1>
+    {{ if .Params.description }}
+      <p class="text-lg text-neutral-600 dark:text-neutral-400">{{ .Params.description }}</p>
+    {{ else }}
+      <p class="text-lg text-neutral-600 dark:text-neutral-400">{{ .Pages.Len }} items</p>
+    {{ end }}
+  </header>
+
+  <!-- Content if exists -->
+  {{ if .Content }}
+    <div class="prose dark:prose-invert mb-8">
+      {{ .Content }}
+    </div>
+  {{ end }}
+
+  <!-- Items Grid -->
+  {{ if .Pages }}
+    <div class="space-y-4">
+      {{ range .Pages }}
+        <article class="border border-neutral-200 dark:border-neutral-700 rounded-lg p-4 hover:shadow-md transition-shadow">
+          <!-- Title and Date -->
+          <header class="mb-2">
+            <h2 class="text-xl font-semibold mb-1">
+              <a href="{{ .Permalink }}" class="text-primary-600 hover:text-primary-700 dark:text-primary-400 dark:hover:text-primary-300">
+                {{ .Title }}
+              </a>
+            </h2>
+            <div class="text-sm text-neutral-500 dark:text-neutral-400 flex items-center gap-4">
+              <span>{{ .Date.Format "Jan 2, 2006" }}</span>
+              {{ if .Params.lastmod }}
+                <span>Updated {{ (.Params.lastmod | time.Time).Format "Jan 2" }}</span>
+              {{ end }}
+              <span class="capitalize">{{ .Type }}</span>
+            </div>
+          </header>
+
+          <!-- Summary -->
+          {{ if .Summary }}
+            <p class="text-neutral-700 dark:text-neutral-300 mb-3">{{ .Summary }}</p>
+          {{ end }}
+
+          <!-- Taxonomy Tags -->
+          <footer class="flex flex-wrap gap-2 text-sm">
+            <!-- Status -->
+            {{ if .Params.status }}
+              {{ range .Params.status }}
+                <span class="px-2 py-1 bg-blue-100 text-blue-800 dark:bg-blue-900 dark:text-blue-200 rounded">
+                  {{ . }}
+                </span>
+              {{ end }}
+            {{ end }}
+
+            <!-- Domains -->
+            {{ if .Params.domains }}
+              {{ range .Params.domains }}
+                <span class="px-2 py-1 bg-green-100 text-green-800 dark:bg-green-900 dark:text-green-200 rounded">
+                  {{ . }}
+                </span>
+              {{ end }}
+            {{ end }}
+
+            <!-- Intent -->
+            {{ if .Params.intent }}
+              {{ range .Params.intent }}
+                <span class="px-2 py-1 bg-purple-100 text-purple-800 dark:bg-purple-900 dark:text-purple-200 rounded">
+                  {{ . }}
+                </span>
+              {{ end }}
+            {{ end }}
+
+            <!-- Regular Tags -->
+            {{ if .Params.tags }}
+              {{ range first 3 .Params.tags }}
+                <span class="px-2 py-1 bg-neutral-100 text-neutral-700 dark:bg-neutral-800 dark:text-neutral-300 rounded text-xs">
+                  #{{ . }}
+                </span>
+              {{ end }}
+            {{ end }}
+          </footer>
+        </article>
+      {{ end }}
+    </div>
+  {{ else }}
+    <div class="text-center py-12 text-neutral-500 dark:text-neutral-400">
+      <p class="text-lg">No content found in this category yet.</p>
+      <p class="mt-2">Create your first note with: <code class="bg-neutral-100 dark:bg-neutral-800 px-2 py-1 rounded">hugo new notes/topic-name.md</code></p>
+    </div>
+  {{ end }}
+</div>
+{{ end }}

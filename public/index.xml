@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>It Starts Here Now on prasanthabr</title>
+    <link>http://localhost:1313/</link>
+    <description>Recent content in It Starts Here Now on prasanthabr</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en</language>
+    <copyright>© 2025 Prasanth</copyright>
+    <lastBuildDate>Sun, 21 Sep 2025 22:03:01 +1200</lastBuildDate><atom:link href="http://localhost:1313/index.xml" rel="self" type="application/rss+xml" />
+    
+    <item>
+      <title>Laal Maas</title>
+      <link>http://localhost:1313/recipe/laal-maas/</link>
+      <pubDate>Sun, 21 Sep 2025 22:03:01 +1200</pubDate>
+      
+      <guid>http://localhost:1313/recipe/laal-maas/</guid>
+      <description></description>
+      
+    </item>
+    
+    <item>
+      <title>What is happening now?</title>
+      <link>http://localhost:1313/now/</link>
+      <pubDate>Fri, 01 Jan 2021 00:00:00 +0000</pubDate>
+      
+      <guid>http://localhost:1313/now/</guid>
+      <description>Thoughts on things I read, heard, imagined written here for the future me</description>
+      
+    </item>
+    
+    <item>
+      <title>Prasanth Abraham</title>
+      <link>http://localhost:1313/about/</link>
+      <pubDate>Thu, 01 Jan 2015 00:00:00 +0000</pubDate>
+      
+      <guid>http://localhost:1313/about/</guid>
+      <description>disassemble, tinker, rebuild</description>
+      
+    </item>
+    
+    <item>
+      <title></title>
+      <link>http://localhost:1313/explore/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>http://localhost:1313/explore/</guid>
+      <description></description>
+      
+    </item>
+    
+  </channel>
+</rss>

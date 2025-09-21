@@ -1,0 +1,30 @@
+[[main]]
+  name = "Notes"
+  pageRef = "notes"
+  weight = 10
+
+[[main]]
+  name = "Research"
+  pageRef = "research"
+  weight = 20
+
+[[main]]
+  name = "Domains"
+  pageRef = "domains"
+  weight = 30
+
+[[main]]
+  name = "Now"
+  pageRef = "now"
+  weight = 40
+
+[[main]]
+  name = "About"
+  pageRef = "about"
+  weight = 50
+
+# Quick domain access in subnavigation
+#[[subnavigation]]
+#  name = "Programming"
+#  pageRef = "domains/programming"
+#  weight = 10

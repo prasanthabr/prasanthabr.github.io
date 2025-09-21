@@ -1,0 +1,6 @@
+{{ with site.GetPage "/now" }}
+  <div class="now-content">
+    <h2>Current Focus</h2>
+    {{ .Content }}
+  </div>
+{{ end }}
