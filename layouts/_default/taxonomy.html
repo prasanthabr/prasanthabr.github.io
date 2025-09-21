@@ -31,9 +31,9 @@
             </h2>
             <div class="text-sm text-neutral-500 dark:text-neutral-400 flex items-center gap-4">
               <span>{{ .Date.Format "Jan 2, 2006" }}</span>
-              {{ if .Params.lastmod }}
-                <span>Updated {{ (.Params.lastmod | time.Time).Format "Jan 2" }}</span>
-              {{ end }}
+                {{ if .Lastmod }}
+                  <span>Updated {{ .Lastmod.Format "Jan 2, 2006" }}</span>
+                {{ end }}
               <span class="capitalize">{{ .Type }}</span>
             </div>
           </header>
