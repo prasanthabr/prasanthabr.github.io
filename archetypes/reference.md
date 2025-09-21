@@ -8,13 +8,13 @@ type: "reference"
 summary: "A brief summary of this reference material."
 
 # STATUS: Choose one - draft, active, stable, evergreen, archived
-status: ["stable"]
+statuses: ["stable"]
 
 # DOMAINS: Choose from - programming, philosophy, literature, design, entrepreneurship, personal
 domains: []
 
 # INTENT: Choose one or more - learn, build, lookup, process, connect
-intent: ["lookup"]
+intents: ["lookup"]
 
 # TAGS: Free-form, but consider domain-specific suggestions:
 # Programming: javascript, functional-programming, algorithms, architecture, debugging

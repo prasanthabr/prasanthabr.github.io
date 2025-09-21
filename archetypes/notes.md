@@ -8,13 +8,13 @@ type: "article"
 summary: ""
 
 # STATUS: Choose one - draft, active, stable, evergreen, archived
-status: ["draft"]
+statuses: ["draft"]
 
 # DOMAINS: Choose from - programming, philosophy, literature, design, entrepreneurship, personal
 domains: []
 
 # INTENT: Choose one or more - learn, build, lookup, process, connect
-intent: []
+intents: []
 
 # TAGS: Free-form, but consider domain-specific suggestions:
 # Programming: javascript, functional-programming, algorithms, architecture, debugging

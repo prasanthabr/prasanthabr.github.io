@@ -8,13 +8,13 @@ type: "article"
 summary: ""
 
 # STATUS: Choose one - draft, active, stable, evergreen, archived
-status: ["stable"]
+statuses: ["stable"]
 
 # DOMAINS: Choose from - programming, philosophy, literature, design, entrepreneurship, personal
 domains: ["personal"]
 
 # INTENT: Choose one or more - learn, build, lookup, process, connect
-intent: ["process"]
+intents: ["process"]
 
 # TAGS: Consider - cooking, baking, workflow, automation, productivity, quick, comfort-food
 tags: []
