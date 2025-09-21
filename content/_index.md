@@ -10,9 +10,9 @@ showRelatedContent: false
 
 ## Quick Access
 
-**[Notes](/notes/)** • **[Research](/research/)**
+**[Notes](/notes/)** • **[Research](/research/)**  • **[Reference](/reference/)**
 
-## Browse by Domain
+## Browse by Domain • 
 
 **[Programming](/domains/programming/)** • **[Philosophy](/domains/philosophy/)** • **[Literature](/domains/literature/)** • **[Design](/domains/design/)** • **[Personal](/domains/personal/)**
 
