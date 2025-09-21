@@ -169,3 +169,21 @@ forgejoDefaultServer = "https://v11.next.forgejo.org"
 
 [advertisement]
   # adsense = ""
+
+# Analytics configuration
+[analytics]
+  provider = "google"
+  
+  [analytics.google]
+    SiteVerificationTag = ""  # Optional: Google Search Console verification
+
+# Cookie consent banner
+[cookieConsent]
+  enable = true
+  type = "opt-in"  # Most privacy-compliant option
+  
+  [cookieConsent.analytics]
+    name = "Analytics"
+    title = "Analytics and Performance" 
+    description = "These cookies help us understand how visitors interact with our website."
+    cookies = ["_ga", "_ga_*", "_gid", "_gat"]

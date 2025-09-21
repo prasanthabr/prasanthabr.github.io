@@ -18,13 +18,19 @@
   pageRef = "now"
   weight = 40
 
-[[main]]
-  name = "About"
-  pageRef = "about"
-  weight = 50
-
 # Quick domain access in subnavigation
 #[[subnavigation]]
 #  name = "Programming"
 #  pageRef = "domains/programming"
 #  weight = 10
+
+# Add to footer
+[[footer]]
+  name = "Privacy Policy"
+  pageRef = "privacy"
+  weight = 100
+
+[[footer]]
+  name = "About"
+  pageRef = "about"
+  weight = 50
