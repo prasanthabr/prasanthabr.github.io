@@ -24,7 +24,7 @@ intents: ["learn"]
 # Literature: poetry, prose, modernist, analysis, criticism, narrative
 # Design: ui-ux, systems-thinking, patterns, accessibility
 # Personal: productivity, learning, reflection, habits
-tags: ["building trust", "consulting 101"]
+tags: ["building trust", "consulting 101", "consulting for impact"]
 
 authors: ["Prasanth"]
 showReadingTime: true
