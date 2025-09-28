@@ -12,9 +12,9 @@ showRelatedContent: false
 
 **[Notes](/notes/)** • **[Research](/research/)**  • **[Reference](/reference/)**
 
-## Browse by Domain • 
+## Browse by Domain  
 
-**[Programming](/domains/programming/)** • **[Philosophy](/domains/philosophy/)** • **[Literature](/domains/literature/)** • **[Design](/domains/design/)** • **[Personal](/domains/personal/)**
+**[Programming](/domains/programming/)** • **[Consulting](/domains/consulting/)** • **[Literature](/domains/literature/)** • **[Design](/domains/design/)** • **[Personal](/domains/personal/)**
 
 ## Find by Intent
 
