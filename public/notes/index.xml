@@ -7,7 +7,17 @@
     <generator>Hugo -- gohugo.io</generator>
     <language>en</language>
     <copyright>© 2025 Prasanth</copyright>
-    <lastBuildDate>Mon, 22 Sep 2025 08:49:55 +1200</lastBuildDate><atom:link href="http://localhost:1313/notes/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Sun, 28 Sep 2025 20:51:12 +1300</lastBuildDate><atom:link href="http://localhost:1313/notes/index.xml" rel="self" type="application/rss+xml" />
+    
+    <item>
+      <title>Building Blocks of Trust</title>
+      <link>http://localhost:1313/notes/building-blocks-of-trust/</link>
+      <pubDate>Sun, 28 Sep 2025 20:51:12 +1300</pubDate>
+      
+      <guid>http://localhost:1313/notes/building-blocks-of-trust/</guid>
+      <description>Trust is the cornerstone of effective consulting. These are the building blocks.</description>
+      
+    </item>
     
     <item>
       <title>Ai Prompting Template</title>
