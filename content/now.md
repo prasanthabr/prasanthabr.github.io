@@ -7,8 +7,8 @@ summary: "Thoughts on things I read, heard, imagined written here for the future
 _Updated: 2025-W29_
 
 ## 🎯 Weekly Focus
-- **Focus of the Week**: [JS Basics & Simple hands-on LWC | Prompting Course
-  | Service Cloud Voice]
+- **Focus of the Week**: [Ruby | App Design in SF
+  | Data Cloud]
 
 ---
 
@@ -17,7 +17,7 @@ _Updated: 2025-W29_
 | Day       | Focus Area                      | Action |
 |-----------|----------------------------------|----------------|
 | **Mon**   | 🧱 Programming Fundamentals       | 99 Bottles of OOPs start, Chapter 1 CS50 |
-| **Tue**   | 🔤 Language Proficiency (X)       | Finish Chapter 2 of JS + build simple project |
+| **Tue**   | 🔤 Language Proficiency (X)       | Finish Chapter 2 of Ruby Odin + build simple project |
 | **Wed**   | ⚙️ Salesforce Mastery             | Read up Service Cloud Voice Dev Book |
 | **Thu**   | 🤖 AI Exploration                | Karpathy Course 1 + some API call using JS |
 | **Fri**   | 📈 Business & Entrepreneurship    | Read 1 HBR article, refine elevator pitch, use AI |
@@ -28,15 +28,15 @@ _Updated: 2025-W29_
 
 ## 🧠 Notes & Insights
 
-- Languages in cycle: `JS`
+- Languages in cycle: `Ruby`
 - AI theme: Prompt Engineering; Google Course
-- Tools to deepen soon: Amazon Connect
+- Tools to deepen soon: Data Cloud
 
 ---
 
 ## 🛠️ Side Project Status
 
-- Active: `🏗️ RentalRae`
+- Active: `🏗️ RentalRant`
 - Mini: `✅`, `🔜`
 
 ------
