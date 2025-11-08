@@ -40,10 +40,8 @@ We use Google Analytics to understand how visitors use our website. Our implemen
 | `_gid` | Distinguish unique visitors (new method) | 24 hours | Analytics |
 
 ### Your Choices
-- **Cookie Banner**: Accept or decline analytics cookies
 - **Browser Settings**: Enable "Do Not Track" to opt out completely
 - **Google Opt-out**: Use [Google's Analytics Opt-out Browser Add-on](https://tools.google.com/dlpage/gaoptout)
-- **Cookie Settings**: [Manage your preferences](#) anytime
 
 ### Third-Party Services
 We use:
