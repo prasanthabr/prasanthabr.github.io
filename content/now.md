@@ -18,7 +18,7 @@ _Updated: 2025-W29_
 |-----------|----------------------------------|----------------|
 | **Mon**   | 🧱 Programming Fundamentals       | 99 Bottles of OOPs start, Chapter 1 CS50 |
 | **Tue**   | 🔤 Language Proficiency (X)       | Finish Chapter 2 of Ruby Odin + build simple project |
-| **Wed**   | ⚙️ Salesforce Mastery             | Read up Service Cloud Voice Dev Book |
+| **Wed**   | ⚙️ Salesforce Mastery             | Read up Data360 Help |
 | **Thu**   | 🤖 AI Exploration                | Karpathy Course 1 + some API call using JS |
 | **Fri**   | 📈 Business & Entrepreneurship    | Read 1 HBR article, refine elevator pitch, use AI |
 | **Sat**   | 🚀 Build & Publish                | Rent Rage MVP on desktop |
@@ -29,8 +29,8 @@ _Updated: 2025-W29_
 ## 🧠 Notes & Insights
 
 - Languages in cycle: `Ruby`
+- Tools to deepen : Data Cloud
 - AI theme: Prompt Engineering; Google Course
-- Tools to deepen soon: Data Cloud
 
 ---
 
