@@ -7,7 +7,27 @@
     <generator>Hugo -- gohugo.io</generator>
     <language>en</language>
     <copyright>© 2025 Prasanth</copyright>
-    <lastBuildDate>Sun, 28 Sep 2025 21:08:01 +1300</lastBuildDate><atom:link href="http://localhost:1313/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Wed, 26 Nov 2025 22:12:34 +1300</lastBuildDate><atom:link href="http://localhost:1313/index.xml" rel="self" type="application/rss+xml" />
+    
+    <item>
+      <title>Agentforce Variable Values to Actions</title>
+      <link>http://localhost:1313/notes/agentforce-variable-values-to-actions/</link>
+      <pubDate>Wed, 26 Nov 2025 22:12:34 +1300</pubDate>
+      
+      <guid>http://localhost:1313/notes/agentforce-variable-values-to-actions/</guid>
+      <description></description>
+      
+    </item>
+    
+    <item>
+      <title>Agents Enhanced Chat Embedded</title>
+      <link>http://localhost:1313/notes/agents-enhanced-chat-embedded/</link>
+      <pubDate>Wed, 26 Nov 2025 22:05:57 +1300</pubDate>
+      
+      <guid>http://localhost:1313/notes/agents-enhanced-chat-embedded/</guid>
+      <description>Getting a service agent that is external facing works</description>
+      
+    </item>
     
     <item>
       <title>Building Credibility for Trust</title>

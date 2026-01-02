@@ -7,7 +7,17 @@
     <generator>Hugo -- gohugo.io</generator>
     <language>en</language>
     <copyright>© 2025 Prasanth</copyright>
-    <lastBuildDate>Sun, 28 Sep 2025 21:08:01 +1300</lastBuildDate><atom:link href="http://localhost:1313/domains/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Wed, 26 Nov 2025 22:05:57 +1300</lastBuildDate><atom:link href="http://localhost:1313/domains/index.xml" rel="self" type="application/rss+xml" />
+    
+    <item>
+      <title>Programming</title>
+      <link>http://localhost:1313/domains/programming/</link>
+      <pubDate>Wed, 26 Nov 2025 22:05:57 +1300</pubDate>
+      
+      <guid>http://localhost:1313/domains/programming/</guid>
+      <description></description>
+      
+    </item>
     
     <item>
       <title>Consulting</title>
@@ -15,16 +25,6 @@
       <pubDate>Sun, 28 Sep 2025 21:08:01 +1300</pubDate>
       
       <guid>http://localhost:1313/domains/consulting/</guid>
-      <description></description>
-      
-    </item>
-    
-    <item>
-      <title>Programming</title>
-      <link>http://localhost:1313/domains/programming/</link>
-      <pubDate>Mon, 22 Sep 2025 08:49:55 +1200</pubDate>
-      
-      <guid>http://localhost:1313/domains/programming/</guid>
       <description></description>
       
     </item>
