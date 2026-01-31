@@ -1,6 +1,6 @@
 ---
 title: "It Starts Here Now"
-description: "Personal zettelkasten for learning and creating"
+description: "Notes primarily writtern for the future me"
 layout: "simple"
 showDate: false
 showReadingTime: false
