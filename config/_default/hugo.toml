@@ -6,7 +6,7 @@ theme = "PaperMod"
 baseURL = "https://prasanthabr.com/"
 defaultContentLanguage = "en"
 languageCode = "en-us"
-title = "Prasanth"
+title = "prasanthabr"
 
 enableRobotsTXT = true
 summaryLength = 30

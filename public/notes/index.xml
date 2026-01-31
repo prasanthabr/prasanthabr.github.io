@@ -2,38 +2,52 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
   <channel>
     <title>Notes on prasanthabr</title>
-    <link>https://prasanthabr.com/notes/</link>
+    <link>http://localhost:1313/notes/</link>
     <description>Recent content in Notes on prasanthabr</description>
     <generator>Hugo -- 0.152.2</generator>
     <language>en</language>
     <lastBuildDate>Fri, 02 Jan 2026 18:43:08 +1300</lastBuildDate>
-    <atom:link href="https://prasanthabr.com/notes/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="http://localhost:1313/notes/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Kill Sessions Within Linux</title>
-      <link>https://prasanthabr.com/notes/kill-sessions-within-linux/</link>
+      <link>http://localhost:1313/notes/kill-sessions-within-linux/</link>
       <pubDate>Fri, 02 Jan 2026 18:43:08 +1300</pubDate>
-      <guid>https://prasanthabr.com/notes/kill-sessions-within-linux/</guid>
+      <guid>http://localhost:1313/notes/kill-sessions-within-linux/</guid>
       <description>working with ssh how do you kill stale sessions</description>
     </item>
     <item>
+      <title>Agentforce Variable Values to Actions</title>
+      <link>http://localhost:1313/notes/agentforce-variable-values-to-actions/</link>
+      <pubDate>Wed, 26 Nov 2025 22:12:34 +1300</pubDate>
+      <guid>http://localhost:1313/notes/agentforce-variable-values-to-actions/</guid>
+      <description>&lt;p&gt;Start writing your note here.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Agents Enhanced Chat Embedded</title>
+      <link>http://localhost:1313/notes/agents-enhanced-chat-embedded/</link>
+      <pubDate>Wed, 26 Nov 2025 22:05:57 +1300</pubDate>
+      <guid>http://localhost:1313/notes/agents-enhanced-chat-embedded/</guid>
+      <description>Getting a service agent that is external facing works</description>
+    </item>
+    <item>
       <title>Building Credibility for Trust</title>
-      <link>https://prasanthabr.com/notes/building-credibility-for-trust/</link>
+      <link>http://localhost:1313/notes/building-credibility-for-trust/</link>
       <pubDate>Sun, 28 Sep 2025 21:08:01 +1300</pubDate>
-      <guid>https://prasanthabr.com/notes/building-credibility-for-trust/</guid>
+      <guid>http://localhost:1313/notes/building-credibility-for-trust/</guid>
       <description>Creditibility is an element to build trust. How do we show credibility?</description>
     </item>
     <item>
       <title>Building Blocks of Trust</title>
-      <link>https://prasanthabr.com/notes/building-blocks-of-trust/</link>
+      <link>http://localhost:1313/notes/building-blocks-of-trust/</link>
       <pubDate>Sun, 28 Sep 2025 20:51:12 +1300</pubDate>
-      <guid>https://prasanthabr.com/notes/building-blocks-of-trust/</guid>
+      <guid>http://localhost:1313/notes/building-blocks-of-trust/</guid>
       <description>Trust is the cornerstone of effective consulting. These are the building blocks.</description>
     </item>
     <item>
       <title>Ai Prompting Template</title>
-      <link>https://prasanthabr.com/notes/ai-prompting-template/</link>
+      <link>http://localhost:1313/notes/ai-prompting-template/</link>
       <pubDate>Mon, 22 Sep 2025 08:49:55 +1200</pubDate>
-      <guid>https://prasanthabr.com/notes/ai-prompting-template/</guid>
+      <guid>http://localhost:1313/notes/ai-prompting-template/</guid>
       <description>&lt;p&gt;A good prompting template can follow this pattern.&lt;/p&gt;
 &lt;p&gt;It should contain:&lt;/p&gt;
 &lt;ul&gt;

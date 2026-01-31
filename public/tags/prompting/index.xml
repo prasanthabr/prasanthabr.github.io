@@ -2,17 +2,17 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
   <channel>
     <title>Prompting on prasanthabr</title>
-    <link>https://prasanthabr.com/tags/prompting/</link>
+    <link>http://localhost:1313/tags/prompting/</link>
     <description>Recent content in Prompting on prasanthabr</description>
     <generator>Hugo -- 0.152.2</generator>
     <language>en</language>
     <lastBuildDate>Mon, 22 Sep 2025 08:49:55 +1200</lastBuildDate>
-    <atom:link href="https://prasanthabr.com/tags/prompting/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="http://localhost:1313/tags/prompting/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Ai Prompting Template</title>
-      <link>https://prasanthabr.com/notes/ai-prompting-template/</link>
+      <link>http://localhost:1313/notes/ai-prompting-template/</link>
       <pubDate>Mon, 22 Sep 2025 08:49:55 +1200</pubDate>
-      <guid>https://prasanthabr.com/notes/ai-prompting-template/</guid>
+      <guid>http://localhost:1313/notes/ai-prompting-template/</guid>
       <description>&lt;p&gt;A good prompting template can follow this pattern.&lt;/p&gt;
 &lt;p&gt;It should contain:&lt;/p&gt;
 &lt;ul&gt;

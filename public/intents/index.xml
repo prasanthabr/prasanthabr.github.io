@@ -2,31 +2,31 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
   <channel>
     <title>Intent on prasanthabr</title>
-    <link>https://prasanthabr.com/intents/</link>
+    <link>http://localhost:1313/intents/</link>
     <description>Recent content in Intent on prasanthabr</description>
     <generator>Hugo -- 0.152.2</generator>
     <language>en</language>
     <lastBuildDate>Fri, 02 Jan 2026 18:43:08 +1300</lastBuildDate>
-    <atom:link href="https://prasanthabr.com/intents/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="http://localhost:1313/intents/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Learn</title>
-      <link>https://prasanthabr.com/intents/learn/</link>
+      <link>http://localhost:1313/intents/learn/</link>
       <pubDate>Fri, 02 Jan 2026 18:43:08 +1300</pubDate>
-      <guid>https://prasanthabr.com/intents/learn/</guid>
+      <guid>http://localhost:1313/intents/learn/</guid>
       <description></description>
     </item>
     <item>
       <title>Lookup</title>
-      <link>https://prasanthabr.com/intents/lookup/</link>
+      <link>http://localhost:1313/intents/lookup/</link>
       <pubDate>Mon, 22 Sep 2025 08:49:55 +1200</pubDate>
-      <guid>https://prasanthabr.com/intents/lookup/</guid>
+      <guid>http://localhost:1313/intents/lookup/</guid>
       <description></description>
     </item>
     <item>
       <title>Process</title>
-      <link>https://prasanthabr.com/intents/process/</link>
+      <link>http://localhost:1313/intents/process/</link>
       <pubDate>Sun, 21 Sep 2025 22:03:01 +1200</pubDate>
-      <guid>https://prasanthabr.com/intents/process/</guid>
+      <guid>http://localhost:1313/intents/process/</guid>
       <description></description>
     </item>
   </channel>

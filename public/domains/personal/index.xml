@@ -2,17 +2,17 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
   <channel>
     <title>Personal on prasanthabr</title>
-    <link>https://prasanthabr.com/domains/personal/</link>
+    <link>http://localhost:1313/domains/personal/</link>
     <description>Recent content in Personal on prasanthabr</description>
     <generator>Hugo -- 0.152.2</generator>
     <language>en</language>
     <lastBuildDate>Sun, 21 Sep 2025 22:03:01 +1200</lastBuildDate>
-    <atom:link href="https://prasanthabr.com/domains/personal/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="http://localhost:1313/domains/personal/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Laal Maas</title>
-      <link>https://prasanthabr.com/recipes/laal-maas/</link>
+      <link>http://localhost:1313/recipes/laal-maas/</link>
       <pubDate>Sun, 21 Sep 2025 22:03:01 +1200</pubDate>
-      <guid>https://prasanthabr.com/recipes/laal-maas/</guid>
+      <guid>http://localhost:1313/recipes/laal-maas/</guid>
       <description>&lt;h2 id=&#34;ingredients&#34;&gt;Ingredients&lt;/h2&gt;
 &lt;p&gt;1kg mutton&lt;br&gt;
 100gm garlic paste&lt;br&gt;
