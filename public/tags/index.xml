@@ -1,123 +1,75 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
-<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
   <channel>
     <title>Tags on prasanthabr</title>
-    <link>http://localhost:1313/tags/</link>
+    <link>https://prasanthabr.com/tags/</link>
     <description>Recent content in Tags on prasanthabr</description>
-    <generator>Hugo -- gohugo.io</generator>
+    <generator>Hugo -- 0.152.2</generator>
     <language>en</language>
-    <copyright>© 2025 Prasanth</copyright>
-    <lastBuildDate>Wed, 26 Nov 2025 22:05:57 +1300</lastBuildDate><atom:link href="http://localhost:1313/tags/index.xml" rel="self" type="application/rss+xml" />
-    
+    <lastBuildDate>Fri, 02 Jan 2026 18:43:08 +1300</lastBuildDate>
+    <atom:link href="https://prasanthabr.com/tags/index.xml" rel="self" type="application/rss+xml" />
     <item>
-      <title>Agentforce</title>
-      <link>http://localhost:1313/tags/agentforce/</link>
-      <pubDate>Wed, 26 Nov 2025 22:05:57 +1300</pubDate>
-      
-      <guid>http://localhost:1313/tags/agentforce/</guid>
+      <title>Debugging</title>
+      <link>https://prasanthabr.com/tags/debugging/</link>
+      <pubDate>Fri, 02 Jan 2026 18:43:08 +1300</pubDate>
+      <guid>https://prasanthabr.com/tags/debugging/</guid>
       <description></description>
-      
     </item>
-    
-    <item>
-      <title>Embedded Deployment</title>
-      <link>http://localhost:1313/tags/embedded-deployment/</link>
-      <pubDate>Wed, 26 Nov 2025 22:05:57 +1300</pubDate>
-      
-      <guid>http://localhost:1313/tags/embedded-deployment/</guid>
-      <description></description>
-      
-    </item>
-    
-    <item>
-      <title>Enhanced Chat</title>
-      <link>http://localhost:1313/tags/enhanced-chat/</link>
-      <pubDate>Wed, 26 Nov 2025 22:05:57 +1300</pubDate>
-      
-      <guid>http://localhost:1313/tags/enhanced-chat/</guid>
-      <description></description>
-      
-    </item>
-    
     <item>
       <title>Consulting 101</title>
-      <link>http://localhost:1313/tags/consulting-101/</link>
+      <link>https://prasanthabr.com/tags/consulting-101/</link>
       <pubDate>Sun, 28 Sep 2025 21:08:01 +1300</pubDate>
-      
-      <guid>http://localhost:1313/tags/consulting-101/</guid>
+      <guid>https://prasanthabr.com/tags/consulting-101/</guid>
       <description></description>
-      
     </item>
-    
     <item>
       <title>Consulting for Impact</title>
-      <link>http://localhost:1313/tags/consulting-for-impact/</link>
+      <link>https://prasanthabr.com/tags/consulting-for-impact/</link>
       <pubDate>Sun, 28 Sep 2025 21:08:01 +1300</pubDate>
-      
-      <guid>http://localhost:1313/tags/consulting-for-impact/</guid>
+      <guid>https://prasanthabr.com/tags/consulting-for-impact/</guid>
       <description></description>
-      
     </item>
-    
     <item>
       <title>Credibility</title>
-      <link>http://localhost:1313/tags/credibility/</link>
+      <link>https://prasanthabr.com/tags/credibility/</link>
       <pubDate>Sun, 28 Sep 2025 21:08:01 +1300</pubDate>
-      
-      <guid>http://localhost:1313/tags/credibility/</guid>
+      <guid>https://prasanthabr.com/tags/credibility/</guid>
       <description></description>
-      
     </item>
-    
     <item>
       <title>Building Trust</title>
-      <link>http://localhost:1313/tags/building-trust/</link>
+      <link>https://prasanthabr.com/tags/building-trust/</link>
       <pubDate>Sun, 28 Sep 2025 20:51:12 +1300</pubDate>
-      
-      <guid>http://localhost:1313/tags/building-trust/</guid>
+      <guid>https://prasanthabr.com/tags/building-trust/</guid>
       <description></description>
-      
     </item>
-    
     <item>
       <title>Ai</title>
-      <link>http://localhost:1313/tags/ai/</link>
+      <link>https://prasanthabr.com/tags/ai/</link>
       <pubDate>Mon, 22 Sep 2025 08:49:55 +1200</pubDate>
-      
-      <guid>http://localhost:1313/tags/ai/</guid>
+      <guid>https://prasanthabr.com/tags/ai/</guid>
       <description></description>
-      
     </item>
-    
     <item>
       <title>Prompting</title>
-      <link>http://localhost:1313/tags/prompting/</link>
+      <link>https://prasanthabr.com/tags/prompting/</link>
       <pubDate>Mon, 22 Sep 2025 08:49:55 +1200</pubDate>
-      
-      <guid>http://localhost:1313/tags/prompting/</guid>
+      <guid>https://prasanthabr.com/tags/prompting/</guid>
       <description></description>
-      
     </item>
-    
     <item>
       <title>Legal</title>
-      <link>http://localhost:1313/tags/legal/</link>
+      <link>https://prasanthabr.com/tags/legal/</link>
       <pubDate>Mon, 01 Jan 2024 00:00:00 +0000</pubDate>
-      
-      <guid>http://localhost:1313/tags/legal/</guid>
+      <guid>https://prasanthabr.com/tags/legal/</guid>
       <description></description>
-      
     </item>
-    
     <item>
       <title>Privacy</title>
-      <link>http://localhost:1313/tags/privacy/</link>
+      <link>https://prasanthabr.com/tags/privacy/</link>
       <pubDate>Mon, 01 Jan 2024 00:00:00 +0000</pubDate>
-      
-      <guid>http://localhost:1313/tags/privacy/</guid>
+      <guid>https://prasanthabr.com/tags/privacy/</guid>
       <description></description>
-      
     </item>
-    
   </channel>
 </rss>

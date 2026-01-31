@@ -1,23 +1,40 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
-<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
   <channel>
     <title>Stable on prasanthabr</title>
-    <link>http://localhost:1313/statuses/stable/</link>
+    <link>https://prasanthabr.com/statuses/stable/</link>
     <description>Recent content in Stable on prasanthabr</description>
-    <generator>Hugo -- gohugo.io</generator>
+    <generator>Hugo -- 0.152.2</generator>
     <language>en</language>
-    <copyright>© 2025 Prasanth</copyright>
-    <lastBuildDate>Sun, 21 Sep 2025 22:03:01 +1200</lastBuildDate><atom:link href="http://localhost:1313/statuses/stable/index.xml" rel="self" type="application/rss+xml" />
-    
+    <lastBuildDate>Sun, 21 Sep 2025 22:03:01 +1200</lastBuildDate>
+    <atom:link href="https://prasanthabr.com/statuses/stable/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Laal Maas</title>
-      <link>http://localhost:1313/recipes/laal-maas/</link>
+      <link>https://prasanthabr.com/recipes/laal-maas/</link>
       <pubDate>Sun, 21 Sep 2025 22:03:01 +1200</pubDate>
-      
-      <guid>http://localhost:1313/recipes/laal-maas/</guid>
-      <description></description>
-      
+      <guid>https://prasanthabr.com/recipes/laal-maas/</guid>
+      <description>&lt;h2 id=&#34;ingredients&#34;&gt;Ingredients&lt;/h2&gt;
+&lt;p&gt;1kg mutton&lt;br&gt;
+100gm garlic paste&lt;br&gt;
+50gm crushed garlic cloves&lt;br&gt;
+25gm crushed ginger&lt;br&gt;
+100gm ginger paste&lt;br&gt;
+200gm tomato purée&lt;br&gt;
+150gm whipped curd&lt;br&gt;
+300gm desi ghee (clarified butter)&lt;br&gt;
+2 bay leaves&lt;br&gt;
+4 tsp coriander seeds&lt;br&gt;
+4 black cardamom seeds&lt;br&gt;
+5 green cardamom seeds&lt;br&gt;
+2 cinnamon sticks&lt;br&gt;
+6 cloves&lt;br&gt;
+2 pieces of nutmeg&lt;br&gt;
+15 deseeded Mathania chillies&lt;br&gt;
+2 1/2 tsp Kashmiri red chilli&lt;br&gt;
+1 Onion sliced thin&lt;br&gt;
+3/4 tsp turmeric&lt;br&gt;
+1 cup water&lt;br&gt;
+To taste, salt&lt;/p&gt;</description>
     </item>
-    
   </channel>
 </rss>

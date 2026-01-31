@@ -1,0 +1,171 @@
+/*
+ * Typography Scale and Spacing
+ * Optimized for reading long-form notes
+ */
+
+/* Base typography */
+body {
+  font-family: var(--font-body);
+  font-size: 1.0625rem; /* 17px - slightly larger for readability */
+  line-height: 1.7;
+  font-feature-settings: "kern" 1, "liga" 1;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+/* Headings use Inter */
+h1, h2, h3, h4, h5, h6,
+.post-title,
+.entry-title {
+  font-family: var(--font-heading);
+  font-weight: 600;
+  line-height: 1.3;
+  letter-spacing: -0.02em;
+}
+
+/* Type scale */
+h1, .post-title {
+  font-size: 2.25rem;
+  font-weight: 700;
+  margin-bottom: 1rem;
+}
+
+h2 {
+  font-size: 1.5rem;
+  margin-top: 2.5rem;
+  margin-bottom: 1rem;
+}
+
+h3 {
+  font-size: 1.25rem;
+  margin-top: 2rem;
+  margin-bottom: 0.75rem;
+}
+
+h4 {
+  font-size: 1.125rem;
+  margin-top: 1.5rem;
+  margin-bottom: 0.5rem;
+}
+
+/* Paragraphs */
+p {
+  margin-bottom: 1.25rem;
+}
+
+/* Links in content */
+.post-content a,
+.entry-content a {
+  color: var(--color-link);
+  text-decoration: none;
+  transition: color 0.15s ease, text-decoration 0.15s ease;
+}
+
+.post-content a:hover,
+.entry-content a:hover {
+  color: var(--color-link-hover);
+  text-decoration: underline;
+  text-decoration-thickness: 1px;
+  text-underline-offset: 3px;
+}
+
+/* Code styling */
+code,
+pre,
+.highlight {
+  font-family: var(--font-mono);
+  font-size: 0.875em;
+  font-feature-settings: "liga" 1;
+}
+
+/* Inline code */
+:not(pre) > code {
+  padding: 0.2em 0.4em;
+  border-radius: 4px;
+  background: var(--color-bg-secondary);
+}
+
+/* Code blocks */
+pre {
+  padding: 1rem;
+  border-radius: 8px;
+  overflow-x: auto;
+  margin: 1.5rem 0;
+}
+
+/* Blockquotes */
+blockquote {
+  font-style: italic;
+  border-left: 3px solid var(--color-border);
+  padding-left: 1.5rem;
+  margin: 1.5rem 0;
+  color: var(--color-text-secondary);
+}
+
+blockquote p:last-child {
+  margin-bottom: 0;
+}
+
+/* Lists */
+ul, ol {
+  margin-bottom: 1.25rem;
+  padding-left: 1.5rem;
+}
+
+li {
+  margin-bottom: 0.5rem;
+}
+
+li > ul,
+li > ol {
+  margin-top: 0.5rem;
+  margin-bottom: 0;
+}
+
+/* Navigation and UI elements use Inter */
+nav,
+.nav,
+.menu,
+.breadcrumbs,
+.pagination,
+.post-meta,
+.post-footer,
+.toc,
+footer,
+button,
+input,
+select,
+textarea {
+  font-family: var(--font-heading);
+}
+
+/* Post metadata */
+.post-meta {
+  font-size: 0.875rem;
+  color: var(--color-text-secondary);
+}
+
+/* Reading time, word count */
+.post-info {
+  font-size: 0.8125rem;
+  color: var(--color-text-secondary);
+}
+
+/* Responsive typography */
+@media (max-width: 640px) {
+  body {
+    font-size: 1rem;
+  }
+
+  h1, .post-title {
+    font-size: 1.75rem;
+  }
+
+  h2 {
+    font-size: 1.375rem;
+  }
+
+  h3 {
+    font-size: 1.125rem;
+  }
+}

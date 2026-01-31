@@ -1,189 +1,77 @@
-# -- Theme Options --
-# These options control how the theme functions and allow you to
-# customise the display of your website.
-#
-# Refer to the theme docs for more details about each of these parameters.
-# https://blowfish.page/docs/configuration/#theme-parameters
+# -- PaperMod Theme Parameters --
+# https://github.com/adityatelange/hugo-PaperMod/wiki/Variables
 
-colorScheme = "noir"
-defaultAppearance = "light" # valid options: light or dark
-autoSwitchAppearance = true
+env = "production"
+author = "Prasanth"
+description = "Personal notes and thoughts"
+keywords = ["zettelkasten", "notes", "programming", "writing"]
+defaultTheme = "auto"  # auto, light, dark
+disableThemeToggle = false
+ShowReadingTime = true
+ShowShareButtons = false
+ShowPostNavLinks = true
+ShowBreadCrumbs = true
+ShowCodeCopyButtons = true
+ShowWordCount = true
+ShowRssButtonInSectionTermList = true
+UseHugoToc = true
+disableSpecialTitleLists = false
+disableScrollToTop = false
+comments = false
+hidemeta = false
+hideSummary = false
+showtoc = true
+tocopen = false
+DateFormat = "January 2, 2006"
 
-enableA11y = false
-enableSearch = true
-enableCodeCopy = false
-
-replyByEmail = false
-
+# Main sections for homepage recent posts
 mainSections = ["notes", "research", "recipes"]
-# robots = ""
 
-disableImageOptimization = false
-disableImageOptimizationMD = false
-disableTextInHeader = false
-# backgroundImageWidth = 1200
+# Analytics
+googleAnalyticsId = "G-J2B4W0KV6W"
 
-# defaultBackgroundImage = "IMAGE.jpg" # used as default for background images 
-# defaultFeaturedImage = "IMAGE.jpg" # used as default for featured images in all articles
-# defaultSocialImage = "/android-chrome-512x512.png" # used as default for social media sharing (Open Graph and Twitter)
+[assets]
+  favicon = "/favicon.ico"
+  favicon16x16 = "/favicon-16x16.png"
+  favicon32x32 = "/favicon-32x32.png"
+  apple_touch_icon = "/apple-touch-icon.png"
 
-# highlightCurrentMenuArea = true
-# smartTOC = true
-# smartTOCHideUnfocusedChildren = true
+[label]
+  text = "Prasanth"
+  icon = ""
+  iconHeight = 35
 
-fingerprintAlgorithm = "sha512" # Valid values are "sha512" (default), "sha384", "sha256"
+[profileMode]
+  enabled = false
+  title = "Prasanth"
+  subtitle = "Notes and thoughts"
+  imageUrl = ""
+  imageWidth = 120
+  imageHeight = 120
 
-giteaDefaultServer = "https://git.fsfe.org"
-forgejoDefaultServer = "https://v11.next.forgejo.org"
+[homeInfoParams]
+  Title = "Notes & Thoughts"
+  Content = "A collection of permanent notes from my zettelkasten - ideas worth preserving and sharing."
 
-[header]
-  layout = "basic" # valid options: basic, fixed, fixed-fill, fixed-gradient, fixed-fill-blur
+[[socialIcons]]
+  name = "rss"
+  url = "/index.xml"
 
-[footer]
-  showMenu = true
-  showCopyright = true
-  showThemeAttribution = true
-  showAppearanceSwitcher = true
-  showScrollToTop = true
+[cover]
+  hidden = true
+  hiddenInList = true
+  hiddenInSingle = true
 
-[homepage]
-  layout = "page" # valid options: page, profile, hero, card, background, custom
-  #homepageImage = "IMAGE.jpg" # used in: hero, and card
-  showRecent = true
-  showRecentItems = 5
-  showMoreLink = false
-  showMoreLinkDest = "/notes/"
-  cardView = true
-  cardViewScreenWidth = false
-  layoutBackgroundBlur = false # only used when layout equals background
-  disableHeroImageFilter = false # only used when layout equals hero
+[editPost]
+  URL = ""
+  Text = ""
+  appendFilePath = false
 
-[article]
-  showDate = true
-  showViews = false
-  showLikes = false
-  showDateOnlyInArticle = false
-  showDateUpdated = true             
-  showAuthor = false
-  showHero = false
-  layoutBackgroundBlur = true
-  layoutBackgroundHeaderSpace = true
-  showBreadcrumbs = true             
-  showDraftLabel = true
-  showEdit = false
-  editAppendPath = true
-  seriesOpened = false
-  showHeadingAnchors = true
-  showPagination = true
-  invertPagination = false
-  showReadingTime = true
-  showTableOfContents = true        
-  showRelatedContent = true         
-  relatedContentLimit = 5            
-  showTaxonomies = true              
-  showCategoryOnly = false
-  showAuthorsBadges = false
-  showWordCount = true
-  showZenMode = false
-
-[list]
-  showHero = false
-  layoutBackgroundBlur = true
-  layoutBackgroundHeaderSpace = true
-  showBreadcrumbs = true            
-  showSummary = true                
-  showViews = false
-  showLikes = false
-  showTableOfContents = false
-  showCards = true                  
-  orderByWeight = false
-  groupByYear = false               
-  cardView = true                   
-  cardViewScreenWidth = false
-  constrainItemsWidth = false
-
-[sitemap]
-  excludedKinds = ["taxonomy", "term"]
-
-[taxonomy]
-  showTermCount = true
-  showHero = false
-  showBreadcrumbs = true
-  showViews = false
-  showLikes = false
-  showTableOfContents = true         
-  cardView = true                     
-
-[term]
-  showHero = false
-  # heroStyle = "background" # valid options: basic, big, background, thumbAndBackground
-  showBreadcrumbs = false
-  showViews = false
-  showLikes = false
-  showTableOfContents = true
-  groupByYear = false
-  cardView = false
-  cardViewScreenWidth = false
-
-[firebase]
-  # apiKey = "XXXXXX"
-  # authDomain = "XXXXXX"
-  # projectId = "XXXXXX"
-  # storageBucket = "XXXXXX"
-  # messagingSenderId = "XXXXXX"
-  # appId = "XXXXXX"
-  # measurementId = "XXXXXX"
-
-[fathomAnalytics]
-  # site = "ABC12345"
-  # domain = "llama.yoursite.com"
-
-[umamiAnalytics]
-  # websiteid = "ABC12345"
-  # domain = "llama.yoursite.com"
-  # dataDomains = "yoursite.com,yoursite2.com"
-  # scriptName = ""
-  # enableTrackEvent = true
-
-[selineAnalytics]
-  # token = "XXXXXX"
-  # enableTrackEvent = true
-
-[buymeacoffee]
-  # identifier = ""
-  # globalWidget = true
-  # globalWidgetMessage = "Hello"
-  # globalWidgetColor = "#FFDD00"
-  # globalWidgetPosition = "Right"
-
-[verification]
-  # google = ""
-  # bing = ""
-  # pinterest = ""
-  # yandex = ""
-  # fediverse = ""
-
-[rssnext]
-  # feedId = ""
-  # userId = ""
-
-[advertisement]
-  # adsense = ""
-
-# Analytics configuration
-[analytics]
-  provider = "google"
-  
-  [analytics.google]
-    SiteVerificationTag = ""  # Optional: Google Search Console verification
-
-# Cookie consent banner
-[cookieConsent]
-  enable = true
-  type = "opt-in"  # Most privacy-compliant option
-  
-  [cookieConsent.analytics]
-    name = "Analytics"
-    title = "Analytics and Performance" 
-    description = "These cookies help us understand how visitors interact with our website."
-    cookies = ["_ga", "_ga_*", "_gid", "_gat"]
+[fuseOpts]
+  isCaseSensitive = false
+  shouldSort = true
+  location = 0
+  distance = 1000
+  threshold = 0.4
+  minMatchCharLength = 0
+  keys = ["title", "permalink", "summary", "content"]

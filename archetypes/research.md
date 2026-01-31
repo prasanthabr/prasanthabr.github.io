@@ -4,31 +4,42 @@ date: {{ .Date }}
 lastmod: {{ .Date }}
 draft: true
 slug: "{{ .Name }}"
-type: "article"
 summary: ""
+description: ""
 
-# STATUS: Choose one - draft, active, stable, evergreen, archived
+# ZETTELKASTEN METADATA
+# ---------------------
+# Research typically starts active (in progress)
 statuses: ["active"]
 
-# DOMAINS: Choose from - programming, philosophy, literature, design, entrepreneurship, personal
+# Domain: programming, philosophy, literature, design, entrepreneurship, personal
 domains: []
 
-# INTENT: Choose one or more - learn, build, lookup, process, connect
+# Research is typically for learning
 intents: ["learn"]
 
-# TAGS: Free-form, but consider domain-specific suggestions:
-# Programming: javascript, functional-programming, algorithms, architecture, debugging
-# Philosophy: ethics, epistemology, metaphysics, logic, phenomenology
-# Literature: poetry, prose, modernist, analysis, criticism, narrative
-# Design: ui-ux, systems-thinking, patterns, accessibility
-# Personal: productivity, learning, reflection, habits
+# Tags: free-form keywords
 tags: []
 
-authors: ["{{ .Site.Author.name | default "Prasanth" }}"]
-showReadingTime: true
-showTableOfContents: true
-showRelatedContent: true
-# hero: ""
+author: "Prasanth"
+ShowToc: true
+TocOpen: false
 ---
 
-Start writing your research here.
+<!--
+RESEARCH TEMPLATE:
+Use this for deep dives, literature reviews, and systematic exploration.
+Structure your findings so they can be extracted into permanent notes.
+-->
+
+## Overview
+
+What question are you investigating?
+
+## Key Findings
+
+## Sources
+
+## Open Questions
+
+## Related Notes

@@ -1,36 +1,45 @@
+# -- Navigation Menus --
+# PaperMod menu configuration
+
 [[main]]
+  identifier = "notes"
   name = "Notes"
-  pageRef = "notes"
+  url = "/notes/"
   weight = 10
 
 [[main]]
+  identifier = "research"
   name = "Research"
-  pageRef = "research"
+  url = "/research/"
   weight = 20
 
 [[main]]
+  identifier = "domains"
   name = "Domains"
-  pageRef = "domains"
+  url = "/domains/"
   weight = 30
 
 [[main]]
+  identifier = "now"
   name = "Now"
-  pageRef = "now"
+  url = "/now/"
   weight = 40
 
-# Quick domain access in subnavigation
-#[[subnavigation]]
-#  name = "Programming"
-#  pageRef = "domains/programming"
-#  weight = 10
-
-# Add to footer
-[[footer]]
-  name = "Privacy Policy"
-  pageRef = "privacy"
-  weight = 100
-
-[[footer]]
-  name = "About"
-  pageRef = "about"
+[[main]]
+  identifier = "search"
+  name = "Search"
+  url = "/search/"
   weight = 50
+
+# Footer menu
+[[footer]]
+  identifier = "about"
+  name = "About"
+  url = "/about/"
+  weight = 10
+
+[[footer]]
+  identifier = "privacy"
+  name = "Privacy"
+  url = "/privacy/"
+  weight = 20

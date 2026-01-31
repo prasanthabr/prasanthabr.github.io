@@ -1,0 +1,89 @@
+{{- define "main" }}
+
+<header class="page-header">
+  {{- if not .IsHome }}
+  {{- partial "breadcrumbs.html" . }}
+  {{- end }}
+  {{- if .Title }}
+  <h1>{{ .Title | markdownify }}</h1>
+  {{- end }}
+  {{- if .Description }}
+  <span class="post-description">{{ .Description | markdownify }}</span>
+  {{- end }}
+</header>
+
+{{- if .Content }}
+<div class="post-content">
+  {{ .Content }}
+</div>
+{{- end }}
+
+{{- if .Pages }}
+<div class="note-list">
+  {{- $paginator := .Paginate .Pages }}
+  {{- range $paginator.Pages }}
+  <article class="note-card">
+    <header class="note-card__header">
+      <h2 class="note-card__title">
+        <a href="{{ .Permalink }}">{{ .Title }}</a>
+      </h2>
+      <div class="post-meta">
+        <span>{{ .Date | time.Format ":date_medium" }}</span>
+        {{- if .Params.showReadingTime | default true }}
+        <span>&middot; {{ .ReadingTime }} min read</span>
+        {{- end }}
+      </div>
+    </header>
+
+    {{- if .Summary }}
+    <p class="note-card__summary">{{ .Summary | plainify | truncate 200 }}</p>
+    {{- end }}
+
+    <footer class="note-card__badges">
+      {{/* Status badges */}}
+      {{- range .Params.statuses }}
+      {{- $statusClass := printf "badge--status-%s" (. | urlize) }}
+      <a href="{{ "/statuses/" | relURL }}{{ . | urlize }}/" class="badge {{ $statusClass }}">
+        {{ . }}
+      </a>
+      {{- end }}
+
+      {{/* Domain badges */}}
+      {{- range .Params.domains }}
+      {{- $domainClass := printf "badge--domain-%s" (. | urlize) }}
+      <a href="{{ "/domains/" | relURL }}{{ . | urlize }}/" class="badge {{ $domainClass }}">
+        {{ . }}
+      </a>
+      {{- end }}
+
+      {{/* Intent badges */}}
+      {{- range .Params.intents }}
+      {{- $intentClass := printf "badge--intent-%s" (. | urlize) }}
+      <a href="{{ "/intents/" | relURL }}{{ . | urlize }}/" class="badge {{ $intentClass }}">
+        {{ . }}
+      </a>
+      {{- end }}
+    </footer>
+  </article>
+  {{- end }}
+
+  {{/* Pagination */}}
+  {{- if gt $paginator.TotalPages 1 }}
+  <nav class="pagination">
+    {{- if $paginator.HasPrev }}
+    <a href="{{ $paginator.Prev.URL }}">Previous</a>
+    {{- end }}
+    <span>Page {{ $paginator.PageNumber }} of {{ $paginator.TotalPages }}</span>
+    {{- if $paginator.HasNext }}
+    <a href="{{ $paginator.Next.URL }}">Next</a>
+    {{- end }}
+  </nav>
+  {{- end }}
+</div>
+{{- else }}
+<div class="empty-state">
+  <p>No posts found.</p>
+</div>
+{{- end }}
+
+{{- end }}{{/* end main */}}

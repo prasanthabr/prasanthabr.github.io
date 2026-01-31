@@ -4,31 +4,41 @@ date: {{ .Date }}
 lastmod: {{ .Date }}
 draft: true
 slug: "{{ .Name }}"
-type: "article"
 summary: ""
+description: ""
 
-# STATUS: Choose one - draft, active, stable, evergreen, archived
+# ZETTELKASTEN METADATA
+# ---------------------
+# Status: draft → active → stable → evergreen (or archived)
 statuses: ["draft"]
 
-# DOMAINS: Choose from - programming, philosophy, literature, design, entrepreneurship, personal
+# Domain: programming, philosophy, literature, design, entrepreneurship, personal
 domains: []
 
-# INTENT: Choose one or more - learn, build, lookup, process, connect
+# Intent: learn (understanding), build (creating), lookup (reference), process (workflow), connect (synthesis)
 intents: []
 
-# TAGS: Free-form, but consider domain-specific suggestions:
-# Programming: javascript, functional-programming, algorithms, architecture, debugging
-# Philosophy: ethics, epistemology, metaphysics, logic, phenomenology
-# Literature: poetry, prose, modernist, analysis, criticism, narrative
-# Design: ui-ux, systems-thinking, patterns, accessibility
-# Personal: productivity, learning, reflection, habits
+# Tags: free-form keywords for findability
 tags: []
 
-authors: ["{{ .Site.Author.name | default "Prasanth" }}"]
-showReadingTime: true
-showTableOfContents: true
-showRelatedContent: true
-# hero: ""
+author: "Prasanth"
+ShowToc: true
+TocOpen: false
 ---
+
+<!--
+WRITING WORKFLOW:
+1. Start with the core idea - what's the one thing this note captures?
+2. Write for your future self - will this make sense in 6 months?
+3. Link to related notes where it adds value
+4. Update status as the note matures
+
+STATUS GUIDE:
+- draft: initial capture, may be incomplete
+- active: being developed, revisited frequently
+- stable: complete enough to reference
+- evergreen: timeless, regularly maintained
+- archived: historical reference, no longer updated
+-->
 
 Start writing your note here.

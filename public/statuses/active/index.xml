@@ -1,43 +1,53 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
-<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
   <channel>
     <title>Active on prasanthabr</title>
-    <link>http://localhost:1313/statuses/active/</link>
+    <link>https://prasanthabr.com/statuses/active/</link>
     <description>Recent content in Active on prasanthabr</description>
-    <generator>Hugo -- gohugo.io</generator>
+    <generator>Hugo -- 0.152.2</generator>
     <language>en</language>
-    <copyright>© 2025 Prasanth</copyright>
-    <lastBuildDate>Sun, 28 Sep 2025 21:08:01 +1300</lastBuildDate><atom:link href="http://localhost:1313/statuses/active/index.xml" rel="self" type="application/rss+xml" />
-    
+    <lastBuildDate>Fri, 02 Jan 2026 18:43:08 +1300</lastBuildDate>
+    <atom:link href="https://prasanthabr.com/statuses/active/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Kill Sessions Within Linux</title>
+      <link>https://prasanthabr.com/notes/kill-sessions-within-linux/</link>
+      <pubDate>Fri, 02 Jan 2026 18:43:08 +1300</pubDate>
+      <guid>https://prasanthabr.com/notes/kill-sessions-within-linux/</guid>
+      <description>working with ssh how do you kill stale sessions</description>
+    </item>
     <item>
       <title>Building Credibility for Trust</title>
-      <link>http://localhost:1313/notes/building-credibility-for-trust/</link>
+      <link>https://prasanthabr.com/notes/building-credibility-for-trust/</link>
       <pubDate>Sun, 28 Sep 2025 21:08:01 +1300</pubDate>
-      
-      <guid>http://localhost:1313/notes/building-credibility-for-trust/</guid>
+      <guid>https://prasanthabr.com/notes/building-credibility-for-trust/</guid>
       <description>Creditibility is an element to build trust. How do we show credibility?</description>
-      
     </item>
-    
     <item>
       <title>Building Blocks of Trust</title>
-      <link>http://localhost:1313/notes/building-blocks-of-trust/</link>
+      <link>https://prasanthabr.com/notes/building-blocks-of-trust/</link>
       <pubDate>Sun, 28 Sep 2025 20:51:12 +1300</pubDate>
-      
-      <guid>http://localhost:1313/notes/building-blocks-of-trust/</guid>
+      <guid>https://prasanthabr.com/notes/building-blocks-of-trust/</guid>
       <description>Trust is the cornerstone of effective consulting. These are the building blocks.</description>
-      
     </item>
-    
     <item>
       <title>Ai Prompting Template</title>
-      <link>http://localhost:1313/notes/ai-prompting-template/</link>
+      <link>https://prasanthabr.com/notes/ai-prompting-template/</link>
       <pubDate>Mon, 22 Sep 2025 08:49:55 +1200</pubDate>
-      
-      <guid>http://localhost:1313/notes/ai-prompting-template/</guid>
-      <description></description>
-      
+      <guid>https://prasanthabr.com/notes/ai-prompting-template/</guid>
+      <description>&lt;p&gt;A good prompting template can follow this pattern.&lt;/p&gt;
+&lt;p&gt;It should contain:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;Task
+&lt;ul&gt;
+&lt;li&gt;Persona&lt;/li&gt;
+&lt;li&gt;Format&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;Context&lt;/li&gt;
+&lt;li&gt;References&lt;/li&gt;
+&lt;li&gt;Evaluate&lt;/li&gt;
+&lt;li&gt;Iterate&lt;/li&gt;
+&lt;/ul&gt;</description>
     </item>
-    
   </channel>
 </rss>

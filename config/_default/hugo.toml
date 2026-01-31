@@ -1,15 +1,15 @@
 # -- Site Configuration --
-# Refer to the theme docs for more details about each of these parameters.
-# https://blowfish.page/docs/getting-started/
+# PaperMod theme with zettelkasten customizations
+# https://github.com/adityatelange/hugo-PaperMod
 
-theme = "blowfish" # UNCOMMENT THIS LINE
+theme = "PaperMod"
 baseURL = "https://prasanthabr.com/"
 defaultContentLanguage = "en"
-
-# pluralizeListTitles = "true" # hugo function useful for non-english languages, find out more in  https://gohugo.io/getting-started/configuration/#pluralizelisttitles
+languageCode = "en-us"
+title = "Prasanth"
 
 enableRobotsTXT = true
-summaryLength = 0
+summaryLength = 30
 
 buildDrafts = false
 buildFuture = false
@@ -23,6 +23,10 @@ googleAnalytics = "G-J2B4W0KV6W"
 
 [imaging]
   anchor = 'Center'
+
+[minify]
+  disableXML = true
+  minifyOutput = true
 
 [taxonomies]
   domain = "domains"

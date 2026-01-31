@@ -1,0 +1,322 @@
+/*
+ * Zettelkasten-specific Styles
+ * Taxonomy badges, related notes, and note metadata
+ */
+
+/* Taxonomy badges container */
+.zettel-meta {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.5rem;
+  margin: 1rem 0;
+  font-family: var(--font-heading);
+}
+
+/* Base badge style */
+.badge {
+  display: inline-flex;
+  align-items: center;
+  padding: 0.25rem 0.625rem;
+  font-size: 0.75rem;
+  font-weight: 500;
+  border-radius: 9999px;
+  text-decoration: none;
+  transition: opacity 0.15s ease, transform 0.15s ease;
+}
+
+.badge:hover {
+  opacity: 0.85;
+  transform: translateY(-1px);
+}
+
+/* Status badges */
+.badge--status-draft {
+  background: var(--color-status-draft-bg);
+  color: var(--color-status-draft);
+}
+
+.badge--status-active {
+  background: var(--color-status-active-bg);
+  color: var(--color-status-active);
+}
+
+.badge--status-stable {
+  background: var(--color-status-stable-bg);
+  color: var(--color-status-stable);
+}
+
+.badge--status-evergreen {
+  background: var(--color-status-evergreen-bg);
+  color: var(--color-status-evergreen);
+}
+
+.badge--status-archived {
+  background: var(--color-status-archived-bg);
+  color: var(--color-status-archived);
+}
+
+/* Intent badges */
+.badge--intent-learn {
+  background: var(--color-intent-learn-bg);
+  color: var(--color-intent-learn);
+}
+
+.badge--intent-build {
+  background: var(--color-intent-build-bg);
+  color: var(--color-intent-build);
+}
+
+.badge--intent-lookup {
+  background: var(--color-intent-lookup-bg);
+  color: var(--color-intent-lookup);
+}
+
+.badge--intent-process {
+  background: var(--color-intent-process-bg);
+  color: var(--color-intent-process);
+}
+
+.badge--intent-connect {
+  background: var(--color-intent-connect-bg);
+  color: var(--color-intent-connect);
+}
+
+/* Domain badges */
+.badge--domain-programming {
+  background: var(--color-domain-programming-bg);
+  color: var(--color-domain-programming);
+}
+
+.badge--domain-philosophy {
+  background: var(--color-domain-philosophy-bg);
+  color: var(--color-domain-philosophy);
+}
+
+.badge--domain-literature {
+  background: var(--color-domain-literature-bg);
+  color: var(--color-domain-literature);
+}
+
+.badge--domain-design {
+  background: var(--color-domain-design-bg);
+  color: var(--color-domain-design);
+}
+
+.badge--domain-entrepreneurship {
+  background: var(--color-domain-entrepreneurship-bg);
+  color: var(--color-domain-entrepreneurship);
+}
+
+.badge--domain-personal {
+  background: var(--color-domain-personal-bg);
+  color: var(--color-domain-personal);
+}
+
+/* Generic badge for unknown values */
+.badge--default {
+  background: var(--gray-200);
+  color: var(--gray-700);
+}
+
+[data-theme="dark"] .badge--default,
+.dark .badge--default {
+  background: var(--gray-700);
+  color: var(--gray-300);
+}
+
+/* Related notes section */
+.related-notes {
+  margin-top: 3rem;
+  padding-top: 2rem;
+  border-top: 1px solid var(--color-border);
+}
+
+.related-notes__title {
+  font-family: var(--font-heading);
+  font-size: 1.125rem;
+  font-weight: 600;
+  margin-bottom: 1rem;
+  color: var(--color-text);
+}
+
+.related-notes__list {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+.related-notes__item {
+  padding: 0.75rem 0;
+  border-bottom: 1px solid var(--color-border);
+}
+
+.related-notes__item:last-child {
+  border-bottom: none;
+}
+
+.related-notes__link {
+  font-family: var(--font-heading);
+  font-weight: 500;
+  color: var(--color-text);
+  text-decoration: none;
+  display: block;
+  margin-bottom: 0.25rem;
+}
+
+.related-notes__link:hover {
+  color: var(--color-link);
+}
+
+.related-notes__meta {
+  font-size: 0.8125rem;
+  color: var(--color-text-secondary);
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.5rem;
+}
+
+/* Note card in lists */
+.note-card {
+  padding: 1rem;
+  border: 1px solid var(--color-border);
+  border-radius: 8px;
+  margin-bottom: 1rem;
+  transition: border-color 0.15s ease, box-shadow 0.15s ease;
+}
+
+.note-card:hover {
+  border-color: var(--color-link);
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.05);
+}
+
+[data-theme="dark"] .note-card:hover,
+.dark .note-card:hover {
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.2);
+}
+
+.note-card__title {
+  font-family: var(--font-heading);
+  font-size: 1.125rem;
+  font-weight: 600;
+  margin-bottom: 0.5rem;
+}
+
+.note-card__title a {
+  color: var(--color-text);
+  text-decoration: none;
+}
+
+.note-card__title a:hover {
+  color: var(--color-link);
+}
+
+.note-card__summary {
+  font-size: 0.9375rem;
+  color: var(--color-text-secondary);
+  margin-bottom: 0.75rem;
+  line-height: 1.5;
+}
+
+.note-card__badges {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.375rem;
+}
+
+/* Taxonomy pages */
+.taxonomy-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(200px, 1fr));
+  gap: 1rem;
+  margin: 1.5rem 0;
+}
+
+.taxonomy-card {
+  padding: 1rem;
+  border: 1px solid var(--color-border);
+  border-radius: 8px;
+  text-decoration: none;
+  transition: all 0.15s ease;
+}
+
+.taxonomy-card:hover {
+  border-color: var(--color-link);
+  transform: translateY(-2px);
+}
+
+.taxonomy-card__name {
+  font-family: var(--font-heading);
+  font-weight: 600;
+  color: var(--color-text);
+  margin-bottom: 0.25rem;
+}
+
+.taxonomy-card__count {
+  font-size: 0.875rem;
+  color: var(--color-text-secondary);
+}
+
+/* Post entry in PaperMod list */
+.post-entry {
+  margin-bottom: 1.5rem;
+}
+
+.post-entry .entry-header {
+  margin-bottom: 0.5rem;
+}
+
+.post-entry .zettel-meta {
+  margin: 0.5rem 0;
+}
+
+/* Homepage navigation styling */
+.home-content .post-content h2 {
+  font-size: 0.875rem;
+  font-weight: 600;
+  text-transform: uppercase;
+  letter-spacing: 0.05em;
+  color: var(--color-text-secondary);
+  margin-top: 2rem;
+  margin-bottom: 0.75rem;
+  padding-bottom: 0.5rem;
+  border-bottom: 1px solid var(--color-border);
+}
+
+.home-content .post-content h2:first-child {
+  margin-top: 0;
+}
+
+.home-content .post-content p {
+  margin-bottom: 1rem;
+  line-height: 2;
+}
+
+.home-content .post-content a {
+  color: var(--color-text);
+  font-weight: 500;
+  padding: 0.25rem 0.5rem;
+  margin: 0 0.125rem;
+  border-radius: 4px;
+  transition: background-color 0.15s ease, color 0.15s ease;
+}
+
+.home-content .post-content a:hover {
+  background-color: var(--color-bg-secondary);
+  color: var(--color-link);
+  text-decoration: none;
+}
+
+.home-content .post-content strong {
+  font-weight: inherit;
+}
+
+.home-content .post-content hr {
+  margin: 2rem 0;
+  border: none;
+  border-top: 1px solid var(--color-border);
+}
+
+.home-content .post-content em {
+  font-size: 0.875rem;
+  color: var(--color-text-secondary);
+}

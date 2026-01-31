@@ -1,0 +1,28 @@
+{{/* Zettelkasten metadata badges - Status, Domain, Intent */}}
+{{- $page := . -}}
+
+<div class="zettel-meta">
+  {{/* Status badges */}}
+  {{- range .Params.statuses }}
+  {{- $statusClass := printf "badge--status-%s" (. | urlize) }}
+  <a href="{{ "/statuses/" | relURL }}{{ . | urlize }}/" class="badge {{ $statusClass }}">
+    {{ . }}
+  </a>
+  {{- end }}
+
+  {{/* Domain badges */}}
+  {{- range .Params.domains }}
+  {{- $domainClass := printf "badge--domain-%s" (. | urlize) }}
+  <a href="{{ "/domains/" | relURL }}{{ . | urlize }}/" class="badge {{ $domainClass }}">
+    {{ . }}
+  </a>
+  {{- end }}
+
+  {{/* Intent badges */}}
+  {{- range .Params.intents }}
+  {{- $intentClass := printf "badge--intent-%s" (. | urlize) }}
+  <a href="{{ "/intents/" | relURL }}{{ . | urlize }}/" class="badge {{ $intentClass }}">
+    {{ . }}
+  </a>
+  {{- end }}
+</div>

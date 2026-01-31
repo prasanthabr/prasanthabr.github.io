@@ -1,0 +1,26 @@
+{{/* Related notes using Hugo's weighted related content */}}
+{{- $related := .Site.RegularPages.Related . | first 5 -}}
+
+{{- with $related }}
+<aside class="related-notes">
+  <h2 class="related-notes__title">Related Notes</h2>
+  <ul class="related-notes__list">
+    {{- range . }}
+    <li class="related-notes__item">
+      <a href="{{ .Permalink }}" class="related-notes__link">{{ .Title }}</a>
+      <div class="related-notes__meta">
+        <span>{{ .Date | time.Format ":date_medium" }}</span>
+        {{- range .Params.statuses }}
+        {{- $statusClass := printf "badge--status-%s" (. | urlize) }}
+        <span class="badge {{ $statusClass }}">{{ . }}</span>
+        {{- end }}
+        {{- range .Params.domains }}
+        {{- $domainClass := printf "badge--domain-%s" (. | urlize) }}
+        <span class="badge {{ $domainClass }}">{{ . }}</span>
+        {{- end }}
+      </div>
+    </li>
+    {{- end }}
+  </ul>
+</aside>
+{{- end }}

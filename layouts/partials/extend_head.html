@@ -1,0 +1,36 @@
+{{/* Extended head for custom fonts and meta tags */}}
+
+{{/* Font preconnect for faster loading */}}
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+
+{{/* Import custom CSS files in correct order */}}
+{{- $variables := resources.Get "css/extended/_variables.css" -}}
+{{- $fonts := resources.Get "css/extended/_fonts.css" -}}
+{{- $typography := resources.Get "css/extended/_typography.css" -}}
+{{- $zettel := resources.Get "css/extended/_zettel.css" -}}
+
+{{- if $variables -}}
+<style>{{ $variables.Content | safeCSS }}</style>
+{{- end -}}
+
+{{- if $fonts -}}
+<style>{{ $fonts.Content | safeCSS }}</style>
+{{- end -}}
+
+{{- if $typography -}}
+<style>{{ $typography.Content | safeCSS }}</style>
+{{- end -}}
+
+{{- if $zettel -}}
+<style>{{ $zettel.Content | safeCSS }}</style>
+{{- end -}}
+
+{{/* Additional SEO meta tags */}}
+{{- with .Params.domains }}
+<meta name="article:section" content="{{ index . 0 }}">
+{{- end }}
+
+{{- with .Params.statuses }}
+<meta name="article:tag" content="{{ index . 0 }}">
+{{- end }}

@@ -1,102 +1,37 @@
-{{ define "main" }}
-<div class="max-w-4xl mx-auto">
-  <!-- Header with breadcrumb -->
-  <header class="mb-8">
-    <nav class="text-sm mb-3">
-      <a href="{{ .Parent.Permalink }}" class="text-primary-600 hover:text-primary-700 dark:text-primary-400">
-        {{ .Parent.Title }}
-      </a>
-      <span class="text-neutral-400 mx-2">→</span>
-      <span class="text-neutral-600 dark:text-neutral-400 capitalize">{{ .Title }}</span>
-    </nav>
-    
-    <h1 class="text-3xl font-bold mb-2 capitalize">{{ .Title }}</h1>
-    <p class="text-lg text-neutral-600 dark:text-neutral-400">
-      {{ .Pages.Len }} {{ if eq .Pages.Len 1 }}item{{ else }}items{{ end }}
-    </p>
-  </header>
+{{- define "main" }}
 
-  <!-- Quick Stats -->
-  {{ if gt .Pages.Len 0 }}
-    <div class="grid grid-cols-2 md:grid-cols-4 gap-4 mb-8 text-center">
-      {{ $notes := where .Pages ".Type" "==" "article" }}
-      {{ $research := where .Pages ".Type" "==" "research" }}
-      {{ $references := where .Pages ".Type" "==" "reference" }}
-      {{ $active := where .Pages ".Params.status" "intersect" (slice "active") }}
-      
-      <div class="bg-neutral-50 dark:bg-neutral-800 rounded-lg p-3">
-        <div class="text-2xl font-bold text-blue-600">{{ len $notes }}</div>
-        <div class="text-sm text-neutral-600 dark:text-neutral-400">Notes</div>
-      </div>
-      
-      <div class="bg-neutral-50 dark:bg-neutral-800 rounded-lg p-3">
-        <div class="text-2xl font-bold text-green-600">{{ len $research }}</div>
-        <div class="text-sm text-neutral-600 dark:text-neutral-400">Research</div>
-      </div>
-      
-      <div class="bg-neutral-50 dark:bg-neutral-800 rounded-lg p-3">
-        <div class="text-2xl font-bold text-purple-600">{{ len $references }}</div>
-        <div class="text-sm text-neutral-600 dark:text-neutral-400">References</div>
-      </div>
-      
-      <div class="bg-neutral-50 dark:bg-neutral-800 rounded-lg p-3">
-        <div class="text-2xl font-bold text-orange-600">{{ len $active }}</div>
-        <div class="text-sm text-neutral-600 dark:text-neutral-400">Active</div>
-      </div>
-    </div>
-  {{ end }}
+<header class="page-header">
+  {{- partial "breadcrumbs.html" . }}
+  <h1>{{ .Title | markdownify }}</h1>
+  {{- if .Description }}
+  <span class="post-description">{{ .Description | markdownify }}</span>
+  {{- else }}
+  <span class="post-description">Browse by {{ .Title }}</span>
+  {{- end }}
+</header>
 
-  <!-- Content List -->
-  {{ if .Pages }}
-    <div class="space-y-3">
-      {{ range .Pages.GroupByParam "status" }}
-        {{ if .Key }}
-          <div class="mb-6">
-            <h3 class="text-lg font-semibold mb-3 capitalize text-neutral-700 dark:text-neutral-300 border-b border-neutral-200 dark:border-neutral-700 pb-1">
-              {{ .Key }} ({{ len .Pages }})
-            </h3>
-            
-            <div class="space-y-2 ml-4">
-              {{ range .Pages }}
-                <div class="flex items-start justify-between py-2 border-b border-neutral-100 dark:border-neutral-800">
-                  <div class="flex-1">
-                    <h4 class="font-medium">
-                      <a href="{{ .Permalink }}" class="text-primary-600 hover:text-primary-700 dark:text-primary-400">
-                        {{ .Title }}
-                      </a>
-                    </h4>
-                    {{ if .Summary }}
-                      <p class="text-sm text-neutral-600 dark:text-neutral-400 mt-1">{{ .Summary | truncate 120 }}</p>
-                    {{ end }}
-                    
-                    <!-- Tags -->
-                    {{ if .Params.tags }}
-                      <div class="mt-2">
-                        {{ range first 3 .Params.tags }}
-                          <span class="text-xs bg-neutral-100 dark:bg-neutral-800 text-neutral-600 dark:text-neutral-400 px-2 py-1 rounded mr-1">
-                            #{{ . }}
-                          </span>
-                        {{ end }}
-                      </div>
-                    {{ end }}
-                  </div>
-                  
-                  <div class="text-sm text-neutral-500 dark:text-neutral-400 ml-4 text-right">
-                    <div>{{ .Date.Format "Jan 2" }}</div>
-                    <div class="text-xs capitalize">{{ .Type }}</div>
-                  </div>
-                </div>
-              {{ end }}
-            </div>
-          </div>
-        {{ end }}
-      {{ end }}
-    </div>
-  {{ else }}
-    <div class="text-center py-12 text-neutral-500 dark:text-neutral-400">
-      <p class="text-lg">No {{ .Title }} content yet.</p>
-      <p class="mt-2">Create content with <code class="bg-neutral-100 dark:bg-neutral-800 px-2 py-1 rounded">domains: ["{{ .Title }}"]</code></p>
-    </div>
-  {{ end }}
+{{- if .Content }}
+<div class="post-content">
+  {{ .Content }}
 </div>
-{{ end }}
+{{- end }}
+
+{{- $taxonomy := .Data.Plural }}
+<div class="taxonomy-grid">
+  {{- range .Data.Terms.ByCount }}
+  <a href="{{ .Page.Permalink }}" class="taxonomy-card">
+    {{- $termClass := "" }}
+    {{- if eq $taxonomy "statuses" }}
+      {{- $termClass = printf "badge--status-%s" (.Page.Title | urlize) }}
+    {{- else if eq $taxonomy "domains" }}
+      {{- $termClass = printf "badge--domain-%s" (.Page.Title | urlize) }}
+    {{- else if eq $taxonomy "intents" }}
+      {{- $termClass = printf "badge--intent-%s" (.Page.Title | urlize) }}
+    {{- end }}
+    <span class="taxonomy-card__name {{ $termClass }}">{{ .Page.Title }}</span>
+    <span class="taxonomy-card__count">{{ .Count }} {{ if eq .Count 1 }}item{{ else }}items{{ end }}</span>
+  </a>
+  {{- end }}
+</div>
+
+{{- end }}{{/* end main */}}
