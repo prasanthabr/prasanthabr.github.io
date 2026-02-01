@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
   <channel>
-    <title>It Starts Here Now on prasanthabr</title>
+    <title>Prasanth on prasanthabr</title>
     <link>http://localhost:1313/</link>
-    <description>Recent content in It Starts Here Now on prasanthabr</description>
+    <description>Recent content in Prasanth on prasanthabr</description>
     <generator>Hugo -- 0.152.2</generator>
     <language>en</language>
     <lastBuildDate>Fri, 02 Jan 2026 18:43:08 +1300</lastBuildDate>
@@ -103,7 +103,77 @@ To taste, salt&lt;/p&gt;</description>
       <link>http://localhost:1313/now/</link>
       <pubDate>Fri, 01 Jan 2021 00:00:00 +0000</pubDate>
       <guid>http://localhost:1313/now/</guid>
-      <description>Thoughts on things I read, heard, imagined written here for the future me</description>
+      <description>&lt;h1 id=&#34;-weekly-focus--study-plan&#34;&gt;📅 Weekly Focus &amp;amp; Study Plan&lt;/h1&gt;
+&lt;p&gt;&lt;em&gt;Updated: 2025-W29&lt;/em&gt;&lt;/p&gt;
+&lt;h2 id=&#34;-weekly-focus&#34;&gt;🎯 Weekly Focus&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;strong&gt;Focus of the Week&lt;/strong&gt;: [Ruby | App Design in SF
+| Data Cloud]&lt;/li&gt;
+&lt;/ul&gt;
+&lt;hr&gt;
+&lt;h2 id=&#34;-daily-themes--action-suggestions&#34;&gt;🗓️ Daily Themes &amp;amp; Action Suggestions&lt;/h2&gt;
+&lt;table&gt;
+  &lt;thead&gt;
+      &lt;tr&gt;
+          &lt;th&gt;Day&lt;/th&gt;
+          &lt;th&gt;Focus Area&lt;/th&gt;
+          &lt;th&gt;Action&lt;/th&gt;
+      &lt;/tr&gt;
+  &lt;/thead&gt;
+  &lt;tbody&gt;
+      &lt;tr&gt;
+          &lt;td&gt;&lt;strong&gt;Mon&lt;/strong&gt;&lt;/td&gt;
+          &lt;td&gt;🧱 Programming Fundamentals&lt;/td&gt;
+          &lt;td&gt;99 Bottles of OOPs start, Chapter 1 CS50&lt;/td&gt;
+      &lt;/tr&gt;
+      &lt;tr&gt;
+          &lt;td&gt;&lt;strong&gt;Tue&lt;/strong&gt;&lt;/td&gt;
+          &lt;td&gt;🔤 Language Proficiency (X)&lt;/td&gt;
+          &lt;td&gt;Finish Chapter 2 of Ruby Odin + build simple project&lt;/td&gt;
+      &lt;/tr&gt;
+      &lt;tr&gt;
+          &lt;td&gt;&lt;strong&gt;Wed&lt;/strong&gt;&lt;/td&gt;
+          &lt;td&gt;⚙️ Salesforce Mastery&lt;/td&gt;
+          &lt;td&gt;Read up Data360 Help&lt;/td&gt;
+      &lt;/tr&gt;
+      &lt;tr&gt;
+          &lt;td&gt;&lt;strong&gt;Thu&lt;/strong&gt;&lt;/td&gt;
+          &lt;td&gt;🤖 AI Exploration&lt;/td&gt;
+          &lt;td&gt;Karpathy Course 1 + some API call using JS&lt;/td&gt;
+      &lt;/tr&gt;
+      &lt;tr&gt;
+          &lt;td&gt;&lt;strong&gt;Fri&lt;/strong&gt;&lt;/td&gt;
+          &lt;td&gt;📈 Business &amp;amp; Entrepreneurship&lt;/td&gt;
+          &lt;td&gt;Read 1 HBR article, refine elevator pitch, use AI&lt;/td&gt;
+      &lt;/tr&gt;
+      &lt;tr&gt;
+          &lt;td&gt;&lt;strong&gt;Sat&lt;/strong&gt;&lt;/td&gt;
+          &lt;td&gt;🚀 Build &amp;amp; Publish&lt;/td&gt;
+          &lt;td&gt;Rent Rage MVP on desktop&lt;/td&gt;
+      &lt;/tr&gt;
+      &lt;tr&gt;
+          &lt;td&gt;&lt;strong&gt;Sun&lt;/strong&gt;&lt;/td&gt;
+          &lt;td&gt;🔄 Reflect &amp;amp; Plan&lt;/td&gt;
+          &lt;td&gt;Journal week&amp;rsquo;s learning, update writing focus, prepare sticky note&lt;/td&gt;
+      &lt;/tr&gt;
+  &lt;/tbody&gt;
+&lt;/table&gt;
+&lt;hr&gt;
+&lt;h2 id=&#34;-notes--insights&#34;&gt;🧠 Notes &amp;amp; Insights&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;Languages in cycle: &lt;code&gt;Ruby&lt;/code&gt;&lt;/li&gt;
+&lt;li&gt;Tools to deepen : Data Cloud&lt;/li&gt;
+&lt;li&gt;AI theme: Prompt Engineering; Google Course&lt;/li&gt;
+&lt;/ul&gt;
+&lt;hr&gt;
+&lt;h2 id=&#34;-side-project-status&#34;&gt;🛠️ Side Project Status&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;Active: &lt;code&gt;🏗️ RentalRant&lt;/code&gt;&lt;/li&gt;
+&lt;li&gt;Mini: &lt;code&gt;✅&lt;/code&gt;, &lt;code&gt;🔜&lt;/code&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;hr&gt;
+&lt;p&gt;Reorganising how I consume information&lt;br&gt;
+and how i try to retain it.&lt;/p&gt;</description>
     </item>
     <item>
       <title>Prasanth Abraham</title>

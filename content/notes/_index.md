@@ -1,7 +1,5 @@
 ---
 title: "Notes"
-description: "My zettelkasten collection"
+description: "These are incomplete thoughts"
 layout: "list"
 ---
-
-Collection of atomic notes, thoughts, and connections.

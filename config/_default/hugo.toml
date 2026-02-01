@@ -1,5 +1,5 @@
 # -- Site Configuration --
-# PaperMod theme with zettelkasten customizations
+# PaperMod theme configuration
 # https://github.com/adityatelange/hugo-PaperMod
 
 theme = "PaperMod"

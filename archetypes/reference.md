@@ -7,41 +7,26 @@ slug: "{{ .Name }}"
 summary: ""
 description: ""
 
-# ZETTELKASTEN METADATA
-# ---------------------
-# References are typically stable lookup material
-statuses: ["stable"]
-
-# Domain: programming, philosophy, literature, design, entrepreneurship, personal
 domains: []
-
-# References are for lookup
-intents: ["lookup"]
-
 tags: []
+
+source_url: ""
+source_type: ""
+source_author: ""
 
 author: "Prasanth"
 ShowToc: true
 TocOpen: false
 
-# SOURCE METADATA
-source_url: ""
-source_type: "" # book, article, video, paper, podcast, website
-source_author: ""
+cover:
+  image: ""
+  alt: ""
+  caption: ""
 ---
-
-<!--
-REFERENCE TEMPLATE:
-Use for capturing key information from external sources.
-Focus on what YOU learned, not just summarizing the source.
--->
 
 ## Summary
 
 ## Key Points
 
-## My Takeaways
+## Takeaways
 
-## Quotes
-
-## Related Notes

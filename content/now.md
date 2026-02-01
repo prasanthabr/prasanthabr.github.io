@@ -1,10 +1,10 @@
 ---
 title: "What is happening now?"
 date: 2021-01-01
-summary: "Thoughts on things I read, heard, imagined written here for the future me"
+summary: "Thoughts about what my focus is``"
 ---
 # 📅 Weekly Focus & Study Plan
-_Updated: 2025-W29_
+_Updated: 2026 Feb
 
 ## 🎯 Weekly Focus
 - **Focus of the Week**: [Ruby | App Design in SF
@@ -22,7 +22,7 @@ _Updated: 2025-W29_
 | **Thu**   | 🤖 AI Exploration                | Karpathy Course 1 + some API call using JS |
 | **Fri**   | 📈 Business & Entrepreneurship    | Read 1 HBR article, refine elevator pitch, use AI |
 | **Sat**   | 🚀 Build & Publish                | Rent Rage MVP on desktop |
-| **Sun**   | 🔄 Reflect & Plan                 | Journal week’s learning, update Zettel focus, prepare sticky note |
+| **Sun**   | 🔄 Reflect & Plan                 | Journal week's learning, update writing focus, prepare sticky note |
 
 ---
 

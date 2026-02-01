@@ -1,6 +1,6 @@
 ---
-title: "It Starts Here Now"
-description: "Notes primarily writtern for the future me"
+title: "Unfinished Rants & Incomplete Notes"
+description: "writings on technology, consulting, programming and other things"
 layout: "simple"
 showDate: false
 showReadingTime: false
@@ -8,22 +8,15 @@ showTableOfContents: false
 showRelatedContent: false
 ---
 
-## Quick Access
-
-**[Notes](/notes/)** • **[Research](/research/)**  • **[Reference](/reference/)**
-
-## Browse by Domain  
-
-**[Programming](/domains/programming/)** • **[Consulting](/domains/consulting/)** • **[Literature](/domains/literature/)** • **[Design](/domains/design/)** • **[Personal](/domains/personal/)**
-
-## Find by Intent
-
-**[Learning](/intents/learn/)** • **[Building](/intents/build/)** • **[Reference](/intents/lookup/)** • **[Process](/intents/process/)**
-
-## By Status
-
-**[Active](/statuses/active/)** • **[Stable](/statuses/stable/)** • **[Evergreen](/statuses/evergreen/)**
+I write about consulting, programming, and the ideas I find interesting.
+This is writing primarily for the future me who stumbles back here.
 
 ---
 
-*Search above ↗ or create: `hugo new notes/topic-name.md`*
+## Browse
+
+[Notes](/notes/) • [Research](/research/) • [Reference](/reference/)
+
+## Topics
+
+[Programming](/domains/programming/) • [Consulting](/domains/consulting/) • [Literature](/domains/literature/) • [Design](/domains/design/)

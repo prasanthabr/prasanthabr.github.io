@@ -3,8 +3,8 @@
 
 env = "production"
 author = "Prasanth"
-description = "Personal notes and thoughts"
-keywords = ["zettelkasten", "notes", "programming", "writing"]
+description = ""
+keywords = ["consulting", "programming", "technology", "writing"]
 defaultTheme = "auto"  # auto, light, dark
 disableThemeToggle = false
 ShowReadingTime = true
@@ -51,16 +51,17 @@ googleAnalyticsId = "G-J2B4W0KV6W"
 
 [homeInfoParams]
   Title = "Notes & Thoughts"
-  Content = "A collection of permanent notes from my zettelkasten - ideas worth preserving and sharing."
+  Content = ""
 
 [[socialIcons]]
   name = "rss"
   url = "/index.xml"
 
 [cover]
-  hidden = true
-  hiddenInList = true
-  hiddenInSingle = true
+  hidden = false
+  hiddenInList = false
+  hiddenInSingle = false
+  responsiveImages = true
 
 [editPost]
   URL = ""
