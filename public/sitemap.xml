@@ -42,11 +42,6 @@
     <changefreq>daily</changefreq>
     <priority>0.5</priority>
   </url><url>
-    <loc>http://localhost:1313/</loc>
-    <lastmod>2026-01-02T18:43:08+13:00</lastmod>
-    <changefreq>daily</changefreq>
-    <priority>0.5</priority>
-  </url><url>
     <loc>http://localhost:1313/domains/programming/</loc>
     <lastmod>2026-01-02T18:43:08+13:00</lastmod>
     <changefreq>daily</changefreq>
@@ -57,33 +52,8 @@
     <changefreq>daily</changefreq>
     <priority>0.5</priority>
   </url><url>
-    <loc>http://localhost:1313/notes/agentforce-variable-values-to-actions/</loc>
-    <lastmod>2025-11-26T22:12:34+13:00</lastmod>
-    <changefreq>daily</changefreq>
-    <priority>0.5</priority>
-  </url><url>
-    <loc>http://localhost:1313/statuses/draft/</loc>
-    <lastmod>2025-11-26T22:12:34+13:00</lastmod>
-    <changefreq>daily</changefreq>
-    <priority>0.5</priority>
-  </url><url>
-    <loc>http://localhost:1313/tags/agentforce/</loc>
-    <lastmod>2025-11-26T22:05:57+13:00</lastmod>
-    <changefreq>daily</changefreq>
-    <priority>0.5</priority>
-  </url><url>
-    <loc>http://localhost:1313/notes/agents-enhanced-chat-embedded/</loc>
-    <lastmod>2025-11-26T22:05:57+13:00</lastmod>
-    <changefreq>daily</changefreq>
-    <priority>0.5</priority>
-  </url><url>
-    <loc>http://localhost:1313/tags/embedded-deployment/</loc>
-    <lastmod>2025-11-26T22:05:57+13:00</lastmod>
-    <changefreq>daily</changefreq>
-    <priority>0.5</priority>
-  </url><url>
-    <loc>http://localhost:1313/tags/enhanced-chat/</loc>
-    <lastmod>2025-11-26T22:05:57+13:00</lastmod>
+    <loc>http://localhost:1313/</loc>
+    <lastmod>2026-01-02T18:43:08+13:00</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.5</priority>
   </url><url>
