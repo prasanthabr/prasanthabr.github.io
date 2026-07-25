@@ -1,0 +1,26 @@
+{{/*
+  term.html — every note carrying one taxonomy term, e.g. /statuses/active/.
+*/}}
+{{ define "wrap-class" }}wrap--wide{{ end }}
+
+{{ define "main" }}
+{{- $taxonomy := .Data.Plural }}
+{{- $cfg := index hugo.Data.taxonomy $taxonomy | default dict }}
+{{- $termCfg := partialCached "term-config.html" . }}
+{{- $help := (index $termCfg (printf "%s/%s" $taxonomy (.Data.Term | urlize)) | default dict).help }}
+
+<header class="page-head">
+  {{ partial "breadcrumbs.html" . }}
+  <h1>{{ .Title }}</h1>
+  <p class="page-head__lede">
+    {{- with $help }}{{ . }} {{ end -}}
+    {{ len .Pages }} note{{ if ne (len .Pages) 1 }}s{{ end }} in {{ $cfg.label | default (humanize $taxonomy) | lower }}.
+  </p>
+</header>
+
+<ul class="note-list">
+  {{- range .Pages.ByDate.Reverse }}
+  {{- partial "note.html" (dict "page" .) }}
+  {{- end }}
+</ul>
+{{ end }}

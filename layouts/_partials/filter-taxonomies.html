@@ -1,0 +1,22 @@
+{{/*
+  filter-taxonomies.html — returns the ordered slice of taxonomy names that
+  `data/taxonomy.toml` marks with `filter = true`, sorted by `weight`.
+
+  Single source of truth for "which axes can you slice by". Both the filter
+  bar and the note row read it, so they can never disagree about the set or
+  the order.
+
+  Returns: []string, e.g. ("statuses" "domains" "tags")
+*/}}
+{{- $rows := slice }}
+{{- range $name, $cfg := hugo.Data.taxonomy }}
+  {{- if $cfg.filter }}
+    {{- if not (isset site.Taxonomies $name) }}
+      {{- errorf "data/taxonomy.toml marks %q as filterable but it is not registered under [taxonomies] in hugo.toml" $name }}
+    {{- end }}
+    {{- $rows = $rows | append (dict "name" $name "weight" ($cfg.weight | default 100)) }}
+  {{- end }}
+{{- end }}
+{{- $names := slice }}
+{{- range sort $rows "weight" }}{{ $names = $names | append .name }}{{ end }}
+{{- return $names }}

@@ -1,0 +1,50 @@
+{{/*
+  note.html — one note in a list. The only note-row markup in the theme; the
+  home index, the archive and every taxonomy page all render through here, so
+  they cannot drift apart.
+
+  Params:
+    page      (Page, required)
+    filterable (bool, default false) emit the data-* attributes the home page
+               filter reads. Harmless elsewhere, just noise, so it is opt-in.
+
+  The data-* attributes are the whole contract between this template and
+  `js/filter.js`: one attribute per filterable taxonomy, values pipe-delimited
+  and slugified. Add a taxonomy to `data/taxonomy.toml` with `filter = true`
+  and it appears here automatically.
+*/}}
+{{- $p := .page }}
+{{- $filterable := .filterable | default false }}
+{{- $facets := partial "filter-taxonomies.html" . }}
+
+<li class="note"
+  {{- if $filterable }}
+    {{- range $facets }}
+      {{- $terms := slice }}
+      {{- range $p.GetTerms . }}{{ $terms = $terms | append (.Title | urlize) }}{{ end }}
+    data-{{ . }}="{{ delimit $terms "|" }}"
+    {{- end }}
+    data-date="{{ $p.Date.Format "2006-01-02" }}"
+    data-lastmod="{{ $p.Lastmod.Format "2006-01-02" }}"
+    data-title="{{ lower $p.Title }}"
+    data-text="{{ lower (printf "%s %s" $p.Title ($p.Summary | plainify)) }}"
+  {{- end }}>
+  <h3 class="note__title"><a href="{{ $p.RelPermalink }}">{{ $p.Title }}</a></h3>
+  {{- with $p.Summary }}
+  <p class="note__summary">{{ . | plainify | truncate 220 }}</p>
+  {{- end }}
+  <div class="note__meta">
+    <time datetime="{{ $p.Date.Format "2006-01-02" }}">{{ $p.Date | time.Format site.Params.dateFormat }}</time>
+    {{- if $p.Lastmod.After ($p.Date.AddDate 0 0 1) }}
+    <span class="note__revised">· revised {{ $p.Lastmod | time.Format site.Params.dateFormat }}</span>
+    {{- end }}
+    <span class="badge-row">
+      {{- range $facets }}
+        {{- $taxonomy := . }}
+        {{- range $p.GetTerms $taxonomy }}
+          {{- partial "badge.html" (dict "taxonomy" $taxonomy "term" .Title) }}
+        {{- end }}
+      {{- end }}
+    </span>
+  </div>
+</li>

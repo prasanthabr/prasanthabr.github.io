@@ -1,0 +1,23 @@
+{{/*
+  term-config.html — flat, slug-keyed view of the term settings in
+  `data/taxonomy.toml`.
+
+  Exists because terms reach templates in several shapes: Hugo title-cases
+  them on term pages ("Consulting 101"), front matter has them as written, and
+  URLs use slugs ("consulting-101"). Looking up the data file directly with
+  any of those silently misses. Everything goes through this instead, keyed by
+  "<taxonomy>/<slug>".
+
+  Cache it — the data file does not change per page:
+    {{ $terms := partialCached "term-config.html" . }}
+    {{ $cfg := index $terms (printf "%s/%s" $taxonomy ($term | urlize)) | default dict }}
+
+  Returns: map[string]map
+*/}}
+{{- $out := dict }}
+{{- range $taxonomy, $cfg := hugo.Data.taxonomy }}
+  {{- range $term, $tcfg := $cfg.terms }}
+    {{- $out = merge $out (dict (printf "%s/%s" $taxonomy ($term | urlize)) $tcfg) }}
+  {{- end }}
+{{- end }}
+{{- return $out }}

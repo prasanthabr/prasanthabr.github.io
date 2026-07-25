@@ -1,0 +1,20 @@
+{{/*
+  home.json.json — the search index consumed by assets/js/search.js.
+
+  Keep the field names in step with FIELD_WEIGHT in that file; they are the
+  only contract between the two.
+*/}}
+{{- $index := slice }}
+{{- range where site.RegularPages "Section" "in" site.Params.mainSections }}
+  {{- $tags := slice }}
+  {{- range .GetTerms "tags" }}{{ $tags = $tags | append .Title }}{{ end }}
+  {{- $index = $index | append (dict
+      "title" .Title
+      "permalink" .RelPermalink
+      "date" (.Date | time.Format site.Params.dateFormat)
+      "summary" (.Summary | plainify | chomp)
+      "tags" $tags
+      "content" (.Plain | chomp)
+  ) }}
+{{- end }}
+{{- $index | jsonify }}

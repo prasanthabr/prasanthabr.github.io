@@ -1,0 +1,11 @@
+{{ define "main" }}
+<article class="article">
+  <header class="article__header">
+    <h1>Not here</h1>
+    <p class="page-head__lede">That URL doesn't exist. Notes keep their address for good once published, so this was either never a page or a typo.</p>
+  </header>
+  <div class="article__body">
+    <p><a href="{{ "/" | relURL }}">Browse everything</a> or <a href="{{ "/search/" | relURL }}">search</a>.</p>
+  </div>
+</article>
+{{ end }}

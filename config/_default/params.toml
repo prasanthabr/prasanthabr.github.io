@@ -1,78 +1,62 @@
-# -- PaperMod Theme Parameters --
-# https://github.com/adityatelange/hugo-PaperMod/wiki/Variables
+# -- Site parameters --
+# Every param the layouts read is listed here. If a template needs a value,
+# it belongs in this file rather than in the template.
 
-env = "production"
 author = "Prasanth"
-description = ""
-keywords = ["consulting", "programming", "technology", "writing"]
-defaultTheme = "auto"  # auto, light, dark
+label = "prasanthabr"                     # header brand text
+description = "A learning journal — Salesforce and the consulting craft around it, and the business and money side of building things."
+
+dateFormat = ":date_medium"               # Go time layout or a Hugo :date_* token
+defaultTheme = "light"                    # pre-JS fallback; theme.js then follows the OS
 disableThemeToggle = false
-ShowReadingTime = true
-ShowShareButtons = false
-ShowPostNavLinks = true
-ShowBreadCrumbs = true
-ShowCodeCopyButtons = true
-ShowWordCount = true
-ShowRssButtonInSectionTermList = true
-UseHugoToc = true
-disableSpecialTitleLists = false
-disableScrollToTop = false
-comments = false
-hidemeta = false
-hideSummary = false
-showtoc = true
-tocopen = false
-DateFormat = "January 2, 2006"
 
-# Main sections for homepage recent posts
-mainSections = ["notes", "research", "recipes"]
+# Sections whose pages appear on the home index. With the flat structure this
+# is just "notes"; it is a list so a second stream can be added without a
+# template change.
+mainSections = ["notes"]
 
-# Analytics
-googleAnalyticsId = "G-J2B4W0KV6W"
+# Reading time is hidden below this word count — "1 min read" on an eight-line
+# note is noise, and short notes are the point of this site.
+readingTimeMinWords = 400
 
-[assets]
-  favicon = "/favicon.ico"
-  favicon16x16 = "/favicon-16x16.png"
-  favicon32x32 = "/favicon-32x32.png"
-  apple_touch_icon = "/apple-touch-icon.png"
+relatedCount = 4
 
-[label]
-  text = "Prasanth"
-  icon = ""
-  iconHeight = 35
+# Cookieless analytics beacon. Commented out = the page makes no third-party
+# request and sets no cookie. Cloudflare still counts traffic at the edge
+# regardless — the privacy page says so. See layouts/_partials/analytics.html.
+# [analytics]
+#   provider = "cloudflare"    # or "goatcounter", "plausible"
+#   site     = "<token>"       # cf beacon token / gc subdomain / plausible domain
 
-[profileMode]
-  enabled = false
-  title = "Prasanth"
-  subtitle = "Notes and thoughts"
-  imageUrl = ""
-  imageWidth = 120
-  imageHeight = 120
+webmanifest = "/site.webmanifest"
 
-[homeInfoParams]
-  Title = "Notes & Thoughts"
-  Content = ""
+# Contact / profile links, rendered in the footer. Empty by default —
+# uncomment what you actually want public. Any label and URL works; the
+# footer just lists them.
+# [[social]]
+#   name = "GitHub"
+#   url  = "https://github.com/prasanthabr"
+# [[social]]
+#   name = "Email"
+#   url  = "mailto:you@example.com"
 
-[[socialIcons]]
-  name = "rss"
-  url = "/index.xml"
-
-[cover]
-  hidden = false
-  hiddenInList = false
-  hiddenInSingle = false
-  responsiveImages = true
-
-[editPost]
-  URL = ""
-  Text = ""
-  appendFilePath = false
-
-[fuseOpts]
-  isCaseSensitive = false
-  shouldSort = true
-  location = 0
-  distance = 1000
-  threshold = 0.4
-  minMatchCharLength = 0
-  keys = ["title", "permalink", "summary", "content"]
+# Favicons and touch icons, emitted in order by _partials/head.html.
+# Add a size by adding a row; nothing else to change.
+[[icons]]
+  rel = "icon"
+  type = "image/x-icon"
+  href = "/favicon.ico"
+[[icons]]
+  rel = "icon"
+  type = "image/png"
+  sizes = "16x16"
+  href = "/favicon-16x16.png"
+[[icons]]
+  rel = "icon"
+  type = "image/png"
+  sizes = "32x32"
+  href = "/favicon-32x32.png"
+[[icons]]
+  rel = "apple-touch-icon"
+  sizes = "180x180"
+  href = "/apple-touch-icon.png"

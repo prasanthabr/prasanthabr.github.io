@@ -1,0 +1,33 @@
+{{/*
+  search.html — full-text search over /index.json.
+
+  Selected by `layout: search` in a page's front matter (content/search.md).
+  The home page filter bar handles slicing by metadata; this handles "I know a
+  phrase but not where it was".
+*/}}
+{{ define "wrap-class" }}wrap--wide{{ end }}
+
+{{ define "main" }}
+<header class="page-head">
+  {{ partial "breadcrumbs.html" . }}
+  <h1>{{ .Title }}</h1>
+  {{- with .Content }}<div class="page-head__lede">{{ . }}</div>{{ end }}
+</header>
+
+<form id="search-form" role="search" onsubmit="return false;">
+  <label class="visually-hidden" for="search-input">Search notes</label>
+  <input class="search__input" id="search-input" type="search" autocomplete="off" autofocus
+         placeholder="{{ .Params.placeholder | default `Search notes…` }}">
+</form>
+<p class="search__status" id="search-status" aria-live="polite"></p>
+<ul class="note-list" id="search-results"></ul>
+
+<noscript><p class="note-list__empty">Search needs JavaScript. <a href="{{ "/notes/" | relURL }}">Browse everything by year</a> instead.</p></noscript>
+{{ end }}
+
+{{ define "scripts" }}
+{{- with resources.Get "js/search.js" }}
+{{- $js := . | js.Build (dict "minify" true) | fingerprint }}
+<script src="{{ $js.RelPermalink }}" integrity="{{ $js.Data.Integrity }}" data-index="{{ "/index.json" | relURL }}" defer></script>
+{{- end }}
+{{ end }}

@@ -1,0 +1,20 @@
+{{/*
+  article-meta.html — byline row under an article title.
+
+  Reading time is suppressed for short notes: "1 min read" on an eight-line
+  snippet is noise, and this site is explicitly hospitable to short notes.
+  The cutoff is `params.readingTimeMinWords`.
+*/}}
+{{- $minWords := site.Params.readingTimeMinWords | default 400 }}
+<div class="article__meta">
+  <time datetime="{{ .Date.Format "2006-01-02" }}">{{ .Date | time.Format site.Params.dateFormat }}</time>
+  {{- if .Lastmod.After (.Date.AddDate 0 0 1) }}
+  <span>· revised {{ .Lastmod | time.Format site.Params.dateFormat }}</span>
+  {{- end }}
+  {{- if ge .WordCount $minWords }}
+  <span>· {{ .ReadingTime }} min read</span>
+  {{- end }}
+  {{- if .Draft }}
+  <span>· <strong>draft</strong></span>
+  {{- end }}
+</div>

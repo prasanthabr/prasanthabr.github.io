@@ -22,19 +22,23 @@ jobs:
       - name: Checkout repository
         uses: actions/checkout@v4
         with:
-          submodules: recursive
+          # fetch-depth: 0 so .Lastmod can come from git history if
+          # enableGitInfo is ever switched on.
           fetch-depth: 0
 
       - name: Setup Hugo
         uses: peaceiris/actions-hugo@v3
         with:
-          hugo-version: latest
+          # Pinned to the local version. `latest` means a Hugo release can
+          # break the deploy with no local warning; upgrading should be a
+          # deliberate commit that was built locally first.
+          hugo-version: '0.162.1'
           extended: true
 
       - name: Build site
         env:
           HUGO_ENVIRONMENT: production
-        run: hugo --minify
+        run: hugo --minify --gc
 
       - name: Upload Pages artifact
         uses: actions/upload-pages-artifact@v3

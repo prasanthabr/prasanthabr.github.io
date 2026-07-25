@@ -1,0 +1,34 @@
+{{/*
+  home.rss.xml — the feed.
+
+  Hugo's built-in RSS template includes every page, which put /about/ and
+  /now/ in the feed. This one is limited to `params.mainSections`, so the feed
+  is notes and nothing else.
+*/}}
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>{{ site.Title }}</title>
+    <link>{{ site.Home.Permalink }}</link>
+    <description>{{ site.Params.description }}</description>
+    <generator>Hugo</generator>
+    <language>{{ or site.Language.Locale site.Language.Lang }}</language>
+    {{- with site.Params.author }}<managingEditor>{{ . }}</managingEditor>{{ end }}
+    <atom:link href="{{ .Permalink }}" rel="self" type="application/rss+xml" />
+    {{- $pages := where site.RegularPages "Section" "in" site.Params.mainSections }}
+    {{- with $pages }}
+    <lastBuildDate>{{ (index (.ByLastmod.Reverse) 0).Lastmod.Format "Mon, 02 Jan 2006 15:04:05 -0700" }}</lastBuildDate>
+    {{- end }}
+    {{- range first 30 $pages.ByDate.Reverse }}
+    <item>
+      <title>{{ .Title }}</title>
+      <link>{{ .Permalink }}</link>
+      <pubDate>{{ .Date.Format "Mon, 02 Jan 2006 15:04:05 -0700" }}</pubDate>
+      <guid>{{ .Permalink }}</guid>
+      {{- range .GetTerms "tags" }}
+      <category>{{ .Title }}</category>
+      {{- end }}
+      <description>{{ .Content | transform.XMLEscape | safeHTML }}</description>
+    </item>
+    {{- end }}
+  </channel>
+</rss>

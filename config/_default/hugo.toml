@@ -1,85 +1,72 @@
-# -- Site Configuration --
-# PaperMod theme configuration
-# https://github.com/adityatelange/hugo-PaperMod
+# -- Site configuration --
+#
+# Structure rule this site is built on: the URL never encodes maturity.
+# Every note lives at /notes/<slug>/ from the day it is created and keeps that
+# address forever. How finished a piece is lives in `statuses` front matter,
+# so promoting a note is a one-word edit rather than a move plus a redirect.
+#
+# There is no `theme =` line on purpose. Layouts live in ./layouts and are
+# meant to be read and edited directly.
 
-theme = "PaperMod"
 baseURL = "https://prasanthabr.com/"
-defaultContentLanguage = "en"
-languageCode = "en-us"
 title = "prasanthabr"
+defaultContentLanguage = "en"
+locale = "en-nz"
 
 enableRobotsTXT = true
+enableEmoji = true
 summaryLength = 30
 
 buildDrafts = false
 buildFuture = false
 
-enableEmoji = true
-
-googleAnalytics = "G-J2B4W0KV6W"
-
 [pagination]
-  pagerSize = 25
-
-[imaging]
-  anchor = 'Center'
+  # Everything sits on one page; the home filter bar is how the list gets cut
+  # down. Only raise this if that stops being true.
+  pagerSize = 200
 
 [minify]
   disableXML = true
   minifyOutput = true
 
+# Registered taxonomies. Presentation for each — label, term order, badge hue,
+# help text — lives in `data/taxonomy.toml`, and whether it appears in the
+# home filter bar is the `filter` flag there.
 [taxonomies]
-  domain = "domains"
   status = "statuses"
-  intent = "intents"
+  domain = "domains"
   tag = "tags"
 
 [sitemap]
-  changefreq = 'daily'
-  filename = 'sitemap.xml'
+  changefreq = "weekly"
+  filename = "sitemap.xml"
   priority = 0.5
 
 [outputs]
-  home = ["HTML", "RSS", "JSON"]
+  home = ["HTML", "RSS", "JSON"]   # JSON is the search index
 
+# "See also" on a note.
+#
+# Index names must match the *front matter key* (the plural), not the singular
+# taxonomy name. A mismatch fails silently — the index simply never matches,
+# which is what happened with the old `name = "status"`.
+#
+# threshold is the cutoff for counting as related at all. At 0 every page is
+# related to every other page, which turns "See also" into a second copy of
+# the archive. 60-80 is the usual working range.
 [related]
-  threshold = 0
+  threshold = 60
+  includeNewer = true
   toLower = false
 
-    [[related.indices]]
-        name = "domains"
-        weight = 80
+  [[related.indices]]
+    name = "tags"
+    weight = 100
 
-    [[related.indices]]
-        name = "status"
-        weight = 60
+  [[related.indices]]
+    name = "domains"
+    weight = 80
 
-    [[related.indices]]
-        name = "intent"
-        weight = 70
-
-    [[related.indices]]
-        name = "tags"
-        weight = 100
-
-    [[related.indices]]
-        name = "categories"
-        weight = 100
-
-    [[related.indices]]
-        name = "series"
-        weight = 50
-
-    [[related.indices]]
-        name = "authors"
-        weight = 20
-
-    [[related.indices]]
-        name = "date"
-        weight = 10
-
-    [[related.indices]]
-      applyFilter = false
-      name = 'fragmentrefs'
-      type = 'fragments'
-      weight = 10
+  [[related.indices]]
+    name = "statuses"
+    weight = 20

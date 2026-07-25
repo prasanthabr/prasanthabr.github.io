@@ -12,3 +12,10 @@ hugo.linux
 
 # Temporary lock file while building
 /.hugo_build.lock
+
+# This repo is public. Working notes stay local; only the theme docs ship.
+/docs/*
+!/docs/theme.md
+
+# Local tool config — may contain local paths
+/.claude/

@@ -1,0 +1,31 @@
+{{/*
+  list.html — section index, grouped by year.
+
+  The home page is the page for slicing; this is the page for "what have I
+  written, and when". Together they cover both ways of coming back to the
+  archive. Same note row as everywhere else.
+*/}}
+{{ define "wrap-class" }}wrap--wide{{ end }}
+
+{{ define "main" }}
+<header class="page-head">
+  {{ partial "breadcrumbs.html" . }}
+  <h1>{{ .Title }}</h1>
+  {{- with .Description }}<p class="page-head__lede">{{ . }}</p>{{ end }}
+  {{- with .Content }}<div class="page-head__lede">{{ . }}</div>{{ end }}
+</header>
+
+{{- $pages := .RegularPagesRecursive.ByDate.Reverse }}
+{{- if $pages }}
+<ul class="note-list">
+  {{- range $pages.GroupByDate "2006" }}
+  <li class="note-year"><h2>{{ .Key }}</h2></li>
+  {{- range .Pages }}
+  {{- partial "note.html" (dict "page" .) }}
+  {{- end }}
+  {{- end }}
+</ul>
+{{- else }}
+<p class="note-list__empty">Nothing here yet.</p>
+{{- end }}
+{{ end }}

@@ -1,45 +1,32 @@
-# -- Navigation Menus --
-# PaperMod menu configuration
+# -- Navigation --
+# `main` renders in the header, `footer` on the left of the footer. Browse-by
+# taxonomy links are generated from the registered taxonomies and do not
+# belong here — that is what let /domains/literature/ rot into a 404.
 
+# /now/ is the synthesis layer — where I've got to, linking down to the notes
+# underneath. It carries the weight the individual notes are excused from, so
+# it belongs in the header, not buried in the footer.
 [[main]]
-  identifier = "notes"
-  name = "Notes"
-  url = "/notes/"
-  weight = 10
-
-[[main]]
-  identifier = "research"
-  name = "Research"
-  url = "/research/"
-  weight = 20
-
-[[main]]
-  identifier = "domains"
-  name = "Domains"
-  url = "/domains/"
-  weight = 30
-
-[[main]]
-  identifier = "search"
-  name = "Search"
-  url = "/search/"
-  weight = 40
-
-# Footer menu
-[[footer]]
-  identifier = "about"
-  name = "About"
-  url = "/about/"
-  weight = 10
-
-[[footer]]
-  identifier = "now"
   name = "Now"
   url = "/now/"
+  weight = 10
+
+[[main]]
+  name = "Archive"
+  url = "/notes/"
   weight = 20
 
+[[main]]
+  name = "Search"
+  url = "/search/"
+  weight = 30
+
+[[main]]
+  name = "About"
+  url = "/about/"
+  weight = 40
+
 [[footer]]
-  identifier = "privacy"
   name = "Privacy"
   url = "/privacy/"
-  weight = 30
+  weight = 10

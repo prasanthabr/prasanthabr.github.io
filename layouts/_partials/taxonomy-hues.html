@@ -1,0 +1,19 @@
+{{/*
+  taxonomy-hues.html — turns `data/taxonomy.toml` into CSS custom properties.
+
+  Emits one `--hue-<taxonomy>-<term>` per configured term. `badge.html` reads
+  these; `components.css` computes the actual colours from them. That is the
+  whole reason a new term needs no CSS: add it to the data file and the badge
+  gets a colour, or falls back to `--hue-default` if you don't pick one.
+*/}}
+{{- $rules := slice }}
+{{- range $taxonomy, $cfg := hugo.Data.taxonomy }}
+  {{- range $term, $tcfg := $cfg.terms }}
+    {{- with $tcfg.hue }}
+      {{- $rules = $rules | append (printf "--hue-%s-%s:%v" $taxonomy (urlize $term) .) }}
+    {{- end }}
+  {{- end }}
+{{- end }}
+{{- with $rules }}
+<style>{{ printf ":root{%s}" (delimit . ";") | safeCSS }}</style>
+{{- end }}

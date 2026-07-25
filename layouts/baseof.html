@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html lang="{{ or site.Language.Locale site.Language.Lang }}" data-theme="{{ site.Params.defaultTheme | default `light` }}">
+{{- partial "head.html" . }}
+<body>
+  <div class="page">
+    <a class="skip-link" href="#main">Skip to content</a>
+    {{ partial "header.html" . }}
+    <main id="main" class="site-main">
+      {{/* Every page template fills `main`. Wrap width is chosen per template
+           via the `wrap-class` block so index views can run wider than prose. */}}
+      <div class="wrap {{ block "wrap-class" . }}{{ end }}">
+        {{ block "main" . }}{{ end }}
+      </div>
+    </main>
+    {{ partial "footer.html" . }}
+  </div>
+  {{ block "scripts" . }}{{ end }}
+</body>
+</html>

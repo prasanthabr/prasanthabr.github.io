@@ -1,0 +1,23 @@
+{{/*
+  related.html — "See also", driven by the [related] config in hugo.toml.
+
+  Tuning lives entirely in that config block (index weights and threshold).
+  If this section shows everything, the threshold is too low — that is the
+  knob, not this template.
+*/}}
+{{- $related := site.RegularPages.Related . | first (site.Params.relatedCount | default 4) }}
+{{- with $related }}
+<aside class="related">
+  <h2 class="related__title">See also</h2>
+  <ul class="related__list">
+    {{- range . }}
+    <li>
+      <a href="{{ .RelPermalink }}">{{ .Title }}</a>
+      {{- range .GetTerms "statuses" }}
+      {{- partial "badge.html" (dict "taxonomy" "statuses" "term" .Title "link" false) }}
+      {{- end }}
+    </li>
+    {{- end }}
+  </ul>
+</aside>
+{{- end }}

@@ -1,0 +1,14 @@
+{{/*
+  breadcrumbs.html — ancestor trail. Renders nothing on the home page.
+  Context: the current page.
+*/}}
+{{- $trail := slice }}
+{{- range .Ancestors.Reverse }}{{ $trail = $trail | append . }}{{ end }}
+{{- if gt (len $trail) 0 }}
+<nav class="breadcrumbs" aria-label="Breadcrumb">
+  {{- range $i, $a := $trail }}
+    {{- if $i }} <span aria-hidden="true">/</span> {{ end }}
+    <a href="{{ $a.RelPermalink }}">{{ if $a.IsHome }}Home{{ else }}{{ $a.Title }}{{ end }}</a>
+  {{- end }}
+</nav>
+{{- end }}

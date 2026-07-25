@@ -1,0 +1,74 @@
+# Taxonomy vocabulary.
+#
+# This file is the single place that describes how each taxonomy and each of
+# its terms is presented. Nothing here affects which terms *exist* — Hugo
+# derives those from front matter — it only supplies labels, ordering, help
+# text and colour.
+#
+# To add a status, domain or any other term: add a `[<taxonomy>.terms.<slug>]`
+# block. To add a whole new taxonomy: register it in
+# `config/_default/hugo.toml` under [taxonomies], then add a section here.
+# No template or CSS change is needed in either case.
+#
+#   label       heading shown above the filter group and on /<taxonomy>/
+#   description one line, shown on the taxonomy landing page
+#   filter      include this taxonomy in the home page filter bar
+#   weight      ordering of filter groups (low first)
+#   order       explicit term order; terms not listed fall to the end by count
+#   hue         OKLCH hue angle 0-360 for the badge; omit to use --hue-default
+#   help        tooltip on the badge — say what the term *means*, not its name
+
+[statuses]
+  label = "Status"
+  description = "How settled the thinking is. Maturity lives here, never in the URL."
+  filter = true
+  weight = 10
+  order = ["draft", "active", "stable", "evergreen", "archived"]
+
+  [statuses.terms.draft]
+    hue = 70
+    help = "Thinking out loud. Expect it to be wrong."
+  [statuses.terms.active]
+    hue = 155
+    help = "Being worked on right now."
+  [statuses.terms.stable]
+    hue = 255
+    help = "Settled for now. I would defend this."
+  [statuses.terms.evergreen]
+    hue = 165
+    help = "Tended over time. Revisited deliberately."
+  [statuses.terms.archived]
+    hue = 20
+    help = "Superseded or no longer believed. Kept for the record."
+
+[domains]
+  label = "Domain"
+  description = "Broad subject area. A stable property of a piece, unlike how finished it is."
+  filter = true
+  weight = 20
+  order = ["salesforce", "consulting", "business", "money", "programming", "personal"]
+
+  [domains.terms.salesforce]
+    hue = 230
+    help = "The platform, and learning my way around it."
+  [domains.terms.consulting]
+    hue = 300
+    help = "The craft of the job — trust, credibility, running the room."
+  [domains.terms.business]
+    hue = 145
+    help = "Finding a problem, positioning, pricing, selling."
+  [domains.terms.money]
+    hue = 120
+    help = "Earning it, keeping it, allocating it."
+  [domains.terms.programming]
+    hue = 265
+    help = "Code, and how to write it well."
+  [domains.terms.personal]
+    hue = 30
+    help = "Everything else that is mine."
+
+[tags]
+  label = "Tag"
+  description = "Free-form. No fixed vocabulary — add whatever fits."
+  filter = true
+  weight = 30

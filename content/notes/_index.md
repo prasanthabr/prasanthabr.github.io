@@ -1,5 +1,4 @@
 ---
-title: "Notes"
-description: "These are incomplete thoughts"
-layout: "list"
+title: "Archive"
+description: "Everything, by year. Incomplete thoughts included — that is the point."
 ---

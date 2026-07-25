@@ -3,20 +3,8 @@ title: "{{ replace .Name "-" " " | title }}"
 date: {{ .Date }}
 lastmod: {{ .Date }}
 draft: true
-slug: "{{ .Name }}"
 summary: ""
-description: ""
-
+statuses: ["draft"]
 domains: []
 tags: []
-
-author: "Prasanth"
-ShowToc: true
-TocOpen: false
-
-cover:
-  image: ""
-  alt: ""
-  caption: ""
 ---
-

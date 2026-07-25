@@ -1,0 +1,182 @@
+/*
+ * Page frame: header, main column, footer.
+ *
+ * One measure token (`--measure`) governs reading width everywhere. Widen the
+ * site by changing that one value in tokens.css.
+ */
+
+.page {
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh;
+}
+
+.wrap {
+  width: 100%;
+  max-width: calc(var(--measure) + 2 * var(--gutter));
+  margin-inline: auto;
+  padding-inline: var(--gutter);
+}
+
+/* Opt-in wider frame for index/list views, which read as scan targets. */
+.wrap--wide {
+  max-width: calc(52rem + 2 * var(--gutter));
+}
+
+.site-main {
+  flex: 1;
+  padding-block: 2.5rem 4rem;
+}
+
+/* ---- Header ---- */
+
+.site-header {
+  border-bottom: 1px solid var(--border);
+  background: var(--bg);
+  position: sticky;
+  top: 0;
+  z-index: 20;
+}
+
+.site-header__inner {
+  display: flex;
+  align-items: center;
+  gap: 1rem;
+  min-height: 3.5rem;
+  flex-wrap: wrap;
+}
+
+.site-brand {
+  font-family: var(--font-ui);
+  font-weight: 700;
+  font-size: 1rem;
+  letter-spacing: -0.02em;
+  color: var(--text);
+  text-decoration: none;
+  margin-right: auto;
+}
+
+.site-brand:hover {
+  color: var(--link);
+}
+
+.site-nav {
+  display: flex;
+  align-items: center;
+  gap: 0.25rem;
+  font-family: var(--font-ui);
+  font-size: 0.875rem;
+  flex-wrap: wrap;
+}
+
+.site-nav a {
+  color: var(--text-dim);
+  text-decoration: none;
+  padding: 0.35rem 0.6rem;
+  border-radius: 6px;
+}
+
+.site-nav a:hover {
+  color: var(--text);
+  background: var(--bg-sunken);
+}
+
+.site-nav a[aria-current='page'] {
+  color: var(--text);
+  font-weight: 600;
+}
+
+.theme-toggle {
+  display: inline-grid;
+  place-items: center;
+  width: 2rem;
+  height: 2rem;
+  padding: 0;
+  border: 1px solid var(--border);
+  border-radius: 6px;
+  background: transparent;
+  color: var(--text-dim);
+  cursor: pointer;
+}
+
+.theme-toggle:hover {
+  color: var(--text);
+  border-color: var(--border-strong);
+}
+
+.theme-toggle svg {
+  width: 1rem;
+  height: 1rem;
+}
+
+/* Only one of the two icons is visible, decided by the active theme. */
+.theme-toggle .icon-moon {
+  display: none;
+}
+[data-theme='dark'] .theme-toggle .icon-sun {
+  display: none;
+}
+[data-theme='dark'] .theme-toggle .icon-moon {
+  display: block;
+}
+
+/* ---- Footer ---- */
+
+.site-footer {
+  border-top: 1px solid var(--border);
+  font-family: var(--font-ui);
+  font-size: 0.8125rem;
+  color: var(--text-faint);
+  padding-block: 1.5rem 2.5rem;
+}
+
+.site-footer__inner {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.5rem 1.25rem;
+  align-items: baseline;
+}
+
+.site-footer a {
+  color: var(--text-dim);
+  text-decoration: none;
+}
+
+.site-footer a:hover {
+  color: var(--text);
+  text-decoration: underline;
+}
+
+.site-footer__spacer {
+  margin-left: auto;
+}
+
+/* ---- Page header block ---- */
+
+.page-head {
+  margin-bottom: 2rem;
+}
+
+.page-head__lede {
+  font-size: 1.0625rem;
+  color: var(--text-dim);
+  margin: 0.6rem 0 0;
+  max-width: var(--measure);
+}
+
+.breadcrumbs {
+  font-family: var(--font-ui);
+  font-size: 0.8125rem;
+  color: var(--text-faint);
+  margin-bottom: 0.5rem;
+}
+
+.breadcrumbs a {
+  color: var(--text-faint);
+  text-decoration: none;
+}
+
+.breadcrumbs a:hover {
+  color: var(--text);
+  text-decoration: underline;
+}

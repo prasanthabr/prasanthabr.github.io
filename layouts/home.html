@@ -1,0 +1,36 @@
+{{/*
+  home.html — the index. The point of this page is re-reading, not recency:
+  it lists everything and gives you controls to cut it down, rather than a
+  chronological wall.
+
+  Which taxonomies become filter groups is decided by `data/taxonomy.toml`
+  (`filter = true`), not here.
+*/}}
+{{ define "wrap-class" }}wrap--wide{{ end }}
+
+{{ define "main" }}
+{{- $pages := where site.RegularPages "Section" "in" site.Params.mainSections }}
+
+<header class="page-head">
+  <h1>{{ .Title }}</h1>
+  {{- with .Content }}
+  <div class="page-head__lede">{{ . }}</div>
+  {{- end }}
+</header>
+
+{{ partial "filter-bar.html" (dict "pages" $pages) }}
+
+<ul class="note-list" id="note-list">
+  {{- range $pages.ByDate.Reverse }}
+  {{- partial "note.html" (dict "page" . "filterable" true) }}
+  {{- end }}
+  <li class="note-list__empty" id="note-list-empty" hidden>Nothing matches that combination. <button type="button" class="filters__reset" data-reset>Clear the filters</button></li>
+</ul>
+{{ end }}
+
+{{ define "scripts" }}
+{{- with resources.Get "js/filter.js" }}
+{{- $js := . | js.Build (dict "minify" true) | fingerprint }}
+<script src="{{ $js.RelPermalink }}" integrity="{{ $js.Data.Integrity }}" defer></script>
+{{- end }}
+{{ end }}

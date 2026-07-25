@@ -1,0 +1,84 @@
+/*
+ * Design tokens — warm gray base, semantic colours for taxonomy badges.
+ *
+ * Badge colours are derived, not enumerated: every term gets a hue from
+ * `--hue-<slug>` if one is defined here, otherwise `--hue-default`. Adding a
+ * new tag or domain therefore needs no CSS change.
+ */
+
+:root {
+  /* Tells the browser to theme native widgets — selects, scrollbars, the
+     search input's clear button — to match. */
+  color-scheme: light;
+
+  --gray-50: #fafaf9;
+  --gray-100: #f5f5f4;
+  --gray-200: #e7e5e4;
+  --gray-300: #d6d3d1;
+  --gray-400: #a8a29e;
+  --gray-500: #78716c;
+  --gray-600: #57534e;
+  --gray-700: #44403c;
+  --gray-800: #292524;
+  --gray-900: #1c1917;
+
+  --bg: var(--gray-50);
+  --bg-raised: #fff;
+  --bg-sunken: var(--gray-100);
+  --text: var(--gray-900);
+  --text-dim: var(--gray-600);
+  --text-faint: var(--gray-500);
+  --border: var(--gray-200);
+  --border-strong: var(--gray-300);
+  --link: #1d4ed8;
+  --link-hover: #1e40af;
+  --focus: #2563eb;
+
+  /*
+   * Badge colour is computed, not enumerated. This block tunes *how* a badge
+   * looks; `data/taxonomy.toml` decides *which* hue each term gets, and
+   * `_partials/taxonomy-hues.html` emits one `--hue-<slug>` per term.
+   * Result: a new status or domain needs a data edit, never a CSS edit.
+   */
+  --badge-l: 42%;
+  --badge-c: 0.11;
+  --badge-bg-l: 95%;
+  --badge-bg-c: 0.035;
+  --hue-default: 60;
+
+  --radius: 8px;
+  --radius-pill: 9999px;
+  --measure: 42rem;
+  --gutter: 1.25rem;
+}
+
+[data-theme='dark'] {
+  color-scheme: dark;
+
+  --bg: var(--gray-900);
+  --bg-raised: #211e1c;
+  --bg-sunken: #171412;
+  --text: var(--gray-100);
+  --text-dim: var(--gray-400);
+  --text-faint: var(--gray-500);
+  --border: var(--gray-700);
+  --border-strong: var(--gray-600);
+  --link: #7dabff;
+  --link-hover: #a6c6ff;
+  --focus: #7dabff;
+
+  --badge-l: 84%;
+  --badge-c: 0.09;
+  --badge-bg-l: 27%;
+  --badge-bg-c: 0.045;
+}
+
+@media (prefers-reduced-motion: reduce) {
+  *,
+  *::before,
+  *::after {
+    animation-duration: 0.01ms !important;
+    transition-duration: 0.01ms !important;
+    scroll-behavior: auto !important;
+  }
+}

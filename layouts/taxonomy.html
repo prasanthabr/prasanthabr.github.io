@@ -1,0 +1,79 @@
+{{/*
+  taxonomy.html — the landing page for a taxonomy, e.g. /statuses/.
+
+  Shows the whole declared vocabulary, not just the terms that happen to have
+  published notes. Hugo only creates a term page once a published page carries
+  the term, so /statuses/draft/ is a 404 while every draft-status note is also
+  `draft: true`. Listing declared-but-empty terms as unlinked cards makes the
+  vocabulary discoverable and stops that looking like a broken site.
+
+  Order: the `order` list in `data/taxonomy.toml` first (statuses read best in
+  maturity order, not by count), then anything else by count descending.
+*/}}
+{{ define "wrap-class" }}wrap--wide{{ end }}
+
+{{ define "main" }}
+{{- $taxonomy := .Data.Plural }}
+{{- $cfg := index hugo.Data.taxonomy $taxonomy | default dict }}
+{{- $termCfg := partialCached "term-config.html" . }}
+
+<header class="page-head">
+  {{ partial "breadcrumbs.html" . }}
+  <h1>{{ $cfg.label | default .Title }}</h1>
+  {{- with ($cfg.description | default .Description) }}<p class="page-head__lede">{{ . }}</p>{{ end }}
+</header>
+
+{{/* Terms that actually have notes, keyed by slug. */}}
+{{- $live := dict }}
+{{- range .Data.Terms.ByCount }}
+  {{- $live = merge $live (dict .Term (dict "title" .Page.Title "url" .Page.RelPermalink "count" .Count)) }}
+{{- end }}
+
+{{/* Terms the data file declares, keyed by slug -> display name. */}}
+{{- $declared := dict }}
+{{- range $term, $_ := ($cfg.terms | default dict) }}
+  {{- $declared = merge $declared (dict ($term | urlize) $term) }}
+{{- end }}
+{{- range $cfg.order }}
+  {{- $slug := . | urlize }}
+  {{- if not (isset $declared $slug) }}{{ $declared = merge $declared (dict $slug .) }}{{ end }}
+{{- end }}
+
+{{/* Display order: declared order first, then live terms by count. */}}
+{{- $slugs := slice }}
+{{- range $cfg.order }}
+  {{- $slug := . | urlize }}
+  {{- if not (in $slugs $slug) }}{{ $slugs = $slugs | append $slug }}{{ end }}
+{{- end }}
+{{- range .Data.Terms.ByCount }}
+  {{- if not (in $slugs .Term) }}{{ $slugs = $slugs | append .Term }}{{ end }}
+{{- end }}
+{{- range $slug, $_ := $declared }}
+  {{- if not (in $slugs $slug) }}{{ $slugs = $slugs | append $slug }}{{ end }}
+{{- end }}
+
+<ul class="term-grid">
+  {{- range $slug := $slugs }}
+  {{- $entry := index $live $slug }}
+  {{- $title := cond (ne $entry nil) (or ($entry).title "") (index $declared $slug | default $slug | humanize) }}
+  {{- $count := cond (ne $entry nil) (or ($entry).count 0) 0 }}
+  {{- $help := (index $termCfg (printf "%s/%s" $taxonomy $slug) | default dict).help }}
+  {{- $style := printf "--hue:var(--hue-%s-%s, var(--hue-default))" $taxonomy $slug }}
+  <li>
+    {{- if $entry }}
+    <a class="term-card" href="{{ $entry.url }}" style="{{ $style | safeCSS }}">
+      <span class="term-card__name">{{ $title }}</span>
+      <span class="term-card__count">{{ $count }} note{{ if ne $count 1 }}s{{ end }}</span>
+      {{- with $help }}<span class="term-card__help">{{ . }}</span>{{ end }}
+    </a>
+    {{- else }}
+    <span class="term-card term-card--empty" style="{{ $style | safeCSS }}">
+      <span class="term-card__name">{{ $title }}</span>
+      <span class="term-card__count">nothing yet</span>
+      {{- with $help }}<span class="term-card__help">{{ . }}</span>{{ end }}
+    </span>
+    {{- end }}
+  </li>
+  {{- end }}
+</ul>
+{{ end }}

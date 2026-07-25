@@ -1,0 +1,42 @@
+{{/*
+  analytics.html — optional, cookieless analytics beacon.
+
+  Off by default. With no `[analytics]` block in params.toml the *page* makes
+  no third-party request and sets no cookie.
+
+  Note what this partial does and does not cover: the site is served through
+  Cloudflare, which counts traffic at the edge whether or not anything is
+  declared here. That is why the privacy page talks about aggregate stats even
+  with this switched off — see content/privacy/index.md.
+
+  Turn a beacon on with:
+
+    [analytics]
+      provider = "cloudflare"    # or "goatcounter", "plausible"
+      site     = "<token>"       # cloudflare beacon token, goatcounter
+                                 # subdomain, or plausible domain
+
+  All three are cookieless and need no consent banner. If you ever add a
+  provider that sets cookies, the banner has to come back with it, and the
+  privacy page has to change in the same commit.
+
+  On the Cloudflare option specifically: Cloudflare can also inject this
+  beacon for you from the dashboard. Prefer declaring it here — an injected
+  script is invisible to anyone reading the repo, which is how a privacy page
+  drifts out of true.
+*/}}
+{{- if hugo.IsProduction }}
+{{- with site.Params.analytics }}
+  {{- $site := .site }}
+  {{- if not $site }}{{ errorf "analytics: provider %q set but params.analytics.site is empty" .provider }}{{ end }}
+  {{- if eq .provider "cloudflare" }}
+<script defer src="https://static.cloudflareinsights.com/beacon.min.js" data-cf-beacon='{"token": "{{ $site }}"}'></script>
+  {{- else if eq .provider "goatcounter" }}
+<script data-goatcounter="https://{{ $site }}.goatcounter.com/count" async src="//gc.zgo.at/count.js"></script>
+  {{- else if eq .provider "plausible" }}
+<script defer data-domain="{{ $site }}" src="https://plausible.io/js/script.js"></script>
+  {{- else }}
+    {{- errorf "analytics: unknown provider %q (expected \"cloudflare\", \"goatcounter\" or \"plausible\")" .provider }}
+  {{- end }}
+{{- end }}
+{{- end }}

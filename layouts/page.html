@@ -1,0 +1,62 @@
+{{/*
+  page.html — every single page.
+
+  Two shapes, one template. A page in one of `params.mainSections` is a note:
+  it gets taxonomy badges, prev/next and "see also". Anything else (about,
+  now, privacy) is a standalone page and gets none of that.
+
+  The branch is on config, not on a hardcoded section name, so adding a second
+  stream to `mainSections` is enough — no new template.
+*/}}
+{{ define "main" }}
+{{- $isNote := in site.Params.mainSections .Section }}
+
+<article class="article">
+  <header class="article__header">
+    {{ partial "breadcrumbs.html" . }}
+    <h1>{{ .Title }}</h1>
+    {{- with .Description }}<p class="page-head__lede">{{ . }}</p>{{ end }}
+
+    {{- if $isNote }}
+    {{ partial "article-meta.html" . }}
+    {{- $facets := partial "filter-taxonomies.html" . }}
+    <div class="badge-row article__badges">
+      {{- range $facets }}
+        {{- $taxonomy := . }}
+        {{- range $.GetTerms $taxonomy }}
+          {{- partial "badge.html" (dict "taxonomy" $taxonomy "term" .Title) }}
+        {{- end }}
+      {{- end }}
+    </div>
+    {{- else if .Lastmod.After (.Date.AddDate 0 0 1) }}
+    <div class="article__meta">
+      <time datetime="{{ .Lastmod.Format "2006-01-02" }}">Updated {{ .Lastmod | time.Format site.Params.dateFormat }}</time>
+    </div>
+    {{- end }}
+  </header>
+
+  {{- if and (.Param "toc") (gt (len .TableOfContents) 50) }}
+  <details class="toc"{{ if .Param "tocOpen" }} open{{ end }}>
+    <summary>Contents</summary>
+    {{ .TableOfContents }}
+  </details>
+  {{- end }}
+
+  <div class="article__body">
+    {{ .Content }}
+  </div>
+
+  {{- if $isNote }}
+  <footer class="article__footer">
+    {{- $prev := .PrevInSection }}{{ $next := .NextInSection }}
+    {{- if or $prev $next }}
+    <nav class="post-nav" aria-label="More notes">
+      {{- with $prev }}<a href="{{ .RelPermalink }}"><span class="post-nav__dir">← Older</span>{{ .Title }}</a>{{ end }}
+      {{- with $next }}<a class="post-nav__next" href="{{ .RelPermalink }}"><span class="post-nav__dir">Newer →</span>{{ .Title }}</a>{{ end }}
+    </nav>
+    {{- end }}
+    {{ partial "related.html" . }}
+  </footer>
+  {{- end }}
+</article>
+{{ end }}

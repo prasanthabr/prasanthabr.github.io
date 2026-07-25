@@ -1,0 +1,20 @@
+{{/*
+  term.html — link to a taxonomy term from inside prose.
+
+    {{< term "domains" "salesforce" >}}
+
+  Renders the term as a badge. It links only if the term page actually exists;
+  a term with no notes yet renders as plain text instead of a 404. That is what
+  lets /now/ name a subject before anything has been written under it — the
+  link lights up on its own once the first note lands.
+
+  Errors the build if the taxonomy is not registered, so a typo is caught at
+  build time rather than becoming a dead link.
+*/}}
+{{- $taxonomy := .Get 0 }}
+{{- $term := .Get 1 }}
+{{- if not (isset site.Taxonomies $taxonomy) }}
+  {{- errorf "term shortcode in %s: %q is not a registered taxonomy" .Page.File.Path $taxonomy }}
+{{- end }}
+{{- $exists := isset (index site.Taxonomies $taxonomy) ($term | urlize) }}
+{{- partial "badge.html" (dict "taxonomy" $taxonomy "term" $term "link" $exists) -}}

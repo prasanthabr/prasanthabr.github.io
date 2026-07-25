@@ -1,0 +1,81 @@
+{{/*
+  filter-bar.html — the slicing controls above an index.
+
+  Params:
+    pages (page collection, required) the notes the bar is filtering
+
+  Counts are computed from `pages`, not site-wide, so they always match what
+  is actually on screen. Groups and their order come from
+  `filter-taxonomies.html`; term order comes from the `order` list in
+  `data/taxonomy.toml`, with anything unlisted falling to the end by count.
+
+  Rendered `hidden`; `js/filter.js` reveals it. Without JavaScript the reader
+  gets the full unfiltered list rather than dead controls.
+*/}}
+{{- $pages := .pages }}
+{{- $facets := partial "filter-taxonomies.html" . }}
+
+<div class="filters" id="filters" hidden>
+  {{- range $facets }}
+    {{- $taxonomy := . }}
+    {{- $cfg := index hugo.Data.taxonomy $taxonomy | default dict }}
+
+    {{/* Count each term across the pages on this index. */}}
+    {{- $counts := dict }}
+    {{- range $pages }}
+      {{- range .GetTerms $taxonomy }}
+        {{- $t := .Title }}
+        {{- $counts = merge $counts (dict $t (add (index $counts $t | default 0) 1)) }}
+      {{- end }}
+    {{- end }}
+
+    {{- if $counts }}
+      {{/* Explicitly ordered terms first, then the rest by count descending.
+           Matching is on slugs because $counts is keyed by display title. */}}
+      {{- $ordered := slice }}
+      {{- $taken := slice }}
+      {{- range $cfg.order }}
+        {{- $want := . | urlize }}
+        {{- range $term, $n := $counts }}
+          {{- if eq ($term | urlize) $want }}
+            {{- $ordered = $ordered | append $term }}{{ $taken = $taken | append $term }}
+          {{- end }}
+        {{- end }}
+      {{- end }}
+      {{- $rest := slice }}
+      {{- range $term, $n := $counts }}
+        {{- if not (in $taken $term) }}
+          {{- $rest = $rest | append (dict "term" $term "n" $n) }}
+        {{- end }}
+      {{- end }}
+      {{- range sort $rest "n" "desc" }}{{ $ordered = $ordered | append .term }}{{ end }}
+
+    <div class="filters__group" role="group" aria-labelledby="filter-label-{{ $taxonomy }}" data-facet="{{ $taxonomy }}">
+      <span class="filters__legend" id="filter-label-{{ $taxonomy }}">{{ $cfg.label | default (humanize $taxonomy) }}</span>
+      {{- $termCfg := partialCached "term-config.html" . }}
+      {{- range $ordered }}
+        {{- $help := (index $termCfg (printf "%s/%s" $taxonomy (. | urlize)) | default dict).help }}
+      <button type="button" class="chip" aria-pressed="false"
+        data-value="{{ . | urlize }}"
+        style="{{ printf "--hue:var(--hue-%s-%s, var(--hue-default))" $taxonomy (. | urlize) | safeCSS }}"
+        {{- with $help }} title="{{ . }}"{{ end }}>{{ . }}<span class="chip__count">{{ index $counts . }}</span></button>
+      {{- end }}
+    </div>
+    {{- end }}
+  {{- end }}
+
+  <div class="filters__foot">
+    <label class="visually-hidden" for="filter-text">Filter by words in the title or summary</label>
+    <input class="filters__search" id="filter-text" type="search" placeholder="Filter by title or summary…" autocomplete="off">
+
+    <label class="visually-hidden" for="filter-sort">Sort</label>
+    <select class="filters__sort" id="filter-sort">
+      <option value="lastmod">Recently revised</option>
+      <option value="date" selected>Newest</option>
+      <option value="title">A–Z</option>
+    </select>
+
+    <button type="button" class="filters__reset" id="filter-reset" hidden>Clear</button>
+    <span class="filters__count" id="filter-count" aria-live="polite"></span>
+  </div>
+</div>

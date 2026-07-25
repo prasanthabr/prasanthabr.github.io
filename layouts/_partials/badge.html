@@ -1,0 +1,27 @@
+{{/*
+  badge.html — one taxonomy term, rendered as a pill.
+
+  Params:
+    taxonomy  (string, required)   plural taxonomy name, e.g. "statuses"
+    term      (string, required)   the raw term as written in front matter
+    link      (bool, default true) render as <a> to the term page
+
+  Colour comes from `--hue-<taxonomy>-<term>` when `data/taxonomy.toml` gives
+  the term a hue, otherwise `--hue-default`. Nothing to register here.
+*/}}
+{{- $taxonomy := .taxonomy }}
+{{- $term := .term }}
+{{- $slug := $term | urlize }}
+{{- $link := true }}{{ if isset . "link" }}{{ $link = .link }}{{ end }}
+
+{{- $terms := partialCached "term-config.html" . }}
+{{- $help := (index $terms (printf "%s/%s" $taxonomy $slug) | default dict).help }}
+
+{{- $class := cond (eq $taxonomy "tags") "badge badge--tag" "badge" }}
+{{- $style := printf "--hue:var(--hue-%s-%s, var(--hue-default))" $taxonomy $slug }}
+
+{{- if $link -}}
+<a class="{{ $class }}" style="{{ $style | safeCSS }}" href="{{ (printf "/%s/%s/" $taxonomy $slug) | relURL }}"{{ with $help }} title="{{ . }}"{{ end }}>{{ $term }}</a>
+{{- else -}}
+<span class="{{ $class }}" style="{{ $style | safeCSS }}"{{ with $help }} title="{{ . }}"{{ end }}>{{ $term }}</span>
+{{- end -}}

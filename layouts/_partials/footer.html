@@ -1,0 +1,33 @@
+{{/*
+  footer.html — footer nav, browse-by links, copyright.
+
+  The browse links are generated from the registered taxonomies, so a new
+  taxonomy shows up here without an edit and a removed one cannot leave a 404
+  behind (this is what §3.3 of the site review was about).
+*/}}
+<footer class="site-footer">
+  <div class="wrap wrap--wide site-footer__inner">
+    <span>&copy; {{ now.Year }} {{ site.Params.author | default site.Title }}</span>
+
+    {{- range site.Menus.footer }}
+    <a href="{{ .URL | relURL }}">{{ .Name }}</a>
+    {{- end }}
+
+    {{- range site.Params.social }}
+    <a href="{{ .url }}"{{ if not (hasPrefix .url "/") }} rel="me"{{ end }}>{{ .name }}</a>
+    {{- end }}
+
+    <span class="site-footer__spacer"></span>
+
+    {{- range $name, $taxonomy := site.Taxonomies }}
+      {{- if $taxonomy }}
+      {{- $cfg := index hugo.Data.taxonomy $name | default dict }}
+    <a href="{{ (printf "/%s/" $name) | relURL }}">{{ $cfg.label | default (humanize $name) }}</a>
+      {{- end }}
+    {{- end }}
+
+    {{- with site.Home.OutputFormats.Get "rss" }}
+    <a href="{{ .Permalink }}">RSS</a>
+    {{- end }}
+  </div>
+</footer>
