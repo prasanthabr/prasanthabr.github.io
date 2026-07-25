@@ -41,13 +41,8 @@ description: "A learning journal — Salesforce and the consulting craft around 
   expectation before anyone reads a word. Changing it changes the contract.
 -->
 
-A learning journal. Two threads: Salesforce and the consulting craft around
-it, and the business and money side of building things. Plus whatever else
-holds my attention.
-
 Writing primarily for the future me who stumbles back here, which is why
-nothing is required to be finished. [Now](/now/) is the layer above it all —
-where I've got to, and what I currently think.
+nothing is required to be finished.
 
 Everything is below, newest first. Use the filters to cut it down — by how
 settled a piece is, by subject, or by tag. A filtered view has its own link, so

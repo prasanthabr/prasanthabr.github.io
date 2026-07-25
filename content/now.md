@@ -48,46 +48,26 @@ description: "Where I've got to on the things I'm learning, and what I currently
   - Section headings here are h2 (##).
 -->
 
-Where I've got to, rather than what I believe. This page sits above the notes:
-it says what I've concluded so far and points down into the pieces underneath.
-Everything below it is allowed to stay unfinished.
+This is the meta gist of what I am doing and what my opinions are.
+
 
 ## What I'm learning
 
-**Salesforce, and the consulting craft around it.** The platform is the easy
-part. The harder part is making a defensible call with incomplete information
-in front of people who will push back on it — and writing that down as it
-happens, rather than after, because the after version is always tidier than the
-truth.
+*Salesforce*
+While I have been on the platform for long, being buried in project to
+project while the platform has shifted has left me with islands of
+expertise.  
+Am evaluating which of these islands I want to connect and go deep on.
 
-Filed under {{< term "domains" "salesforce" >}} and {{< term "domains" "consulting" >}}
-
-**The business and money side.** Finding a real problem, talking to people
-without leading them, pricing, positioning, reading a set of accounts. Most of
-this I'm bad at today, which is why it's worth writing down. An honest learning
-journal has to include the parts that didn't work.
-
-Filed under {{< term "domains" "business" >}} and {{< term "domains" "money" >}} —
-both empty today, which is a fair reading of where I am.
-
-## Where I've got to
-
-Positions I currently hold. Each links to the writing underneath it, and each
-is allowed to change.
-
-**Trust is the whole job in consulting, and it decomposes.** Credibility,
-reliability and connection are separable levers you can work on, rather than a
-vibe you either have or don't.
-→ [Building Blocks of Trust](/notes/building-blocks-of-trust/) ·
-[Building Credibility for Trust](/notes/building-credibility-for-trust/)
-
-**Admitting what you don't know is a credibility move with a precondition.**
-It reads as confidence once there's connection, and as incompetence before
-there is. The timing is the whole thing.
-→ [Building Credibility for Trust](/notes/building-credibility-for-trust/)
-
-More to come. This section is the point of the site, and it's currently the
-thinnest part of it.
+*Entrepreneurship*
+Entrepreneurship is often listed as a very high effort, low probability
+of success endeavour that entrepreneurs refuse to choose again. I think
+that is an unfair characterisation. The world has moved from stable
+government jobs to life time jobs to jobs in a domain and yet there is
+always the fear of job losses, the inevitability of it and the stress
+associated with it. There are many areas where capital would not be the
+moat to enter. I think this is worth enquiry given the state of the
+world.
 
 ## Right now
 
